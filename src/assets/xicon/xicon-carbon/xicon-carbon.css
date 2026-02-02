@@ -1,0 +1,7618 @@
+@font-face {
+    font-family: "carbon";
+    src: url("fonts/carbon.woff2") format("woff2"),
+        url("fonts/carbon.ttf") format("truetype"),
+        url("fonts/carbon.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.xicon-carbon,
+[class^="xicon-carbon-"],
+[class*=" xicon-carbon-"] {
+    /* Use !important to prevent extensions from overriding this font. */
+    font-family: "carbon" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.xicon-carbon-Accessibility:before {
+    content: "\f769";
+}
+
+.xicon-carbon-AccessibilityAlt:before {
+    content: "\f756";
+}
+
+.xicon-carbon-AccessibilityColor:before {
+    content: "\f743";
+}
+
+.xicon-carbon-AccessibilityColorFilled:before {
+    content: "\f730";
+}
+
+.xicon-carbon-Account:before {
+    content: "\f71d";
+}
+
+.xicon-carbon-AccumulationIce:before {
+    content: "\f70a";
+}
+
+.xicon-carbon-AccumulationPrecipitation:before {
+    content: "\f6f7";
+}
+
+.xicon-carbon-AccumulationRain:before {
+    content: "\f6e4";
+}
+
+.xicon-carbon-AccumulationSnow:before {
+    content: "\f6d1";
+}
+
+.xicon-carbon-Activity:before {
+    content: "\f6be";
+}
+
+.xicon-carbon-Add:before {
+    content: "\f6ab";
+}
+
+.xicon-carbon-AddAlt:before {
+    content: "\f698";
+}
+
+.xicon-carbon-AddComment:before {
+    content: "\f685";
+}
+
+.xicon-carbon-AddFilled:before {
+    content: "\f672";
+}
+
+.xicon-carbon-AgricultureAnalytics:before {
+    content: "\f65f";
+}
+
+.xicon-carbon-AiResults:before {
+    content: "\f64c";
+}
+
+.xicon-carbon-AiResultsHigh:before {
+    content: "\f639";
+}
+
+.xicon-carbon-AiResultsLow:before {
+    content: "\f626";
+}
+
+.xicon-carbon-AiResultsMedium:before {
+    content: "\f614";
+}
+
+.xicon-carbon-AiResultsUrgent:before {
+    content: "\f601";
+}
+
+.xicon-carbon-AiResultsVeryHigh:before {
+    content: "\f5ee";
+}
+
+.xicon-carbon-AirlineDigitalGate:before {
+    content: "\f5db";
+}
+
+.xicon-carbon-AirlineManageGates:before {
+    content: "\f5c8";
+}
+
+.xicon-carbon-AirlinePassengerCare:before {
+    content: "\f5b5";
+}
+
+.xicon-carbon-AirlineRapidBoard:before {
+    content: "\f5a2";
+}
+
+.xicon-carbon-Airplay:before {
+    content: "\f58f";
+}
+
+.xicon-carbon-AirplayFilled:before {
+    content: "\f57c";
+}
+
+.xicon-carbon-Airport01:before {
+    content: "\f569";
+}
+
+.xicon-carbon-Airport02:before {
+    content: "\f556";
+}
+
+.xicon-carbon-AirportLocation:before {
+    content: "\f543";
+}
+
+.xicon-carbon-AiStatus:before {
+    content: "\f530";
+}
+
+.xicon-carbon-AiStatusComplete:before {
+    content: "\f51d";
+}
+
+.xicon-carbon-AiStatusFailed:before {
+    content: "\f50a";
+}
+
+.xicon-carbon-AiStatusInProgress:before {
+    content: "\f4f7";
+}
+
+.xicon-carbon-AiStatusQueued:before {
+    content: "\f4e4";
+}
+
+.xicon-carbon-AiStatusRejected:before {
+    content: "\f4d1";
+}
+
+.xicon-carbon-Alarm:before {
+    content: "\f4be";
+}
+
+.xicon-carbon-AlarmAdd:before {
+    content: "\f4ab";
+}
+
+.xicon-carbon-AlarmSubtract:before {
+    content: "\f498";
+}
+
+.xicon-carbon-AlignBoxBottomCenter:before {
+    content: "\f485";
+}
+
+.xicon-carbon-AlignBoxBottomLeft:before {
+    content: "\f472";
+}
+
+.xicon-carbon-AlignBoxBottomRight:before {
+    content: "\f45f";
+}
+
+.xicon-carbon-AlignBoxMiddleCenter:before {
+    content: "\f44c";
+}
+
+.xicon-carbon-AlignBoxMiddleLeft:before {
+    content: "\f439";
+}
+
+.xicon-carbon-AlignBoxMiddleRight:before {
+    content: "\f426";
+}
+
+.xicon-carbon-AlignBoxTopCenter:before {
+    content: "\f413";
+}
+
+.xicon-carbon-AlignBoxTopLeft:before {
+    content: "\f400";
+}
+
+.xicon-carbon-AlignBoxTopRight:before {
+    content: "\f3ed";
+}
+
+.xicon-carbon-AlignHorizontalCenter:before {
+    content: "\f3da";
+}
+
+.xicon-carbon-AlignHorizontalLeft:before {
+    content: "\f3c7";
+}
+
+.xicon-carbon-AlignHorizontalRight:before {
+    content: "\f3b4";
+}
+
+.xicon-carbon-AlignVerticalBottom:before {
+    content: "\f3a1";
+}
+
+.xicon-carbon-AlignVerticalCenter:before {
+    content: "\f38e";
+}
+
+.xicon-carbon-AlignVerticalTop:before {
+    content: "\f37b";
+}
+
+.xicon-carbon-Analytics:before {
+    content: "\f368";
+}
+
+.xicon-carbon-AnalyticsReference:before {
+    content: "\f355";
+}
+
+.xicon-carbon-Angle:before {
+    content: "\f342";
+}
+
+.xicon-carbon-AnnotationVisibility:before {
+    content: "\f32f";
+}
+
+.xicon-carbon-Aperture:before {
+    content: "\f31c";
+}
+
+.xicon-carbon-Api:before {
+    content: "\f309";
+}
+
+.xicon-carbon-Api1:before {
+    content: "\f2f6";
+}
+
+.xicon-carbon-App:before {
+    content: "\f2e3";
+}
+
+.xicon-carbon-AppConnectivity:before {
+    content: "\f2d0";
+}
+
+.xicon-carbon-Apple:before {
+    content: "\f2bd";
+}
+
+.xicon-carbon-Application:before {
+    content: "\f2aa";
+}
+
+.xicon-carbon-ApplicationMobile:before {
+    content: "\f297";
+}
+
+.xicon-carbon-ApplicationVirtual:before {
+    content: "\f284";
+}
+
+.xicon-carbon-ApplicationWeb:before {
+    content: "\f271";
+}
+
+.xicon-carbon-Apps:before {
+    content: "\f25e";
+}
+
+.xicon-carbon-AppSwitcher:before {
+    content: "\f24b";
+}
+
+.xicon-carbon-Archive:before {
+    content: "\f238";
+}
+
+.xicon-carbon-Area:before {
+    content: "\f225";
+}
+
+.xicon-carbon-AreaCustom:before {
+    content: "\f212";
+}
+
+.xicon-carbon-Arrival:before {
+    content: "\f1ff";
+}
+
+.xicon-carbon-ArrowAnnotation:before {
+    content: "\f1ec";
+}
+
+.xicon-carbon-ArrowDown:before {
+    content: "\f1d9";
+}
+
+.xicon-carbon-ArrowDownLeft:before {
+    content: "\f1c6";
+}
+
+.xicon-carbon-ArrowDownRight:before {
+    content: "\f1b3";
+}
+
+.xicon-carbon-ArrowLeft:before {
+    content: "\f1a0";
+}
+
+.xicon-carbon-ArrowRight:before {
+    content: "\f18d";
+}
+
+.xicon-carbon-Arrows:before {
+    content: "\f17a";
+}
+
+.xicon-carbon-ArrowShiftDown:before {
+    content: "\f167";
+}
+
+.xicon-carbon-ArrowsHorizontal:before {
+    content: "\f154";
+}
+
+.xicon-carbon-ArrowsVertical:before {
+    content: "\f141";
+}
+
+.xicon-carbon-ArrowUp:before {
+    content: "\f12e";
+}
+
+.xicon-carbon-ArrowUpLeft:before {
+    content: "\f11b";
+}
+
+.xicon-carbon-ArrowUpRight:before {
+    content: "\f108";
+}
+
+.xicon-carbon-Asleep:before {
+    content: "\f0f5";
+}
+
+.xicon-carbon-AsleepFilled:before {
+    content: "\f0e2";
+}
+
+.xicon-carbon-Asset:before {
+    content: "\f0cf";
+}
+
+.xicon-carbon-AssetConfirm:before {
+    content: "\f0bc";
+}
+
+.xicon-carbon-AssetDigitalTwin:before {
+    content: "\f0a9";
+}
+
+.xicon-carbon-AssetView:before {
+    content: "\f097";
+}
+
+.xicon-carbon-Asterisk:before {
+    content: "\f084";
+}
+
+.xicon-carbon-At:before {
+    content: "\f071";
+}
+
+.xicon-carbon-Attachment:before {
+    content: "\f05e";
+}
+
+.xicon-carbon-AudioConsole:before {
+    content: "\f04b";
+}
+
+.xicon-carbon-AugmentedReality:before {
+    content: "\f038";
+}
+
+.xicon-carbon-Automatic:before {
+    content: "\f025";
+}
+
+.xicon-carbon-Autoscaling:before {
+    content: "\f012";
+}
+
+.xicon-carbon-AutoScroll:before {
+    content: "\f768";
+}
+
+.xicon-carbon-Awake:before {
+    content: "\f755";
+}
+
+.xicon-carbon-BackToTop:before {
+    content: "\f742";
+}
+
+.xicon-carbon-Badge:before {
+    content: "\f72f";
+}
+
+.xicon-carbon-BaggageClaim:before {
+    content: "\f71c";
+}
+
+.xicon-carbon-Bar:before {
+    content: "\f709";
+}
+
+.xicon-carbon-Barcode:before {
+    content: "\f6f6";
+}
+
+.xicon-carbon-BareMetalServer:before {
+    content: "\f6e3";
+}
+
+.xicon-carbon-BareMetalServer01:before {
+    content: "\f6d0";
+}
+
+.xicon-carbon-BareMetalServer02:before {
+    content: "\f6bd";
+}
+
+.xicon-carbon-Barrier:before {
+    content: "\f6aa";
+}
+
+.xicon-carbon-Basketball:before {
+    content: "\f697";
+}
+
+.xicon-carbon-BastionHost:before {
+    content: "\f684";
+}
+
+.xicon-carbon-Bat:before {
+    content: "\f671";
+}
+
+.xicon-carbon-BatteryCharging:before {
+    content: "\f65e";
+}
+
+.xicon-carbon-BatteryEmpty:before {
+    content: "\f64b";
+}
+
+.xicon-carbon-BatteryFull:before {
+    content: "\f638";
+}
+
+.xicon-carbon-BatteryHalf:before {
+    content: "\f625";
+}
+
+.xicon-carbon-BatteryLow:before {
+    content: "\f613";
+}
+
+.xicon-carbon-BatteryQuarter:before {
+    content: "\f600";
+}
+
+.xicon-carbon-Bee:before {
+    content: "\f5ed";
+}
+
+.xicon-carbon-BeeBat:before {
+    content: "\f5da";
+}
+
+.xicon-carbon-Beta:before {
+    content: "\f5c7";
+}
+
+.xicon-carbon-Bicycle:before {
+    content: "\f5b4";
+}
+
+.xicon-carbon-Binoculars:before {
+    content: "\f5a1";
+}
+
+.xicon-carbon-BlochSphere:before {
+    content: "\f58e";
+}
+
+.xicon-carbon-Blockchain:before {
+    content: "\f57b";
+}
+
+.xicon-carbon-BlockStorage:before {
+    content: "\f568";
+}
+
+.xicon-carbon-BlockStorageAlt:before {
+    content: "\f555";
+}
+
+.xicon-carbon-Blog:before {
+    content: "\f542";
+}
+
+.xicon-carbon-Bluetooth:before {
+    content: "\f52f";
+}
+
+.xicon-carbon-BluetoothOff:before {
+    content: "\f51c";
+}
+
+.xicon-carbon-Book:before {
+    content: "\f509";
+}
+
+.xicon-carbon-Bookmark:before {
+    content: "\f4f6";
+}
+
+.xicon-carbon-BookmarkAdd:before {
+    content: "\f4e3";
+}
+
+.xicon-carbon-BookmarkFilled:before {
+    content: "\f4d0";
+}
+
+.xicon-carbon-Boolean:before {
+    content: "\f4bd";
+}
+
+.xicon-carbon-Boot:before {
+    content: "\f4aa";
+}
+
+.xicon-carbon-BorderBottom:before {
+    content: "\f497";
+}
+
+.xicon-carbon-BorderFull:before {
+    content: "\f484";
+}
+
+.xicon-carbon-BorderLeft:before {
+    content: "\f471";
+}
+
+.xicon-carbon-BorderNone:before {
+    content: "\f45e";
+}
+
+.xicon-carbon-BorderRight:before {
+    content: "\f44b";
+}
+
+.xicon-carbon-BorderTop:before {
+    content: "\f438";
+}
+
+.xicon-carbon-Bot:before {
+    content: "\f425";
+}
+
+.xicon-carbon-Box:before {
+    content: "\f412";
+}
+
+.xicon-carbon-BoxExtraLarge:before {
+    content: "\f3ff";
+}
+
+.xicon-carbon-BoxLarge:before {
+    content: "\f3ec";
+}
+
+.xicon-carbon-BoxMedium:before {
+    content: "\f3d9";
+}
+
+.xicon-carbon-BoxPlot:before {
+    content: "\f3c6";
+}
+
+.xicon-carbon-BoxSmall:before {
+    content: "\f3b3";
+}
+
+.xicon-carbon-Branch:before {
+    content: "\f3a0";
+}
+
+.xicon-carbon-BreakingChange:before {
+    content: "\f38d";
+}
+
+.xicon-carbon-BrightnessContrast:before {
+    content: "\f37a";
+}
+
+.xicon-carbon-BringForward:before {
+    content: "\f367";
+}
+
+.xicon-carbon-BringToFront:before {
+    content: "\f354";
+}
+
+.xicon-carbon-BrushFreehand:before {
+    content: "\f341";
+}
+
+.xicon-carbon-BrushPolygon:before {
+    content: "\f32e";
+}
+
+.xicon-carbon-Building:before {
+    content: "\f31b";
+}
+
+.xicon-carbon-BuildingInsights1:before {
+    content: "\f308";
+}
+
+.xicon-carbon-BuildingInsights2:before {
+    content: "\f2f5";
+}
+
+.xicon-carbon-BuildingInsights3:before {
+    content: "\f2e2";
+}
+
+.xicon-carbon-Bullhorn:before {
+    content: "\f2cf";
+}
+
+.xicon-carbon-Buoy:before {
+    content: "\f2bc";
+}
+
+.xicon-carbon-Bus:before {
+    content: "\f2a9";
+}
+
+.xicon-carbon-CabinCare:before {
+    content: "\f296";
+}
+
+.xicon-carbon-CabinCareAlert:before {
+    content: "\f283";
+}
+
+.xicon-carbon-CabinCareAlt:before {
+    content: "\f270";
+}
+
+.xicon-carbon-Cad:before {
+    content: "\f25d";
+}
+
+.xicon-carbon-Cafe:before {
+    content: "\f24a";
+}
+
+.xicon-carbon-Calculation:before {
+    content: "\f237";
+}
+
+.xicon-carbon-CalculationAlt:before {
+    content: "\f224";
+}
+
+.xicon-carbon-Calculator:before {
+    content: "\f211";
+}
+
+.xicon-carbon-CalculatorCheck:before {
+    content: "\f1fe";
+}
+
+.xicon-carbon-Calendar:before {
+    content: "\f1eb";
+}
+
+.xicon-carbon-CalendarHeatMap:before {
+    content: "\f1d8";
+}
+
+.xicon-carbon-CalendarSettings:before {
+    content: "\f1c5";
+}
+
+.xicon-carbon-CalendarTools:before {
+    content: "\f1b2";
+}
+
+.xicon-carbon-Calibrate:before {
+    content: "\f19f";
+}
+
+.xicon-carbon-Camera:before {
+    content: "\f18c";
+}
+
+.xicon-carbon-CameraAction:before {
+    content: "\f179";
+}
+
+.xicon-carbon-Campsite:before {
+    content: "\f166";
+}
+
+.xicon-carbon-Car:before {
+    content: "\f153";
+}
+
+.xicon-carbon-Carbon:before {
+    content: "\f140";
+}
+
+.xicon-carbon-Carbon3DCursor:before {
+    content: "\f12d";
+}
+
+.xicon-carbon-Carbon3DCursorAlt:before {
+    content: "\f11a";
+}
+
+.xicon-carbon-Carbon3DCurveAutoColon:before {
+    content: "\f107";
+}
+
+.xicon-carbon-Carbon3DCurveAutoVessels:before {
+    content: "\f0f4";
+}
+
+.xicon-carbon-Carbon3DCurveManual:before {
+    content: "\f0e1";
+}
+
+.xicon-carbon-Carbon3DIca:before {
+    content: "\f0ce";
+}
+
+.xicon-carbon-Carbon3DMprToggle:before {
+    content: "\f0bb";
+}
+
+.xicon-carbon-Carbon3DPrintMesh:before {
+    content: "\f0a8";
+}
+
+.xicon-carbon-Carbon3DSoftware:before {
+    content: "\f096";
+}
+
+.xicon-carbon-Carbon3rdPartyConnected:before {
+    content: "\f083";
+}
+
+.xicon-carbon-Carbon4K:before {
+    content: "\f070";
+}
+
+.xicon-carbon-Carbon4KFilled:before {
+    content: "\f05d";
+}
+
+.xicon-carbon-CarbonAccounting:before {
+    content: "\f04a";
+}
+
+.xicon-carbon-CaretDown:before {
+    content: "\f037";
+}
+
+.xicon-carbon-CaretLeft:before {
+    content: "\f024";
+}
+
+.xicon-carbon-CaretRight:before {
+    content: "\f011";
+}
+
+.xicon-carbon-CaretSort:before {
+    content: "\f767";
+}
+
+.xicon-carbon-CaretSortDown:before {
+    content: "\f754";
+}
+
+.xicon-carbon-CaretSortUp:before {
+    content: "\f741";
+}
+
+.xicon-carbon-CaretUp:before {
+    content: "\f72e";
+}
+
+.xicon-carbon-CarFront:before {
+    content: "\f71b";
+}
+
+.xicon-carbon-CarouselHorizontal:before {
+    content: "\f708";
+}
+
+.xicon-carbon-CarouselVertical:before {
+    content: "\f6f5";
+}
+
+.xicon-carbon-Catalog:before {
+    content: "\f6e2";
+}
+
+.xicon-carbon-Categories:before {
+    content: "\f6cf";
+}
+
+.xicon-carbon-Category:before {
+    content: "\f6bc";
+}
+
+.xicon-carbon-CategoryAdd:before {
+    content: "\f6a9";
+}
+
+.xicon-carbon-CategoryAnd:before {
+    content: "\f696";
+}
+
+.xicon-carbon-CategoryNew:before {
+    content: "\f683";
+}
+
+.xicon-carbon-CategoryNewEach:before {
+    content: "\f670";
+}
+
+.xicon-carbon-Ccx:before {
+    content: "\f65d";
+}
+
+.xicon-carbon-Cda:before {
+    content: "\f64a";
+}
+
+.xicon-carbon-CdArchive:before {
+    content: "\f637";
+}
+
+.xicon-carbon-CdCreateArchive:before {
+    content: "\f624";
+}
+
+.xicon-carbon-CdCreateExchange:before {
+    content: "\f612";
+}
+
+.xicon-carbon-CellTower:before {
+    content: "\f5ff";
+}
+
+.xicon-carbon-CenterCircle:before {
+    content: "\f5ec";
+}
+
+.xicon-carbon-CenterSquare:before {
+    content: "\f5d9";
+}
+
+.xicon-carbon-CenterToFit:before {
+    content: "\f5c6";
+}
+
+.xicon-carbon-Certificate:before {
+    content: "\f5b3";
+}
+
+.xicon-carbon-CertificateCheck:before {
+    content: "\f5a0";
+}
+
+.xicon-carbon-ChangeCatalog:before {
+    content: "\f58d";
+}
+
+.xicon-carbon-CharacterPatterns:before {
+    content: "\f57a";
+}
+
+.xicon-carbon-ChargingStation:before {
+    content: "\f567";
+}
+
+.xicon-carbon-ChargingStationFilled:before {
+    content: "\f554";
+}
+
+.xicon-carbon-Chart3D:before {
+    content: "\f541";
+}
+
+.xicon-carbon-ChartArea:before {
+    content: "\f52e";
+}
+
+.xicon-carbon-ChartAreaSmooth:before {
+    content: "\f51b";
+}
+
+.xicon-carbon-ChartAreaStepper:before {
+    content: "\f508";
+}
+
+.xicon-carbon-ChartAverage:before {
+    content: "\f4f5";
+}
+
+.xicon-carbon-ChartBar:before {
+    content: "\f4e2";
+}
+
+.xicon-carbon-ChartBarFloating:before {
+    content: "\f4cf";
+}
+
+.xicon-carbon-ChartBarOverlay:before {
+    content: "\f4bc";
+}
+
+.xicon-carbon-ChartBarStacked:before {
+    content: "\f4a9";
+}
+
+.xicon-carbon-ChartBarTarget:before {
+    content: "\f496";
+}
+
+.xicon-carbon-ChartBubble:before {
+    content: "\f483";
+}
+
+.xicon-carbon-ChartBubblePacked:before {
+    content: "\f470";
+}
+
+.xicon-carbon-ChartBullet:before {
+    content: "\f45d";
+}
+
+.xicon-carbon-ChartCandlestick:before {
+    content: "\f44a";
+}
+
+.xicon-carbon-ChartClusterBar:before {
+    content: "\f437";
+}
+
+.xicon-carbon-ChartColumn:before {
+    content: "\f424";
+}
+
+.xicon-carbon-ChartColumnFloating:before {
+    content: "\f411";
+}
+
+.xicon-carbon-ChartColumnTarget:before {
+    content: "\f3fe";
+}
+
+.xicon-carbon-ChartCombo:before {
+    content: "\f3eb";
+}
+
+.xicon-carbon-ChartComboStacked:before {
+    content: "\f3d8";
+}
+
+.xicon-carbon-ChartCustom:before {
+    content: "\f3c5";
+}
+
+.xicon-carbon-ChartErrorBar:before {
+    content: "\f3b2";
+}
+
+.xicon-carbon-ChartErrorBarAlt:before {
+    content: "\f39f";
+}
+
+.xicon-carbon-ChartEvaluation:before {
+    content: "\f38c";
+}
+
+.xicon-carbon-ChartHighLow:before {
+    content: "\f379";
+}
+
+.xicon-carbon-ChartHistogram:before {
+    content: "\f366";
+}
+
+.xicon-carbon-ChartLine:before {
+    content: "\f353";
+}
+
+.xicon-carbon-ChartLineData:before {
+    content: "\f340";
+}
+
+.xicon-carbon-ChartLineSmooth:before {
+    content: "\f32d";
+}
+
+.xicon-carbon-ChartMarimekko:before {
+    content: "\f31a";
+}
+
+.xicon-carbon-ChartMaximum:before {
+    content: "\f307";
+}
+
+.xicon-carbon-ChartMedian:before {
+    content: "\f2f4";
+}
+
+.xicon-carbon-ChartMinimum:before {
+    content: "\f2e1";
+}
+
+.xicon-carbon-ChartMultiLine:before {
+    content: "\f2ce";
+}
+
+.xicon-carbon-ChartMultitype:before {
+    content: "\f2bb";
+}
+
+.xicon-carbon-ChartNetwork:before {
+    content: "\f2a8";
+}
+
+.xicon-carbon-ChartParallel:before {
+    content: "\f295";
+}
+
+.xicon-carbon-ChartPie:before {
+    content: "\f282";
+}
+
+.xicon-carbon-ChartPoint:before {
+    content: "\f26f";
+}
+
+.xicon-carbon-ChartPopulation:before {
+    content: "\f25c";
+}
+
+.xicon-carbon-ChartRadar:before {
+    content: "\f249";
+}
+
+.xicon-carbon-ChartRadial:before {
+    content: "\f236";
+}
+
+.xicon-carbon-ChartRelationship:before {
+    content: "\f223";
+}
+
+.xicon-carbon-ChartRing:before {
+    content: "\f210";
+}
+
+.xicon-carbon-ChartRiver:before {
+    content: "\f1fd";
+}
+
+.xicon-carbon-ChartRose:before {
+    content: "\f1ea";
+}
+
+.xicon-carbon-ChartScatter:before {
+    content: "\f1d7";
+}
+
+.xicon-carbon-ChartSpiral:before {
+    content: "\f1c4";
+}
+
+.xicon-carbon-ChartStacked:before {
+    content: "\f1b1";
+}
+
+.xicon-carbon-ChartStepper:before {
+    content: "\f19e";
+}
+
+.xicon-carbon-ChartSunburst:before {
+    content: "\f18b";
+}
+
+.xicon-carbon-ChartTreemap:before {
+    content: "\f178";
+}
+
+.xicon-carbon-ChartTSne:before {
+    content: "\f165";
+}
+
+.xicon-carbon-ChartVennDiagram:before {
+    content: "\f152";
+}
+
+.xicon-carbon-ChartViolinPlot:before {
+    content: "\f13f";
+}
+
+.xicon-carbon-ChartWaterfall:before {
+    content: "\f12c";
+}
+
+.xicon-carbon-ChartWinLoss:before {
+    content: "\f119";
+}
+
+.xicon-carbon-Chat:before {
+    content: "\f106";
+}
+
+.xicon-carbon-ChatBot:before {
+    content: "\f0f3";
+}
+
+.xicon-carbon-ChatLaunch:before {
+    content: "\f0e0";
+}
+
+.xicon-carbon-ChatOff:before {
+    content: "\f0cd";
+}
+
+.xicon-carbon-ChatOperational:before {
+    content: "\f0ba";
+}
+
+.xicon-carbon-Checkbox:before {
+    content: "\f0a7";
+}
+
+.xicon-carbon-CheckboxChecked:before {
+    content: "\f095";
+}
+
+.xicon-carbon-CheckboxCheckedFilled:before {
+    content: "\f082";
+}
+
+.xicon-carbon-CheckboxIndeterminate:before {
+    content: "\f06f";
+}
+
+.xicon-carbon-CheckboxIndeterminateFilled:before {
+    content: "\f05c";
+}
+
+.xicon-carbon-CheckboxUndeterminate:before {
+    content: "\f049";
+}
+
+.xicon-carbon-CheckboxUndeterminateFilled:before {
+    content: "\f036";
+}
+
+.xicon-carbon-Checkmark:before {
+    content: "\f023";
+}
+
+.xicon-carbon-CheckmarkFilled:before {
+    content: "\f010";
+}
+
+.xicon-carbon-CheckmarkFilledError:before {
+    content: "\f766";
+}
+
+.xicon-carbon-CheckmarkFilledWarning:before {
+    content: "\f753";
+}
+
+.xicon-carbon-CheckmarkOutline:before {
+    content: "\f740";
+}
+
+.xicon-carbon-CheckmarkOutlineError:before {
+    content: "\f72d";
+}
+
+.xicon-carbon-CheckmarkOutlineWarning:before {
+    content: "\f71a";
+}
+
+.xicon-carbon-Chemistry:before {
+    content: "\f707";
+}
+
+.xicon-carbon-ChemistryReference:before {
+    content: "\f6f4";
+}
+
+.xicon-carbon-ChevronDown:before {
+    content: "\f6e1";
+}
+
+.xicon-carbon-ChevronLeft:before {
+    content: "\f6ce";
+}
+
+.xicon-carbon-ChevronMini:before {
+    content: "\f6bb";
+}
+
+.xicon-carbon-ChevronRight:before {
+    content: "\f6a8";
+}
+
+.xicon-carbon-ChevronSort:before {
+    content: "\f695";
+}
+
+.xicon-carbon-ChevronSortDown:before {
+    content: "\f682";
+}
+
+.xicon-carbon-ChevronSortUp:before {
+    content: "\f66f";
+}
+
+.xicon-carbon-ChevronUp:before {
+    content: "\f65c";
+}
+
+.xicon-carbon-Chip:before {
+    content: "\f649";
+}
+
+.xicon-carbon-Choices:before {
+    content: "\f636";
+}
+
+.xicon-carbon-ChooseItem:before {
+    content: "\f623";
+}
+
+.xicon-carbon-ChoroplethMap:before {
+    content: "\f611";
+}
+
+.xicon-carbon-CicsCmas:before {
+    content: "\f5fe";
+}
+
+.xicon-carbon-CicsExplorer:before {
+    content: "\f5eb";
+}
+
+.xicon-carbon-Cicsplex:before {
+    content: "\f5d8";
+}
+
+.xicon-carbon-CicsRegion:before {
+    content: "\f5c5";
+}
+
+.xicon-carbon-CicsRegionRouting:before {
+    content: "\f5b2";
+}
+
+.xicon-carbon-CicsRegionTarget:before {
+    content: "\f59f";
+}
+
+.xicon-carbon-CicsSystemGroup:before {
+    content: "\f58c";
+}
+
+.xicon-carbon-CicsWuiRegion:before {
+    content: "\f579";
+}
+
+.xicon-carbon-CircleDash:before {
+    content: "\f566";
+}
+
+.xicon-carbon-CircleFilled:before {
+    content: "\f553";
+}
+
+.xicon-carbon-CircleMeasurement:before {
+    content: "\f540";
+}
+
+.xicon-carbon-CirclePacking:before {
+    content: "\f52d";
+}
+
+.xicon-carbon-CircleSolid:before {
+    content: "\f51a";
+}
+
+.xicon-carbon-CircuitComposer:before {
+    content: "\f507";
+}
+
+.xicon-carbon-Classification:before {
+    content: "\f4f4";
+}
+
+.xicon-carbon-ClassifierLanguage:before {
+    content: "\f4e1";
+}
+
+.xicon-carbon-Clean:before {
+    content: "\f4ce";
+}
+
+.xicon-carbon-Close:before {
+    content: "\f4bb";
+}
+
+.xicon-carbon-ClosedCaption:before {
+    content: "\f4a8";
+}
+
+.xicon-carbon-ClosedCaptionAlt:before {
+    content: "\f495";
+}
+
+.xicon-carbon-ClosedCaptionFilled:before {
+    content: "\f482";
+}
+
+.xicon-carbon-CloseFilled:before {
+    content: "\f46f";
+}
+
+.xicon-carbon-CloseOutline:before {
+    content: "\f45c";
+}
+
+.xicon-carbon-Cloud:before {
+    content: "\f449";
+}
+
+.xicon-carbon-CloudAlerting:before {
+    content: "\f436";
+}
+
+.xicon-carbon-CloudApp:before {
+    content: "\f423";
+}
+
+.xicon-carbon-CloudAuditing:before {
+    content: "\f410";
+}
+
+.xicon-carbon-CloudCeiling:before {
+    content: "\f3fd";
+}
+
+.xicon-carbon-CloudDataOps:before {
+    content: "\f3ea";
+}
+
+.xicon-carbon-CloudDownload:before {
+    content: "\f3d7";
+}
+
+.xicon-carbon-CloudFoundry1:before {
+    content: "\f3c4";
+}
+
+.xicon-carbon-CloudFoundry2:before {
+    content: "\f3b1";
+}
+
+.xicon-carbon-CloudLightning:before {
+    content: "\f39e";
+}
+
+.xicon-carbon-CloudLogging:before {
+    content: "\f38b";
+}
+
+.xicon-carbon-CloudMonitoring:before {
+    content: "\f378";
+}
+
+.xicon-carbon-CloudOffline:before {
+    content: "\f365";
+}
+
+.xicon-carbon-CloudRain:before {
+    content: "\f352";
+}
+
+.xicon-carbon-CloudRegistry:before {
+    content: "\f33f";
+}
+
+.xicon-carbon-CloudSatellite:before {
+    content: "\f32c";
+}
+
+.xicon-carbon-CloudSatelliteConfig:before {
+    content: "\f319";
+}
+
+.xicon-carbon-CloudSatelliteLink:before {
+    content: "\f306";
+}
+
+.xicon-carbon-CloudSatelliteServices:before {
+    content: "\f2f3";
+}
+
+.xicon-carbon-CloudServiceManagement:before {
+    content: "\f2e0";
+}
+
+.xicon-carbon-CloudServices:before {
+    content: "\f2cd";
+}
+
+.xicon-carbon-CloudSnow:before {
+    content: "\f2ba";
+}
+
+.xicon-carbon-CloudUpload:before {
+    content: "\f2a7";
+}
+
+.xicon-carbon-Cloudy:before {
+    content: "\f294";
+}
+
+.xicon-carbon-CobbAngle:before {
+    content: "\f281";
+}
+
+.xicon-carbon-Code:before {
+    content: "\f26e";
+}
+
+.xicon-carbon-CodeHide:before {
+    content: "\f25b";
+}
+
+.xicon-carbon-CodeReference:before {
+    content: "\f248";
+}
+
+.xicon-carbon-CodeSigningService:before {
+    content: "\f235";
+}
+
+.xicon-carbon-Cognitive:before {
+    content: "\f222";
+}
+
+.xicon-carbon-Collaborate:before {
+    content: "\f20f";
+}
+
+.xicon-carbon-CollapseAll:before {
+    content: "\f1fc";
+}
+
+.xicon-carbon-CollapseCategories:before {
+    content: "\f1e9";
+}
+
+.xicon-carbon-ColorPalette:before {
+    content: "\f1d6";
+}
+
+.xicon-carbon-ColorSwitch:before {
+    content: "\f1c3";
+}
+
+.xicon-carbon-Column:before {
+    content: "\f1b0";
+}
+
+.xicon-carbon-ColumnDelete:before {
+    content: "\f19d";
+}
+
+.xicon-carbon-ColumnDependency:before {
+    content: "\f18a";
+}
+
+.xicon-carbon-ColumnInsert:before {
+    content: "\f177";
+}
+
+.xicon-carbon-Commit:before {
+    content: "\f164";
+}
+
+.xicon-carbon-CommunicationUnified:before {
+    content: "\f151";
+}
+
+.xicon-carbon-Compare:before {
+    content: "\f13e";
+}
+
+.xicon-carbon-Compass:before {
+    content: "\f12b";
+}
+
+.xicon-carbon-ComposerEdit:before {
+    content: "\f118";
+}
+
+.xicon-carbon-Concept:before {
+    content: "\f105";
+}
+
+.xicon-carbon-ConditionPoint:before {
+    content: "\f0f2";
+}
+
+.xicon-carbon-ConditionWaitPoint:before {
+    content: "\f0df";
+}
+
+.xicon-carbon-Connect:before {
+    content: "\f0cc";
+}
+
+.xicon-carbon-ConnectionReceive:before {
+    content: "\f0b9";
+}
+
+.xicon-carbon-ConnectionSend:before {
+    content: "\f0a6";
+}
+
+.xicon-carbon-ConnectionSignal:before {
+    content: "\f094";
+}
+
+.xicon-carbon-ConnectionSignalOff:before {
+    content: "\f081";
+}
+
+.xicon-carbon-ConnectionTwoWay:before {
+    content: "\f06e";
+}
+
+.xicon-carbon-ConnectRecursive:before {
+    content: "\f05b";
+}
+
+.xicon-carbon-ConnectSource:before {
+    content: "\f048";
+}
+
+.xicon-carbon-ConnectTarget:before {
+    content: "\f035";
+}
+
+.xicon-carbon-Construction:before {
+    content: "\f022";
+}
+
+.xicon-carbon-ContainerRegistry:before {
+    content: "\f00f";
+}
+
+.xicon-carbon-ContainerServices:before {
+    content: "\f765";
+}
+
+.xicon-carbon-ContainerSoftware:before {
+    content: "\f752";
+}
+
+.xicon-carbon-ContentDeliveryNetwork:before {
+    content: "\f73f";
+}
+
+.xicon-carbon-ContentView:before {
+    content: "\f72c";
+}
+
+.xicon-carbon-Continue:before {
+    content: "\f719";
+}
+
+.xicon-carbon-ContinueFilled:before {
+    content: "\f706";
+}
+
+.xicon-carbon-ContourDraw:before {
+    content: "\f6f3";
+}
+
+.xicon-carbon-ContourEdit:before {
+    content: "\f6e0";
+}
+
+.xicon-carbon-ContourFinding:before {
+    content: "\f6cd";
+}
+
+.xicon-carbon-Contrast:before {
+    content: "\f6ba";
+}
+
+.xicon-carbon-ConvertToCloud:before {
+    content: "\f6a7";
+}
+
+.xicon-carbon-Copy:before {
+    content: "\f694";
+}
+
+.xicon-carbon-CopyFile:before {
+    content: "\f681";
+}
+
+.xicon-carbon-CopyLink:before {
+    content: "\f66e";
+}
+
+.xicon-carbon-Corn:before {
+    content: "\f65b";
+}
+
+.xicon-carbon-Corner:before {
+    content: "\f648";
+}
+
+.xicon-carbon-Coronavirus:before {
+    content: "\f635";
+}
+
+.xicon-carbon-Cost:before {
+    content: "\f622";
+}
+
+.xicon-carbon-CostTotal:before {
+    content: "\f610";
+}
+
+.xicon-carbon-Cough:before {
+    content: "\f5fd";
+}
+
+.xicon-carbon-Course:before {
+    content: "\f5ea";
+}
+
+.xicon-carbon-Covariate:before {
+    content: "\f5d7";
+}
+
+.xicon-carbon-Credentials:before {
+    content: "\f5c4";
+}
+
+.xicon-carbon-Crop:before {
+    content: "\f5b1";
+}
+
+.xicon-carbon-CropGrowth:before {
+    content: "\f59e";
+}
+
+.xicon-carbon-CropHealth:before {
+    content: "\f58b";
+}
+
+.xicon-carbon-CrossReference:before {
+    content: "\f578";
+}
+
+.xicon-carbon-Crossroads:before {
+    content: "\f565";
+}
+
+.xicon-carbon-CrossTab:before {
+    content: "\f552";
+}
+
+.xicon-carbon-CrowdReport:before {
+    content: "\f53f";
+}
+
+.xicon-carbon-CrowdReportFilled:before {
+    content: "\f52c";
+}
+
+.xicon-carbon-Csv:before {
+    content: "\f519";
+}
+
+.xicon-carbon-Cu1:before {
+    content: "\f506";
+}
+
+.xicon-carbon-Cu3:before {
+    content: "\f4f3";
+}
+
+.xicon-carbon-Cube:before {
+    content: "\f4e0";
+}
+
+.xicon-carbon-CubeView:before {
+    content: "\f4cd";
+}
+
+.xicon-carbon-Currency:before {
+    content: "\f4ba";
+}
+
+.xicon-carbon-CurrencyBaht:before {
+    content: "\f4a7";
+}
+
+.xicon-carbon-CurrencyDollar:before {
+    content: "\f494";
+}
+
+.xicon-carbon-CurrencyEuro:before {
+    content: "\f481";
+}
+
+.xicon-carbon-CurrencyLira:before {
+    content: "\f46e";
+}
+
+.xicon-carbon-CurrencyPound:before {
+    content: "\f45b";
+}
+
+.xicon-carbon-CurrencyRuble:before {
+    content: "\f448";
+}
+
+.xicon-carbon-CurrencyRupee:before {
+    content: "\f435";
+}
+
+.xicon-carbon-CurrencyShekel:before {
+    content: "\f422";
+}
+
+.xicon-carbon-CurrencyWon:before {
+    content: "\f40f";
+}
+
+.xicon-carbon-CurrencyYen:before {
+    content: "\f3fc";
+}
+
+.xicon-carbon-Cursor1:before {
+    content: "\f3e9";
+}
+
+.xicon-carbon-Cursor2:before {
+    content: "\f3d6";
+}
+
+.xicon-carbon-Cut:before {
+    content: "\f3c3";
+}
+
+.xicon-carbon-CutInHalf:before {
+    content: "\f3b0";
+}
+
+.xicon-carbon-CutOut:before {
+    content: "\f39d";
+}
+
+.xicon-carbon-Cy:before {
+    content: "\f38a";
+}
+
+.xicon-carbon-Cyclist:before {
+    content: "\f377";
+}
+
+.xicon-carbon-Cz:before {
+    content: "\f364";
+}
+
+.xicon-carbon-Dashboard:before {
+    content: "\f351";
+}
+
+.xicon-carbon-DashboardReference:before {
+    content: "\f33e";
+}
+
+.xicon-carbon-Data1:before {
+    content: "\f32b";
+}
+
+.xicon-carbon-Data2:before {
+    content: "\f318";
+}
+
+.xicon-carbon-DataAccessor:before {
+    content: "\f305";
+}
+
+.xicon-carbon-DataBackup:before {
+    content: "\f2f2";
+}
+
+.xicon-carbon-DataBase:before {
+    content: "\f2df";
+}
+
+.xicon-carbon-DataBaseAlt:before {
+    content: "\f2cc";
+}
+
+.xicon-carbon-DatabaseDatastax:before {
+    content: "\f2b9";
+}
+
+.xicon-carbon-DatabaseElastic:before {
+    content: "\f2a6";
+}
+
+.xicon-carbon-DatabaseEnterpriseDb2:before {
+    content: "\f293";
+}
+
+.xicon-carbon-DatabaseEtcd:before {
+    content: "\f280";
+}
+
+.xicon-carbon-DatabaseMongodb:before {
+    content: "\f26d";
+}
+
+.xicon-carbon-DatabasePostgresql:before {
+    content: "\f25a";
+}
+
+.xicon-carbon-DatabaseRabbit:before {
+    content: "\f247";
+}
+
+.xicon-carbon-DatabaseRedis:before {
+    content: "\f234";
+}
+
+.xicon-carbon-DataBin:before {
+    content: "\f221";
+}
+
+.xicon-carbon-DataBlob:before {
+    content: "\f20e";
+}
+
+.xicon-carbon-DataCenter:before {
+    content: "\f1fb";
+}
+
+.xicon-carbon-DataCheck:before {
+    content: "\f1e8";
+}
+
+.xicon-carbon-DataClass:before {
+    content: "\f1d5";
+}
+
+.xicon-carbon-DataCollection:before {
+    content: "\f1c2";
+}
+
+.xicon-carbon-DataConnected:before {
+    content: "\f1af";
+}
+
+.xicon-carbon-DataDefinition:before {
+    content: "\f19c";
+}
+
+.xicon-carbon-DataDiode:before {
+    content: "\f189";
+}
+
+.xicon-carbon-DataError:before {
+    content: "\f176";
+}
+
+.xicon-carbon-DataFormat:before {
+    content: "\f163";
+}
+
+.xicon-carbon-DataPlayer:before {
+    content: "\f150";
+}
+
+.xicon-carbon-DataReference:before {
+    content: "\f13d";
+}
+
+.xicon-carbon-DataRefinery:before {
+    content: "\f12a";
+}
+
+.xicon-carbon-DataRefineryReference:before {
+    content: "\f117";
+}
+
+.xicon-carbon-DataSet:before {
+    content: "\f104";
+}
+
+.xicon-carbon-DataShare:before {
+    content: "\f0f1";
+}
+
+.xicon-carbon-Datastore:before {
+    content: "\f0de";
+}
+
+.xicon-carbon-DataStructured:before {
+    content: "\f0cb";
+}
+
+.xicon-carbon-DataTable:before {
+    content: "\f0b8";
+}
+
+.xicon-carbon-DataTableReference:before {
+    content: "\f0a5";
+}
+
+.xicon-carbon-DataUnstructured:before {
+    content: "\f093";
+}
+
+.xicon-carbon-DataView:before {
+    content: "\f080";
+}
+
+.xicon-carbon-DataViewAlt:before {
+    content: "\f06d";
+}
+
+.xicon-carbon-DataVis1:before {
+    content: "\f05a";
+}
+
+.xicon-carbon-DataVis2:before {
+    content: "\f047";
+}
+
+.xicon-carbon-DataVis3:before {
+    content: "\f034";
+}
+
+.xicon-carbon-DataVis4:before {
+    content: "\f021";
+}
+
+.xicon-carbon-Debug:before {
+    content: "\f00e";
+}
+
+.xicon-carbon-DecisionTree:before {
+    content: "\f764";
+}
+
+.xicon-carbon-Delete:before {
+    content: "\f751";
+}
+
+.xicon-carbon-Delivery:before {
+    content: "\f73e";
+}
+
+.xicon-carbon-DeliveryAdd:before {
+    content: "\f72b";
+}
+
+.xicon-carbon-DeliveryParcel:before {
+    content: "\f718";
+}
+
+.xicon-carbon-DeliveryTruck:before {
+    content: "\f705";
+}
+
+.xicon-carbon-Denominate:before {
+    content: "\f6f2";
+}
+
+.xicon-carbon-Departure:before {
+    content: "\f6df";
+}
+
+.xicon-carbon-Deploy:before {
+    content: "\f6cc";
+}
+
+.xicon-carbon-DeploymentPattern:before {
+    content: "\f6b9";
+}
+
+.xicon-carbon-DeploymentPolicy:before {
+    content: "\f6a6";
+}
+
+.xicon-carbon-DeploymentUnitData:before {
+    content: "\f693";
+}
+
+.xicon-carbon-DeploymentUnitExecution:before {
+    content: "\f680";
+}
+
+.xicon-carbon-DeploymentUnitInstallation:before {
+    content: "\f66d";
+}
+
+.xicon-carbon-DeploymentUnitPresentation:before {
+    content: "\f65a";
+}
+
+.xicon-carbon-DeploymentUnitTechnicalData:before {
+    content: "\f647";
+}
+
+.xicon-carbon-DeploymentUnitTechnicalExecution:before {
+    content: "\f634";
+}
+
+.xicon-carbon-DeploymentUnitTechnicalInstallation:before {
+    content: "\f621";
+}
+
+.xicon-carbon-DeploymentUnitTechnicalPresentation:before {
+    content: "\f60f";
+}
+
+.xicon-carbon-DeployRules:before {
+    content: "\f5fc";
+}
+
+.xicon-carbon-DeskAdjustable:before {
+    content: "\f5e9";
+}
+
+.xicon-carbon-Development:before {
+    content: "\f5d6";
+}
+
+.xicon-carbon-Devices:before {
+    content: "\f5c3";
+}
+
+.xicon-carbon-DewPoint:before {
+    content: "\f5b0";
+}
+
+.xicon-carbon-DewPointFilled:before {
+    content: "\f59d";
+}
+
+.xicon-carbon-Diagram:before {
+    content: "\f58a";
+}
+
+.xicon-carbon-DiagramReference:before {
+    content: "\f577";
+}
+
+.xicon-carbon-Dicom6000:before {
+    content: "\f564";
+}
+
+.xicon-carbon-DicomOverlay:before {
+    content: "\f551";
+}
+
+.xicon-carbon-DirectionBearRight01:before {
+    content: "\f53e";
+}
+
+.xicon-carbon-DirectionBearRight01Filled:before {
+    content: "\f52b";
+}
+
+.xicon-carbon-DirectionBearRight02:before {
+    content: "\f518";
+}
+
+.xicon-carbon-DirectionBearRight02Filled:before {
+    content: "\f505";
+}
+
+.xicon-carbon-DirectionCurve:before {
+    content: "\f4f2";
+}
+
+.xicon-carbon-DirectionCurveFilled:before {
+    content: "\f4df";
+}
+
+.xicon-carbon-DirectionFork:before {
+    content: "\f4cc";
+}
+
+.xicon-carbon-DirectionForkFilled:before {
+    content: "\f4b9";
+}
+
+.xicon-carbon-DirectionLoopLeft:before {
+    content: "\f4a6";
+}
+
+.xicon-carbon-DirectionLoopLeftFilled:before {
+    content: "\f493";
+}
+
+.xicon-carbon-DirectionLoopRight:before {
+    content: "\f480";
+}
+
+.xicon-carbon-DirectionLoopRightFilled:before {
+    content: "\f46d";
+}
+
+.xicon-carbon-DirectionMerge:before {
+    content: "\f45a";
+}
+
+.xicon-carbon-DirectionMergeFilled:before {
+    content: "\f447";
+}
+
+.xicon-carbon-DirectionRight01:before {
+    content: "\f434";
+}
+
+.xicon-carbon-DirectionRight01Filled:before {
+    content: "\f421";
+}
+
+.xicon-carbon-DirectionRight02:before {
+    content: "\f40e";
+}
+
+.xicon-carbon-DirectionRight02Filled:before {
+    content: "\f3fb";
+}
+
+.xicon-carbon-DirectionRotaryFirstRight:before {
+    content: "\f3e8";
+}
+
+.xicon-carbon-DirectionRotaryFirstRightFilled:before {
+    content: "\f3d5";
+}
+
+.xicon-carbon-DirectionRotaryRight:before {
+    content: "\f3c2";
+}
+
+.xicon-carbon-DirectionRotaryRightFilled:before {
+    content: "\f3af";
+}
+
+.xicon-carbon-DirectionRotaryStraight:before {
+    content: "\f39c";
+}
+
+.xicon-carbon-DirectionRotaryStraightFilled:before {
+    content: "\f389";
+}
+
+.xicon-carbon-DirectionSharpTurn:before {
+    content: "\f376";
+}
+
+.xicon-carbon-DirectionSharpTurnFilled:before {
+    content: "\f363";
+}
+
+.xicon-carbon-DirectionStraight:before {
+    content: "\f350";
+}
+
+.xicon-carbon-DirectionStraightFilled:before {
+    content: "\f33d";
+}
+
+.xicon-carbon-DirectionStraightRight:before {
+    content: "\f32a";
+}
+
+.xicon-carbon-DirectionStraightRightFilled:before {
+    content: "\f317";
+}
+
+.xicon-carbon-DirectionUTurn:before {
+    content: "\f304";
+}
+
+.xicon-carbon-DirectionUTurnFilled:before {
+    content: "\f2f1";
+}
+
+.xicon-carbon-DirectLink:before {
+    content: "\f2de";
+}
+
+.xicon-carbon-DirectoryDomain:before {
+    content: "\f2cb";
+}
+
+.xicon-carbon-DistributeHorizontalCenter:before {
+    content: "\f2b8";
+}
+
+.xicon-carbon-DistributeHorizontalLeft:before {
+    content: "\f2a5";
+}
+
+.xicon-carbon-DistributeHorizontalRight:before {
+    content: "\f292";
+}
+
+.xicon-carbon-DistributeVerticalBottom:before {
+    content: "\f27f";
+}
+
+.xicon-carbon-DistributeVerticalCenter:before {
+    content: "\f26c";
+}
+
+.xicon-carbon-DistributeVerticalTop:before {
+    content: "\f259";
+}
+
+.xicon-carbon-Dna:before {
+    content: "\f246";
+}
+
+.xicon-carbon-DnsServices:before {
+    content: "\f233";
+}
+
+.xicon-carbon-Doc:before {
+    content: "\f220";
+}
+
+.xicon-carbon-Document:before {
+    content: "\f20d";
+}
+
+.xicon-carbon-DocumentAdd:before {
+    content: "\f1fa";
+}
+
+.xicon-carbon-DocumentAttachment:before {
+    content: "\f1e7";
+}
+
+.xicon-carbon-DocumentAudio:before {
+    content: "\f1d4";
+}
+
+.xicon-carbon-DocumentBlank:before {
+    content: "\f1c1";
+}
+
+.xicon-carbon-DocumentDownload:before {
+    content: "\f1ae";
+}
+
+.xicon-carbon-DocumentEpdf:before {
+    content: "\f19b";
+}
+
+.xicon-carbon-DocumentExport:before {
+    content: "\f188";
+}
+
+.xicon-carbon-DocumentHorizontal:before {
+    content: "\f175";
+}
+
+.xicon-carbon-DocumentImport:before {
+    content: "\f162";
+}
+
+.xicon-carbon-DocumentPdf:before {
+    content: "\f14f";
+}
+
+.xicon-carbon-DocumentPreliminary:before {
+    content: "\f13c";
+}
+
+.xicon-carbon-DocumentProtected:before {
+    content: "\f129";
+}
+
+.xicon-carbon-DocumentSecurity:before {
+    content: "\f116";
+}
+
+.xicon-carbon-DocumentSentiment:before {
+    content: "\f103";
+}
+
+.xicon-carbon-DocumentSigned:before {
+    content: "\f0f0";
+}
+
+.xicon-carbon-DocumentSketch:before {
+    content: "\f0dd";
+}
+
+.xicon-carbon-DocumentSubtract:before {
+    content: "\f0ca";
+}
+
+.xicon-carbon-DocumentTasks:before {
+    content: "\f0b7";
+}
+
+.xicon-carbon-DocumentUnknown:before {
+    content: "\f0a4";
+}
+
+.xicon-carbon-DocumentUnprotected:before {
+    content: "\f092";
+}
+
+.xicon-carbon-DocumentVertical:before {
+    content: "\f07f";
+}
+
+.xicon-carbon-DocumentVideo:before {
+    content: "\f06c";
+}
+
+.xicon-carbon-DocumentView:before {
+    content: "\f059";
+}
+
+.xicon-carbon-DocumentWordProcessor:before {
+    content: "\f046";
+}
+
+.xicon-carbon-DocumentWordProcessorReference:before {
+    content: "\f033";
+}
+
+.xicon-carbon-DogWalker:before {
+    content: "\f020";
+}
+
+.xicon-carbon-DotMark:before {
+    content: "\f00d";
+}
+
+.xicon-carbon-DoubleInteger:before {
+    content: "\f763";
+}
+
+.xicon-carbon-Download:before {
+    content: "\f750";
+}
+
+.xicon-carbon-DownloadStudy:before {
+    content: "\f73d";
+}
+
+.xicon-carbon-DownToBottom:before {
+    content: "\f72a";
+}
+
+.xicon-carbon-Draggable:before {
+    content: "\f717";
+}
+
+.xicon-carbon-DragHorizontal:before {
+    content: "\f704";
+}
+
+.xicon-carbon-DragVertical:before {
+    content: "\f6f1";
+}
+
+.xicon-carbon-Draw:before {
+    content: "\f6de";
+}
+
+.xicon-carbon-DrillBack:before {
+    content: "\f6cb";
+}
+
+.xicon-carbon-DrillDown:before {
+    content: "\f6b8";
+}
+
+.xicon-carbon-DrillThrough:before {
+    content: "\f6a5";
+}
+
+.xicon-carbon-DriverAnalysis:before {
+    content: "\f692";
+}
+
+.xicon-carbon-Drone:before {
+    content: "\f67f";
+}
+
+.xicon-carbon-DroneDelivery:before {
+    content: "\f66c";
+}
+
+.xicon-carbon-DroneFront:before {
+    content: "\f659";
+}
+
+.xicon-carbon-DroneVideo:before {
+    content: "\f646";
+}
+
+.xicon-carbon-DropPhoto:before {
+    content: "\f633";
+}
+
+.xicon-carbon-DropPhotoFilled:before {
+    content: "\f620";
+}
+
+.xicon-carbon-Drought:before {
+    content: "\f60e";
+}
+
+.xicon-carbon-Dvr:before {
+    content: "\f5fb";
+}
+
+.xicon-carbon-Earth:before {
+    content: "\f5e8";
+}
+
+.xicon-carbon-EarthAmericas:before {
+    content: "\f5d5";
+}
+
+.xicon-carbon-EarthAmericasFilled:before {
+    content: "\f5c2";
+}
+
+.xicon-carbon-EarthEuropeAfrica:before {
+    content: "\f5af";
+}
+
+.xicon-carbon-EarthEuropeAfricaFilled:before {
+    content: "\f59c";
+}
+
+.xicon-carbon-EarthFilled:before {
+    content: "\f589";
+}
+
+.xicon-carbon-Earthquake:before {
+    content: "\f576";
+}
+
+.xicon-carbon-EarthSoutheastAsia:before {
+    content: "\f563";
+}
+
+.xicon-carbon-EarthSoutheastAsiaFilled:before {
+    content: "\f550";
+}
+
+.xicon-carbon-EdgeCluster:before {
+    content: "\f53d";
+}
+
+.xicon-carbon-EdgeDevice:before {
+    content: "\f52a";
+}
+
+.xicon-carbon-EdgeEnhancement:before {
+    content: "\f517";
+}
+
+.xicon-carbon-EdgeEnhancement01:before {
+    content: "\f504";
+}
+
+.xicon-carbon-EdgeEnhancement02:before {
+    content: "\f4f1";
+}
+
+.xicon-carbon-EdgeEnhancement03:before {
+    content: "\f4de";
+}
+
+.xicon-carbon-EdgeNode:before {
+    content: "\f4cb";
+}
+
+.xicon-carbon-EdgeNodeAlt:before {
+    content: "\f4b8";
+}
+
+.xicon-carbon-EdgeService:before {
+    content: "\f4a5";
+}
+
+.xicon-carbon-Edit:before {
+    content: "\f492";
+}
+
+.xicon-carbon-EditFilter:before {
+    content: "\f47f";
+}
+
+.xicon-carbon-EditOff:before {
+    content: "\f46c";
+}
+
+.xicon-carbon-EdtLoop:before {
+    content: "\f459";
+}
+
+.xicon-carbon-Education:before {
+    content: "\f446";
+}
+
+.xicon-carbon-Email:before {
+    content: "\f433";
+}
+
+.xicon-carbon-EmailNew:before {
+    content: "\f420";
+}
+
+.xicon-carbon-Encryption:before {
+    content: "\f40d";
+}
+
+.xicon-carbon-EnergyRenewable:before {
+    content: "\f3fa";
+}
+
+.xicon-carbon-Enterprise:before {
+    content: "\f3e7";
+}
+
+.xicon-carbon-Equalizer:before {
+    content: "\f3d4";
+}
+
+.xicon-carbon-Erase:before {
+    content: "\f3c1";
+}
+
+.xicon-carbon-Erase3D:before {
+    content: "\f3ae";
+}
+
+.xicon-carbon-Error:before {
+    content: "\f39b";
+}
+
+.xicon-carbon-ErrorFilled:before {
+    content: "\f388";
+}
+
+.xicon-carbon-ErrorOutline:before {
+    content: "\f375";
+}
+
+.xicon-carbon-Event:before {
+    content: "\f362";
+}
+
+.xicon-carbon-Events:before {
+    content: "\f34f";
+}
+
+.xicon-carbon-EventsAlt:before {
+    content: "\f33c";
+}
+
+.xicon-carbon-EventSchedule:before {
+    content: "\f329";
+}
+
+.xicon-carbon-ExamMode:before {
+    content: "\f316";
+}
+
+.xicon-carbon-Exit:before {
+    content: "\f303";
+}
+
+.xicon-carbon-ExpandAll:before {
+    content: "\f2f0";
+}
+
+.xicon-carbon-ExpandCategories:before {
+    content: "\f2dd";
+}
+
+.xicon-carbon-Explore:before {
+    content: "\f2ca";
+}
+
+.xicon-carbon-Export:before {
+    content: "\f2b7";
+}
+
+.xicon-carbon-Eyedropper:before {
+    content: "\f2a4";
+}
+
+.xicon-carbon-FaceActivated:before {
+    content: "\f291";
+}
+
+.xicon-carbon-FaceActivatedAdd:before {
+    content: "\f27e";
+}
+
+.xicon-carbon-FaceActivatedFilled:before {
+    content: "\f26b";
+}
+
+.xicon-carbon-FaceAdd:before {
+    content: "\f258";
+}
+
+.xicon-carbon-FaceCool:before {
+    content: "\f245";
+}
+
+.xicon-carbon-FaceDissatisfied:before {
+    content: "\f232";
+}
+
+.xicon-carbon-FaceDissatisfiedFilled:before {
+    content: "\f21f";
+}
+
+.xicon-carbon-FaceDizzy:before {
+    content: "\f20c";
+}
+
+.xicon-carbon-FaceDizzyFilled:before {
+    content: "\f1f9";
+}
+
+.xicon-carbon-FaceMask:before {
+    content: "\f1e6";
+}
+
+.xicon-carbon-FaceNeutral:before {
+    content: "\f1d3";
+}
+
+.xicon-carbon-FaceNeutralFilled:before {
+    content: "\f1c0";
+}
+
+.xicon-carbon-FacePending:before {
+    content: "\f1ad";
+}
+
+.xicon-carbon-FacePendingFilled:before {
+    content: "\f19a";
+}
+
+.xicon-carbon-FaceSatisfied:before {
+    content: "\f187";
+}
+
+.xicon-carbon-FaceSatisfiedFilled:before {
+    content: "\f174";
+}
+
+.xicon-carbon-FaceWink:before {
+    content: "\f161";
+}
+
+.xicon-carbon-FaceWinkFilled:before {
+    content: "\f14e";
+}
+
+.xicon-carbon-Factor:before {
+    content: "\f13b";
+}
+
+.xicon-carbon-Fade:before {
+    content: "\f128";
+}
+
+.xicon-carbon-Favorite:before {
+    content: "\f115";
+}
+
+.xicon-carbon-FavoriteFilled:before {
+    content: "\f102";
+}
+
+.xicon-carbon-FavoriteHalf:before {
+    content: "\f0ef";
+}
+
+.xicon-carbon-FetchUpload:before {
+    content: "\f0dc";
+}
+
+.xicon-carbon-FetchUploadCloud:before {
+    content: "\f0c9";
+}
+
+.xicon-carbon-FileStorage:before {
+    content: "\f0b6";
+}
+
+.xicon-carbon-Filter:before {
+    content: "\f0a3";
+}
+
+.xicon-carbon-FilterEdit:before {
+    content: "\f091";
+}
+
+.xicon-carbon-FilterRemove:before {
+    content: "\f07e";
+}
+
+.xicon-carbon-FilterReset:before {
+    content: "\f06b";
+}
+
+.xicon-carbon-Finance:before {
+    content: "\f058";
+}
+
+.xicon-carbon-FingerprintRecognition:before {
+    content: "\f045";
+}
+
+.xicon-carbon-Fire:before {
+    content: "\f032";
+}
+
+.xicon-carbon-Firewall:before {
+    content: "\f01f";
+}
+
+.xicon-carbon-FirewallClassic:before {
+    content: "\f00c";
+}
+
+.xicon-carbon-Fish:before {
+    content: "\f762";
+}
+
+.xicon-carbon-FishMultiple:before {
+    content: "\f74f";
+}
+
+.xicon-carbon-FitToHeight:before {
+    content: "\f73c";
+}
+
+.xicon-carbon-FitToScreen:before {
+    content: "\f729";
+}
+
+.xicon-carbon-FitToWidth:before {
+    content: "\f716";
+}
+
+.xicon-carbon-Flag:before {
+    content: "\f703";
+}
+
+.xicon-carbon-FlagFilled:before {
+    content: "\f6f0";
+}
+
+.xicon-carbon-FlaggingTaxi:before {
+    content: "\f6dd";
+}
+
+.xicon-carbon-Flash:before {
+    content: "\f6ca";
+}
+
+.xicon-carbon-FlashFilled:before {
+    content: "\f6b7";
+}
+
+.xicon-carbon-FlashOff:before {
+    content: "\f6a4";
+}
+
+.xicon-carbon-FlashOffFilled:before {
+    content: "\f691";
+}
+
+.xicon-carbon-FlightInternational:before {
+    content: "\f67e";
+}
+
+.xicon-carbon-FlightRoster:before {
+    content: "\f66b";
+}
+
+.xicon-carbon-FlightSchedule:before {
+    content: "\f658";
+}
+
+.xicon-carbon-FloatingIp:before {
+    content: "\f645";
+}
+
+.xicon-carbon-Flood:before {
+    content: "\f632";
+}
+
+.xicon-carbon-FloodWarning:before {
+    content: "\f61f";
+}
+
+.xicon-carbon-Flow:before {
+    content: "\f60d";
+}
+
+.xicon-carbon-FlowConnection:before {
+    content: "\f5fa";
+}
+
+.xicon-carbon-FlowData:before {
+    content: "\f5e7";
+}
+
+.xicon-carbon-FlowLogsVpc:before {
+    content: "\f5d4";
+}
+
+.xicon-carbon-FlowModeler:before {
+    content: "\f5c1";
+}
+
+.xicon-carbon-FlowModelerReference:before {
+    content: "\f5ae";
+}
+
+.xicon-carbon-FlowStream:before {
+    content: "\f59b";
+}
+
+.xicon-carbon-FlowStreamReference:before {
+    content: "\f588";
+}
+
+.xicon-carbon-Fog:before {
+    content: "\f575";
+}
+
+.xicon-carbon-Folder:before {
+    content: "\f562";
+}
+
+.xicon-carbon-FolderAdd:before {
+    content: "\f54f";
+}
+
+.xicon-carbon-FolderDetails:before {
+    content: "\f53c";
+}
+
+.xicon-carbon-FolderDetailsReference:before {
+    content: "\f529";
+}
+
+.xicon-carbon-FolderMoveTo:before {
+    content: "\f516";
+}
+
+.xicon-carbon-FolderOff:before {
+    content: "\f503";
+}
+
+.xicon-carbon-FolderOpen:before {
+    content: "\f4f0";
+}
+
+.xicon-carbon-FolderParent:before {
+    content: "\f4dd";
+}
+
+.xicon-carbon-Folders:before {
+    content: "\f4ca";
+}
+
+.xicon-carbon-FolderShared:before {
+    content: "\f4b7";
+}
+
+.xicon-carbon-ForecastHail:before {
+    content: "\f4a4";
+}
+
+.xicon-carbon-ForecastHail30:before {
+    content: "\f491";
+}
+
+.xicon-carbon-ForecastLightning:before {
+    content: "\f47e";
+}
+
+.xicon-carbon-ForecastLightning30:before {
+    content: "\f46b";
+}
+
+.xicon-carbon-Fork:before {
+    content: "\f458";
+}
+
+.xicon-carbon-Forum:before {
+    content: "\f445";
+}
+
+.xicon-carbon-Forward5:before {
+    content: "\f432";
+}
+
+.xicon-carbon-Forward10:before {
+    content: "\f41f";
+}
+
+.xicon-carbon-Forward30:before {
+    content: "\f40c";
+}
+
+.xicon-carbon-Fragile:before {
+    content: "\f3f9";
+}
+
+.xicon-carbon-Friendship:before {
+    content: "\f3e6";
+}
+
+.xicon-carbon-FruitBowl:before {
+    content: "\f3d3";
+}
+
+.xicon-carbon-Function:before {
+    content: "\f3c0";
+}
+
+.xicon-carbon-FunctionMath:before {
+    content: "\f3ad";
+}
+
+.xicon-carbon-FusionBlender:before {
+    content: "\f39a";
+}
+
+.xicon-carbon-GameConsole:before {
+    content: "\f387";
+}
+
+.xicon-carbon-GameWireless:before {
+    content: "\f374";
+}
+
+.xicon-carbon-Gamification:before {
+    content: "\f361";
+}
+
+.xicon-carbon-GasStation:before {
+    content: "\f34e";
+}
+
+.xicon-carbon-GasStationFilled:before {
+    content: "\f33b";
+}
+
+.xicon-carbon-Gateway:before {
+    content: "\f328";
+}
+
+.xicon-carbon-GatewayApi:before {
+    content: "\f315";
+}
+
+.xicon-carbon-GatewayMail:before {
+    content: "\f302";
+}
+
+.xicon-carbon-GatewayPublic:before {
+    content: "\f2ef";
+}
+
+.xicon-carbon-GatewaySecurity:before {
+    content: "\f2dc";
+}
+
+.xicon-carbon-GatewayUserAccess:before {
+    content: "\f2c9";
+}
+
+.xicon-carbon-GatewayVpn:before {
+    content: "\f2b6";
+}
+
+.xicon-carbon-GenderFemale:before {
+    content: "\f2a3";
+}
+
+.xicon-carbon-GenderMale:before {
+    content: "\f290";
+}
+
+.xicon-carbon-GeneratePdf:before {
+    content: "\f27d";
+}
+
+.xicon-carbon-Gif:before {
+    content: "\f26a";
+}
+
+.xicon-carbon-Gift:before {
+    content: "\f257";
+}
+
+.xicon-carbon-Globe:before {
+    content: "\f244";
+}
+
+.xicon-carbon-Gradient:before {
+    content: "\f231";
+}
+
+.xicon-carbon-GraphicalDataFlow:before {
+    content: "\f21e";
+}
+
+.xicon-carbon-Grid:before {
+    content: "\f20b";
+}
+
+.xicon-carbon-Group:before {
+    content: "\f1f8";
+}
+
+.xicon-carbon-GroupAccess:before {
+    content: "\f1e5";
+}
+
+.xicon-carbon-GroupAccount:before {
+    content: "\f1d2";
+}
+
+.xicon-carbon-GroupObjects:before {
+    content: "\f1bf";
+}
+
+.xicon-carbon-GroupObjectsNew:before {
+    content: "\f1ac";
+}
+
+.xicon-carbon-GroupObjectsSave:before {
+    content: "\f199";
+}
+
+.xicon-carbon-GroupPresentation:before {
+    content: "\f186";
+}
+
+.xicon-carbon-GroupResource:before {
+    content: "\f173";
+}
+
+.xicon-carbon-GroupSecurity:before {
+    content: "\f160";
+}
+
+.xicon-carbon-Growth:before {
+    content: "\f14d";
+}
+
+.xicon-carbon-Gui:before {
+    content: "\f13a";
+}
+
+.xicon-carbon-GuiManagement:before {
+    content: "\f127";
+}
+
+.xicon-carbon-H:before {
+    content: "\f114";
+}
+
+.xicon-carbon-Hail:before {
+    content: "\f101";
+}
+
+.xicon-carbon-HangingProtocol:before {
+    content: "\f0ee";
+}
+
+.xicon-carbon-Harbor:before {
+    content: "\f0db";
+}
+
+.xicon-carbon-HardwareSecurityModule:before {
+    content: "\f0c8";
+}
+
+.xicon-carbon-Hashtag:before {
+    content: "\f0b5";
+}
+
+.xicon-carbon-Haze:before {
+    content: "\f0a2";
+}
+
+.xicon-carbon-HazeNight:before {
+    content: "\f090";
+}
+
+.xicon-carbon-Hd:before {
+    content: "\f07d";
+}
+
+.xicon-carbon-HdFilled:before {
+    content: "\f06a";
+}
+
+.xicon-carbon-Hdr:before {
+    content: "\f057";
+}
+
+.xicon-carbon-Headphones:before {
+    content: "\f044";
+}
+
+.xicon-carbon-Headset:before {
+    content: "\f031";
+}
+
+.xicon-carbon-HealthCross:before {
+    content: "\f01e";
+}
+
+.xicon-carbon-Hearing:before {
+    content: "\f00b";
+}
+
+.xicon-carbon-HeatMap:before {
+    content: "\f761";
+}
+
+.xicon-carbon-HeatMap02:before {
+    content: "\f74e";
+}
+
+.xicon-carbon-HeatMap03:before {
+    content: "\f73b";
+}
+
+.xicon-carbon-HeatMapStocks:before {
+    content: "\f728";
+}
+
+.xicon-carbon-Helicopter:before {
+    content: "\f715";
+}
+
+.xicon-carbon-Help:before {
+    content: "\f702";
+}
+
+.xicon-carbon-HelpDesk:before {
+    content: "\f6ef";
+}
+
+.xicon-carbon-HelpFilled:before {
+    content: "\f6dc";
+}
+
+.xicon-carbon-HintonPlot:before {
+    content: "\f6c9";
+}
+
+.xicon-carbon-Hl7Attributes:before {
+    content: "\f6b6";
+}
+
+.xicon-carbon-HoleFilling:before {
+    content: "\f6a3";
+}
+
+.xicon-carbon-HoleFillingCursor:before {
+    content: "\f690";
+}
+
+.xicon-carbon-Home:before {
+    content: "\f67d";
+}
+
+.xicon-carbon-HorizontalView:before {
+    content: "\f66a";
+}
+
+.xicon-carbon-Hospital:before {
+    content: "\f657";
+}
+
+.xicon-carbon-HospitalBed:before {
+    content: "\f644";
+}
+
+.xicon-carbon-Hotel:before {
+    content: "\f631";
+}
+
+.xicon-carbon-Hourglass:before {
+    content: "\f61e";
+}
+
+.xicon-carbon-Html:before {
+    content: "\f60c";
+}
+
+.xicon-carbon-HtmlReference:before {
+    content: "\f5f9";
+}
+
+.xicon-carbon-Http:before {
+    content: "\f5e6";
+}
+
+.xicon-carbon-Humidity:before {
+    content: "\f5d3";
+}
+
+.xicon-carbon-HumidityAlt:before {
+    content: "\f5c0";
+}
+
+.xicon-carbon-Hurricane:before {
+    content: "\f5ad";
+}
+
+.xicon-carbon-HybridNetworking:before {
+    content: "\f59a";
+}
+
+.xicon-carbon-HybridNetworkingAlt:before {
+    content: "\f587";
+}
+
+.xicon-carbon-IbmCloud:before {
+    content: "\f574";
+}
+
+.xicon-carbon-IbmCloudDedicatedHost:before {
+    content: "\f561";
+}
+
+.xicon-carbon-IbmCloudInternetServices:before {
+    content: "\f54e";
+}
+
+.xicon-carbon-IbmCloudPakApplications:before {
+    content: "\f53b";
+}
+
+.xicon-carbon-IbmCloudPakData:before {
+    content: "\f528";
+}
+
+.xicon-carbon-IbmCloudPakIntegration:before {
+    content: "\f515";
+}
+
+.xicon-carbon-IbmCloudPakMulticloudMgmt:before {
+    content: "\f502";
+}
+
+.xicon-carbon-IbmCloudPakNetworkAutomation:before {
+    content: "\f4ef";
+}
+
+.xicon-carbon-IbmCloudPakSecurity:before {
+    content: "\f4dc";
+}
+
+.xicon-carbon-IbmCloudPakSystem:before {
+    content: "\f4c9";
+}
+
+.xicon-carbon-IbmCloudPakWatsonAiops:before {
+    content: "\f4b6";
+}
+
+.xicon-carbon-IbmCloudSubnets:before {
+    content: "\f4a3";
+}
+
+.xicon-carbon-IbmCloudTransitGateway:before {
+    content: "\f490";
+}
+
+.xicon-carbon-IbmCloudVpcEndpoints:before {
+    content: "\f47d";
+}
+
+.xicon-carbon-IbmDataReplication:before {
+    content: "\f46a";
+}
+
+.xicon-carbon-IbmMatch360:before {
+    content: "\f457";
+}
+
+.xicon-carbon-IbmSecurity:before {
+    content: "\f444";
+}
+
+.xicon-carbon-IbmSecurityServices:before {
+    content: "\f431";
+}
+
+.xicon-carbon-Ica2D:before {
+    content: "\f41e";
+}
+
+.xicon-carbon-IceAccretion:before {
+    content: "\f40b";
+}
+
+.xicon-carbon-IceVision:before {
+    content: "\f3f8";
+}
+
+.xicon-carbon-Id:before {
+    content: "\f3e5";
+}
+
+.xicon-carbon-Idea:before {
+    content: "\f3d2";
+}
+
+.xicon-carbon-Identification:before {
+    content: "\f3bf";
+}
+
+.xicon-carbon-IdManagement:before {
+    content: "\f3ac";
+}
+
+.xicon-carbon-Image:before {
+    content: "\f399";
+}
+
+.xicon-carbon-ImageCopy:before {
+    content: "\f386";
+}
+
+.xicon-carbon-ImageMedical:before {
+    content: "\f373";
+}
+
+.xicon-carbon-ImageReference:before {
+    content: "\f360";
+}
+
+.xicon-carbon-ImageSearch:before {
+    content: "\f34d";
+}
+
+.xicon-carbon-ImageSearchAlt:before {
+    content: "\f33a";
+}
+
+.xicon-carbon-ImageService:before {
+    content: "\f327";
+}
+
+.xicon-carbon-ImportExport:before {
+    content: "\f314";
+}
+
+.xicon-carbon-ImproveRelevance:before {
+    content: "\f301";
+}
+
+.xicon-carbon-Incomplete:before {
+    content: "\f2ee";
+}
+
+.xicon-carbon-IncompleteCancel:before {
+    content: "\f2db";
+}
+
+.xicon-carbon-IncompleteError:before {
+    content: "\f2c8";
+}
+
+.xicon-carbon-IncompleteWarning:before {
+    content: "\f2b5";
+}
+
+.xicon-carbon-IncreaseLevel:before {
+    content: "\f2a2";
+}
+
+.xicon-carbon-Industry:before {
+    content: "\f28f";
+}
+
+.xicon-carbon-Information:before {
+    content: "\f27c";
+}
+
+.xicon-carbon-InformationDisabled:before {
+    content: "\f269";
+}
+
+.xicon-carbon-InformationFilled:before {
+    content: "\f256";
+}
+
+.xicon-carbon-InformationSquare:before {
+    content: "\f243";
+}
+
+.xicon-carbon-InformationSquareFilled:before {
+    content: "\f230";
+}
+
+.xicon-carbon-InfrastructureClassic:before {
+    content: "\f21d";
+}
+
+.xicon-carbon-InProgress:before {
+    content: "\f20a";
+}
+
+.xicon-carbon-InProgressError:before {
+    content: "\f1f7";
+}
+
+.xicon-carbon-InProgressWarning:before {
+    content: "\f1e4";
+}
+
+.xicon-carbon-Insert:before {
+    content: "\f1d1";
+}
+
+.xicon-carbon-InsertPage:before {
+    content: "\f1be";
+}
+
+.xicon-carbon-InsertSyntax:before {
+    content: "\f1ab";
+}
+
+.xicon-carbon-Inspection:before {
+    content: "\f198";
+}
+
+.xicon-carbon-InstanceBx:before {
+    content: "\f185";
+}
+
+.xicon-carbon-InstanceClassic:before {
+    content: "\f172";
+}
+
+.xicon-carbon-InstanceCx:before {
+    content: "\f15f";
+}
+
+.xicon-carbon-InstanceMx:before {
+    content: "\f14c";
+}
+
+.xicon-carbon-InstanceVirtual:before {
+    content: "\f139";
+}
+
+.xicon-carbon-Integration:before {
+    content: "\f126";
+}
+
+.xicon-carbon-Interactions:before {
+    content: "\f113";
+}
+
+.xicon-carbon-InteractiveSegmentationCursor:before {
+    content: "\f100";
+}
+
+.xicon-carbon-Intersect:before {
+    content: "\f0ed";
+}
+
+.xicon-carbon-IntrusionPrevention:before {
+    content: "\f0da";
+}
+
+.xicon-carbon-InventoryManagement:before {
+    content: "\f0c7";
+}
+
+.xicon-carbon-IotConnect:before {
+    content: "\f0b4";
+}
+
+.xicon-carbon-IotPlatform:before {
+    content: "\f0a1";
+}
+
+.xicon-carbon-Iso:before {
+    content: "\f08f";
+}
+
+.xicon-carbon-IsoFilled:before {
+    content: "\f07c";
+}
+
+.xicon-carbon-IsoOutline:before {
+    content: "\f069";
+}
+
+.xicon-carbon-JoinFull:before {
+    content: "\f056";
+}
+
+.xicon-carbon-JoinInner:before {
+    content: "\f043";
+}
+
+.xicon-carbon-JoinLeft:before {
+    content: "\f030";
+}
+
+.xicon-carbon-JoinOuter:before {
+    content: "\f01d";
+}
+
+.xicon-carbon-JoinRight:before {
+    content: "\f00a";
+}
+
+.xicon-carbon-Jpg:before {
+    content: "\f760";
+}
+
+.xicon-carbon-Json:before {
+    content: "\f74d";
+}
+
+.xicon-carbon-JsonReference:before {
+    content: "\f73a";
+}
+
+.xicon-carbon-JumpLink:before {
+    content: "\f727";
+}
+
+.xicon-carbon-KeepDry:before {
+    content: "\f714";
+}
+
+.xicon-carbon-Keyboard:before {
+    content: "\f701";
+}
+
+.xicon-carbon-Kubernetes:before {
+    content: "\f6ee";
+}
+
+.xicon-carbon-Label:before {
+    content: "\f6db";
+}
+
+.xicon-carbon-Language:before {
+    content: "\f6c8";
+}
+
+.xicon-carbon-Laptop:before {
+    content: "\f6b5";
+}
+
+.xicon-carbon-Lasso:before {
+    content: "\f6a2";
+}
+
+.xicon-carbon-LassoPolygon:before {
+    content: "\f68f";
+}
+
+.xicon-carbon-Launch:before {
+    content: "\f67c";
+}
+
+.xicon-carbon-LaunchStudy1:before {
+    content: "\f669";
+}
+
+.xicon-carbon-LaunchStudy2:before {
+    content: "\f656";
+}
+
+.xicon-carbon-LaunchStudy3:before {
+    content: "\f643";
+}
+
+.xicon-carbon-Layers:before {
+    content: "\f630";
+}
+
+.xicon-carbon-Legend:before {
+    content: "\f61d";
+}
+
+.xicon-carbon-LetterAa:before {
+    content: "\f60b";
+}
+
+.xicon-carbon-LetterAaLarge:before {
+    content: "\f5f8";
+}
+
+.xicon-carbon-LetterBb:before {
+    content: "\f5e5";
+}
+
+.xicon-carbon-LetterCc:before {
+    content: "\f5d2";
+}
+
+.xicon-carbon-LetterDd:before {
+    content: "\f5bf";
+}
+
+.xicon-carbon-LetterEe:before {
+    content: "\f5ac";
+}
+
+.xicon-carbon-LetterFf:before {
+    content: "\f599";
+}
+
+.xicon-carbon-LetterGg:before {
+    content: "\f586";
+}
+
+.xicon-carbon-LetterHh:before {
+    content: "\f573";
+}
+
+.xicon-carbon-LetterIi:before {
+    content: "\f560";
+}
+
+.xicon-carbon-LetterJj:before {
+    content: "\f54d";
+}
+
+.xicon-carbon-LetterKk:before {
+    content: "\f53a";
+}
+
+.xicon-carbon-LetterLl:before {
+    content: "\f527";
+}
+
+.xicon-carbon-LetterMm:before {
+    content: "\f514";
+}
+
+.xicon-carbon-LetterNn:before {
+    content: "\f501";
+}
+
+.xicon-carbon-LetterOo:before {
+    content: "\f4ee";
+}
+
+.xicon-carbon-LetterPp:before {
+    content: "\f4db";
+}
+
+.xicon-carbon-LetterQq:before {
+    content: "\f4c8";
+}
+
+.xicon-carbon-LetterRr:before {
+    content: "\f4b5";
+}
+
+.xicon-carbon-LetterSs:before {
+    content: "\f4a2";
+}
+
+.xicon-carbon-LetterTt:before {
+    content: "\f48f";
+}
+
+.xicon-carbon-LetterUu:before {
+    content: "\f47c";
+}
+
+.xicon-carbon-LetterVv:before {
+    content: "\f469";
+}
+
+.xicon-carbon-LetterWw:before {
+    content: "\f456";
+}
+
+.xicon-carbon-LetterXx:before {
+    content: "\f443";
+}
+
+.xicon-carbon-LetterYy:before {
+    content: "\f430";
+}
+
+.xicon-carbon-LetterZz:before {
+    content: "\f41d";
+}
+
+.xicon-carbon-License:before {
+    content: "\f40a";
+}
+
+.xicon-carbon-LicenseDraft:before {
+    content: "\f3f7";
+}
+
+.xicon-carbon-LicenseGlobal:before {
+    content: "\f3e4";
+}
+
+.xicon-carbon-LicenseMaintenance:before {
+    content: "\f3d1";
+}
+
+.xicon-carbon-LicenseMaintenanceDraft:before {
+    content: "\f3be";
+}
+
+.xicon-carbon-LicenseThirdParty:before {
+    content: "\f3ab";
+}
+
+.xicon-carbon-LicenseThirdPartyDraft:before {
+    content: "\f398";
+}
+
+.xicon-carbon-Lifesaver:before {
+    content: "\f385";
+}
+
+.xicon-carbon-Light:before {
+    content: "\f372";
+}
+
+.xicon-carbon-LightFilled:before {
+    content: "\f35f";
+}
+
+.xicon-carbon-Lightning:before {
+    content: "\f34c";
+}
+
+.xicon-carbon-Link:before {
+    content: "\f339";
+}
+
+.xicon-carbon-Linux:before {
+    content: "\f326";
+}
+
+.xicon-carbon-LinuxAlt:before {
+    content: "\f313";
+}
+
+.xicon-carbon-List:before {
+    content: "\f300";
+}
+
+.xicon-carbon-ListBoxes:before {
+    content: "\f2ed";
+}
+
+.xicon-carbon-ListBulleted:before {
+    content: "\f2da";
+}
+
+.xicon-carbon-ListChecked:before {
+    content: "\f2c7";
+}
+
+.xicon-carbon-ListDropdown:before {
+    content: "\f2b4";
+}
+
+.xicon-carbon-ListNumbered:before {
+    content: "\f2a1";
+}
+
+.xicon-carbon-LoadBalancerApplication:before {
+    content: "\f28e";
+}
+
+.xicon-carbon-LoadBalancerClassic:before {
+    content: "\f27b";
+}
+
+.xicon-carbon-LoadBalancerGlobal:before {
+    content: "\f268";
+}
+
+.xicon-carbon-LoadBalancerListener:before {
+    content: "\f255";
+}
+
+.xicon-carbon-LoadBalancerLocal:before {
+    content: "\f242";
+}
+
+.xicon-carbon-LoadBalancerNetwork:before {
+    content: "\f22f";
+}
+
+.xicon-carbon-LoadBalancerPool:before {
+    content: "\f21c";
+}
+
+.xicon-carbon-LoadBalancerVpc:before {
+    content: "\f209";
+}
+
+.xicon-carbon-Location:before {
+    content: "\f1f6";
+}
+
+.xicon-carbon-LocationCompany:before {
+    content: "\f1e3";
+}
+
+.xicon-carbon-LocationCompanyFilled:before {
+    content: "\f1d0";
+}
+
+.xicon-carbon-LocationCurrent:before {
+    content: "\f1bd";
+}
+
+.xicon-carbon-LocationFilled:before {
+    content: "\f1aa";
+}
+
+.xicon-carbon-LocationHazard:before {
+    content: "\f197";
+}
+
+.xicon-carbon-LocationHazardFilled:before {
+    content: "\f184";
+}
+
+.xicon-carbon-LocationHeart:before {
+    content: "\f171";
+}
+
+.xicon-carbon-LocationHeartFilled:before {
+    content: "\f15e";
+}
+
+.xicon-carbon-LocationPerson:before {
+    content: "\f14b";
+}
+
+.xicon-carbon-LocationPersonFilled:before {
+    content: "\f138";
+}
+
+.xicon-carbon-LocationSave:before {
+    content: "\f125";
+}
+
+.xicon-carbon-LocationStar:before {
+    content: "\f112";
+}
+
+.xicon-carbon-LocationStarFilled:before {
+    content: "\f0ff";
+}
+
+.xicon-carbon-Locked:before {
+    content: "\f0ec";
+}
+
+.xicon-carbon-LogicalPartition:before {
+    content: "\f0d9";
+}
+
+.xicon-carbon-Login:before {
+    content: "\f0c6";
+}
+
+.xicon-carbon-LogoDelicious:before {
+    content: "\f0b3";
+}
+
+.xicon-carbon-LogoDigg:before {
+    content: "\f0a0";
+}
+
+.xicon-carbon-LogoDiscord:before {
+    content: "\f08e";
+}
+
+.xicon-carbon-LogoFacebook:before {
+    content: "\f07b";
+}
+
+.xicon-carbon-LogoFlickr:before {
+    content: "\f068";
+}
+
+.xicon-carbon-LogoGithub:before {
+    content: "\f055";
+}
+
+.xicon-carbon-LogoGlassdoor:before {
+    content: "\f042";
+}
+
+.xicon-carbon-LogoGoogle:before {
+    content: "\f02f";
+}
+
+.xicon-carbon-LogoInstagram:before {
+    content: "\f01c";
+}
+
+.xicon-carbon-LogoJupyter:before {
+    content: "\f009";
+}
+
+.xicon-carbon-LogoKeybase:before {
+    content: "\f75f";
+}
+
+.xicon-carbon-LogoLinkedin:before {
+    content: "\f74c";
+}
+
+.xicon-carbon-LogoLivestream:before {
+    content: "\f739";
+}
+
+.xicon-carbon-LogoMedium:before {
+    content: "\f726";
+}
+
+.xicon-carbon-LogoOpenshift:before {
+    content: "\f713";
+}
+
+.xicon-carbon-LogoPinterest:before {
+    content: "\f700";
+}
+
+.xicon-carbon-LogoPython:before {
+    content: "\f6ed";
+}
+
+.xicon-carbon-LogoQuora:before {
+    content: "\f6da";
+}
+
+.xicon-carbon-LogoRScript:before {
+    content: "\f6c7";
+}
+
+.xicon-carbon-LogoSkype:before {
+    content: "\f6b4";
+}
+
+.xicon-carbon-LogoSlack:before {
+    content: "\f6a1";
+}
+
+.xicon-carbon-LogoSnapchat:before {
+    content: "\f68e";
+}
+
+.xicon-carbon-LogoStumbleupon:before {
+    content: "\f67b";
+}
+
+.xicon-carbon-LogoTumblr:before {
+    content: "\f668";
+}
+
+.xicon-carbon-LogoTwitter:before {
+    content: "\f655";
+}
+
+.xicon-carbon-Logout:before {
+    content: "\f642";
+}
+
+.xicon-carbon-LogoVmware:before {
+    content: "\f62f";
+}
+
+.xicon-carbon-LogoWechat:before {
+    content: "\f61c";
+}
+
+.xicon-carbon-LogoXing:before {
+    content: "\f60a";
+}
+
+.xicon-carbon-LogoYelp:before {
+    content: "\f5f7";
+}
+
+.xicon-carbon-LogoYoutube:before {
+    content: "\f5e4";
+}
+
+.xicon-carbon-Loop:before {
+    content: "\f5d1";
+}
+
+.xicon-carbon-MacCommand:before {
+    content: "\f5be";
+}
+
+.xicon-carbon-MachineLearning:before {
+    content: "\f5ab";
+}
+
+.xicon-carbon-MachineLearningModel:before {
+    content: "\f598";
+}
+
+.xicon-carbon-MacOption:before {
+    content: "\f585";
+}
+
+.xicon-carbon-MacShift:before {
+    content: "\f572";
+}
+
+.xicon-carbon-MagicWand:before {
+    content: "\f55f";
+}
+
+.xicon-carbon-MagicWandFilled:before {
+    content: "\f54c";
+}
+
+.xicon-carbon-Magnify:before {
+    content: "\f539";
+}
+
+.xicon-carbon-MailAll:before {
+    content: "\f526";
+}
+
+.xicon-carbon-MailReply:before {
+    content: "\f513";
+}
+
+.xicon-carbon-Mammogram:before {
+    content: "\f500";
+}
+
+.xicon-carbon-MammogramStacked:before {
+    content: "\f4ed";
+}
+
+.xicon-carbon-ManagedSolutions:before {
+    content: "\f4da";
+}
+
+.xicon-carbon-ManageProtection:before {
+    content: "\f4c7";
+}
+
+.xicon-carbon-Map:before {
+    content: "\f4b4";
+}
+
+.xicon-carbon-MapBoundary:before {
+    content: "\f4a1";
+}
+
+.xicon-carbon-MapBoundaryVegetation:before {
+    content: "\f48e";
+}
+
+.xicon-carbon-MapCenter:before {
+    content: "\f47b";
+}
+
+.xicon-carbon-MapIdentify:before {
+    content: "\f468";
+}
+
+.xicon-carbon-MarineWarning:before {
+    content: "\f455";
+}
+
+.xicon-carbon-MathCurve:before {
+    content: "\f442";
+}
+
+.xicon-carbon-Matrix:before {
+    content: "\f42f";
+}
+
+.xicon-carbon-Maximize:before {
+    content: "\f41c";
+}
+
+.xicon-carbon-MediaCast:before {
+    content: "\f409";
+}
+
+.xicon-carbon-MediaLibrary:before {
+    content: "\f3f6";
+}
+
+.xicon-carbon-MediaLibraryFilled:before {
+    content: "\f3e3";
+}
+
+.xicon-carbon-Medication:before {
+    content: "\f3d0";
+}
+
+.xicon-carbon-MedicationAlert:before {
+    content: "\f3bd";
+}
+
+.xicon-carbon-MedicationReminder:before {
+    content: "\f3aa";
+}
+
+.xicon-carbon-Menu:before {
+    content: "\f397";
+}
+
+.xicon-carbon-MessageQueue:before {
+    content: "\f384";
+}
+
+.xicon-carbon-Meter:before {
+    content: "\f371";
+}
+
+.xicon-carbon-MeterAlt:before {
+    content: "\f35e";
+}
+
+.xicon-carbon-Microphone:before {
+    content: "\f34b";
+}
+
+.xicon-carbon-MicrophoneFilled:before {
+    content: "\f338";
+}
+
+.xicon-carbon-MicrophoneOff:before {
+    content: "\f325";
+}
+
+.xicon-carbon-MicrophoneOffFilled:before {
+    content: "\f312";
+}
+
+.xicon-carbon-Microscope:before {
+    content: "\f2ff";
+}
+
+.xicon-carbon-Migrate:before {
+    content: "\f2ec";
+}
+
+.xicon-carbon-MigrateAlt:before {
+    content: "\f2d9";
+}
+
+.xicon-carbon-Milestone:before {
+    content: "\f2c6";
+}
+
+.xicon-carbon-MilitaryCamp:before {
+    content: "\f2b3";
+}
+
+.xicon-carbon-Minimize:before {
+    content: "\f2a0";
+}
+
+.xicon-carbon-Misuse:before {
+    content: "\f28d";
+}
+
+.xicon-carbon-MisuseAlt:before {
+    content: "\f27a";
+}
+
+.xicon-carbon-MisuseOutline:before {
+    content: "\f267";
+}
+
+.xicon-carbon-MixedRainHail:before {
+    content: "\f254";
+}
+
+.xicon-carbon-Mobile:before {
+    content: "\f241";
+}
+
+.xicon-carbon-MobileAdd:before {
+    content: "\f22e";
+}
+
+.xicon-carbon-MobileAudio:before {
+    content: "\f21b";
+}
+
+.xicon-carbon-MobileCheck:before {
+    content: "\f208";
+}
+
+.xicon-carbon-MobileDownload:before {
+    content: "\f1f5";
+}
+
+.xicon-carbon-MobileLandscape:before {
+    content: "\f1e2";
+}
+
+.xicon-carbon-MobilityServices:before {
+    content: "\f1cf";
+}
+
+.xicon-carbon-Model:before {
+    content: "\f1bc";
+}
+
+.xicon-carbon-ModelAlt:before {
+    content: "\f1a9";
+}
+
+.xicon-carbon-ModelBuilder:before {
+    content: "\f196";
+}
+
+.xicon-carbon-ModelBuilderReference:before {
+    content: "\f183";
+}
+
+.xicon-carbon-ModelReference:before {
+    content: "\f170";
+}
+
+.xicon-carbon-Money:before {
+    content: "\f15d";
+}
+
+.xicon-carbon-Monster:before {
+    content: "\f14a";
+}
+
+.xicon-carbon-Monument:before {
+    content: "\f137";
+}
+
+.xicon-carbon-Moon:before {
+    content: "\f124";
+}
+
+.xicon-carbon-Moonrise:before {
+    content: "\f111";
+}
+
+.xicon-carbon-Moonset:before {
+    content: "\f0fe";
+}
+
+.xicon-carbon-MostlyCloudy:before {
+    content: "\f0eb";
+}
+
+.xicon-carbon-MostlyCloudyNight:before {
+    content: "\f0d8";
+}
+
+.xicon-carbon-Mountain:before {
+    content: "\f0c5";
+}
+
+.xicon-carbon-Mov:before {
+    content: "\f0b2";
+}
+
+.xicon-carbon-Move:before {
+    content: "\f09f";
+}
+
+.xicon-carbon-Movement:before {
+    content: "\f08d";
+}
+
+.xicon-carbon-Mp3:before {
+    content: "\f07a";
+}
+
+.xicon-carbon-Mp4:before {
+    content: "\f067";
+}
+
+.xicon-carbon-Mpeg:before {
+    content: "\f054";
+}
+
+.xicon-carbon-Mpg2:before {
+    content: "\f041";
+}
+
+.xicon-carbon-Music:before {
+    content: "\f02e";
+}
+
+.xicon-carbon-MusicAdd:before {
+    content: "\f01b";
+}
+
+.xicon-carbon-MusicRemove:before {
+    content: "\f008";
+}
+
+.xicon-carbon-NameSpace:before {
+    content: "\f75e";
+}
+
+.xicon-carbon-NavaidCivil:before {
+    content: "\f74b";
+}
+
+.xicon-carbon-NavaidDme:before {
+    content: "\f738";
+}
+
+.xicon-carbon-NavaidHelipad:before {
+    content: "\f725";
+}
+
+.xicon-carbon-NavaidMilitary:before {
+    content: "\f712";
+}
+
+.xicon-carbon-NavaidMilitaryCivil:before {
+    content: "\f6ff";
+}
+
+.xicon-carbon-NavaidNdb:before {
+    content: "\f6ec";
+}
+
+.xicon-carbon-NavaidNdbDme:before {
+    content: "\f6d9";
+}
+
+.xicon-carbon-NavaidPrivate:before {
+    content: "\f6c6";
+}
+
+.xicon-carbon-NavaidSeaplane:before {
+    content: "\f6b3";
+}
+
+.xicon-carbon-NavaidTacan:before {
+    content: "\f6a0";
+}
+
+.xicon-carbon-NavaidVhfor:before {
+    content: "\f68d";
+}
+
+.xicon-carbon-NavaidVor:before {
+    content: "\f67a";
+}
+
+.xicon-carbon-NavaidVordme:before {
+    content: "\f667";
+}
+
+.xicon-carbon-NavaidVortac:before {
+    content: "\f654";
+}
+
+.xicon-carbon-Need:before {
+    content: "\f641";
+}
+
+.xicon-carbon-Network1:before {
+    content: "\f62e";
+}
+
+.xicon-carbon-Network2:before {
+    content: "\f61b";
+}
+
+.xicon-carbon-Network3:before {
+    content: "\f609";
+}
+
+.xicon-carbon-Network3Reference:before {
+    content: "\f5f6";
+}
+
+.xicon-carbon-Network4:before {
+    content: "\f5e3";
+}
+
+.xicon-carbon-Network4Reference:before {
+    content: "\f5d0";
+}
+
+.xicon-carbon-NetworkAdminControl:before {
+    content: "\f5bd";
+}
+
+.xicon-carbon-NetworkEnterprise:before {
+    content: "\f5aa";
+}
+
+.xicon-carbon-NetworkOverlay:before {
+    content: "\f597";
+}
+
+.xicon-carbon-NetworkPublic:before {
+    content: "\f584";
+}
+
+.xicon-carbon-NewTab:before {
+    content: "\f571";
+}
+
+.xicon-carbon-NextFilled:before {
+    content: "\f55e";
+}
+
+.xicon-carbon-NextOutline:before {
+    content: "\f54b";
+}
+
+.xicon-carbon-NoImage:before {
+    content: "\f538";
+}
+
+.xicon-carbon-Nominal:before {
+    content: "\f525";
+}
+
+.xicon-carbon-Nominate:before {
+    content: "\f512";
+}
+
+.xicon-carbon-NonCertified:before {
+    content: "\f4ff";
+}
+
+.xicon-carbon-NoodleBowl:before {
+    content: "\f4ec";
+}
+
+.xicon-carbon-NotAvailable:before {
+    content: "\f4d9";
+}
+
+.xicon-carbon-Notebook:before {
+    content: "\f4c6";
+}
+
+.xicon-carbon-NotebookReference:before {
+    content: "\f4b3";
+}
+
+.xicon-carbon-NoTicket:before {
+    content: "\f4a0";
+}
+
+.xicon-carbon-Notification:before {
+    content: "\f48d";
+}
+
+.xicon-carbon-NotificationFilled:before {
+    content: "\f47a";
+}
+
+.xicon-carbon-NotificationNew:before {
+    content: "\f467";
+}
+
+.xicon-carbon-NotificationOff:before {
+    content: "\f454";
+}
+
+.xicon-carbon-NotificationOffFilled:before {
+    content: "\f441";
+}
+
+.xicon-carbon-NotSent:before {
+    content: "\f42e";
+}
+
+.xicon-carbon-NotSentFilled:before {
+    content: "\f41b";
+}
+
+.xicon-carbon-Number0:before {
+    content: "\f408";
+}
+
+.xicon-carbon-Number1:before {
+    content: "\f3f5";
+}
+
+.xicon-carbon-Number2:before {
+    content: "\f3e2";
+}
+
+.xicon-carbon-Number3:before {
+    content: "\f3cf";
+}
+
+.xicon-carbon-Number4:before {
+    content: "\f3bc";
+}
+
+.xicon-carbon-Number5:before {
+    content: "\f3a9";
+}
+
+.xicon-carbon-Number6:before {
+    content: "\f396";
+}
+
+.xicon-carbon-Number7:before {
+    content: "\f383";
+}
+
+.xicon-carbon-Number8:before {
+    content: "\f370";
+}
+
+.xicon-carbon-Number9:before {
+    content: "\f35d";
+}
+
+.xicon-carbon-NumberSmall0:before {
+    content: "\f34a";
+}
+
+.xicon-carbon-NumberSmall1:before {
+    content: "\f337";
+}
+
+.xicon-carbon-NumberSmall2:before {
+    content: "\f324";
+}
+
+.xicon-carbon-NumberSmall3:before {
+    content: "\f311";
+}
+
+.xicon-carbon-NumberSmall4:before {
+    content: "\f2fe";
+}
+
+.xicon-carbon-NumberSmall5:before {
+    content: "\f2eb";
+}
+
+.xicon-carbon-NumberSmall6:before {
+    content: "\f2d8";
+}
+
+.xicon-carbon-NumberSmall7:before {
+    content: "\f2c5";
+}
+
+.xicon-carbon-NumberSmall8:before {
+    content: "\f2b2";
+}
+
+.xicon-carbon-NumberSmall9:before {
+    content: "\f29f";
+}
+
+.xicon-carbon-ObjectStorage:before {
+    content: "\f28c";
+}
+
+.xicon-carbon-ObjectStorageAlt:before {
+    content: "\f279";
+}
+
+.xicon-carbon-ObservedHail:before {
+    content: "\f266";
+}
+
+.xicon-carbon-ObservedLightning:before {
+    content: "\f253";
+}
+
+.xicon-carbon-Omega:before {
+    content: "\f240";
+}
+
+.xicon-carbon-Opacity:before {
+    content: "\f22d";
+}
+
+.xicon-carbon-OpenPanelBottom:before {
+    content: "\f21a";
+}
+
+.xicon-carbon-OpenPanelFilledBottom:before {
+    content: "\f207";
+}
+
+.xicon-carbon-OpenPanelFilledLeft:before {
+    content: "\f1f4";
+}
+
+.xicon-carbon-OpenPanelFilledRight:before {
+    content: "\f1e1";
+}
+
+.xicon-carbon-OpenPanelFilledTop:before {
+    content: "\f1ce";
+}
+
+.xicon-carbon-OpenPanelLeft:before {
+    content: "\f1bb";
+}
+
+.xicon-carbon-OpenPanelRight:before {
+    content: "\f1a8";
+}
+
+.xicon-carbon-OpenPanelTop:before {
+    content: "\f195";
+}
+
+.xicon-carbon-Operation:before {
+    content: "\f182";
+}
+
+.xicon-carbon-OperationGauge:before {
+    content: "\f16f";
+}
+
+.xicon-carbon-OperationIf:before {
+    content: "\f15c";
+}
+
+.xicon-carbon-OperationsField:before {
+    content: "\f149";
+}
+
+.xicon-carbon-OperationsRecord:before {
+    content: "\f136";
+}
+
+.xicon-carbon-OrderDetails:before {
+    content: "\f123";
+}
+
+.xicon-carbon-Ordinal:before {
+    content: "\f110";
+}
+
+.xicon-carbon-Outage:before {
+    content: "\f0fd";
+}
+
+.xicon-carbon-OutlookSevere:before {
+    content: "\f0ea";
+}
+
+.xicon-carbon-OverflowMenuHorizontal:before {
+    content: "\f0d7";
+}
+
+.xicon-carbon-OverflowMenuVertical:before {
+    content: "\f0c4";
+}
+
+.xicon-carbon-Overlay:before {
+    content: "\f0b1";
+}
+
+.xicon-carbon-Package:before {
+    content: "\f08c";
+}
+
+.xicon-carbon-PageBreak:before {
+    content: "\f079";
+}
+
+.xicon-carbon-PageFirst:before {
+    content: "\f066";
+}
+
+.xicon-carbon-PageLast:before {
+    content: "\f053";
+}
+
+.xicon-carbon-PageNumber:before {
+    content: "\f040";
+}
+
+.xicon-carbon-PageScroll:before {
+    content: "\f02d";
+}
+
+.xicon-carbon-PaintBrush:before {
+    content: "\f01a";
+}
+
+.xicon-carbon-PaintBrushAlt:before {
+    content: "\f007";
+}
+
+.xicon-carbon-PalmTree:before {
+    content: "\f75d";
+}
+
+.xicon-carbon-PanelExpansion:before {
+    content: "\f74a";
+}
+
+.xicon-carbon-PanHorizontal:before {
+    content: "\f737";
+}
+
+.xicon-carbon-PanVertical:before {
+    content: "\f724";
+}
+
+.xicon-carbon-Paragraph:before {
+    content: "\f711";
+}
+
+.xicon-carbon-Parameter:before {
+    content: "\f6fe";
+}
+
+.xicon-carbon-ParentChild:before {
+    content: "\f6eb";
+}
+
+.xicon-carbon-PartlyCloudy:before {
+    content: "\f6d8";
+}
+
+.xicon-carbon-PartlyCloudyNight:before {
+    content: "\f6c5";
+}
+
+.xicon-carbon-Partnership:before {
+    content: "\f6b2";
+}
+
+.xicon-carbon-PassengerDrinks:before {
+    content: "\f69f";
+}
+
+.xicon-carbon-PassengerPlus:before {
+    content: "\f68c";
+}
+
+.xicon-carbon-Password:before {
+    content: "\f679";
+}
+
+.xicon-carbon-Paste:before {
+    content: "\f666";
+}
+
+.xicon-carbon-Pause:before {
+    content: "\f653";
+}
+
+.xicon-carbon-PauseFilled:before {
+    content: "\f640";
+}
+
+.xicon-carbon-PauseFuture:before {
+    content: "\f62d";
+}
+
+.xicon-carbon-PauseOutline:before {
+    content: "\f61a";
+}
+
+.xicon-carbon-PauseOutlineFilled:before {
+    content: "\f608";
+}
+
+.xicon-carbon-PausePast:before {
+    content: "\f5f5";
+}
+
+.xicon-carbon-PcnENode:before {
+    content: "\f5e2";
+}
+
+.xicon-carbon-PcnMilitary:before {
+    content: "\f5cf";
+}
+
+.xicon-carbon-PcnPNode:before {
+    content: "\f5bc";
+}
+
+.xicon-carbon-PcnZNode:before {
+    content: "\f5a9";
+}
+
+.xicon-carbon-Pdf:before {
+    content: "\f596";
+}
+
+.xicon-carbon-PdfReference:before {
+    content: "\f583";
+}
+
+.xicon-carbon-Pedestrian:before {
+    content: "\f570";
+}
+
+.xicon-carbon-PedestrianChild:before {
+    content: "\f55d";
+}
+
+.xicon-carbon-PedestrianFamily:before {
+    content: "\f54a";
+}
+
+.xicon-carbon-Pen:before {
+    content: "\f537";
+}
+
+.xicon-carbon-Pending:before {
+    content: "\f524";
+}
+
+.xicon-carbon-PendingFilled:before {
+    content: "\f511";
+}
+
+.xicon-carbon-PenFountain:before {
+    content: "\f4fe";
+}
+
+.xicon-carbon-Percentage:before {
+    content: "\f4eb";
+}
+
+.xicon-carbon-PercentageFilled:before {
+    content: "\f4d8";
+}
+
+.xicon-carbon-Person:before {
+    content: "\f4c5";
+}
+
+.xicon-carbon-PersonFavorite:before {
+    content: "\f4b2";
+}
+
+.xicon-carbon-Pest:before {
+    content: "\f49f";
+}
+
+.xicon-carbon-PetImageB:before {
+    content: "\f48c";
+}
+
+.xicon-carbon-PetImageO:before {
+    content: "\f479";
+}
+
+.xicon-carbon-Phone:before {
+    content: "\f466";
+}
+
+.xicon-carbon-PhoneApplication:before {
+    content: "\f453";
+}
+
+.xicon-carbon-PhoneBlock:before {
+    content: "\f440";
+}
+
+.xicon-carbon-PhoneBlockFilled:before {
+    content: "\f42d";
+}
+
+.xicon-carbon-PhoneFilled:before {
+    content: "\f41a";
+}
+
+.xicon-carbon-PhoneIncoming:before {
+    content: "\f407";
+}
+
+.xicon-carbon-PhoneIncomingFilled:before {
+    content: "\f3f4";
+}
+
+.xicon-carbon-PhoneIp:before {
+    content: "\f3e1";
+}
+
+.xicon-carbon-PhoneOff:before {
+    content: "\f3ce";
+}
+
+.xicon-carbon-PhoneOffFilled:before {
+    content: "\f3bb";
+}
+
+.xicon-carbon-PhoneOutgoing:before {
+    content: "\f3a8";
+}
+
+.xicon-carbon-PhoneOutgoingFilled:before {
+    content: "\f395";
+}
+
+.xicon-carbon-PhoneSettings:before {
+    content: "\f382";
+}
+
+.xicon-carbon-PhoneVoice:before {
+    content: "\f36f";
+}
+
+.xicon-carbon-PhoneVoiceFilled:before {
+    content: "\f35c";
+}
+
+.xicon-carbon-PhraseSentiment:before {
+    content: "\f349";
+}
+
+.xicon-carbon-PicnicArea:before {
+    content: "\f336";
+}
+
+.xicon-carbon-PiggyBank:before {
+    content: "\f323";
+}
+
+.xicon-carbon-PiggyBankSlot:before {
+    content: "\f310";
+}
+
+.xicon-carbon-Pills:before {
+    content: "\f2fd";
+}
+
+.xicon-carbon-PillsAdd:before {
+    content: "\f2ea";
+}
+
+.xicon-carbon-PillsSubtract:before {
+    content: "\f2d7";
+}
+
+.xicon-carbon-Pin:before {
+    content: "\f2c4";
+}
+
+.xicon-carbon-PinFilled:before {
+    content: "\f2b1";
+}
+
+.xicon-carbon-Plane:before {
+    content: "\f29e";
+}
+
+.xicon-carbon-PlanePrivate:before {
+    content: "\f28b";
+}
+
+.xicon-carbon-PlaneSea:before {
+    content: "\f278";
+}
+
+.xicon-carbon-Play:before {
+    content: "\f265";
+}
+
+.xicon-carbon-PlayFilled:before {
+    content: "\f252";
+}
+
+.xicon-carbon-PlayFilledAlt:before {
+    content: "\f23f";
+}
+
+.xicon-carbon-Playlist:before {
+    content: "\f22c";
+}
+
+.xicon-carbon-PlayOutline:before {
+    content: "\f219";
+}
+
+.xicon-carbon-PlayOutlineFilled:before {
+    content: "\f206";
+}
+
+.xicon-carbon-Plug:before {
+    content: "\f1f3";
+}
+
+.xicon-carbon-PlugFilled:before {
+    content: "\f1e0";
+}
+
+.xicon-carbon-Png:before {
+    content: "\f1cd";
+}
+
+.xicon-carbon-PointerText:before {
+    content: "\f1ba";
+}
+
+.xicon-carbon-PointOfPresence:before {
+    content: "\f1a7";
+}
+
+.xicon-carbon-Police:before {
+    content: "\f194";
+}
+
+.xicon-carbon-Policy:before {
+    content: "\f181";
+}
+
+.xicon-carbon-Popup:before {
+    content: "\f16e";
+}
+
+.xicon-carbon-Portfolio:before {
+    content: "\f15b";
+}
+
+.xicon-carbon-Power:before {
+    content: "\f148";
+}
+
+.xicon-carbon-Ppt:before {
+    content: "\f135";
+}
+
+.xicon-carbon-PresentationFile:before {
+    content: "\f122";
+}
+
+.xicon-carbon-Pressure:before {
+    content: "\f10f";
+}
+
+.xicon-carbon-PressureFilled:before {
+    content: "\f0fc";
+}
+
+.xicon-carbon-PreviousFilled:before {
+    content: "\f0e9";
+}
+
+.xicon-carbon-PreviousOutline:before {
+    content: "\f0d6";
+}
+
+.xicon-carbon-Printer:before {
+    content: "\f0c3";
+}
+
+.xicon-carbon-Product:before {
+    content: "\f0b0";
+}
+
+.xicon-carbon-ProgressBar:before {
+    content: "\f09e";
+}
+
+.xicon-carbon-ProgressBarRound:before {
+    content: "\f08b";
+}
+
+.xicon-carbon-Purchase:before {
+    content: "\f078";
+}
+
+.xicon-carbon-QcLaunch:before {
+    content: "\f065";
+}
+
+.xicon-carbon-QqPlot:before {
+    content: "\f052";
+}
+
+.xicon-carbon-QrCode:before {
+    content: "\f03f";
+}
+
+.xicon-carbon-QuadrantPlot:before {
+    content: "\f02c";
+}
+
+.xicon-carbon-Query:before {
+    content: "\f019";
+}
+
+.xicon-carbon-QueryQueue:before {
+    content: "\f006";
+}
+
+.xicon-carbon-Queued:before {
+    content: "\f75c";
+}
+
+.xicon-carbon-Quotes:before {
+    content: "\f749";
+}
+
+.xicon-carbon-Radar:before {
+    content: "\f736";
+}
+
+.xicon-carbon-RadarEnhanced:before {
+    content: "\f723";
+}
+
+.xicon-carbon-RadarWeather:before {
+    content: "\f710";
+}
+
+.xicon-carbon-Radio:before {
+    content: "\f6fd";
+}
+
+.xicon-carbon-RadioButton:before {
+    content: "\f6ea";
+}
+
+.xicon-carbon-RadioButtonChecked:before {
+    content: "\f6d7";
+}
+
+.xicon-carbon-RadioCombat:before {
+    content: "\f6c4";
+}
+
+.xicon-carbon-RadioPushToTalk:before {
+    content: "\f6b1";
+}
+
+.xicon-carbon-Rain:before {
+    content: "\f69e";
+}
+
+.xicon-carbon-RainDrizzle:before {
+    content: "\f68b";
+}
+
+.xicon-carbon-RainDrop:before {
+    content: "\f678";
+}
+
+.xicon-carbon-RainHeavy:before {
+    content: "\f665";
+}
+
+.xicon-carbon-RainScattered:before {
+    content: "\f652";
+}
+
+.xicon-carbon-RainScatteredNight:before {
+    content: "\f63f";
+}
+
+.xicon-carbon-Raw:before {
+    content: "\f62c";
+}
+
+.xicon-carbon-Receipt:before {
+    content: "\f607";
+}
+
+.xicon-carbon-RecentlyViewed:before {
+    content: "\f5f4";
+}
+
+.xicon-carbon-Recommend:before {
+    content: "\f5e1";
+}
+
+.xicon-carbon-Recording:before {
+    content: "\f5ce";
+}
+
+.xicon-carbon-RecordingFilled:before {
+    content: "\f5bb";
+}
+
+.xicon-carbon-RecordingFilledAlt:before {
+    content: "\f5a8";
+}
+
+.xicon-carbon-Redo:before {
+    content: "\f595";
+}
+
+.xicon-carbon-RefEvapotranspiration:before {
+    content: "\f582";
+}
+
+.xicon-carbon-ReflectHorizontal:before {
+    content: "\f56f";
+}
+
+.xicon-carbon-ReflectVertical:before {
+    content: "\f55c";
+}
+
+.xicon-carbon-RegionAnalysisArea:before {
+    content: "\f549";
+}
+
+.xicon-carbon-RegionAnalysisVolume:before {
+    content: "\f536";
+}
+
+.xicon-carbon-Registration:before {
+    content: "\f523";
+}
+
+.xicon-carbon-Reminder:before {
+    content: "\f510";
+}
+
+.xicon-carbon-ReminderMedical:before {
+    content: "\f4fd";
+}
+
+.xicon-carbon-Renew:before {
+    content: "\f4ea";
+}
+
+.xicon-carbon-Repeat:before {
+    content: "\f4d7";
+}
+
+.xicon-carbon-RepeatOne:before {
+    content: "\f4c4";
+}
+
+.xicon-carbon-Replicate:before {
+    content: "\f4b1";
+}
+
+.xicon-carbon-Reply:before {
+    content: "\f49e";
+}
+
+.xicon-carbon-ReplyAll:before {
+    content: "\f48b";
+}
+
+.xicon-carbon-Report:before {
+    content: "\f478";
+}
+
+.xicon-carbon-ReportData:before {
+    content: "\f465";
+}
+
+.xicon-carbon-RequestQuote:before {
+    content: "\f452";
+}
+
+.xicon-carbon-ResearchBlochSphere:before {
+    content: "\f43f";
+}
+
+.xicon-carbon-ResearchHintonPlot:before {
+    content: "\f42c";
+}
+
+.xicon-carbon-ResearchMatrix:before {
+    content: "\f419";
+}
+
+.xicon-carbon-Reset:before {
+    content: "\f406";
+}
+
+.xicon-carbon-ResetAlt:before {
+    content: "\f3f3";
+}
+
+.xicon-carbon-Restart:before {
+    content: "\f3e0";
+}
+
+.xicon-carbon-Restaurant:before {
+    content: "\f3cd";
+}
+
+.xicon-carbon-RestaurantFine:before {
+    content: "\f3ba";
+}
+
+.xicon-carbon-Result:before {
+    content: "\f3a7";
+}
+
+.xicon-carbon-ResultNew:before {
+    content: "\f394";
+}
+
+.xicon-carbon-ResultOld:before {
+    content: "\f381";
+}
+
+.xicon-carbon-RetryFailed:before {
+    content: "\f36e";
+}
+
+.xicon-carbon-Review:before {
+    content: "\f35b";
+}
+
+.xicon-carbon-Rewind5:before {
+    content: "\f348";
+}
+
+.xicon-carbon-Rewind10:before {
+    content: "\f335";
+}
+
+.xicon-carbon-Rewind30:before {
+    content: "\f322";
+}
+
+.xicon-carbon-Road:before {
+    content: "\f30f";
+}
+
+.xicon-carbon-Roadmap:before {
+    content: "\f2fc";
+}
+
+.xicon-carbon-RoadWeather:before {
+    content: "\f2e9";
+}
+
+.xicon-carbon-Rocket:before {
+    content: "\f2d6";
+}
+
+.xicon-carbon-Rotate:before {
+    content: "\f2c3";
+}
+
+.xicon-carbon-Rotate180:before {
+    content: "\f2b0";
+}
+
+.xicon-carbon-Rotate360:before {
+    content: "\f29d";
+}
+
+.xicon-carbon-RotateClockwise:before {
+    content: "\f28a";
+}
+
+.xicon-carbon-RotateClockwiseAlt:before {
+    content: "\f277";
+}
+
+.xicon-carbon-RotateClockwiseAltFilled:before {
+    content: "\f264";
+}
+
+.xicon-carbon-RotateClockwiseFilled:before {
+    content: "\f251";
+}
+
+.xicon-carbon-RotateCounterclockwise:before {
+    content: "\f23e";
+}
+
+.xicon-carbon-RotateCounterclockwiseAlt:before {
+    content: "\f22b";
+}
+
+.xicon-carbon-RotateCounterclockwiseAltFilled:before {
+    content: "\f218";
+}
+
+.xicon-carbon-RotateCounterclockwiseFilled:before {
+    content: "\f205";
+}
+
+.xicon-carbon-Router:before {
+    content: "\f1f2";
+}
+
+.xicon-carbon-RouterVoice:before {
+    content: "\f1df";
+}
+
+.xicon-carbon-RouterWifi:before {
+    content: "\f1cc";
+}
+
+.xicon-carbon-Row:before {
+    content: "\f1b9";
+}
+
+.xicon-carbon-RowCollapse:before {
+    content: "\f1a6";
+}
+
+.xicon-carbon-RowDelete:before {
+    content: "\f193";
+}
+
+.xicon-carbon-RowExpand:before {
+    content: "\f180";
+}
+
+.xicon-carbon-RowInsert:before {
+    content: "\f16d";
+}
+
+.xicon-carbon-Rss:before {
+    content: "\f15a";
+}
+
+.xicon-carbon-Rule:before {
+    content: "\f147";
+}
+
+.xicon-carbon-RuleCancelled:before {
+    content: "\f134";
+}
+
+.xicon-carbon-RuleDraft:before {
+    content: "\f121";
+}
+
+.xicon-carbon-RuleFilled:before {
+    content: "\f10e";
+}
+
+.xicon-carbon-Ruler:before {
+    content: "\f0fb";
+}
+
+.xicon-carbon-RulerAlt:before {
+    content: "\f0e8";
+}
+
+.xicon-carbon-RuleTest:before {
+    content: "\f0d5";
+}
+
+.xicon-carbon-Run:before {
+    content: "\f0c2";
+}
+
+.xicon-carbon-S:before {
+    content: "\f0af";
+}
+
+.xicon-carbon-SailboatCoastal:before {
+    content: "\f09d";
+}
+
+.xicon-carbon-SailboatOffshore:before {
+    content: "\f08a";
+}
+
+.xicon-carbon-SAlt:before {
+    content: "\f077";
+}
+
+.xicon-carbon-SankeyDiagram:before {
+    content: "\f064";
+}
+
+.xicon-carbon-SankeyDiagramAlt:before {
+    content: "\f051";
+}
+
+.xicon-carbon-Satellite:before {
+    content: "\f03e";
+}
+
+.xicon-carbon-SatelliteRadar:before {
+    content: "\f02b";
+}
+
+.xicon-carbon-SatelliteWeather:before {
+    content: "\f018";
+}
+
+.xicon-carbon-Save:before {
+    content: "\f005";
+}
+
+.xicon-carbon-SaveAnnotation:before {
+    content: "\f75b";
+}
+
+.xicon-carbon-SaveImage:before {
+    content: "\f748";
+}
+
+.xicon-carbon-SaveModel:before {
+    content: "\f735";
+}
+
+.xicon-carbon-SaveSeries:before {
+    content: "\f722";
+}
+
+.xicon-carbon-Scale:before {
+    content: "\f70f";
+}
+
+.xicon-carbon-Scales:before {
+    content: "\f6fc";
+}
+
+.xicon-carbon-ScalesTipped:before {
+    content: "\f6e9";
+}
+
+.xicon-carbon-Scalpel:before {
+    content: "\f6d6";
+}
+
+.xicon-carbon-ScalpelCursor:before {
+    content: "\f6c3";
+}
+
+.xicon-carbon-ScalpelLasso:before {
+    content: "\f6b0";
+}
+
+.xicon-carbon-ScalpelSelect:before {
+    content: "\f69d";
+}
+
+.xicon-carbon-Scan:before {
+    content: "\f68a";
+}
+
+.xicon-carbon-ScanAlt:before {
+    content: "\f677";
+}
+
+.xicon-carbon-ScanDisabled:before {
+    content: "\f664";
+}
+
+.xicon-carbon-ScatterMatrix:before {
+    content: "\f651";
+}
+
+.xicon-carbon-Schematics:before {
+    content: "\f63e";
+}
+
+.xicon-carbon-Scooter:before {
+    content: "\f62b";
+}
+
+.xicon-carbon-ScooterFront:before {
+    content: "\f619";
+}
+
+.xicon-carbon-Screen:before {
+    content: "\f606";
+}
+
+.xicon-carbon-ScreenOff:before {
+    content: "\f5f3";
+}
+
+.xicon-carbon-Script:before {
+    content: "\f5e0";
+}
+
+.xicon-carbon-ScriptReference:before {
+    content: "\f5cd";
+}
+
+.xicon-carbon-Sdk:before {
+    content: "\f5ba";
+}
+
+.xicon-carbon-Search:before {
+    content: "\f5a7";
+}
+
+.xicon-carbon-SearchAdvanced:before {
+    content: "\f594";
+}
+
+.xicon-carbon-SearchLocate:before {
+    content: "\f581";
+}
+
+.xicon-carbon-Security:before {
+    content: "\f56e";
+}
+
+.xicon-carbon-SecurityServices:before {
+    content: "\f55b";
+}
+
+.xicon-carbon-Select01:before {
+    content: "\f548";
+}
+
+.xicon-carbon-Select02:before {
+    content: "\f535";
+}
+
+.xicon-carbon-SelectWindow:before {
+    content: "\f522";
+}
+
+.xicon-carbon-Send:before {
+    content: "\f50f";
+}
+
+.xicon-carbon-SendAlt:before {
+    content: "\f4fc";
+}
+
+.xicon-carbon-SendAltFilled:before {
+    content: "\f4e9";
+}
+
+.xicon-carbon-SendBackward:before {
+    content: "\f4d6";
+}
+
+.xicon-carbon-SendFilled:before {
+    content: "\f4c3";
+}
+
+.xicon-carbon-SendToBack:before {
+    content: "\f4b0";
+}
+
+.xicon-carbon-ServerDns:before {
+    content: "\f49d";
+}
+
+.xicon-carbon-ServerProxy:before {
+    content: "\f48a";
+}
+
+.xicon-carbon-ServerTime:before {
+    content: "\f477";
+}
+
+.xicon-carbon-ServiceDesk:before {
+    content: "\f464";
+}
+
+.xicon-carbon-SessionBorderControl:before {
+    content: "\f451";
+}
+
+.xicon-carbon-Settings:before {
+    content: "\f43e";
+}
+
+.xicon-carbon-SettingsAdjust:before {
+    content: "\f42b";
+}
+
+.xicon-carbon-SettingsCheck:before {
+    content: "\f418";
+}
+
+.xicon-carbon-SettingsServices:before {
+    content: "\f405";
+}
+
+.xicon-carbon-SettingsView:before {
+    content: "\f3f2";
+}
+
+.xicon-carbon-ShapeExcept:before {
+    content: "\f3df";
+}
+
+.xicon-carbon-ShapeExclude:before {
+    content: "\f3cc";
+}
+
+.xicon-carbon-ShapeIntersect:before {
+    content: "\f3b9";
+}
+
+.xicon-carbon-ShapeJoin:before {
+    content: "\f3a6";
+}
+
+.xicon-carbon-ShapeUnite:before {
+    content: "\f393";
+}
+
+.xicon-carbon-Share:before {
+    content: "\f380";
+}
+
+.xicon-carbon-ShareKnowledge:before {
+    content: "\f36d";
+}
+
+.xicon-carbon-ShoppingBag:before {
+    content: "\f35a";
+}
+
+.xicon-carbon-ShoppingCart:before {
+    content: "\f347";
+}
+
+.xicon-carbon-ShoppingCartArrowDown:before {
+    content: "\f334";
+}
+
+.xicon-carbon-ShoppingCartArrowUp:before {
+    content: "\f321";
+}
+
+.xicon-carbon-ShoppingCartClear:before {
+    content: "\f30e";
+}
+
+.xicon-carbon-ShoppingCartError:before {
+    content: "\f2fb";
+}
+
+.xicon-carbon-ShoppingCartMinus:before {
+    content: "\f2e8";
+}
+
+.xicon-carbon-ShoppingCartPlus:before {
+    content: "\f2d5";
+}
+
+.xicon-carbon-ShoppingCatalog:before {
+    content: "\f2c2";
+}
+
+.xicon-carbon-ShowDataCards:before {
+    content: "\f2af";
+}
+
+.xicon-carbon-ShrinkScreen:before {
+    content: "\f29c";
+}
+
+.xicon-carbon-ShrinkScreenFilled:before {
+    content: "\f289";
+}
+
+.xicon-carbon-Shuffle:before {
+    content: "\f276";
+}
+
+.xicon-carbon-Shuttle:before {
+    content: "\f263";
+}
+
+.xicon-carbon-Sight:before {
+    content: "\f250";
+}
+
+.xicon-carbon-Sigma:before {
+    content: "\f23d";
+}
+
+.xicon-carbon-SignalStrength:before {
+    content: "\f22a";
+}
+
+.xicon-carbon-SimCard:before {
+    content: "\f217";
+}
+
+.xicon-carbon-SkillLevel:before {
+    content: "\f204";
+}
+
+.xicon-carbon-SkillLevelAdvanced:before {
+    content: "\f1f1";
+}
+
+.xicon-carbon-SkillLevelBasic:before {
+    content: "\f1de";
+}
+
+.xicon-carbon-SkillLevelIntermediate:before {
+    content: "\f1cb";
+}
+
+.xicon-carbon-SkipBack:before {
+    content: "\f1b8";
+}
+
+.xicon-carbon-SkipBackFilled:before {
+    content: "\f1a5";
+}
+
+.xicon-carbon-SkipBackOutline:before {
+    content: "\f192";
+}
+
+.xicon-carbon-SkipBackOutlineFilled:before {
+    content: "\f17f";
+}
+
+.xicon-carbon-SkipBackOutlineSolid:before {
+    content: "\f16c";
+}
+
+.xicon-carbon-SkipBackSolidFilled:before {
+    content: "\f159";
+}
+
+.xicon-carbon-SkipForward:before {
+    content: "\f146";
+}
+
+.xicon-carbon-SkipForwardFilled:before {
+    content: "\f133";
+}
+
+.xicon-carbon-SkipForwardOutline:before {
+    content: "\f120";
+}
+
+.xicon-carbon-SkipForwardOutlineFilled:before {
+    content: "\f10d";
+}
+
+.xicon-carbon-SkipForwardOutlineSolid:before {
+    content: "\f0fa";
+}
+
+.xicon-carbon-SkipForwardSolidFilled:before {
+    content: "\f0e7";
+}
+
+.xicon-carbon-Sleet:before {
+    content: "\f0d4";
+}
+
+.xicon-carbon-Slisor:before {
+    content: "\f0c1";
+}
+
+.xicon-carbon-Smell:before {
+    content: "\f0ae";
+}
+
+.xicon-carbon-Smoke:before {
+    content: "\f09c";
+}
+
+.xicon-carbon-Smoothing:before {
+    content: "\f089";
+}
+
+.xicon-carbon-SmoothingCursor:before {
+    content: "\f076";
+}
+
+.xicon-carbon-Snooze:before {
+    content: "\f063";
+}
+
+.xicon-carbon-Snow:before {
+    content: "\f050";
+}
+
+.xicon-carbon-SnowBlizzard:before {
+    content: "\f03d";
+}
+
+.xicon-carbon-SnowDensity:before {
+    content: "\f02a";
+}
+
+.xicon-carbon-Snowflake:before {
+    content: "\f017";
+}
+
+.xicon-carbon-SnowHeavy:before {
+    content: "\f004";
+}
+
+.xicon-carbon-SnowScattered:before {
+    content: "\f75a";
+}
+
+.xicon-carbon-SnowScatteredNight:before {
+    content: "\f747";
+}
+
+.xicon-carbon-Soccer:before {
+    content: "\f734";
+}
+
+.xicon-carbon-SoilMoisture:before {
+    content: "\f721";
+}
+
+.xicon-carbon-SoilMoistureField:before {
+    content: "\f70e";
+}
+
+.xicon-carbon-SoilMoistureGlobal:before {
+    content: "\f6fb";
+}
+
+.xicon-carbon-SoilTemperature:before {
+    content: "\f6e8";
+}
+
+.xicon-carbon-SoilTemperatureField:before {
+    content: "\f6d5";
+}
+
+.xicon-carbon-SoilTemperatureGlobal:before {
+    content: "\f6c2";
+}
+
+.xicon-carbon-SolarPanel:before {
+    content: "\f6af";
+}
+
+.xicon-carbon-SortAscending:before {
+    content: "\f69c";
+}
+
+.xicon-carbon-SortDescending:before {
+    content: "\f689";
+}
+
+.xicon-carbon-SpellCheck:before {
+    content: "\f676";
+}
+
+.xicon-carbon-SpineLabel:before {
+    content: "\f663";
+}
+
+.xicon-carbon-Split:before {
+    content: "\f650";
+}
+
+.xicon-carbon-SplitDiscard:before {
+    content: "\f63d";
+}
+
+.xicon-carbon-SplitScreen:before {
+    content: "\f62a";
+}
+
+.xicon-carbon-SprayPaint:before {
+    content: "\f618";
+}
+
+.xicon-carbon-Sprout:before {
+    content: "\f605";
+}
+
+.xicon-carbon-Sql:before {
+    content: "\f5f2";
+}
+
+.xicon-carbon-StackedMove:before {
+    content: "\f5df";
+}
+
+.xicon-carbon-StackedScrolling1:before {
+    content: "\f5cc";
+}
+
+.xicon-carbon-StackedScrolling2:before {
+    content: "\f5b9";
+}
+
+.xicon-carbon-StackLimitation:before {
+    content: "\f5a6";
+}
+
+.xicon-carbon-Stamp:before {
+    content: "\f593";
+}
+
+.xicon-carbon-Star:before {
+    content: "\f580";
+}
+
+.xicon-carbon-StarFilled:before {
+    content: "\f56d";
+}
+
+.xicon-carbon-StarHalf:before {
+    content: "\f55a";
+}
+
+.xicon-carbon-StarReview:before {
+    content: "\f547";
+}
+
+.xicon-carbon-StatusAcknowledge:before {
+    content: "\f534";
+}
+
+.xicon-carbon-StatusChange:before {
+    content: "\f521";
+}
+
+.xicon-carbon-StatusPartialFail:before {
+    content: "\f50e";
+}
+
+.xicon-carbon-StatusResolved:before {
+    content: "\f4fb";
+}
+
+.xicon-carbon-StayInside:before {
+    content: "\f4e8";
+}
+
+.xicon-carbon-StemLeafPlot:before {
+    content: "\f4d5";
+}
+
+.xicon-carbon-Stethoscope:before {
+    content: "\f4c2";
+}
+
+.xicon-carbon-Stop:before {
+    content: "\f4af";
+}
+
+.xicon-carbon-StopFilled:before {
+    content: "\f49c";
+}
+
+.xicon-carbon-StopFilledAlt:before {
+    content: "\f489";
+}
+
+.xicon-carbon-StopOutline:before {
+    content: "\f476";
+}
+
+.xicon-carbon-StopOutlineFilled:before {
+    content: "\f463";
+}
+
+.xicon-carbon-StopSign:before {
+    content: "\f450";
+}
+
+.xicon-carbon-StopSignFilled:before {
+    content: "\f43d";
+}
+
+.xicon-carbon-StoragePool:before {
+    content: "\f42a";
+}
+
+.xicon-carbon-StorageRequest:before {
+    content: "\f417";
+}
+
+.xicon-carbon-Store:before {
+    content: "\f404";
+}
+
+.xicon-carbon-StormTracker:before {
+    content: "\f3f1";
+}
+
+.xicon-carbon-Strawberry:before {
+    content: "\f3de";
+}
+
+.xicon-carbon-StressBreathEditor:before {
+    content: "\f3cb";
+}
+
+.xicon-carbon-StringInteger:before {
+    content: "\f3b8";
+}
+
+.xicon-carbon-StringText:before {
+    content: "\f3a5";
+}
+
+.xicon-carbon-StudyNext:before {
+    content: "\f392";
+}
+
+.xicon-carbon-StudyPrevious:before {
+    content: "\f37f";
+}
+
+.xicon-carbon-StudyRead:before {
+    content: "\f36c";
+}
+
+.xicon-carbon-StudySkip:before {
+    content: "\f359";
+}
+
+.xicon-carbon-StudyTransfer:before {
+    content: "\f346";
+}
+
+.xicon-carbon-StudyUnread:before {
+    content: "\f333";
+}
+
+.xicon-carbon-StudyView:before {
+    content: "\f320";
+}
+
+.xicon-carbon-Subflow:before {
+    content: "\f30d";
+}
+
+.xicon-carbon-SubflowLocal:before {
+    content: "\f2fa";
+}
+
+.xicon-carbon-SubnetAclRules:before {
+    content: "\f2e7";
+}
+
+.xicon-carbon-Subtract:before {
+    content: "\f2d4";
+}
+
+.xicon-carbon-SubtractAlt:before {
+    content: "\f2c1";
+}
+
+.xicon-carbon-SubVolume:before {
+    content: "\f2ae";
+}
+
+.xicon-carbon-SummaryKpi:before {
+    content: "\f29b";
+}
+
+.xicon-carbon-Sun:before {
+    content: "\f288";
+}
+
+.xicon-carbon-Sunny:before {
+    content: "\f275";
+}
+
+.xicon-carbon-Sunrise:before {
+    content: "\f262";
+}
+
+.xicon-carbon-Sunset:before {
+    content: "\f24f";
+}
+
+.xicon-carbon-Svg:before {
+    content: "\f23c";
+}
+
+.xicon-carbon-Swim:before {
+    content: "\f229";
+}
+
+.xicon-carbon-Switcher:before {
+    content: "\f216";
+}
+
+.xicon-carbon-SwitchLayer2:before {
+    content: "\f203";
+}
+
+.xicon-carbon-SwitchLayer3:before {
+    content: "\f1f0";
+}
+
+.xicon-carbon-SysProvision:before {
+    content: "\f1dd";
+}
+
+.xicon-carbon-T:before {
+    content: "\f1ca";
+}
+
+.xicon-carbon-Table:before {
+    content: "\f1b7";
+}
+
+.xicon-carbon-TableAlias:before {
+    content: "\f1a4";
+}
+
+.xicon-carbon-TableBuilt:before {
+    content: "\f191";
+}
+
+.xicon-carbon-TableOfContents:before {
+    content: "\f17e";
+}
+
+.xicon-carbon-TableShortcut:before {
+    content: "\f16b";
+}
+
+.xicon-carbon-TableSplit:before {
+    content: "\f158";
+}
+
+.xicon-carbon-Tablet:before {
+    content: "\f145";
+}
+
+.xicon-carbon-TabletLandscape:before {
+    content: "\f132";
+}
+
+.xicon-carbon-Tag:before {
+    content: "\f11f";
+}
+
+.xicon-carbon-TagEdit:before {
+    content: "\f10c";
+}
+
+.xicon-carbon-TagExport:before {
+    content: "\f0f9";
+}
+
+.xicon-carbon-TagGroup:before {
+    content: "\f0e6";
+}
+
+.xicon-carbon-TagImport:before {
+    content: "\f0d3";
+}
+
+.xicon-carbon-TagNone:before {
+    content: "\f0c0";
+}
+
+.xicon-carbon-TAlt:before {
+    content: "\f0ad";
+}
+
+.xicon-carbon-Tank:before {
+    content: "\f09b";
+}
+
+.xicon-carbon-Task:before {
+    content: "\f088";
+}
+
+.xicon-carbon-TaskAdd:before {
+    content: "\f075";
+}
+
+.xicon-carbon-TaskApproved:before {
+    content: "\f062";
+}
+
+.xicon-carbon-TaskAssetView:before {
+    content: "\f04f";
+}
+
+.xicon-carbon-TaskComplete:before {
+    content: "\f03c";
+}
+
+.xicon-carbon-TaskLocation:before {
+    content: "\f029";
+}
+
+.xicon-carbon-TaskRemove:before {
+    content: "\f016";
+}
+
+.xicon-carbon-TaskSettings:before {
+    content: "\f003";
+}
+
+.xicon-carbon-TaskStar:before {
+    content: "\f759";
+}
+
+.xicon-carbon-TaskTools:before {
+    content: "\f746";
+}
+
+.xicon-carbon-TaskView:before {
+    content: "\f733";
+}
+
+.xicon-carbon-Taste:before {
+    content: "\f720";
+}
+
+.xicon-carbon-Taxi:before {
+    content: "\f70d";
+}
+
+.xicon-carbon-Temperature:before {
+    content: "\f6fa";
+}
+
+.xicon-carbon-TemperatureCelsius:before {
+    content: "\f6e7";
+}
+
+.xicon-carbon-TemperatureCelsiusAlt:before {
+    content: "\f6d4";
+}
+
+.xicon-carbon-TemperatureFahrenheit:before {
+    content: "\f6c1";
+}
+
+.xicon-carbon-TemperatureFahrenheitAlt:before {
+    content: "\f6ae";
+}
+
+.xicon-carbon-TemperatureFeelsLike:before {
+    content: "\f69b";
+}
+
+.xicon-carbon-TemperatureFrigid:before {
+    content: "\f688";
+}
+
+.xicon-carbon-TemperatureHot:before {
+    content: "\f675";
+}
+
+.xicon-carbon-TemperatureInversion:before {
+    content: "\f662";
+}
+
+.xicon-carbon-TemperatureMax:before {
+    content: "\f64f";
+}
+
+.xicon-carbon-TemperatureMin:before {
+    content: "\f63c";
+}
+
+.xicon-carbon-TemperatureWater:before {
+    content: "\f629";
+}
+
+.xicon-carbon-Template:before {
+    content: "\f617";
+}
+
+.xicon-carbon-Tennis:before {
+    content: "\f604";
+}
+
+.xicon-carbon-TennisBall:before {
+    content: "\f5f1";
+}
+
+.xicon-carbon-Term:before {
+    content: "\f5de";
+}
+
+.xicon-carbon-Terminal:before {
+    content: "\f5cb";
+}
+
+.xicon-carbon-Terminal3270:before {
+    content: "\f5b8";
+}
+
+.xicon-carbon-TextAlignCenter:before {
+    content: "\f5a5";
+}
+
+.xicon-carbon-TextAlignJustify:before {
+    content: "\f592";
+}
+
+.xicon-carbon-TextAlignLeft:before {
+    content: "\f57f";
+}
+
+.xicon-carbon-TextAlignMixed:before {
+    content: "\f56c";
+}
+
+.xicon-carbon-TextAlignRight:before {
+    content: "\f559";
+}
+
+.xicon-carbon-TextAllCaps:before {
+    content: "\f546";
+}
+
+.xicon-carbon-TextAnnotationToggle:before {
+    content: "\f533";
+}
+
+.xicon-carbon-TextBold:before {
+    content: "\f520";
+}
+
+.xicon-carbon-TextClearFormat:before {
+    content: "\f50d";
+}
+
+.xicon-carbon-TextColor:before {
+    content: "\f4fa";
+}
+
+.xicon-carbon-TextCreation:before {
+    content: "\f4e7";
+}
+
+.xicon-carbon-TextFill:before {
+    content: "\f4d4";
+}
+
+.xicon-carbon-TextFont:before {
+    content: "\f4c1";
+}
+
+.xicon-carbon-TextFootnote:before {
+    content: "\f4ae";
+}
+
+.xicon-carbon-TextHighlight:before {
+    content: "\f49b";
+}
+
+.xicon-carbon-TextIndent:before {
+    content: "\f488";
+}
+
+.xicon-carbon-TextIndentLess:before {
+    content: "\f475";
+}
+
+.xicon-carbon-TextIndentMore:before {
+    content: "\f462";
+}
+
+.xicon-carbon-TextItalic:before {
+    content: "\f44f";
+}
+
+.xicon-carbon-TextKerning:before {
+    content: "\f43c";
+}
+
+.xicon-carbon-TextLeading:before {
+    content: "\f429";
+}
+
+.xicon-carbon-TextLineSpacing:before {
+    content: "\f416";
+}
+
+.xicon-carbon-TextLink:before {
+    content: "\f403";
+}
+
+.xicon-carbon-TextLinkAnalysis:before {
+    content: "\f3f0";
+}
+
+.xicon-carbon-TextMining:before {
+    content: "\f3dd";
+}
+
+.xicon-carbon-TextMiningApplier:before {
+    content: "\f3ca";
+}
+
+.xicon-carbon-TextNewLine:before {
+    content: "\f3b7";
+}
+
+.xicon-carbon-TextScale:before {
+    content: "\f3a4";
+}
+
+.xicon-carbon-TextSelection:before {
+    content: "\f391";
+}
+
+.xicon-carbon-TextSmallCaps:before {
+    content: "\f37e";
+}
+
+.xicon-carbon-TextStrikethrough:before {
+    content: "\f36b";
+}
+
+.xicon-carbon-TextSubscript:before {
+    content: "\f358";
+}
+
+.xicon-carbon-TextSuperscript:before {
+    content: "\f345";
+}
+
+.xicon-carbon-TextTracking:before {
+    content: "\f332";
+}
+
+.xicon-carbon-TextUnderline:before {
+    content: "\f31f";
+}
+
+.xicon-carbon-TextVerticalAlignment:before {
+    content: "\f30c";
+}
+
+.xicon-carbon-TextWrap:before {
+    content: "\f2f9";
+}
+
+.xicon-carbon-Theater:before {
+    content: "\f2e6";
+}
+
+.xicon-carbon-ThisSideUp:before {
+    content: "\f2d3";
+}
+
+.xicon-carbon-Threshold:before {
+    content: "\f2c0";
+}
+
+.xicon-carbon-Thumbnail1:before {
+    content: "\f2ad";
+}
+
+.xicon-carbon-Thumbnail2:before {
+    content: "\f29a";
+}
+
+.xicon-carbon-ThumbnailPreview:before {
+    content: "\f287";
+}
+
+.xicon-carbon-ThumbsDown:before {
+    content: "\f274";
+}
+
+.xicon-carbon-ThumbsDownFilled:before {
+    content: "\f261";
+}
+
+.xicon-carbon-ThumbsUp:before {
+    content: "\f24e";
+}
+
+.xicon-carbon-ThumbsUpFilled:before {
+    content: "\f23b";
+}
+
+.xicon-carbon-Thunderstorm:before {
+    content: "\f228";
+}
+
+.xicon-carbon-ThunderstormScattered:before {
+    content: "\f215";
+}
+
+.xicon-carbon-ThunderstormScatteredNight:before {
+    content: "\f202";
+}
+
+.xicon-carbon-ThunderstormSevere:before {
+    content: "\f1ef";
+}
+
+.xicon-carbon-ThunderstormStrong:before {
+    content: "\f1dc";
+}
+
+.xicon-carbon-Ticket:before {
+    content: "\f1c9";
+}
+
+.xicon-carbon-Tides:before {
+    content: "\f1b6";
+}
+
+.xicon-carbon-Tif:before {
+    content: "\f1a3";
+}
+
+.xicon-carbon-Time:before {
+    content: "\f190";
+}
+
+.xicon-carbon-TimePlot:before {
+    content: "\f17d";
+}
+
+.xicon-carbon-Timer:before {
+    content: "\f16a";
+}
+
+.xicon-carbon-ToolBox:before {
+    content: "\f157";
+}
+
+.xicon-carbon-ToolKit:before {
+    content: "\f144";
+}
+
+.xicon-carbon-Tools:before {
+    content: "\f131";
+}
+
+.xicon-carbon-ToolsAlt:before {
+    content: "\f11e";
+}
+
+.xicon-carbon-Tornado:before {
+    content: "\f10b";
+}
+
+.xicon-carbon-TornadoWarning:before {
+    content: "\f0f8";
+}
+
+.xicon-carbon-Touch1:before {
+    content: "\f0e5";
+}
+
+.xicon-carbon-Touch1Down:before {
+    content: "\f0d2";
+}
+
+.xicon-carbon-Touch1DownFilled:before {
+    content: "\f0bf";
+}
+
+.xicon-carbon-Touch1Filled:before {
+    content: "\f0ac";
+}
+
+.xicon-carbon-Touch2:before {
+    content: "\f09a";
+}
+
+.xicon-carbon-Touch2Filled:before {
+    content: "\f087";
+}
+
+.xicon-carbon-TouchInteraction:before {
+    content: "\f074";
+}
+
+.xicon-carbon-TrafficCone:before {
+    content: "\f061";
+}
+
+.xicon-carbon-TrafficEvent:before {
+    content: "\f04e";
+}
+
+.xicon-carbon-TrafficFlow:before {
+    content: "\f03b";
+}
+
+.xicon-carbon-TrafficFlowIncident:before {
+    content: "\f028";
+}
+
+.xicon-carbon-TrafficIncident:before {
+    content: "\f015";
+}
+
+.xicon-carbon-TrafficWeatherIncident:before {
+    content: "\f002";
+}
+
+.xicon-carbon-Train:before {
+    content: "\f758";
+}
+
+.xicon-carbon-TrainHeart:before {
+    content: "\f745";
+}
+
+.xicon-carbon-TrainProfile:before {
+    content: "\f732";
+}
+
+.xicon-carbon-TrainSpeed:before {
+    content: "\f71f";
+}
+
+.xicon-carbon-TrainTicket:before {
+    content: "\f70c";
+}
+
+.xicon-carbon-TrainTime:before {
+    content: "\f6f9";
+}
+
+.xicon-carbon-Tram:before {
+    content: "\f6e6";
+}
+
+.xicon-carbon-Transgender:before {
+    content: "\f6d3";
+}
+
+.xicon-carbon-Translate:before {
+    content: "\f6c0";
+}
+
+.xicon-carbon-TransmissionLte:before {
+    content: "\f6ad";
+}
+
+.xicon-carbon-Transpose:before {
+    content: "\f69a";
+}
+
+.xicon-carbon-TrashCan:before {
+    content: "\f687";
+}
+
+.xicon-carbon-Tree:before {
+    content: "\f674";
+}
+
+.xicon-carbon-TreeFallRisk:before {
+    content: "\f661";
+}
+
+.xicon-carbon-TreeView:before {
+    content: "\f64e";
+}
+
+.xicon-carbon-TreeViewAlt:before {
+    content: "\f63b";
+}
+
+.xicon-carbon-Trophy:before {
+    content: "\f628";
+}
+
+.xicon-carbon-TrophyFilled:before {
+    content: "\f616";
+}
+
+.xicon-carbon-TropicalStorm:before {
+    content: "\f603";
+}
+
+.xicon-carbon-TropicalStormModelTracks:before {
+    content: "\f5f0";
+}
+
+.xicon-carbon-TropicalStormTracks:before {
+    content: "\f5dd";
+}
+
+.xicon-carbon-TropicalWarning:before {
+    content: "\f5ca";
+}
+
+.xicon-carbon-Tsunami:before {
+    content: "\f5b7";
+}
+
+.xicon-carbon-Tsv:before {
+    content: "\f5a4";
+}
+
+.xicon-carbon-TwoFactorAuthentication:before {
+    content: "\f591";
+}
+
+.xicon-carbon-TwoPersonLift:before {
+    content: "\f57e";
+}
+
+.xicon-carbon-Txt:before {
+    content: "\f56b";
+}
+
+.xicon-carbon-TxtReference:before {
+    content: "\f558";
+}
+
+.xicon-carbon-TypePattern:before {
+    content: "\f545";
+}
+
+.xicon-carbon-Types:before {
+    content: "\f532";
+}
+
+.xicon-carbon-U1:before {
+    content: "\f51f";
+}
+
+.xicon-carbon-U2:before {
+    content: "\f50c";
+}
+
+.xicon-carbon-U3:before {
+    content: "\f4f9";
+}
+
+.xicon-carbon-Umbrella:before {
+    content: "\f4e6";
+}
+
+.xicon-carbon-Undefined:before {
+    content: "\f4d3";
+}
+
+.xicon-carbon-UndefinedFilled:before {
+    content: "\f4c0";
+}
+
+.xicon-carbon-Undo:before {
+    content: "\f4ad";
+}
+
+.xicon-carbon-UngroupObjects:before {
+    content: "\f49a";
+}
+
+.xicon-carbon-Unknown:before {
+    content: "\f487";
+}
+
+.xicon-carbon-UnknownFilled:before {
+    content: "\f474";
+}
+
+.xicon-carbon-Unlink:before {
+    content: "\f461";
+}
+
+.xicon-carbon-Unlocked:before {
+    content: "\f44e";
+}
+
+.xicon-carbon-UpdateNow:before {
+    content: "\f43b";
+}
+
+.xicon-carbon-Upgrade:before {
+    content: "\f428";
+}
+
+.xicon-carbon-Upload:before {
+    content: "\f415";
+}
+
+.xicon-carbon-UpToTop:before {
+    content: "\f402";
+}
+
+.xicon-carbon-Usb:before {
+    content: "\f3ef";
+}
+
+.xicon-carbon-User:before {
+    content: "\f3dc";
+}
+
+.xicon-carbon-UserAccess:before {
+    content: "\f3c9";
+}
+
+.xicon-carbon-UserActivity:before {
+    content: "\f3b6";
+}
+
+.xicon-carbon-UserAdmin:before {
+    content: "\f3a3";
+}
+
+.xicon-carbon-UserAvatar:before {
+    content: "\f390";
+}
+
+.xicon-carbon-UserAvatarFilled:before {
+    content: "\f37d";
+}
+
+.xicon-carbon-UserAvatarFilledAlt:before {
+    content: "\f36a";
+}
+
+.xicon-carbon-UserCertification:before {
+    content: "\f357";
+}
+
+.xicon-carbon-UserData:before {
+    content: "\f344";
+}
+
+.xicon-carbon-UserFavorite:before {
+    content: "\f331";
+}
+
+.xicon-carbon-UserFavoriteAlt:before {
+    content: "\f31e";
+}
+
+.xicon-carbon-UserFavoriteAltFilled:before {
+    content: "\f30b";
+}
+
+.xicon-carbon-UserFilled:before {
+    content: "\f2f8";
+}
+
+.xicon-carbon-UserFollow:before {
+    content: "\f2e5";
+}
+
+.xicon-carbon-UserIdentification:before {
+    content: "\f2d2";
+}
+
+.xicon-carbon-UserMilitary:before {
+    content: "\f2bf";
+}
+
+.xicon-carbon-UserMultiple:before {
+    content: "\f2ac";
+}
+
+.xicon-carbon-UserOnline:before {
+    content: "\f299";
+}
+
+.xicon-carbon-UserProfile:before {
+    content: "\f286";
+}
+
+.xicon-carbon-UserProfileAlt:before {
+    content: "\f273";
+}
+
+.xicon-carbon-UserRole:before {
+    content: "\f260";
+}
+
+.xicon-carbon-UserServiceDesk:before {
+    content: "\f24d";
+}
+
+.xicon-carbon-UserSettings:before {
+    content: "\f23a";
+}
+
+.xicon-carbon-UserSimulation:before {
+    content: "\f227";
+}
+
+.xicon-carbon-UserSpeaker:before {
+    content: "\f214";
+}
+
+.xicon-carbon-UserXRay:before {
+    content: "\f201";
+}
+
+.xicon-carbon-UvIndex:before {
+    content: "\f1ee";
+}
+
+.xicon-carbon-UvIndexAlt:before {
+    content: "\f1db";
+}
+
+.xicon-carbon-UvIndexFilled:before {
+    content: "\f1c8";
+}
+
+.xicon-carbon-ValueVariable:before {
+    content: "\f1b5";
+}
+
+.xicon-carbon-Van:before {
+    content: "\f1a2";
+}
+
+.xicon-carbon-VegetationAsset:before {
+    content: "\f18f";
+}
+
+.xicon-carbon-VehicleApi:before {
+    content: "\f17c";
+}
+
+.xicon-carbon-VehicleConnected:before {
+    content: "\f169";
+}
+
+.xicon-carbon-VehicleInsights:before {
+    content: "\f156";
+}
+
+.xicon-carbon-VehicleServices:before {
+    content: "\f143";
+}
+
+.xicon-carbon-Version:before {
+    content: "\f130";
+}
+
+.xicon-carbon-VerticalView:before {
+    content: "\f11d";
+}
+
+.xicon-carbon-Video:before {
+    content: "\f10a";
+}
+
+.xicon-carbon-VideoAdd:before {
+    content: "\f0f7";
+}
+
+.xicon-carbon-VideoChat:before {
+    content: "\f0e4";
+}
+
+.xicon-carbon-VideoFilled:before {
+    content: "\f0d1";
+}
+
+.xicon-carbon-VideoOff:before {
+    content: "\f0be";
+}
+
+.xicon-carbon-VideoOffFilled:before {
+    content: "\f0ab";
+}
+
+.xicon-carbon-View:before {
+    content: "\f099";
+}
+
+.xicon-carbon-ViewFilled:before {
+    content: "\f086";
+}
+
+.xicon-carbon-ViewMode1:before {
+    content: "\f073";
+}
+
+.xicon-carbon-ViewMode2:before {
+    content: "\f060";
+}
+
+.xicon-carbon-ViewNext:before {
+    content: "\f04d";
+}
+
+.xicon-carbon-ViewOff:before {
+    content: "\f03a";
+}
+
+.xicon-carbon-ViewOffFilled:before {
+    content: "\f027";
+}
+
+.xicon-carbon-VirtualColumn:before {
+    content: "\f014";
+}
+
+.xicon-carbon-VirtualColumnKey:before {
+    content: "\f001";
+}
+
+.xicon-carbon-VirtualDesktop:before {
+    content: "\f757";
+}
+
+.xicon-carbon-VirtualMachine:before {
+    content: "\f744";
+}
+
+.xicon-carbon-VirtualPrivateCloud:before {
+    content: "\f731";
+}
+
+.xicon-carbon-VirtualPrivateCloudAlt:before {
+    content: "\f71e";
+}
+
+.xicon-carbon-VisualRecognition:before {
+    content: "\f70b";
+}
+
+.xicon-carbon-Vlan:before {
+    content: "\f6f8";
+}
+
+.xicon-carbon-VlanIbm:before {
+    content: "\f6e5";
+}
+
+.xicon-carbon-VmdkDisk:before {
+    content: "\f6d2";
+}
+
+.xicon-carbon-VoiceActivate:before {
+    content: "\f6bf";
+}
+
+.xicon-carbon-Voicemail:before {
+    content: "\f6ac";
+}
+
+.xicon-carbon-VolumeBlockStorage:before {
+    content: "\f699";
+}
+
+.xicon-carbon-VolumeDown:before {
+    content: "\f686";
+}
+
+.xicon-carbon-VolumeDownAlt:before {
+    content: "\f673";
+}
+
+.xicon-carbon-VolumeDownFilled:before {
+    content: "\f660";
+}
+
+.xicon-carbon-VolumeDownFilledAlt:before {
+    content: "\f64d";
+}
+
+.xicon-carbon-VolumeFileStorage:before {
+    content: "\f63a";
+}
+
+.xicon-carbon-VolumeMute:before {
+    content: "\f627";
+}
+
+.xicon-carbon-VolumeMuteFilled:before {
+    content: "\f615";
+}
+
+.xicon-carbon-VolumeObjectStorage:before {
+    content: "\f602";
+}
+
+.xicon-carbon-VolumeUp:before {
+    content: "\f5ef";
+}
+
+.xicon-carbon-VolumeUpAlt:before {
+    content: "\f5dc";
+}
+
+.xicon-carbon-VolumeUpFilled:before {
+    content: "\f5c9";
+}
+
+.xicon-carbon-VolumeUpFilledAlt:before {
+    content: "\f5b6";
+}
+
+.xicon-carbon-Vpn:before {
+    content: "\f5a3";
+}
+
+.xicon-carbon-VpnConnection:before {
+    content: "\f590";
+}
+
+.xicon-carbon-VpnPolicy:before {
+    content: "\f57d";
+}
+
+.xicon-carbon-Wallet:before {
+    content: "\f56a";
+}
+
+.xicon-carbon-Warning:before {
+    content: "\f557";
+}
+
+.xicon-carbon-WarningAlt:before {
+    content: "\f544";
+}
+
+.xicon-carbon-WarningAltFilled:before {
+    content: "\f531";
+}
+
+.xicon-carbon-WarningAltInverted:before {
+    content: "\f51e";
+}
+
+.xicon-carbon-WarningAltInvertedFilled:before {
+    content: "\f50b";
+}
+
+.xicon-carbon-WarningFilled:before {
+    content: "\f4f8";
+}
+
+.xicon-carbon-WarningHex:before {
+    content: "\f4e5";
+}
+
+.xicon-carbon-WarningHexFilled:before {
+    content: "\f4d2";
+}
+
+.xicon-carbon-WarningOther:before {
+    content: "\f4bf";
+}
+
+.xicon-carbon-WarningSquare:before {
+    content: "\f4ac";
+}
+
+.xicon-carbon-WarningSquareFilled:before {
+    content: "\f499";
+}
+
+.xicon-carbon-Watch:before {
+    content: "\f486";
+}
+
+.xicon-carbon-Watson:before {
+    content: "\f473";
+}
+
+.xicon-carbon-WatsonMachineLearning:before {
+    content: "\f460";
+}
+
+.xicon-carbon-WaveDirection:before {
+    content: "\f44d";
+}
+
+.xicon-carbon-WaveHeight:before {
+    content: "\f43a";
+}
+
+.xicon-carbon-WavePeriod:before {
+    content: "\f427";
+}
+
+.xicon-carbon-WeatherFrontCold:before {
+    content: "\f414";
+}
+
+.xicon-carbon-WeatherFrontStationary:before {
+    content: "\f401";
+}
+
+.xicon-carbon-WeatherFrontWarm:before {
+    content: "\f3ee";
+}
+
+.xicon-carbon-WeatherStation:before {
+    content: "\f3db";
+}
+
+.xicon-carbon-Webhook:before {
+    content: "\f3c8";
+}
+
+.xicon-carbon-Websheet:before {
+    content: "\f3b5";
+}
+
+.xicon-carbon-Wheat:before {
+    content: "\f3a2";
+}
+
+.xicon-carbon-Wifi:before {
+    content: "\f38f";
+}
+
+.xicon-carbon-WifiBridge:before {
+    content: "\f37c";
+}
+
+.xicon-carbon-WifiBridgeAlt:before {
+    content: "\f369";
+}
+
+.xicon-carbon-WifiController:before {
+    content: "\f356";
+}
+
+.xicon-carbon-WifiNotSecure:before {
+    content: "\f343";
+}
+
+.xicon-carbon-WifiOff:before {
+    content: "\f330";
+}
+
+.xicon-carbon-WifiSecure:before {
+    content: "\f31d";
+}
+
+.xicon-carbon-Wikis:before {
+    content: "\f30a";
+}
+
+.xicon-carbon-WindGusts:before {
+    content: "\f2f7";
+}
+
+.xicon-carbon-WindowAuto:before {
+    content: "\f2e4";
+}
+
+.xicon-carbon-WindowBase:before {
+    content: "\f2d1";
+}
+
+.xicon-carbon-WindowBlackSaturation:before {
+    content: "\f2be";
+}
+
+.xicon-carbon-WindowOverlay:before {
+    content: "\f2ab";
+}
+
+.xicon-carbon-WindowPreset:before {
+    content: "\f298";
+}
+
+.xicon-carbon-WindPower:before {
+    content: "\f285";
+}
+
+.xicon-carbon-WindStream:before {
+    content: "\f272";
+}
+
+.xicon-carbon-Windy:before {
+    content: "\f25f";
+}
+
+.xicon-carbon-WindyDust:before {
+    content: "\f24c";
+}
+
+.xicon-carbon-WindySnow:before {
+    content: "\f239";
+}
+
+.xicon-carbon-WindyStrong:before {
+    content: "\f226";
+}
+
+.xicon-carbon-WinterWarning:before {
+    content: "\f213";
+}
+
+.xicon-carbon-WintryMix:before {
+    content: "\f200";
+}
+
+.xicon-carbon-WirelessCheckout:before {
+    content: "\f1ed";
+}
+
+.xicon-carbon-Wmv:before {
+    content: "\f1da";
+}
+
+.xicon-carbon-WordCloud:before {
+    content: "\f1c7";
+}
+
+.xicon-carbon-Workspace:before {
+    content: "\f1b4";
+}
+
+.xicon-carbon-WorkspaceImport:before {
+    content: "\f1a1";
+}
+
+.xicon-carbon-Worship:before {
+    content: "\f18e";
+}
+
+.xicon-carbon-WorshipChristian:before {
+    content: "\f17b";
+}
+
+.xicon-carbon-WorshipJewish:before {
+    content: "\f168";
+}
+
+.xicon-carbon-WorshipMuslim:before {
+    content: "\f155";
+}
+
+.xicon-carbon-X:before {
+    content: "\f142";
+}
+
+.xicon-carbon-XAxis:before {
+    content: "\f12f";
+}
+
+.xicon-carbon-Xls:before {
+    content: "\f11c";
+}
+
+.xicon-carbon-Xml:before {
+    content: "\f109";
+}
+
+.xicon-carbon-Y:before {
+    content: "\f0f6";
+}
+
+.xicon-carbon-YAxis:before {
+    content: "\f0e3";
+}
+
+.xicon-carbon-Z:before {
+    content: "\f0d0";
+}
+
+.xicon-carbon-ZAxis:before {
+    content: "\f0bd";
+}
+
+.xicon-carbon-Zip:before {
+    content: "\f0aa";
+}
+
+.xicon-carbon-ZipReference:before {
+    content: "\f098";
+}
+
+.xicon-carbon-ZoomArea:before {
+    content: "\f085";
+}
+
+.xicon-carbon-ZoomFit:before {
+    content: "\f072";
+}
+
+.xicon-carbon-ZoomIn:before {
+    content: "\f05f";
+}
+
+.xicon-carbon-ZoomInArea:before {
+    content: "\f04c";
+}
+
+.xicon-carbon-ZoomOut:before {
+    content: "\f039";
+}
+
+.xicon-carbon-ZoomOutArea:before {
+    content: "\f026";
+}
+
+.xicon-carbon-ZoomPan:before {
+    content: "\f013";
+}
+
+.xicon-carbon-ZoomReset:before {
+    content: "\f000";
+}

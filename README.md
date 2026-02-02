@@ -1,7 +1,13 @@
-# Tauri + Vue + TypeScript
+# mc-status-tauri
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> [ `NameOfShadow` ](https://github.com/NameOfShadow)/[ `rust-mc-status` ](https://github.com/NameOfShadow/rust-mc-status) 
+> [![Crates.io](https://img.shields.io/crates/v/rust-mc-status)](https://crates.io/crates/rust-mc-status)
+> [![Documentation](https://docs.rs/rust-mc-status/badge.svg)](https://docs.rs/rust-mc-status)
+> [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Recommended IDE Setup
+<!--  -->
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+> [ `SharkBee80` ](https://github.com/SharkBee80)/[ `tauri-plugin-mc-status` ](https://github.com/SharkBee80/tauri-plugin-mc-status) 
+> [![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
+## License [![License](https://img.shields.io/badge/license-GPLv3-orange.svg)](LICENSE)

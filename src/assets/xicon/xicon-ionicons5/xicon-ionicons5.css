@@ -1,0 +1,5354 @@
+@font-face {
+    font-family: "ionicons5";
+    src: url("fonts/xicon.woff2") format("woff2"),
+        url("fonts/xicon.ttf") format("truetype"),
+        url("fonts/xicon.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.xicon-ionicons5,
+[class^="xicon-ionicons5-"],
+[class*=" xicon-ionicons5-"] {
+    /* Use !important to prevent extensions from overriding this font. */
+    font-family: "ionicons5" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.xicon-ionicons5-Accessibility:before {
+    content: "\f533";
+}
+
+.xicon-ionicons5-AccessibilityOutline:before {
+    content: "\f525";
+}
+
+.xicon-ionicons5-AccessibilitySharp:before {
+    content: "\f517";
+}
+
+.xicon-ionicons5-Add:before {
+    content: "\f509";
+}
+
+.xicon-ionicons5-AddCircle:before {
+    content: "\f4fc";
+}
+
+.xicon-ionicons5-AddCircleOutline:before {
+    content: "\f4ee";
+}
+
+.xicon-ionicons5-AddCircleSharp:before {
+    content: "\f4e0";
+}
+
+.xicon-ionicons5-AddOutline:before {
+    content: "\f4d2";
+}
+
+.xicon-ionicons5-AddSharp:before {
+    content: "\f4c4";
+}
+
+.xicon-ionicons5-Airplane:before {
+    content: "\f4b6";
+}
+
+.xicon-ionicons5-AirplaneOutline:before {
+    content: "\f4a8";
+}
+
+.xicon-ionicons5-AirplaneSharp:before {
+    content: "\f49a";
+}
+
+.xicon-ionicons5-Alarm:before {
+    content: "\f48c";
+}
+
+.xicon-ionicons5-AlarmOutline:before {
+    content: "\f47e";
+}
+
+.xicon-ionicons5-AlarmSharp:before {
+    content: "\f470";
+}
+
+.xicon-ionicons5-Albums:before {
+    content: "\f462";
+}
+
+.xicon-ionicons5-AlbumsOutline:before {
+    content: "\f454";
+}
+
+.xicon-ionicons5-AlbumsSharp:before {
+    content: "\f446";
+}
+
+.xicon-ionicons5-Alert:before {
+    content: "\f438";
+}
+
+.xicon-ionicons5-AlertCircle:before {
+    content: "\f42a";
+}
+
+.xicon-ionicons5-AlertCircleOutline:before {
+    content: "\f41c";
+}
+
+.xicon-ionicons5-AlertCircleSharp:before {
+    content: "\f40e";
+}
+
+.xicon-ionicons5-AlertOutline:before {
+    content: "\f400";
+}
+
+.xicon-ionicons5-AlertSharp:before {
+    content: "\f3f2";
+}
+
+.xicon-ionicons5-AmericanFootball:before {
+    content: "\f3e4";
+}
+
+.xicon-ionicons5-AmericanFootballOutline:before {
+    content: "\f3d6";
+}
+
+.xicon-ionicons5-AmericanFootballSharp:before {
+    content: "\f3c8";
+}
+
+.xicon-ionicons5-Analytics:before {
+    content: "\f3ba";
+}
+
+.xicon-ionicons5-AnalyticsOutline:before {
+    content: "\f3ac";
+}
+
+.xicon-ionicons5-AnalyticsSharp:before {
+    content: "\f39e";
+}
+
+.xicon-ionicons5-Aperture:before {
+    content: "\f390";
+}
+
+.xicon-ionicons5-ApertureOutline:before {
+    content: "\f382";
+}
+
+.xicon-ionicons5-ApertureSharp:before {
+    content: "\f374";
+}
+
+.xicon-ionicons5-Apps:before {
+    content: "\f366";
+}
+
+.xicon-ionicons5-AppsOutline:before {
+    content: "\f359";
+}
+
+.xicon-ionicons5-AppsSharp:before {
+    content: "\f34c";
+}
+
+.xicon-ionicons5-Archive:before {
+    content: "\f33f";
+}
+
+.xicon-ionicons5-ArchiveOutline:before {
+    content: "\f332";
+}
+
+.xicon-ionicons5-ArchiveSharp:before {
+    content: "\f325";
+}
+
+.xicon-ionicons5-ArrowBack:before {
+    content: "\f318";
+}
+
+.xicon-ionicons5-ArrowBackCircle:before {
+    content: "\f30b";
+}
+
+.xicon-ionicons5-ArrowBackCircleOutline:before {
+    content: "\f2fe";
+}
+
+.xicon-ionicons5-ArrowBackCircleSharp:before {
+    content: "\f2f1";
+}
+
+.xicon-ionicons5-ArrowBackOutline:before {
+    content: "\f2e4";
+}
+
+.xicon-ionicons5-ArrowBackSharp:before {
+    content: "\f2d7";
+}
+
+.xicon-ionicons5-ArrowDown:before {
+    content: "\f2ca";
+}
+
+.xicon-ionicons5-ArrowDownCircle:before {
+    content: "\f2bd";
+}
+
+.xicon-ionicons5-ArrowDownCircleOutline:before {
+    content: "\f2b0";
+}
+
+.xicon-ionicons5-ArrowDownCircleSharp:before {
+    content: "\f2a3";
+}
+
+.xicon-ionicons5-ArrowDownOutline:before {
+    content: "\f296";
+}
+
+.xicon-ionicons5-ArrowDownSharp:before {
+    content: "\f289";
+}
+
+.xicon-ionicons5-ArrowForward:before {
+    content: "\f27c";
+}
+
+.xicon-ionicons5-ArrowForwardCircle:before {
+    content: "\f26f";
+}
+
+.xicon-ionicons5-ArrowForwardCircleOutline:before {
+    content: "\f262";
+}
+
+.xicon-ionicons5-ArrowForwardCircleSharp:before {
+    content: "\f255";
+}
+
+.xicon-ionicons5-ArrowForwardOutline:before {
+    content: "\f248";
+}
+
+.xicon-ionicons5-ArrowForwardSharp:before {
+    content: "\f23b";
+}
+
+.xicon-ionicons5-ArrowRedo:before {
+    content: "\f22e";
+}
+
+.xicon-ionicons5-ArrowRedoCircle:before {
+    content: "\f221";
+}
+
+.xicon-ionicons5-ArrowRedoCircleOutline:before {
+    content: "\f214";
+}
+
+.xicon-ionicons5-ArrowRedoCircleSharp:before {
+    content: "\f207";
+}
+
+.xicon-ionicons5-ArrowRedoOutline:before {
+    content: "\f1fa";
+}
+
+.xicon-ionicons5-ArrowRedoSharp:before {
+    content: "\f1ed";
+}
+
+.xicon-ionicons5-ArrowUndo:before {
+    content: "\f1e0";
+}
+
+.xicon-ionicons5-ArrowUndoCircle:before {
+    content: "\f1d3";
+}
+
+.xicon-ionicons5-ArrowUndoCircleOutline:before {
+    content: "\f1c6";
+}
+
+.xicon-ionicons5-ArrowUndoCircleSharp:before {
+    content: "\f1b9";
+}
+
+.xicon-ionicons5-ArrowUndoOutline:before {
+    content: "\f1ac";
+}
+
+.xicon-ionicons5-ArrowUndoSharp:before {
+    content: "\f19f";
+}
+
+.xicon-ionicons5-ArrowUp:before {
+    content: "\f192";
+}
+
+.xicon-ionicons5-ArrowUpCircle:before {
+    content: "\f185";
+}
+
+.xicon-ionicons5-ArrowUpCircleOutline:before {
+    content: "\f178";
+}
+
+.xicon-ionicons5-ArrowUpCircleSharp:before {
+    content: "\f16b";
+}
+
+.xicon-ionicons5-ArrowUpOutline:before {
+    content: "\f15e";
+}
+
+.xicon-ionicons5-ArrowUpSharp:before {
+    content: "\f151";
+}
+
+.xicon-ionicons5-At:before {
+    content: "\f144";
+}
+
+.xicon-ionicons5-AtCircle:before {
+    content: "\f137";
+}
+
+.xicon-ionicons5-AtCircleOutline:before {
+    content: "\f12a";
+}
+
+.xicon-ionicons5-AtCircleSharp:before {
+    content: "\f11d";
+}
+
+.xicon-ionicons5-AtOutline:before {
+    content: "\f110";
+}
+
+.xicon-ionicons5-AtSharp:before {
+    content: "\f103";
+}
+
+.xicon-ionicons5-Attach:before {
+    content: "\f0f6";
+}
+
+.xicon-ionicons5-AttachOutline:before {
+    content: "\f0e9";
+}
+
+.xicon-ionicons5-AttachSharp:before {
+    content: "\f0dc";
+}
+
+.xicon-ionicons5-Backspace:before {
+    content: "\f0cf";
+}
+
+.xicon-ionicons5-BackspaceOutline:before {
+    content: "\f0c2";
+}
+
+.xicon-ionicons5-BackspaceSharp:before {
+    content: "\f0b5";
+}
+
+.xicon-ionicons5-Bag:before {
+    content: "\f0a8";
+}
+
+.xicon-ionicons5-BagAdd:before {
+    content: "\f09b";
+}
+
+.xicon-ionicons5-BagAddOutline:before {
+    content: "\f08e";
+}
+
+.xicon-ionicons5-BagAddSharp:before {
+    content: "\f081";
+}
+
+.xicon-ionicons5-BagCheck:before {
+    content: "\f074";
+}
+
+.xicon-ionicons5-BagCheckOutline:before {
+    content: "\f067";
+}
+
+.xicon-ionicons5-BagCheckSharp:before {
+    content: "\f05a";
+}
+
+.xicon-ionicons5-BagHandle:before {
+    content: "\f04d";
+}
+
+.xicon-ionicons5-BagHandleOutline:before {
+    content: "\f040";
+}
+
+.xicon-ionicons5-BagHandleSharp:before {
+    content: "\f033";
+}
+
+.xicon-ionicons5-BagOutline:before {
+    content: "\f026";
+}
+
+.xicon-ionicons5-BagRemove:before {
+    content: "\f019";
+}
+
+.xicon-ionicons5-BagRemoveOutline:before {
+    content: "\f00c";
+}
+
+.xicon-ionicons5-BagRemoveSharp:before {
+    content: "\f532";
+}
+
+.xicon-ionicons5-BagSharp:before {
+    content: "\f524";
+}
+
+.xicon-ionicons5-Balloon:before {
+    content: "\f516";
+}
+
+.xicon-ionicons5-BalloonOutline:before {
+    content: "\f508";
+}
+
+.xicon-ionicons5-BalloonSharp:before {
+    content: "\f4fb";
+}
+
+.xicon-ionicons5-Ban:before {
+    content: "\f4ed";
+}
+
+.xicon-ionicons5-Bandage:before {
+    content: "\f4df";
+}
+
+.xicon-ionicons5-BandageOutline:before {
+    content: "\f4d1";
+}
+
+.xicon-ionicons5-BandageSharp:before {
+    content: "\f4c3";
+}
+
+.xicon-ionicons5-BanOutline:before {
+    content: "\f4b5";
+}
+
+.xicon-ionicons5-BanSharp:before {
+    content: "\f4a7";
+}
+
+.xicon-ionicons5-Barbell:before {
+    content: "\f499";
+}
+
+.xicon-ionicons5-BarbellOutline:before {
+    content: "\f48b";
+}
+
+.xicon-ionicons5-BarbellSharp:before {
+    content: "\f47d";
+}
+
+.xicon-ionicons5-BarChart:before {
+    content: "\f46f";
+}
+
+.xicon-ionicons5-BarChartOutline:before {
+    content: "\f461";
+}
+
+.xicon-ionicons5-BarChartSharp:before {
+    content: "\f453";
+}
+
+.xicon-ionicons5-Barcode:before {
+    content: "\f445";
+}
+
+.xicon-ionicons5-BarcodeOutline:before {
+    content: "\f437";
+}
+
+.xicon-ionicons5-BarcodeSharp:before {
+    content: "\f429";
+}
+
+.xicon-ionicons5-Baseball:before {
+    content: "\f41b";
+}
+
+.xicon-ionicons5-BaseballOutline:before {
+    content: "\f40d";
+}
+
+.xicon-ionicons5-BaseballSharp:before {
+    content: "\f3ff";
+}
+
+.xicon-ionicons5-Basket:before {
+    content: "\f3f1";
+}
+
+.xicon-ionicons5-Basketball:before {
+    content: "\f3e3";
+}
+
+.xicon-ionicons5-BasketballOutline:before {
+    content: "\f3d5";
+}
+
+.xicon-ionicons5-BasketballSharp:before {
+    content: "\f3c7";
+}
+
+.xicon-ionicons5-BasketOutline:before {
+    content: "\f3b9";
+}
+
+.xicon-ionicons5-BasketSharp:before {
+    content: "\f3ab";
+}
+
+.xicon-ionicons5-BatteryCharging:before {
+    content: "\f39d";
+}
+
+.xicon-ionicons5-BatteryChargingOutline:before {
+    content: "\f38f";
+}
+
+.xicon-ionicons5-BatteryChargingSharp:before {
+    content: "\f381";
+}
+
+.xicon-ionicons5-BatteryDead:before {
+    content: "\f373";
+}
+
+.xicon-ionicons5-BatteryDeadOutline:before {
+    content: "\f365";
+}
+
+.xicon-ionicons5-BatteryDeadSharp:before {
+    content: "\f358";
+}
+
+.xicon-ionicons5-BatteryFull:before {
+    content: "\f34b";
+}
+
+.xicon-ionicons5-BatteryFullOutline:before {
+    content: "\f33e";
+}
+
+.xicon-ionicons5-BatteryFullSharp:before {
+    content: "\f331";
+}
+
+.xicon-ionicons5-BatteryHalf:before {
+    content: "\f324";
+}
+
+.xicon-ionicons5-BatteryHalfOutline:before {
+    content: "\f317";
+}
+
+.xicon-ionicons5-BatteryHalfSharp:before {
+    content: "\f30a";
+}
+
+.xicon-ionicons5-Beaker:before {
+    content: "\f2fd";
+}
+
+.xicon-ionicons5-BeakerOutline:before {
+    content: "\f2f0";
+}
+
+.xicon-ionicons5-BeakerSharp:before {
+    content: "\f2e3";
+}
+
+.xicon-ionicons5-Bed:before {
+    content: "\f2d6";
+}
+
+.xicon-ionicons5-BedOutline:before {
+    content: "\f2c9";
+}
+
+.xicon-ionicons5-BedSharp:before {
+    content: "\f2bc";
+}
+
+.xicon-ionicons5-Beer:before {
+    content: "\f2af";
+}
+
+.xicon-ionicons5-BeerOutline:before {
+    content: "\f2a2";
+}
+
+.xicon-ionicons5-BeerSharp:before {
+    content: "\f295";
+}
+
+.xicon-ionicons5-Bicycle:before {
+    content: "\f288";
+}
+
+.xicon-ionicons5-BicycleOutline:before {
+    content: "\f27b";
+}
+
+.xicon-ionicons5-BicycleSharp:before {
+    content: "\f26e";
+}
+
+.xicon-ionicons5-Bluetooth:before {
+    content: "\f261";
+}
+
+.xicon-ionicons5-BluetoothOutline:before {
+    content: "\f254";
+}
+
+.xicon-ionicons5-BluetoothSharp:before {
+    content: "\f247";
+}
+
+.xicon-ionicons5-Boat:before {
+    content: "\f23a";
+}
+
+.xicon-ionicons5-BoatOutline:before {
+    content: "\f22d";
+}
+
+.xicon-ionicons5-BoatSharp:before {
+    content: "\f220";
+}
+
+.xicon-ionicons5-Body:before {
+    content: "\f213";
+}
+
+.xicon-ionicons5-BodyOutline:before {
+    content: "\f206";
+}
+
+.xicon-ionicons5-BodySharp:before {
+    content: "\f1f9";
+}
+
+.xicon-ionicons5-Bonfire:before {
+    content: "\f1ec";
+}
+
+.xicon-ionicons5-BonfireOutline:before {
+    content: "\f1df";
+}
+
+.xicon-ionicons5-BonfireSharp:before {
+    content: "\f1d2";
+}
+
+.xicon-ionicons5-Book:before {
+    content: "\f1c5";
+}
+
+.xicon-ionicons5-Bookmark:before {
+    content: "\f1b8";
+}
+
+.xicon-ionicons5-BookmarkOutline:before {
+    content: "\f1ab";
+}
+
+.xicon-ionicons5-Bookmarks:before {
+    content: "\f19e";
+}
+
+.xicon-ionicons5-BookmarkSharp:before {
+    content: "\f191";
+}
+
+.xicon-ionicons5-BookmarksOutline:before {
+    content: "\f184";
+}
+
+.xicon-ionicons5-BookmarksSharp:before {
+    content: "\f177";
+}
+
+.xicon-ionicons5-BookOutline:before {
+    content: "\f16a";
+}
+
+.xicon-ionicons5-BookSharp:before {
+    content: "\f15d";
+}
+
+.xicon-ionicons5-BowlingBall:before {
+    content: "\f150";
+}
+
+.xicon-ionicons5-BowlingBallOutline:before {
+    content: "\f143";
+}
+
+.xicon-ionicons5-BowlingBallSharp:before {
+    content: "\f136";
+}
+
+.xicon-ionicons5-Briefcase:before {
+    content: "\f129";
+}
+
+.xicon-ionicons5-BriefcaseOutline:before {
+    content: "\f11c";
+}
+
+.xicon-ionicons5-BriefcaseSharp:before {
+    content: "\f10f";
+}
+
+.xicon-ionicons5-Browsers:before {
+    content: "\f102";
+}
+
+.xicon-ionicons5-BrowsersOutline:before {
+    content: "\f0f5";
+}
+
+.xicon-ionicons5-BrowsersSharp:before {
+    content: "\f0e8";
+}
+
+.xicon-ionicons5-Brush:before {
+    content: "\f0db";
+}
+
+.xicon-ionicons5-BrushOutline:before {
+    content: "\f0ce";
+}
+
+.xicon-ionicons5-BrushSharp:before {
+    content: "\f0c1";
+}
+
+.xicon-ionicons5-Bug:before {
+    content: "\f0b4";
+}
+
+.xicon-ionicons5-BugOutline:before {
+    content: "\f0a7";
+}
+
+.xicon-ionicons5-BugSharp:before {
+    content: "\f09a";
+}
+
+.xicon-ionicons5-Build:before {
+    content: "\f08d";
+}
+
+.xicon-ionicons5-BuildOutline:before {
+    content: "\f080";
+}
+
+.xicon-ionicons5-BuildSharp:before {
+    content: "\f073";
+}
+
+.xicon-ionicons5-Bulb:before {
+    content: "\f066";
+}
+
+.xicon-ionicons5-BulbOutline:before {
+    content: "\f059";
+}
+
+.xicon-ionicons5-BulbSharp:before {
+    content: "\f04c";
+}
+
+.xicon-ionicons5-Bus:before {
+    content: "\f03f";
+}
+
+.xicon-ionicons5-Business:before {
+    content: "\f032";
+}
+
+.xicon-ionicons5-BusinessOutline:before {
+    content: "\f025";
+}
+
+.xicon-ionicons5-BusinessSharp:before {
+    content: "\f018";
+}
+
+.xicon-ionicons5-BusOutline:before {
+    content: "\f00b";
+}
+
+.xicon-ionicons5-BusSharp:before {
+    content: "\f531";
+}
+
+.xicon-ionicons5-Cafe:before {
+    content: "\f523";
+}
+
+.xicon-ionicons5-CafeOutline:before {
+    content: "\f515";
+}
+
+.xicon-ionicons5-CafeSharp:before {
+    content: "\f507";
+}
+
+.xicon-ionicons5-Calculator:before {
+    content: "\f4fa";
+}
+
+.xicon-ionicons5-CalculatorOutline:before {
+    content: "\f4ec";
+}
+
+.xicon-ionicons5-CalculatorSharp:before {
+    content: "\f4de";
+}
+
+.xicon-ionicons5-Calendar:before {
+    content: "\f4d0";
+}
+
+.xicon-ionicons5-CalendarClear:before {
+    content: "\f4c2";
+}
+
+.xicon-ionicons5-CalendarClearOutline:before {
+    content: "\f4b4";
+}
+
+.xicon-ionicons5-CalendarClearSharp:before {
+    content: "\f4a6";
+}
+
+.xicon-ionicons5-CalendarNumber:before {
+    content: "\f498";
+}
+
+.xicon-ionicons5-CalendarNumberOutline:before {
+    content: "\f48a";
+}
+
+.xicon-ionicons5-CalendarNumberSharp:before {
+    content: "\f47c";
+}
+
+.xicon-ionicons5-CalendarOutline:before {
+    content: "\f46e";
+}
+
+.xicon-ionicons5-CalendarSharp:before {
+    content: "\f460";
+}
+
+.xicon-ionicons5-Call:before {
+    content: "\f452";
+}
+
+.xicon-ionicons5-CallOutline:before {
+    content: "\f444";
+}
+
+.xicon-ionicons5-CallSharp:before {
+    content: "\f436";
+}
+
+.xicon-ionicons5-Camera:before {
+    content: "\f428";
+}
+
+.xicon-ionicons5-CameraOutline:before {
+    content: "\f41a";
+}
+
+.xicon-ionicons5-CameraReverse:before {
+    content: "\f40c";
+}
+
+.xicon-ionicons5-CameraReverseOutline:before {
+    content: "\f3fe";
+}
+
+.xicon-ionicons5-CameraReverseSharp:before {
+    content: "\f3f0";
+}
+
+.xicon-ionicons5-CameraSharp:before {
+    content: "\f3e2";
+}
+
+.xicon-ionicons5-Car:before {
+    content: "\f3d4";
+}
+
+.xicon-ionicons5-Card:before {
+    content: "\f3c6";
+}
+
+.xicon-ionicons5-CardOutline:before {
+    content: "\f3b8";
+}
+
+.xicon-ionicons5-CardSharp:before {
+    content: "\f3aa";
+}
+
+.xicon-ionicons5-CaretBack:before {
+    content: "\f39c";
+}
+
+.xicon-ionicons5-CaretBackCircle:before {
+    content: "\f38e";
+}
+
+.xicon-ionicons5-CaretBackCircleOutline:before {
+    content: "\f380";
+}
+
+.xicon-ionicons5-CaretBackCircleSharp:before {
+    content: "\f372";
+}
+
+.xicon-ionicons5-CaretBackOutline:before {
+    content: "\f364";
+}
+
+.xicon-ionicons5-CaretBackSharp:before {
+    content: "\f357";
+}
+
+.xicon-ionicons5-CaretDown:before {
+    content: "\f34a";
+}
+
+.xicon-ionicons5-CaretDownCircle:before {
+    content: "\f33d";
+}
+
+.xicon-ionicons5-CaretDownCircleOutline:before {
+    content: "\f330";
+}
+
+.xicon-ionicons5-CaretDownCircleSharp:before {
+    content: "\f323";
+}
+
+.xicon-ionicons5-CaretDownOutline:before {
+    content: "\f316";
+}
+
+.xicon-ionicons5-CaretDownSharp:before {
+    content: "\f309";
+}
+
+.xicon-ionicons5-CaretForward:before {
+    content: "\f2fc";
+}
+
+.xicon-ionicons5-CaretForwardCircle:before {
+    content: "\f2ef";
+}
+
+.xicon-ionicons5-CaretForwardCircleOutline:before {
+    content: "\f2e2";
+}
+
+.xicon-ionicons5-CaretForwardCircleSharp:before {
+    content: "\f2d5";
+}
+
+.xicon-ionicons5-CaretForwardOutline:before {
+    content: "\f2c8";
+}
+
+.xicon-ionicons5-CaretForwardSharp:before {
+    content: "\f2bb";
+}
+
+.xicon-ionicons5-CaretUp:before {
+    content: "\f2ae";
+}
+
+.xicon-ionicons5-CaretUpCircle:before {
+    content: "\f2a1";
+}
+
+.xicon-ionicons5-CaretUpCircleOutline:before {
+    content: "\f294";
+}
+
+.xicon-ionicons5-CaretUpCircleSharp:before {
+    content: "\f287";
+}
+
+.xicon-ionicons5-CaretUpOutline:before {
+    content: "\f27a";
+}
+
+.xicon-ionicons5-CaretUpSharp:before {
+    content: "\f26d";
+}
+
+.xicon-ionicons5-CarOutline:before {
+    content: "\f260";
+}
+
+.xicon-ionicons5-CarSharp:before {
+    content: "\f253";
+}
+
+.xicon-ionicons5-CarSport:before {
+    content: "\f246";
+}
+
+.xicon-ionicons5-CarSportOutline:before {
+    content: "\f239";
+}
+
+.xicon-ionicons5-CarSportSharp:before {
+    content: "\f22c";
+}
+
+.xicon-ionicons5-Cart:before {
+    content: "\f21f";
+}
+
+.xicon-ionicons5-CartOutline:before {
+    content: "\f212";
+}
+
+.xicon-ionicons5-CartSharp:before {
+    content: "\f205";
+}
+
+.xicon-ionicons5-Cash:before {
+    content: "\f1f8";
+}
+
+.xicon-ionicons5-CashOutline:before {
+    content: "\f1eb";
+}
+
+.xicon-ionicons5-CashSharp:before {
+    content: "\f1de";
+}
+
+.xicon-ionicons5-Cellular:before {
+    content: "\f1d1";
+}
+
+.xicon-ionicons5-CellularOutline:before {
+    content: "\f1c4";
+}
+
+.xicon-ionicons5-CellularSharp:before {
+    content: "\f1b7";
+}
+
+.xicon-ionicons5-Chatbox:before {
+    content: "\f1aa";
+}
+
+.xicon-ionicons5-ChatboxEllipses:before {
+    content: "\f19d";
+}
+
+.xicon-ionicons5-ChatboxEllipsesOutline:before {
+    content: "\f190";
+}
+
+.xicon-ionicons5-ChatboxEllipsesSharp:before {
+    content: "\f183";
+}
+
+.xicon-ionicons5-ChatboxOutline:before {
+    content: "\f176";
+}
+
+.xicon-ionicons5-ChatboxSharp:before {
+    content: "\f169";
+}
+
+.xicon-ionicons5-Chatbubble:before {
+    content: "\f15c";
+}
+
+.xicon-ionicons5-ChatbubbleEllipses:before {
+    content: "\f14f";
+}
+
+.xicon-ionicons5-ChatbubbleEllipsesOutline:before {
+    content: "\f142";
+}
+
+.xicon-ionicons5-ChatbubbleEllipsesSharp:before {
+    content: "\f135";
+}
+
+.xicon-ionicons5-ChatbubbleOutline:before {
+    content: "\f128";
+}
+
+.xicon-ionicons5-Chatbubbles:before {
+    content: "\f11b";
+}
+
+.xicon-ionicons5-ChatbubbleSharp:before {
+    content: "\f10e";
+}
+
+.xicon-ionicons5-ChatbubblesOutline:before {
+    content: "\f101";
+}
+
+.xicon-ionicons5-ChatbubblesSharp:before {
+    content: "\f0f4";
+}
+
+.xicon-ionicons5-Checkbox:before {
+    content: "\f0e7";
+}
+
+.xicon-ionicons5-CheckboxOutline:before {
+    content: "\f0da";
+}
+
+.xicon-ionicons5-CheckboxSharp:before {
+    content: "\f0cd";
+}
+
+.xicon-ionicons5-Checkmark:before {
+    content: "\f0c0";
+}
+
+.xicon-ionicons5-CheckmarkCircle:before {
+    content: "\f0b3";
+}
+
+.xicon-ionicons5-CheckmarkCircleOutline:before {
+    content: "\f0a6";
+}
+
+.xicon-ionicons5-CheckmarkCircleSharp:before {
+    content: "\f099";
+}
+
+.xicon-ionicons5-CheckmarkDone:before {
+    content: "\f08c";
+}
+
+.xicon-ionicons5-CheckmarkDoneCircle:before {
+    content: "\f07f";
+}
+
+.xicon-ionicons5-CheckmarkDoneCircleOutline:before {
+    content: "\f072";
+}
+
+.xicon-ionicons5-CheckmarkDoneCircleSharp:before {
+    content: "\f065";
+}
+
+.xicon-ionicons5-CheckmarkDoneOutline:before {
+    content: "\f058";
+}
+
+.xicon-ionicons5-CheckmarkDoneSharp:before {
+    content: "\f04b";
+}
+
+.xicon-ionicons5-CheckmarkOutline:before {
+    content: "\f03e";
+}
+
+.xicon-ionicons5-CheckmarkSharp:before {
+    content: "\f031";
+}
+
+.xicon-ionicons5-ChevronBack:before {
+    content: "\f024";
+}
+
+.xicon-ionicons5-ChevronBackCircle:before {
+    content: "\f017";
+}
+
+.xicon-ionicons5-ChevronBackCircleOutline:before {
+    content: "\f00a";
+}
+
+.xicon-ionicons5-ChevronBackCircleSharp:before {
+    content: "\f530";
+}
+
+.xicon-ionicons5-ChevronBackOutline:before {
+    content: "\f522";
+}
+
+.xicon-ionicons5-ChevronBackSharp:before {
+    content: "\f514";
+}
+
+.xicon-ionicons5-ChevronDown:before {
+    content: "\f506";
+}
+
+.xicon-ionicons5-ChevronDownCircle:before {
+    content: "\f4f9";
+}
+
+.xicon-ionicons5-ChevronDownCircleOutline:before {
+    content: "\f4eb";
+}
+
+.xicon-ionicons5-ChevronDownCircleSharp:before {
+    content: "\f4dd";
+}
+
+.xicon-ionicons5-ChevronDownOutline:before {
+    content: "\f4cf";
+}
+
+.xicon-ionicons5-ChevronDownSharp:before {
+    content: "\f4c1";
+}
+
+.xicon-ionicons5-ChevronForward:before {
+    content: "\f4b3";
+}
+
+.xicon-ionicons5-ChevronForwardCircle:before {
+    content: "\f4a5";
+}
+
+.xicon-ionicons5-ChevronForwardCircleOutline:before {
+    content: "\f497";
+}
+
+.xicon-ionicons5-ChevronForwardCircleSharp:before {
+    content: "\f489";
+}
+
+.xicon-ionicons5-ChevronForwardOutline:before {
+    content: "\f47b";
+}
+
+.xicon-ionicons5-ChevronForwardSharp:before {
+    content: "\f46d";
+}
+
+.xicon-ionicons5-ChevronUp:before {
+    content: "\f45f";
+}
+
+.xicon-ionicons5-ChevronUpCircle:before {
+    content: "\f451";
+}
+
+.xicon-ionicons5-ChevronUpCircleOutline:before {
+    content: "\f443";
+}
+
+.xicon-ionicons5-ChevronUpCircleSharp:before {
+    content: "\f435";
+}
+
+.xicon-ionicons5-ChevronUpOutline:before {
+    content: "\f427";
+}
+
+.xicon-ionicons5-ChevronUpSharp:before {
+    content: "\f419";
+}
+
+.xicon-ionicons5-Clipboard:before {
+    content: "\f40b";
+}
+
+.xicon-ionicons5-ClipboardOutline:before {
+    content: "\f3fd";
+}
+
+.xicon-ionicons5-ClipboardSharp:before {
+    content: "\f3ef";
+}
+
+.xicon-ionicons5-Close:before {
+    content: "\f3e1";
+}
+
+.xicon-ionicons5-CloseCircle:before {
+    content: "\f3d3";
+}
+
+.xicon-ionicons5-CloseCircleOutline:before {
+    content: "\f3c5";
+}
+
+.xicon-ionicons5-CloseCircleSharp:before {
+    content: "\f3b7";
+}
+
+.xicon-ionicons5-CloseOutline:before {
+    content: "\f3a9";
+}
+
+.xicon-ionicons5-CloseSharp:before {
+    content: "\f39b";
+}
+
+.xicon-ionicons5-Cloud:before {
+    content: "\f38d";
+}
+
+.xicon-ionicons5-CloudCircle:before {
+    content: "\f37f";
+}
+
+.xicon-ionicons5-CloudCircleOutline:before {
+    content: "\f371";
+}
+
+.xicon-ionicons5-CloudCircleSharp:before {
+    content: "\f363";
+}
+
+.xicon-ionicons5-CloudDone:before {
+    content: "\f356";
+}
+
+.xicon-ionicons5-CloudDoneOutline:before {
+    content: "\f349";
+}
+
+.xicon-ionicons5-CloudDoneSharp:before {
+    content: "\f33c";
+}
+
+.xicon-ionicons5-CloudDownload:before {
+    content: "\f32f";
+}
+
+.xicon-ionicons5-CloudDownloadOutline:before {
+    content: "\f322";
+}
+
+.xicon-ionicons5-CloudDownloadSharp:before {
+    content: "\f315";
+}
+
+.xicon-ionicons5-CloudOffline:before {
+    content: "\f308";
+}
+
+.xicon-ionicons5-CloudOfflineOutline:before {
+    content: "\f2fb";
+}
+
+.xicon-ionicons5-CloudOfflineSharp:before {
+    content: "\f2ee";
+}
+
+.xicon-ionicons5-CloudOutline:before {
+    content: "\f2e1";
+}
+
+.xicon-ionicons5-CloudSharp:before {
+    content: "\f2d4";
+}
+
+.xicon-ionicons5-CloudUpload:before {
+    content: "\f2c7";
+}
+
+.xicon-ionicons5-CloudUploadOutline:before {
+    content: "\f2ba";
+}
+
+.xicon-ionicons5-CloudUploadSharp:before {
+    content: "\f2ad";
+}
+
+.xicon-ionicons5-Cloudy:before {
+    content: "\f2a0";
+}
+
+.xicon-ionicons5-CloudyNight:before {
+    content: "\f293";
+}
+
+.xicon-ionicons5-CloudyNightOutline:before {
+    content: "\f286";
+}
+
+.xicon-ionicons5-CloudyNightSharp:before {
+    content: "\f279";
+}
+
+.xicon-ionicons5-CloudyOutline:before {
+    content: "\f26c";
+}
+
+.xicon-ionicons5-CloudySharp:before {
+    content: "\f25f";
+}
+
+.xicon-ionicons5-Code:before {
+    content: "\f252";
+}
+
+.xicon-ionicons5-CodeDownload:before {
+    content: "\f245";
+}
+
+.xicon-ionicons5-CodeDownloadOutline:before {
+    content: "\f238";
+}
+
+.xicon-ionicons5-CodeDownloadSharp:before {
+    content: "\f22b";
+}
+
+.xicon-ionicons5-CodeOutline:before {
+    content: "\f21e";
+}
+
+.xicon-ionicons5-CodeSharp:before {
+    content: "\f211";
+}
+
+.xicon-ionicons5-CodeSlash:before {
+    content: "\f204";
+}
+
+.xicon-ionicons5-CodeSlashOutline:before {
+    content: "\f1f7";
+}
+
+.xicon-ionicons5-CodeSlashSharp:before {
+    content: "\f1ea";
+}
+
+.xicon-ionicons5-CodeWorking:before {
+    content: "\f1dd";
+}
+
+.xicon-ionicons5-CodeWorkingOutline:before {
+    content: "\f1d0";
+}
+
+.xicon-ionicons5-CodeWorkingSharp:before {
+    content: "\f1c3";
+}
+
+.xicon-ionicons5-Cog:before {
+    content: "\f1b6";
+}
+
+.xicon-ionicons5-CogOutline:before {
+    content: "\f1a9";
+}
+
+.xicon-ionicons5-CogSharp:before {
+    content: "\f19c";
+}
+
+.xicon-ionicons5-ColorFill:before {
+    content: "\f18f";
+}
+
+.xicon-ionicons5-ColorFillOutline:before {
+    content: "\f182";
+}
+
+.xicon-ionicons5-ColorFillSharp:before {
+    content: "\f175";
+}
+
+.xicon-ionicons5-ColorFilter:before {
+    content: "\f168";
+}
+
+.xicon-ionicons5-ColorFilterOutline:before {
+    content: "\f15b";
+}
+
+.xicon-ionicons5-ColorFilterSharp:before {
+    content: "\f14e";
+}
+
+.xicon-ionicons5-ColorPalette:before {
+    content: "\f141";
+}
+
+.xicon-ionicons5-ColorPaletteOutline:before {
+    content: "\f134";
+}
+
+.xicon-ionicons5-ColorPaletteSharp:before {
+    content: "\f127";
+}
+
+.xicon-ionicons5-ColorWand:before {
+    content: "\f11a";
+}
+
+.xicon-ionicons5-ColorWandOutline:before {
+    content: "\f10d";
+}
+
+.xicon-ionicons5-ColorWandSharp:before {
+    content: "\f100";
+}
+
+.xicon-ionicons5-Compass:before {
+    content: "\f0f3";
+}
+
+.xicon-ionicons5-CompassOutline:before {
+    content: "\f0e6";
+}
+
+.xicon-ionicons5-CompassSharp:before {
+    content: "\f0d9";
+}
+
+.xicon-ionicons5-Construct:before {
+    content: "\f0cc";
+}
+
+.xicon-ionicons5-ConstructOutline:before {
+    content: "\f0bf";
+}
+
+.xicon-ionicons5-ConstructSharp:before {
+    content: "\f0b2";
+}
+
+.xicon-ionicons5-Contract:before {
+    content: "\f0a5";
+}
+
+.xicon-ionicons5-ContractOutline:before {
+    content: "\f098";
+}
+
+.xicon-ionicons5-ContractSharp:before {
+    content: "\f08b";
+}
+
+.xicon-ionicons5-Contrast:before {
+    content: "\f07e";
+}
+
+.xicon-ionicons5-ContrastOutline:before {
+    content: "\f071";
+}
+
+.xicon-ionicons5-ContrastSharp:before {
+    content: "\f064";
+}
+
+.xicon-ionicons5-Copy:before {
+    content: "\f057";
+}
+
+.xicon-ionicons5-CopyOutline:before {
+    content: "\f04a";
+}
+
+.xicon-ionicons5-CopySharp:before {
+    content: "\f03d";
+}
+
+.xicon-ionicons5-Create:before {
+    content: "\f030";
+}
+
+.xicon-ionicons5-CreateOutline:before {
+    content: "\f023";
+}
+
+.xicon-ionicons5-CreateSharp:before {
+    content: "\f016";
+}
+
+.xicon-ionicons5-Crop:before {
+    content: "\f009";
+}
+
+.xicon-ionicons5-CropOutline:before {
+    content: "\f52f";
+}
+
+.xicon-ionicons5-CropSharp:before {
+    content: "\f521";
+}
+
+.xicon-ionicons5-Cube:before {
+    content: "\f513";
+}
+
+.xicon-ionicons5-CubeOutline:before {
+    content: "\f505";
+}
+
+.xicon-ionicons5-CubeSharp:before {
+    content: "\f4f8";
+}
+
+.xicon-ionicons5-Cut:before {
+    content: "\f4ea";
+}
+
+.xicon-ionicons5-CutOutline:before {
+    content: "\f4dc";
+}
+
+.xicon-ionicons5-CutSharp:before {
+    content: "\f4ce";
+}
+
+.xicon-ionicons5-Desktop:before {
+    content: "\f4c0";
+}
+
+.xicon-ionicons5-DesktopOutline:before {
+    content: "\f4b2";
+}
+
+.xicon-ionicons5-DesktopSharp:before {
+    content: "\f4a4";
+}
+
+.xicon-ionicons5-Diamond:before {
+    content: "\f496";
+}
+
+.xicon-ionicons5-DiamondOutline:before {
+    content: "\f488";
+}
+
+.xicon-ionicons5-DiamondSharp:before {
+    content: "\f47a";
+}
+
+.xicon-ionicons5-Dice:before {
+    content: "\f46c";
+}
+
+.xicon-ionicons5-DiceOutline:before {
+    content: "\f45e";
+}
+
+.xicon-ionicons5-DiceSharp:before {
+    content: "\f450";
+}
+
+.xicon-ionicons5-Disc:before {
+    content: "\f442";
+}
+
+.xicon-ionicons5-DiscOutline:before {
+    content: "\f434";
+}
+
+.xicon-ionicons5-DiscSharp:before {
+    content: "\f426";
+}
+
+.xicon-ionicons5-Document:before {
+    content: "\f418";
+}
+
+.xicon-ionicons5-DocumentAttach:before {
+    content: "\f40a";
+}
+
+.xicon-ionicons5-DocumentAttachOutline:before {
+    content: "\f3fc";
+}
+
+.xicon-ionicons5-DocumentAttachSharp:before {
+    content: "\f3ee";
+}
+
+.xicon-ionicons5-DocumentLock:before {
+    content: "\f3e0";
+}
+
+.xicon-ionicons5-DocumentLockOutline:before {
+    content: "\f3d2";
+}
+
+.xicon-ionicons5-DocumentLockSharp:before {
+    content: "\f3c4";
+}
+
+.xicon-ionicons5-DocumentOutline:before {
+    content: "\f3b6";
+}
+
+.xicon-ionicons5-Documents:before {
+    content: "\f3a8";
+}
+
+.xicon-ionicons5-DocumentSharp:before {
+    content: "\f39a";
+}
+
+.xicon-ionicons5-DocumentsOutline:before {
+    content: "\f38c";
+}
+
+.xicon-ionicons5-DocumentsSharp:before {
+    content: "\f37e";
+}
+
+.xicon-ionicons5-DocumentText:before {
+    content: "\f370";
+}
+
+.xicon-ionicons5-DocumentTextOutline:before {
+    content: "\f362";
+}
+
+.xicon-ionicons5-DocumentTextSharp:before {
+    content: "\f355";
+}
+
+.xicon-ionicons5-Download:before {
+    content: "\f348";
+}
+
+.xicon-ionicons5-DownloadOutline:before {
+    content: "\f33b";
+}
+
+.xicon-ionicons5-DownloadSharp:before {
+    content: "\f32e";
+}
+
+.xicon-ionicons5-Duplicate:before {
+    content: "\f321";
+}
+
+.xicon-ionicons5-DuplicateOutline:before {
+    content: "\f314";
+}
+
+.xicon-ionicons5-DuplicateSharp:before {
+    content: "\f307";
+}
+
+.xicon-ionicons5-Ear:before {
+    content: "\f2fa";
+}
+
+.xicon-ionicons5-EarOutline:before {
+    content: "\f2ed";
+}
+
+.xicon-ionicons5-EarSharp:before {
+    content: "\f2e0";
+}
+
+.xicon-ionicons5-Earth:before {
+    content: "\f2d3";
+}
+
+.xicon-ionicons5-EarthOutline:before {
+    content: "\f2c6";
+}
+
+.xicon-ionicons5-EarthSharp:before {
+    content: "\f2b9";
+}
+
+.xicon-ionicons5-Easel:before {
+    content: "\f2ac";
+}
+
+.xicon-ionicons5-EaselOutline:before {
+    content: "\f29f";
+}
+
+.xicon-ionicons5-EaselSharp:before {
+    content: "\f292";
+}
+
+.xicon-ionicons5-Egg:before {
+    content: "\f285";
+}
+
+.xicon-ionicons5-EggOutline:before {
+    content: "\f278";
+}
+
+.xicon-ionicons5-EggSharp:before {
+    content: "\f26b";
+}
+
+.xicon-ionicons5-Ellipse:before {
+    content: "\f25e";
+}
+
+.xicon-ionicons5-EllipseOutline:before {
+    content: "\f251";
+}
+
+.xicon-ionicons5-EllipseSharp:before {
+    content: "\f244";
+}
+
+.xicon-ionicons5-EllipsisHorizontal:before {
+    content: "\f237";
+}
+
+.xicon-ionicons5-EllipsisHorizontalCircle:before {
+    content: "\f22a";
+}
+
+.xicon-ionicons5-EllipsisHorizontalCircleOutline:before {
+    content: "\f21d";
+}
+
+.xicon-ionicons5-EllipsisHorizontalCircleSharp:before {
+    content: "\f210";
+}
+
+.xicon-ionicons5-EllipsisHorizontalOutline:before {
+    content: "\f203";
+}
+
+.xicon-ionicons5-EllipsisHorizontalSharp:before {
+    content: "\f1f6";
+}
+
+.xicon-ionicons5-EllipsisVertical:before {
+    content: "\f1e9";
+}
+
+.xicon-ionicons5-EllipsisVerticalCircle:before {
+    content: "\f1dc";
+}
+
+.xicon-ionicons5-EllipsisVerticalCircleOutline:before {
+    content: "\f1cf";
+}
+
+.xicon-ionicons5-EllipsisVerticalCircleSharp:before {
+    content: "\f1c2";
+}
+
+.xicon-ionicons5-EllipsisVerticalOutline:before {
+    content: "\f1b5";
+}
+
+.xicon-ionicons5-EllipsisVerticalSharp:before {
+    content: "\f1a8";
+}
+
+.xicon-ionicons5-Enter:before {
+    content: "\f19b";
+}
+
+.xicon-ionicons5-EnterOutline:before {
+    content: "\f18e";
+}
+
+.xicon-ionicons5-EnterSharp:before {
+    content: "\f181";
+}
+
+.xicon-ionicons5-Exit:before {
+    content: "\f174";
+}
+
+.xicon-ionicons5-ExitOutline:before {
+    content: "\f167";
+}
+
+.xicon-ionicons5-ExitSharp:before {
+    content: "\f15a";
+}
+
+.xicon-ionicons5-Expand:before {
+    content: "\f14d";
+}
+
+.xicon-ionicons5-ExpandOutline:before {
+    content: "\f140";
+}
+
+.xicon-ionicons5-ExpandSharp:before {
+    content: "\f133";
+}
+
+.xicon-ionicons5-ExtensionPuzzle:before {
+    content: "\f126";
+}
+
+.xicon-ionicons5-ExtensionPuzzleOutline:before {
+    content: "\f119";
+}
+
+.xicon-ionicons5-ExtensionPuzzleSharp:before {
+    content: "\f10c";
+}
+
+.xicon-ionicons5-Eye:before {
+    content: "\f0ff";
+}
+
+.xicon-ionicons5-Eyedrop:before {
+    content: "\f0f2";
+}
+
+.xicon-ionicons5-EyedropOutline:before {
+    content: "\f0e5";
+}
+
+.xicon-ionicons5-EyedropSharp:before {
+    content: "\f0d8";
+}
+
+.xicon-ionicons5-EyeOff:before {
+    content: "\f0cb";
+}
+
+.xicon-ionicons5-EyeOffOutline:before {
+    content: "\f0be";
+}
+
+.xicon-ionicons5-EyeOffSharp:before {
+    content: "\f0b1";
+}
+
+.xicon-ionicons5-EyeOutline:before {
+    content: "\f0a4";
+}
+
+.xicon-ionicons5-EyeSharp:before {
+    content: "\f097";
+}
+
+.xicon-ionicons5-FastFood:before {
+    content: "\f08a";
+}
+
+.xicon-ionicons5-FastFoodOutline:before {
+    content: "\f07d";
+}
+
+.xicon-ionicons5-FastFoodSharp:before {
+    content: "\f070";
+}
+
+.xicon-ionicons5-Female:before {
+    content: "\f063";
+}
+
+.xicon-ionicons5-FemaleOutline:before {
+    content: "\f056";
+}
+
+.xicon-ionicons5-FemaleSharp:before {
+    content: "\f049";
+}
+
+.xicon-ionicons5-FileTray:before {
+    content: "\f03c";
+}
+
+.xicon-ionicons5-FileTrayFull:before {
+    content: "\f02f";
+}
+
+.xicon-ionicons5-FileTrayFullOutline:before {
+    content: "\f022";
+}
+
+.xicon-ionicons5-FileTrayFullSharp:before {
+    content: "\f015";
+}
+
+.xicon-ionicons5-FileTrayOutline:before {
+    content: "\f008";
+}
+
+.xicon-ionicons5-FileTraySharp:before {
+    content: "\f52e";
+}
+
+.xicon-ionicons5-FileTrayStacked:before {
+    content: "\f520";
+}
+
+.xicon-ionicons5-FileTrayStackedOutline:before {
+    content: "\f512";
+}
+
+.xicon-ionicons5-FileTrayStackedSharp:before {
+    content: "\f504";
+}
+
+.xicon-ionicons5-Film:before {
+    content: "\f4f7";
+}
+
+.xicon-ionicons5-FilmOutline:before {
+    content: "\f4e9";
+}
+
+.xicon-ionicons5-FilmSharp:before {
+    content: "\f4db";
+}
+
+.xicon-ionicons5-Filter:before {
+    content: "\f4cd";
+}
+
+.xicon-ionicons5-FilterCircle:before {
+    content: "\f4bf";
+}
+
+.xicon-ionicons5-FilterCircleOutline:before {
+    content: "\f4b1";
+}
+
+.xicon-ionicons5-FilterCircleSharp:before {
+    content: "\f4a3";
+}
+
+.xicon-ionicons5-FilterOutline:before {
+    content: "\f495";
+}
+
+.xicon-ionicons5-FilterSharp:before {
+    content: "\f487";
+}
+
+.xicon-ionicons5-FingerPrint:before {
+    content: "\f479";
+}
+
+.xicon-ionicons5-FingerPrintOutline:before {
+    content: "\f46b";
+}
+
+.xicon-ionicons5-FingerPrintSharp:before {
+    content: "\f45d";
+}
+
+.xicon-ionicons5-Fish:before {
+    content: "\f44f";
+}
+
+.xicon-ionicons5-FishOutline:before {
+    content: "\f441";
+}
+
+.xicon-ionicons5-FishSharp:before {
+    content: "\f433";
+}
+
+.xicon-ionicons5-Fitness:before {
+    content: "\f425";
+}
+
+.xicon-ionicons5-FitnessOutline:before {
+    content: "\f417";
+}
+
+.xicon-ionicons5-FitnessSharp:before {
+    content: "\f409";
+}
+
+.xicon-ionicons5-Flag:before {
+    content: "\f3fb";
+}
+
+.xicon-ionicons5-FlagOutline:before {
+    content: "\f3ed";
+}
+
+.xicon-ionicons5-FlagSharp:before {
+    content: "\f3df";
+}
+
+.xicon-ionicons5-Flame:before {
+    content: "\f3d1";
+}
+
+.xicon-ionicons5-FlameOutline:before {
+    content: "\f3c3";
+}
+
+.xicon-ionicons5-FlameSharp:before {
+    content: "\f3b5";
+}
+
+.xicon-ionicons5-Flash:before {
+    content: "\f3a7";
+}
+
+.xicon-ionicons5-Flashlight:before {
+    content: "\f399";
+}
+
+.xicon-ionicons5-FlashlightOutline:before {
+    content: "\f38b";
+}
+
+.xicon-ionicons5-FlashlightSharp:before {
+    content: "\f37d";
+}
+
+.xicon-ionicons5-FlashOff:before {
+    content: "\f36f";
+}
+
+.xicon-ionicons5-FlashOffOutline:before {
+    content: "\f361";
+}
+
+.xicon-ionicons5-FlashOffSharp:before {
+    content: "\f354";
+}
+
+.xicon-ionicons5-FlashOutline:before {
+    content: "\f347";
+}
+
+.xicon-ionicons5-FlashSharp:before {
+    content: "\f33a";
+}
+
+.xicon-ionicons5-Flask:before {
+    content: "\f32d";
+}
+
+.xicon-ionicons5-FlaskOutline:before {
+    content: "\f320";
+}
+
+.xicon-ionicons5-FlaskSharp:before {
+    content: "\f313";
+}
+
+.xicon-ionicons5-Flower:before {
+    content: "\f306";
+}
+
+.xicon-ionicons5-FlowerOutline:before {
+    content: "\f2f9";
+}
+
+.xicon-ionicons5-FlowerSharp:before {
+    content: "\f2ec";
+}
+
+.xicon-ionicons5-Folder:before {
+    content: "\f2df";
+}
+
+.xicon-ionicons5-FolderOpen:before {
+    content: "\f2d2";
+}
+
+.xicon-ionicons5-FolderOpenOutline:before {
+    content: "\f2c5";
+}
+
+.xicon-ionicons5-FolderOpenSharp:before {
+    content: "\f2b8";
+}
+
+.xicon-ionicons5-FolderOutline:before {
+    content: "\f2ab";
+}
+
+.xicon-ionicons5-FolderSharp:before {
+    content: "\f29e";
+}
+
+.xicon-ionicons5-Football:before {
+    content: "\f291";
+}
+
+.xicon-ionicons5-FootballOutline:before {
+    content: "\f284";
+}
+
+.xicon-ionicons5-FootballSharp:before {
+    content: "\f277";
+}
+
+.xicon-ionicons5-Footsteps:before {
+    content: "\f26a";
+}
+
+.xicon-ionicons5-FootstepsOutline:before {
+    content: "\f25d";
+}
+
+.xicon-ionicons5-FootstepsSharp:before {
+    content: "\f250";
+}
+
+.xicon-ionicons5-Funnel:before {
+    content: "\f243";
+}
+
+.xicon-ionicons5-FunnelOutline:before {
+    content: "\f236";
+}
+
+.xicon-ionicons5-FunnelSharp:before {
+    content: "\f229";
+}
+
+.xicon-ionicons5-GameController:before {
+    content: "\f21c";
+}
+
+.xicon-ionicons5-GameControllerOutline:before {
+    content: "\f20f";
+}
+
+.xicon-ionicons5-GameControllerSharp:before {
+    content: "\f202";
+}
+
+.xicon-ionicons5-Gift:before {
+    content: "\f1f5";
+}
+
+.xicon-ionicons5-GiftOutline:before {
+    content: "\f1e8";
+}
+
+.xicon-ionicons5-GiftSharp:before {
+    content: "\f1db";
+}
+
+.xicon-ionicons5-GitBranch:before {
+    content: "\f1ce";
+}
+
+.xicon-ionicons5-GitBranchOutline:before {
+    content: "\f1c1";
+}
+
+.xicon-ionicons5-GitBranchSharp:before {
+    content: "\f1b4";
+}
+
+.xicon-ionicons5-GitCommit:before {
+    content: "\f1a7";
+}
+
+.xicon-ionicons5-GitCommitOutline:before {
+    content: "\f19a";
+}
+
+.xicon-ionicons5-GitCommitSharp:before {
+    content: "\f18d";
+}
+
+.xicon-ionicons5-GitCompare:before {
+    content: "\f180";
+}
+
+.xicon-ionicons5-GitCompareOutline:before {
+    content: "\f173";
+}
+
+.xicon-ionicons5-GitCompareSharp:before {
+    content: "\f166";
+}
+
+.xicon-ionicons5-GitMerge:before {
+    content: "\f159";
+}
+
+.xicon-ionicons5-GitMergeOutline:before {
+    content: "\f14c";
+}
+
+.xicon-ionicons5-GitMergeSharp:before {
+    content: "\f13f";
+}
+
+.xicon-ionicons5-GitNetwork:before {
+    content: "\f132";
+}
+
+.xicon-ionicons5-GitNetworkOutline:before {
+    content: "\f125";
+}
+
+.xicon-ionicons5-GitNetworkSharp:before {
+    content: "\f118";
+}
+
+.xicon-ionicons5-GitPullRequest:before {
+    content: "\f10b";
+}
+
+.xicon-ionicons5-GitPullRequestOutline:before {
+    content: "\f0fe";
+}
+
+.xicon-ionicons5-GitPullRequestSharp:before {
+    content: "\f0f1";
+}
+
+.xicon-ionicons5-Glasses:before {
+    content: "\f0e4";
+}
+
+.xicon-ionicons5-GlassesOutline:before {
+    content: "\f0d7";
+}
+
+.xicon-ionicons5-GlassesSharp:before {
+    content: "\f0ca";
+}
+
+.xicon-ionicons5-Globe:before {
+    content: "\f0bd";
+}
+
+.xicon-ionicons5-GlobeOutline:before {
+    content: "\f0b0";
+}
+
+.xicon-ionicons5-GlobeSharp:before {
+    content: "\f0a3";
+}
+
+.xicon-ionicons5-Golf:before {
+    content: "\f096";
+}
+
+.xicon-ionicons5-GolfOutline:before {
+    content: "\f089";
+}
+
+.xicon-ionicons5-GolfSharp:before {
+    content: "\f07c";
+}
+
+.xicon-ionicons5-Grid:before {
+    content: "\f06f";
+}
+
+.xicon-ionicons5-GridOutline:before {
+    content: "\f062";
+}
+
+.xicon-ionicons5-GridSharp:before {
+    content: "\f055";
+}
+
+.xicon-ionicons5-Hammer:before {
+    content: "\f048";
+}
+
+.xicon-ionicons5-HammerOutline:before {
+    content: "\f03b";
+}
+
+.xicon-ionicons5-HammerSharp:before {
+    content: "\f02e";
+}
+
+.xicon-ionicons5-HandLeft:before {
+    content: "\f021";
+}
+
+.xicon-ionicons5-HandLeftOutline:before {
+    content: "\f014";
+}
+
+.xicon-ionicons5-HandLeftSharp:before {
+    content: "\f007";
+}
+
+.xicon-ionicons5-HandRight:before {
+    content: "\f52d";
+}
+
+.xicon-ionicons5-HandRightOutline:before {
+    content: "\f51f";
+}
+
+.xicon-ionicons5-HandRightSharp:before {
+    content: "\f511";
+}
+
+.xicon-ionicons5-Happy:before {
+    content: "\f503";
+}
+
+.xicon-ionicons5-HappyOutline:before {
+    content: "\f4f6";
+}
+
+.xicon-ionicons5-HappySharp:before {
+    content: "\f4e8";
+}
+
+.xicon-ionicons5-HardwareChip:before {
+    content: "\f4da";
+}
+
+.xicon-ionicons5-HardwareChipOutline:before {
+    content: "\f4cc";
+}
+
+.xicon-ionicons5-HardwareChipSharp:before {
+    content: "\f4be";
+}
+
+.xicon-ionicons5-Headset:before {
+    content: "\f4b0";
+}
+
+.xicon-ionicons5-HeadsetOutline:before {
+    content: "\f4a2";
+}
+
+.xicon-ionicons5-HeadsetSharp:before {
+    content: "\f494";
+}
+
+.xicon-ionicons5-Heart:before {
+    content: "\f486";
+}
+
+.xicon-ionicons5-HeartCircle:before {
+    content: "\f478";
+}
+
+.xicon-ionicons5-HeartCircleOutline:before {
+    content: "\f46a";
+}
+
+.xicon-ionicons5-HeartCircleSharp:before {
+    content: "\f45c";
+}
+
+.xicon-ionicons5-HeartDislike:before {
+    content: "\f44e";
+}
+
+.xicon-ionicons5-HeartDislikeCircle:before {
+    content: "\f440";
+}
+
+.xicon-ionicons5-HeartDislikeCircleOutline:before {
+    content: "\f432";
+}
+
+.xicon-ionicons5-HeartDislikeCircleSharp:before {
+    content: "\f424";
+}
+
+.xicon-ionicons5-HeartDislikeOutline:before {
+    content: "\f416";
+}
+
+.xicon-ionicons5-HeartDislikeSharp:before {
+    content: "\f408";
+}
+
+.xicon-ionicons5-HeartHalf:before {
+    content: "\f3fa";
+}
+
+.xicon-ionicons5-HeartHalfOutline:before {
+    content: "\f3ec";
+}
+
+.xicon-ionicons5-HeartHalfSharp:before {
+    content: "\f3de";
+}
+
+.xicon-ionicons5-HeartOutline:before {
+    content: "\f3d0";
+}
+
+.xicon-ionicons5-HeartSharp:before {
+    content: "\f3c2";
+}
+
+.xicon-ionicons5-Help:before {
+    content: "\f3b4";
+}
+
+.xicon-ionicons5-HelpBuoy:before {
+    content: "\f3a6";
+}
+
+.xicon-ionicons5-HelpBuoyOutline:before {
+    content: "\f398";
+}
+
+.xicon-ionicons5-HelpBuoySharp:before {
+    content: "\f38a";
+}
+
+.xicon-ionicons5-HelpCircle:before {
+    content: "\f37c";
+}
+
+.xicon-ionicons5-HelpCircleOutline:before {
+    content: "\f36e";
+}
+
+.xicon-ionicons5-HelpCircleSharp:before {
+    content: "\f360";
+}
+
+.xicon-ionicons5-HelpOutline:before {
+    content: "\f353";
+}
+
+.xicon-ionicons5-HelpSharp:before {
+    content: "\f346";
+}
+
+.xicon-ionicons5-Home:before {
+    content: "\f339";
+}
+
+.xicon-ionicons5-HomeOutline:before {
+    content: "\f32c";
+}
+
+.xicon-ionicons5-HomeSharp:before {
+    content: "\f31f";
+}
+
+.xicon-ionicons5-Hourglass:before {
+    content: "\f312";
+}
+
+.xicon-ionicons5-HourglassOutline:before {
+    content: "\f305";
+}
+
+.xicon-ionicons5-HourglassSharp:before {
+    content: "\f2f8";
+}
+
+.xicon-ionicons5-IceCream:before {
+    content: "\f2eb";
+}
+
+.xicon-ionicons5-IceCreamOutline:before {
+    content: "\f2de";
+}
+
+.xicon-ionicons5-IceCreamSharp:before {
+    content: "\f2d1";
+}
+
+.xicon-ionicons5-IdCard:before {
+    content: "\f2c4";
+}
+
+.xicon-ionicons5-IdCardOutline:before {
+    content: "\f2b7";
+}
+
+.xicon-ionicons5-IdCardSharp:before {
+    content: "\f2aa";
+}
+
+.xicon-ionicons5-Image:before {
+    content: "\f29d";
+}
+
+.xicon-ionicons5-ImageOutline:before {
+    content: "\f290";
+}
+
+.xicon-ionicons5-Images:before {
+    content: "\f283";
+}
+
+.xicon-ionicons5-ImageSharp:before {
+    content: "\f276";
+}
+
+.xicon-ionicons5-ImagesOutline:before {
+    content: "\f269";
+}
+
+.xicon-ionicons5-ImagesSharp:before {
+    content: "\f25c";
+}
+
+.xicon-ionicons5-Infinite:before {
+    content: "\f24f";
+}
+
+.xicon-ionicons5-InfiniteOutline:before {
+    content: "\f242";
+}
+
+.xicon-ionicons5-InfiniteSharp:before {
+    content: "\f235";
+}
+
+.xicon-ionicons5-Information:before {
+    content: "\f228";
+}
+
+.xicon-ionicons5-InformationCircle:before {
+    content: "\f21b";
+}
+
+.xicon-ionicons5-InformationCircleOutline:before {
+    content: "\f20e";
+}
+
+.xicon-ionicons5-InformationCircleSharp:before {
+    content: "\f201";
+}
+
+.xicon-ionicons5-InformationOutline:before {
+    content: "\f1f4";
+}
+
+.xicon-ionicons5-InformationSharp:before {
+    content: "\f1e7";
+}
+
+.xicon-ionicons5-InvertMode:before {
+    content: "\f1da";
+}
+
+.xicon-ionicons5-InvertModeOutline:before {
+    content: "\f1cd";
+}
+
+.xicon-ionicons5-InvertModeSharp:before {
+    content: "\f1c0";
+}
+
+.xicon-ionicons5-Journal:before {
+    content: "\f1b3";
+}
+
+.xicon-ionicons5-JournalOutline:before {
+    content: "\f1a6";
+}
+
+.xicon-ionicons5-JournalSharp:before {
+    content: "\f199";
+}
+
+.xicon-ionicons5-Key:before {
+    content: "\f18c";
+}
+
+.xicon-ionicons5-KeyOutline:before {
+    content: "\f17f";
+}
+
+.xicon-ionicons5-Keypad:before {
+    content: "\f172";
+}
+
+.xicon-ionicons5-KeypadOutline:before {
+    content: "\f165";
+}
+
+.xicon-ionicons5-KeypadSharp:before {
+    content: "\f158";
+}
+
+.xicon-ionicons5-KeySharp:before {
+    content: "\f14b";
+}
+
+.xicon-ionicons5-Language:before {
+    content: "\f13e";
+}
+
+.xicon-ionicons5-LanguageOutline:before {
+    content: "\f131";
+}
+
+.xicon-ionicons5-LanguageSharp:before {
+    content: "\f124";
+}
+
+.xicon-ionicons5-Laptop:before {
+    content: "\f117";
+}
+
+.xicon-ionicons5-LaptopOutline:before {
+    content: "\f10a";
+}
+
+.xicon-ionicons5-LaptopSharp:before {
+    content: "\f0fd";
+}
+
+.xicon-ionicons5-Layers:before {
+    content: "\f0f0";
+}
+
+.xicon-ionicons5-LayersOutline:before {
+    content: "\f0e3";
+}
+
+.xicon-ionicons5-LayersSharp:before {
+    content: "\f0d6";
+}
+
+.xicon-ionicons5-Leaf:before {
+    content: "\f0c9";
+}
+
+.xicon-ionicons5-LeafOutline:before {
+    content: "\f0bc";
+}
+
+.xicon-ionicons5-LeafSharp:before {
+    content: "\f0af";
+}
+
+.xicon-ionicons5-Library:before {
+    content: "\f0a2";
+}
+
+.xicon-ionicons5-LibraryOutline:before {
+    content: "\f095";
+}
+
+.xicon-ionicons5-LibrarySharp:before {
+    content: "\f088";
+}
+
+.xicon-ionicons5-Link:before {
+    content: "\f07b";
+}
+
+.xicon-ionicons5-LinkOutline:before {
+    content: "\f06e";
+}
+
+.xicon-ionicons5-LinkSharp:before {
+    content: "\f061";
+}
+
+.xicon-ionicons5-List:before {
+    content: "\f054";
+}
+
+.xicon-ionicons5-ListCircle:before {
+    content: "\f047";
+}
+
+.xicon-ionicons5-ListCircleOutline:before {
+    content: "\f03a";
+}
+
+.xicon-ionicons5-ListCircleSharp:before {
+    content: "\f02d";
+}
+
+.xicon-ionicons5-ListOutline:before {
+    content: "\f020";
+}
+
+.xicon-ionicons5-ListSharp:before {
+    content: "\f013";
+}
+
+.xicon-ionicons5-Locate:before {
+    content: "\f006";
+}
+
+.xicon-ionicons5-LocateOutline:before {
+    content: "\f52c";
+}
+
+.xicon-ionicons5-LocateSharp:before {
+    content: "\f51e";
+}
+
+.xicon-ionicons5-Location:before {
+    content: "\f510";
+}
+
+.xicon-ionicons5-LocationOutline:before {
+    content: "\f502";
+}
+
+.xicon-ionicons5-LocationSharp:before {
+    content: "\f4f5";
+}
+
+.xicon-ionicons5-LockClosed:before {
+    content: "\f4e7";
+}
+
+.xicon-ionicons5-LockClosedOutline:before {
+    content: "\f4d9";
+}
+
+.xicon-ionicons5-LockClosedSharp:before {
+    content: "\f4cb";
+}
+
+.xicon-ionicons5-LockOpen:before {
+    content: "\f4bd";
+}
+
+.xicon-ionicons5-LockOpenOutline:before {
+    content: "\f4af";
+}
+
+.xicon-ionicons5-LockOpenSharp:before {
+    content: "\f4a1";
+}
+
+.xicon-ionicons5-LogIn:before {
+    content: "\f493";
+}
+
+.xicon-ionicons5-LogInOutline:before {
+    content: "\f485";
+}
+
+.xicon-ionicons5-LogInSharp:before {
+    content: "\f477";
+}
+
+.xicon-ionicons5-LogoAlipay:before {
+    content: "\f469";
+}
+
+.xicon-ionicons5-LogoAmazon:before {
+    content: "\f45b";
+}
+
+.xicon-ionicons5-LogoAmplify:before {
+    content: "\f44d";
+}
+
+.xicon-ionicons5-LogoAndroid:before {
+    content: "\f43f";
+}
+
+.xicon-ionicons5-LogoAngular:before {
+    content: "\f431";
+}
+
+.xicon-ionicons5-LogoApple:before {
+    content: "\f423";
+}
+
+.xicon-ionicons5-LogoAppleAppstore:before {
+    content: "\f415";
+}
+
+.xicon-ionicons5-LogoAppleAr:before {
+    content: "\f407";
+}
+
+.xicon-ionicons5-LogoBehance:before {
+    content: "\f3f9";
+}
+
+.xicon-ionicons5-LogoBitbucket:before {
+    content: "\f3eb";
+}
+
+.xicon-ionicons5-LogoBitcoin:before {
+    content: "\f3dd";
+}
+
+.xicon-ionicons5-LogoBuffer:before {
+    content: "\f3cf";
+}
+
+.xicon-ionicons5-LogoCapacitor:before {
+    content: "\f3c1";
+}
+
+.xicon-ionicons5-LogoChrome:before {
+    content: "\f3b3";
+}
+
+.xicon-ionicons5-LogoClosedCaptioning:before {
+    content: "\f3a5";
+}
+
+.xicon-ionicons5-LogoCodepen:before {
+    content: "\f397";
+}
+
+.xicon-ionicons5-LogoCss3:before {
+    content: "\f389";
+}
+
+.xicon-ionicons5-LogoDesignernews:before {
+    content: "\f37b";
+}
+
+.xicon-ionicons5-LogoDeviantart:before {
+    content: "\f36d";
+}
+
+.xicon-ionicons5-LogoDiscord:before {
+    content: "\f35f";
+}
+
+.xicon-ionicons5-LogoDocker:before {
+    content: "\f352";
+}
+
+.xicon-ionicons5-LogoDribbble:before {
+    content: "\f345";
+}
+
+.xicon-ionicons5-LogoDropbox:before {
+    content: "\f338";
+}
+
+.xicon-ionicons5-LogoEdge:before {
+    content: "\f32b";
+}
+
+.xicon-ionicons5-LogoElectron:before {
+    content: "\f31e";
+}
+
+.xicon-ionicons5-LogoEuro:before {
+    content: "\f311";
+}
+
+.xicon-ionicons5-LogoFacebook:before {
+    content: "\f304";
+}
+
+.xicon-ionicons5-LogoFigma:before {
+    content: "\f2f7";
+}
+
+.xicon-ionicons5-LogoFirebase:before {
+    content: "\f2ea";
+}
+
+.xicon-ionicons5-LogoFirefox:before {
+    content: "\f2dd";
+}
+
+.xicon-ionicons5-LogoFlickr:before {
+    content: "\f2d0";
+}
+
+.xicon-ionicons5-LogoFoursquare:before {
+    content: "\f2c3";
+}
+
+.xicon-ionicons5-LogoGithub:before {
+    content: "\f2b6";
+}
+
+.xicon-ionicons5-LogoGitlab:before {
+    content: "\f2a9";
+}
+
+.xicon-ionicons5-LogoGoogle:before {
+    content: "\f29c";
+}
+
+.xicon-ionicons5-LogoGooglePlaystore:before {
+    content: "\f28f";
+}
+
+.xicon-ionicons5-LogoHackernews:before {
+    content: "\f282";
+}
+
+.xicon-ionicons5-LogoHtml5:before {
+    content: "\f275";
+}
+
+.xicon-ionicons5-LogoInstagram:before {
+    content: "\f268";
+}
+
+.xicon-ionicons5-LogoIonic:before {
+    content: "\f25b";
+}
+
+.xicon-ionicons5-LogoIonitron:before {
+    content: "\f24e";
+}
+
+.xicon-ionicons5-LogoJavascript:before {
+    content: "\f241";
+}
+
+.xicon-ionicons5-LogoLaravel:before {
+    content: "\f234";
+}
+
+.xicon-ionicons5-LogoLinkedin:before {
+    content: "\f227";
+}
+
+.xicon-ionicons5-LogoMarkdown:before {
+    content: "\f21a";
+}
+
+.xicon-ionicons5-LogoMastodon:before {
+    content: "\f20d";
+}
+
+.xicon-ionicons5-LogoMedium:before {
+    content: "\f200";
+}
+
+.xicon-ionicons5-LogoMicrosoft:before {
+    content: "\f1f3";
+}
+
+.xicon-ionicons5-LogoNodejs:before {
+    content: "\f1e6";
+}
+
+.xicon-ionicons5-LogoNoSmoking:before {
+    content: "\f1d9";
+}
+
+.xicon-ionicons5-LogoNpm:before {
+    content: "\f1cc";
+}
+
+.xicon-ionicons5-LogoOctocat:before {
+    content: "\f1bf";
+}
+
+.xicon-ionicons5-LogoPaypal:before {
+    content: "\f1b2";
+}
+
+.xicon-ionicons5-LogoPinterest:before {
+    content: "\f1a5";
+}
+
+.xicon-ionicons5-LogoPlaystation:before {
+    content: "\f198";
+}
+
+.xicon-ionicons5-LogoPwa:before {
+    content: "\f18b";
+}
+
+.xicon-ionicons5-LogoPython:before {
+    content: "\f17e";
+}
+
+.xicon-ionicons5-LogoReact:before {
+    content: "\f171";
+}
+
+.xicon-ionicons5-LogoReddit:before {
+    content: "\f164";
+}
+
+.xicon-ionicons5-LogoRss:before {
+    content: "\f157";
+}
+
+.xicon-ionicons5-LogoSass:before {
+    content: "\f14a";
+}
+
+.xicon-ionicons5-LogoSkype:before {
+    content: "\f13d";
+}
+
+.xicon-ionicons5-LogoSlack:before {
+    content: "\f130";
+}
+
+.xicon-ionicons5-LogoSnapchat:before {
+    content: "\f123";
+}
+
+.xicon-ionicons5-LogoSoundcloud:before {
+    content: "\f116";
+}
+
+.xicon-ionicons5-LogoStackoverflow:before {
+    content: "\f109";
+}
+
+.xicon-ionicons5-LogoSteam:before {
+    content: "\f0fc";
+}
+
+.xicon-ionicons5-LogoStencil:before {
+    content: "\f0ef";
+}
+
+.xicon-ionicons5-LogoTableau:before {
+    content: "\f0e2";
+}
+
+.xicon-ionicons5-LogoTiktok:before {
+    content: "\f0d5";
+}
+
+.xicon-ionicons5-LogoTumblr:before {
+    content: "\f0c8";
+}
+
+.xicon-ionicons5-LogoTux:before {
+    content: "\f0bb";
+}
+
+.xicon-ionicons5-LogoTwitch:before {
+    content: "\f0ae";
+}
+
+.xicon-ionicons5-LogoTwitter:before {
+    content: "\f0a1";
+}
+
+.xicon-ionicons5-LogoUsd:before {
+    content: "\f094";
+}
+
+.xicon-ionicons5-LogOut:before {
+    content: "\f087";
+}
+
+.xicon-ionicons5-LogOutOutline:before {
+    content: "\f07a";
+}
+
+.xicon-ionicons5-LogOutSharp:before {
+    content: "\f06d";
+}
+
+.xicon-ionicons5-LogoVenmo:before {
+    content: "\f060";
+}
+
+.xicon-ionicons5-LogoVercel:before {
+    content: "\f053";
+}
+
+.xicon-ionicons5-LogoVimeo:before {
+    content: "\f046";
+}
+
+.xicon-ionicons5-LogoVk:before {
+    content: "\f039";
+}
+
+.xicon-ionicons5-LogoVue:before {
+    content: "\f02c";
+}
+
+.xicon-ionicons5-LogoWebComponent:before {
+    content: "\f01f";
+}
+
+.xicon-ionicons5-LogoWechat:before {
+    content: "\f012";
+}
+
+.xicon-ionicons5-LogoWhatsapp:before {
+    content: "\f005";
+}
+
+.xicon-ionicons5-LogoWindows:before {
+    content: "\f52b";
+}
+
+.xicon-ionicons5-LogoWordpress:before {
+    content: "\f51d";
+}
+
+.xicon-ionicons5-LogoXbox:before {
+    content: "\f50f";
+}
+
+.xicon-ionicons5-LogoXing:before {
+    content: "\f501";
+}
+
+.xicon-ionicons5-LogoYahoo:before {
+    content: "\f4f4";
+}
+
+.xicon-ionicons5-LogoYen:before {
+    content: "\f4e6";
+}
+
+.xicon-ionicons5-LogoYoutube:before {
+    content: "\f4d8";
+}
+
+.xicon-ionicons5-Magnet:before {
+    content: "\f4ca";
+}
+
+.xicon-ionicons5-MagnetOutline:before {
+    content: "\f4bc";
+}
+
+.xicon-ionicons5-MagnetSharp:before {
+    content: "\f4ae";
+}
+
+.xicon-ionicons5-Mail:before {
+    content: "\f4a0";
+}
+
+.xicon-ionicons5-MailOpen:before {
+    content: "\f492";
+}
+
+.xicon-ionicons5-MailOpenOutline:before {
+    content: "\f484";
+}
+
+.xicon-ionicons5-MailOpenSharp:before {
+    content: "\f476";
+}
+
+.xicon-ionicons5-MailOutline:before {
+    content: "\f468";
+}
+
+.xicon-ionicons5-MailSharp:before {
+    content: "\f45a";
+}
+
+.xicon-ionicons5-MailUnread:before {
+    content: "\f44c";
+}
+
+.xicon-ionicons5-MailUnreadOutline:before {
+    content: "\f43e";
+}
+
+.xicon-ionicons5-MailUnreadSharp:before {
+    content: "\f430";
+}
+
+.xicon-ionicons5-Male:before {
+    content: "\f422";
+}
+
+.xicon-ionicons5-MaleFemale:before {
+    content: "\f414";
+}
+
+.xicon-ionicons5-MaleFemaleOutline:before {
+    content: "\f406";
+}
+
+.xicon-ionicons5-MaleFemaleSharp:before {
+    content: "\f3f8";
+}
+
+.xicon-ionicons5-MaleOutline:before {
+    content: "\f3ea";
+}
+
+.xicon-ionicons5-MaleSharp:before {
+    content: "\f3dc";
+}
+
+.xicon-ionicons5-Man:before {
+    content: "\f3ce";
+}
+
+.xicon-ionicons5-ManOutline:before {
+    content: "\f3c0";
+}
+
+.xicon-ionicons5-ManSharp:before {
+    content: "\f3b2";
+}
+
+.xicon-ionicons5-Map:before {
+    content: "\f3a4";
+}
+
+.xicon-ionicons5-MapOutline:before {
+    content: "\f396";
+}
+
+.xicon-ionicons5-MapSharp:before {
+    content: "\f388";
+}
+
+.xicon-ionicons5-Medal:before {
+    content: "\f37a";
+}
+
+.xicon-ionicons5-MedalOutline:before {
+    content: "\f36c";
+}
+
+.xicon-ionicons5-MedalSharp:before {
+    content: "\f35e";
+}
+
+.xicon-ionicons5-Medical:before {
+    content: "\f351";
+}
+
+.xicon-ionicons5-MedicalOutline:before {
+    content: "\f344";
+}
+
+.xicon-ionicons5-MedicalSharp:before {
+    content: "\f337";
+}
+
+.xicon-ionicons5-Medkit:before {
+    content: "\f32a";
+}
+
+.xicon-ionicons5-MedkitOutline:before {
+    content: "\f31d";
+}
+
+.xicon-ionicons5-MedkitSharp:before {
+    content: "\f310";
+}
+
+.xicon-ionicons5-Megaphone:before {
+    content: "\f303";
+}
+
+.xicon-ionicons5-MegaphoneOutline:before {
+    content: "\f2f6";
+}
+
+.xicon-ionicons5-MegaphoneSharp:before {
+    content: "\f2e9";
+}
+
+.xicon-ionicons5-Menu:before {
+    content: "\f2dc";
+}
+
+.xicon-ionicons5-MenuOutline:before {
+    content: "\f2cf";
+}
+
+.xicon-ionicons5-MenuSharp:before {
+    content: "\f2c2";
+}
+
+.xicon-ionicons5-Mic:before {
+    content: "\f2b5";
+}
+
+.xicon-ionicons5-MicCircle:before {
+    content: "\f2a8";
+}
+
+.xicon-ionicons5-MicCircleOutline:before {
+    content: "\f29b";
+}
+
+.xicon-ionicons5-MicCircleSharp:before {
+    content: "\f28e";
+}
+
+.xicon-ionicons5-MicOff:before {
+    content: "\f281";
+}
+
+.xicon-ionicons5-MicOffCircle:before {
+    content: "\f274";
+}
+
+.xicon-ionicons5-MicOffCircleOutline:before {
+    content: "\f267";
+}
+
+.xicon-ionicons5-MicOffCircleSharp:before {
+    content: "\f25a";
+}
+
+.xicon-ionicons5-MicOffOutline:before {
+    content: "\f24d";
+}
+
+.xicon-ionicons5-MicOffSharp:before {
+    content: "\f240";
+}
+
+.xicon-ionicons5-MicOutline:before {
+    content: "\f233";
+}
+
+.xicon-ionicons5-MicSharp:before {
+    content: "\f226";
+}
+
+.xicon-ionicons5-Moon:before {
+    content: "\f219";
+}
+
+.xicon-ionicons5-MoonOutline:before {
+    content: "\f20c";
+}
+
+.xicon-ionicons5-MoonSharp:before {
+    content: "\f1ff";
+}
+
+.xicon-ionicons5-Move:before {
+    content: "\f1f2";
+}
+
+.xicon-ionicons5-MoveOutline:before {
+    content: "\f1e5";
+}
+
+.xicon-ionicons5-MoveSharp:before {
+    content: "\f1d8";
+}
+
+.xicon-ionicons5-MusicalNote:before {
+    content: "\f1cb";
+}
+
+.xicon-ionicons5-MusicalNoteOutline:before {
+    content: "\f1be";
+}
+
+.xicon-ionicons5-MusicalNotes:before {
+    content: "\f1b1";
+}
+
+.xicon-ionicons5-MusicalNoteSharp:before {
+    content: "\f1a4";
+}
+
+.xicon-ionicons5-MusicalNotesOutline:before {
+    content: "\f197";
+}
+
+.xicon-ionicons5-MusicalNotesSharp:before {
+    content: "\f18a";
+}
+
+.xicon-ionicons5-Navigate:before {
+    content: "\f17d";
+}
+
+.xicon-ionicons5-NavigateCircle:before {
+    content: "\f170";
+}
+
+.xicon-ionicons5-NavigateCircleOutline:before {
+    content: "\f163";
+}
+
+.xicon-ionicons5-NavigateCircleSharp:before {
+    content: "\f156";
+}
+
+.xicon-ionicons5-NavigateOutline:before {
+    content: "\f149";
+}
+
+.xicon-ionicons5-NavigateSharp:before {
+    content: "\f13c";
+}
+
+.xicon-ionicons5-Newspaper:before {
+    content: "\f12f";
+}
+
+.xicon-ionicons5-NewspaperOutline:before {
+    content: "\f122";
+}
+
+.xicon-ionicons5-NewspaperSharp:before {
+    content: "\f115";
+}
+
+.xicon-ionicons5-Notifications:before {
+    content: "\f108";
+}
+
+.xicon-ionicons5-NotificationsCircle:before {
+    content: "\f0fb";
+}
+
+.xicon-ionicons5-NotificationsCircleOutline:before {
+    content: "\f0ee";
+}
+
+.xicon-ionicons5-NotificationsCircleSharp:before {
+    content: "\f0e1";
+}
+
+.xicon-ionicons5-NotificationsOff:before {
+    content: "\f0d4";
+}
+
+.xicon-ionicons5-NotificationsOffCircle:before {
+    content: "\f0c7";
+}
+
+.xicon-ionicons5-NotificationsOffCircleOutline:before {
+    content: "\f0ba";
+}
+
+.xicon-ionicons5-NotificationsOffCircleSharp:before {
+    content: "\f0ad";
+}
+
+.xicon-ionicons5-NotificationsOffOutline:before {
+    content: "\f0a0";
+}
+
+.xicon-ionicons5-NotificationsOffSharp:before {
+    content: "\f093";
+}
+
+.xicon-ionicons5-NotificationsOutline:before {
+    content: "\f086";
+}
+
+.xicon-ionicons5-NotificationsSharp:before {
+    content: "\f079";
+}
+
+.xicon-ionicons5-Nuclear:before {
+    content: "\f06c";
+}
+
+.xicon-ionicons5-NuclearOutline:before {
+    content: "\f05f";
+}
+
+.xicon-ionicons5-NuclearSharp:before {
+    content: "\f052";
+}
+
+.xicon-ionicons5-Nutrition:before {
+    content: "\f045";
+}
+
+.xicon-ionicons5-NutritionOutline:before {
+    content: "\f038";
+}
+
+.xicon-ionicons5-NutritionSharp:before {
+    content: "\f02b";
+}
+
+.xicon-ionicons5-Open:before {
+    content: "\f01e";
+}
+
+.xicon-ionicons5-OpenOutline:before {
+    content: "\f011";
+}
+
+.xicon-ionicons5-OpenSharp:before {
+    content: "\f004";
+}
+
+.xicon-ionicons5-Options:before {
+    content: "\f52a";
+}
+
+.xicon-ionicons5-OptionsOutline:before {
+    content: "\f51c";
+}
+
+.xicon-ionicons5-OptionsSharp:before {
+    content: "\f50e";
+}
+
+.xicon-ionicons5-PaperPlane:before {
+    content: "\f4f3";
+}
+
+.xicon-ionicons5-PaperPlaneOutline:before {
+    content: "\f4e5";
+}
+
+.xicon-ionicons5-PaperPlaneSharp:before {
+    content: "\f4d7";
+}
+
+.xicon-ionicons5-PartlySunny:before {
+    content: "\f4c9";
+}
+
+.xicon-ionicons5-PartlySunnyOutline:before {
+    content: "\f4bb";
+}
+
+.xicon-ionicons5-PartlySunnySharp:before {
+    content: "\f4ad";
+}
+
+.xicon-ionicons5-Pause:before {
+    content: "\f49f";
+}
+
+.xicon-ionicons5-PauseCircle:before {
+    content: "\f491";
+}
+
+.xicon-ionicons5-PauseCircleOutline:before {
+    content: "\f483";
+}
+
+.xicon-ionicons5-PauseCircleSharp:before {
+    content: "\f475";
+}
+
+.xicon-ionicons5-PauseOutline:before {
+    content: "\f467";
+}
+
+.xicon-ionicons5-PauseSharp:before {
+    content: "\f459";
+}
+
+.xicon-ionicons5-Paw:before {
+    content: "\f44b";
+}
+
+.xicon-ionicons5-PawOutline:before {
+    content: "\f43d";
+}
+
+.xicon-ionicons5-PawSharp:before {
+    content: "\f42f";
+}
+
+.xicon-ionicons5-Pencil:before {
+    content: "\f421";
+}
+
+.xicon-ionicons5-PencilOutline:before {
+    content: "\f413";
+}
+
+.xicon-ionicons5-PencilSharp:before {
+    content: "\f405";
+}
+
+.xicon-ionicons5-People:before {
+    content: "\f3f7";
+}
+
+.xicon-ionicons5-PeopleCircle:before {
+    content: "\f3e9";
+}
+
+.xicon-ionicons5-PeopleCircleOutline:before {
+    content: "\f3db";
+}
+
+.xicon-ionicons5-PeopleCircleSharp:before {
+    content: "\f3cd";
+}
+
+.xicon-ionicons5-PeopleOutline:before {
+    content: "\f3bf";
+}
+
+.xicon-ionicons5-PeopleSharp:before {
+    content: "\f3b1";
+}
+
+.xicon-ionicons5-Person:before {
+    content: "\f3a3";
+}
+
+.xicon-ionicons5-PersonAdd:before {
+    content: "\f395";
+}
+
+.xicon-ionicons5-PersonAddOutline:before {
+    content: "\f387";
+}
+
+.xicon-ionicons5-PersonAddSharp:before {
+    content: "\f379";
+}
+
+.xicon-ionicons5-PersonCircle:before {
+    content: "\f36b";
+}
+
+.xicon-ionicons5-PersonCircleOutline:before {
+    content: "\f35d";
+}
+
+.xicon-ionicons5-PersonCircleSharp:before {
+    content: "\f350";
+}
+
+.xicon-ionicons5-PersonOutline:before {
+    content: "\f343";
+}
+
+.xicon-ionicons5-PersonRemove:before {
+    content: "\f336";
+}
+
+.xicon-ionicons5-PersonRemoveOutline:before {
+    content: "\f329";
+}
+
+.xicon-ionicons5-PersonRemoveSharp:before {
+    content: "\f31c";
+}
+
+.xicon-ionicons5-PersonSharp:before {
+    content: "\f30f";
+}
+
+.xicon-ionicons5-PhoneLandscape:before {
+    content: "\f302";
+}
+
+.xicon-ionicons5-PhoneLandscapeOutline:before {
+    content: "\f2f5";
+}
+
+.xicon-ionicons5-PhoneLandscapeSharp:before {
+    content: "\f2e8";
+}
+
+.xicon-ionicons5-PhonePortrait:before {
+    content: "\f2db";
+}
+
+.xicon-ionicons5-PhonePortraitOutline:before {
+    content: "\f2ce";
+}
+
+.xicon-ionicons5-PhonePortraitSharp:before {
+    content: "\f2c1";
+}
+
+.xicon-ionicons5-PieChart:before {
+    content: "\f2b4";
+}
+
+.xicon-ionicons5-PieChartOutline:before {
+    content: "\f2a7";
+}
+
+.xicon-ionicons5-PieChartSharp:before {
+    content: "\f29a";
+}
+
+.xicon-ionicons5-Pin:before {
+    content: "\f28d";
+}
+
+.xicon-ionicons5-PinOutline:before {
+    content: "\f280";
+}
+
+.xicon-ionicons5-PinSharp:before {
+    content: "\f273";
+}
+
+.xicon-ionicons5-Pint:before {
+    content: "\f266";
+}
+
+.xicon-ionicons5-PintOutline:before {
+    content: "\f259";
+}
+
+.xicon-ionicons5-PintSharp:before {
+    content: "\f24c";
+}
+
+.xicon-ionicons5-Pizza:before {
+    content: "\f23f";
+}
+
+.xicon-ionicons5-PizzaOutline:before {
+    content: "\f232";
+}
+
+.xicon-ionicons5-PizzaSharp:before {
+    content: "\f225";
+}
+
+.xicon-ionicons5-Planet:before {
+    content: "\f218";
+}
+
+.xicon-ionicons5-PlanetOutline:before {
+    content: "\f20b";
+}
+
+.xicon-ionicons5-PlanetSharp:before {
+    content: "\f1fe";
+}
+
+.xicon-ionicons5-Play:before {
+    content: "\f1f1";
+}
+
+.xicon-ionicons5-PlayBack:before {
+    content: "\f1e4";
+}
+
+.xicon-ionicons5-PlayBackCircle:before {
+    content: "\f1d7";
+}
+
+.xicon-ionicons5-PlayBackCircleOutline:before {
+    content: "\f1ca";
+}
+
+.xicon-ionicons5-PlayBackCircleSharp:before {
+    content: "\f1bd";
+}
+
+.xicon-ionicons5-PlayBackOutline:before {
+    content: "\f1b0";
+}
+
+.xicon-ionicons5-PlayBackSharp:before {
+    content: "\f1a3";
+}
+
+.xicon-ionicons5-PlayCircle:before {
+    content: "\f196";
+}
+
+.xicon-ionicons5-PlayCircleOutline:before {
+    content: "\f189";
+}
+
+.xicon-ionicons5-PlayCircleSharp:before {
+    content: "\f17c";
+}
+
+.xicon-ionicons5-PlayForward:before {
+    content: "\f16f";
+}
+
+.xicon-ionicons5-PlayForwardCircle:before {
+    content: "\f162";
+}
+
+.xicon-ionicons5-PlayForwardCircleOutline:before {
+    content: "\f155";
+}
+
+.xicon-ionicons5-PlayForwardCircleSharp:before {
+    content: "\f148";
+}
+
+.xicon-ionicons5-PlayForwardOutline:before {
+    content: "\f13b";
+}
+
+.xicon-ionicons5-PlayForwardSharp:before {
+    content: "\f12e";
+}
+
+.xicon-ionicons5-PlayOutline:before {
+    content: "\f121";
+}
+
+.xicon-ionicons5-PlaySharp:before {
+    content: "\f114";
+}
+
+.xicon-ionicons5-PlaySkipBack:before {
+    content: "\f107";
+}
+
+.xicon-ionicons5-PlaySkipBackCircle:before {
+    content: "\f0fa";
+}
+
+.xicon-ionicons5-PlaySkipBackCircleOutline:before {
+    content: "\f0ed";
+}
+
+.xicon-ionicons5-PlaySkipBackCircleSharp:before {
+    content: "\f0e0";
+}
+
+.xicon-ionicons5-PlaySkipBackOutline:before {
+    content: "\f0d3";
+}
+
+.xicon-ionicons5-PlaySkipBackSharp:before {
+    content: "\f0c6";
+}
+
+.xicon-ionicons5-PlaySkipForward:before {
+    content: "\f0b9";
+}
+
+.xicon-ionicons5-PlaySkipForwardCircle:before {
+    content: "\f0ac";
+}
+
+.xicon-ionicons5-PlaySkipForwardCircleOutline:before {
+    content: "\f09f";
+}
+
+.xicon-ionicons5-PlaySkipForwardCircleSharp:before {
+    content: "\f092";
+}
+
+.xicon-ionicons5-PlaySkipForwardOutline:before {
+    content: "\f085";
+}
+
+.xicon-ionicons5-PlaySkipForwardSharp:before {
+    content: "\f078";
+}
+
+.xicon-ionicons5-Podium:before {
+    content: "\f06b";
+}
+
+.xicon-ionicons5-PodiumOutline:before {
+    content: "\f05e";
+}
+
+.xicon-ionicons5-PodiumSharp:before {
+    content: "\f051";
+}
+
+.xicon-ionicons5-Power:before {
+    content: "\f044";
+}
+
+.xicon-ionicons5-PowerOutline:before {
+    content: "\f037";
+}
+
+.xicon-ionicons5-PowerSharp:before {
+    content: "\f02a";
+}
+
+.xicon-ionicons5-Pricetag:before {
+    content: "\f01d";
+}
+
+.xicon-ionicons5-PricetagOutline:before {
+    content: "\f010";
+}
+
+.xicon-ionicons5-Pricetags:before {
+    content: "\f003";
+}
+
+.xicon-ionicons5-PricetagSharp:before {
+    content: "\f529";
+}
+
+.xicon-ionicons5-PricetagsOutline:before {
+    content: "\f51b";
+}
+
+.xicon-ionicons5-PricetagsSharp:before {
+    content: "\f50d";
+}
+
+.xicon-ionicons5-Print:before {
+    content: "\f500";
+}
+
+.xicon-ionicons5-PrintOutline:before {
+    content: "\f4f2";
+}
+
+.xicon-ionicons5-PrintSharp:before {
+    content: "\f4e4";
+}
+
+.xicon-ionicons5-Prism:before {
+    content: "\f4d6";
+}
+
+.xicon-ionicons5-PrismOutline:before {
+    content: "\f4c8";
+}
+
+.xicon-ionicons5-PrismSharp:before {
+    content: "\f4ba";
+}
+
+.xicon-ionicons5-Pulse:before {
+    content: "\f4ac";
+}
+
+.xicon-ionicons5-PulseOutline:before {
+    content: "\f49e";
+}
+
+.xicon-ionicons5-PulseSharp:before {
+    content: "\f490";
+}
+
+.xicon-ionicons5-Push:before {
+    content: "\f482";
+}
+
+.xicon-ionicons5-PushOutline:before {
+    content: "\f474";
+}
+
+.xicon-ionicons5-PushSharp:before {
+    content: "\f466";
+}
+
+.xicon-ionicons5-QrCode:before {
+    content: "\f458";
+}
+
+.xicon-ionicons5-QrCodeOutline:before {
+    content: "\f44a";
+}
+
+.xicon-ionicons5-QrCodeSharp:before {
+    content: "\f43c";
+}
+
+.xicon-ionicons5-Radio:before {
+    content: "\f42e";
+}
+
+.xicon-ionicons5-RadioButtonOff:before {
+    content: "\f420";
+}
+
+.xicon-ionicons5-RadioButtonOffOutline:before {
+    content: "\f412";
+}
+
+.xicon-ionicons5-RadioButtonOffSharp:before {
+    content: "\f404";
+}
+
+.xicon-ionicons5-RadioButtonOn:before {
+    content: "\f3f6";
+}
+
+.xicon-ionicons5-RadioButtonOnOutline:before {
+    content: "\f3e8";
+}
+
+.xicon-ionicons5-RadioButtonOnSharp:before {
+    content: "\f3da";
+}
+
+.xicon-ionicons5-RadioOutline:before {
+    content: "\f3cc";
+}
+
+.xicon-ionicons5-RadioSharp:before {
+    content: "\f3be";
+}
+
+.xicon-ionicons5-Rainy:before {
+    content: "\f3b0";
+}
+
+.xicon-ionicons5-RainyOutline:before {
+    content: "\f3a2";
+}
+
+.xicon-ionicons5-RainySharp:before {
+    content: "\f394";
+}
+
+.xicon-ionicons5-Reader:before {
+    content: "\f386";
+}
+
+.xicon-ionicons5-ReaderOutline:before {
+    content: "\f378";
+}
+
+.xicon-ionicons5-ReaderSharp:before {
+    content: "\f36a";
+}
+
+.xicon-ionicons5-Receipt:before {
+    content: "\f34f";
+}
+
+.xicon-ionicons5-ReceiptOutline:before {
+    content: "\f342";
+}
+
+.xicon-ionicons5-ReceiptSharp:before {
+    content: "\f335";
+}
+
+.xicon-ionicons5-Recording:before {
+    content: "\f328";
+}
+
+.xicon-ionicons5-RecordingOutline:before {
+    content: "\f31b";
+}
+
+.xicon-ionicons5-RecordingSharp:before {
+    content: "\f30e";
+}
+
+.xicon-ionicons5-Refresh:before {
+    content: "\f301";
+}
+
+.xicon-ionicons5-RefreshCircle:before {
+    content: "\f2f4";
+}
+
+.xicon-ionicons5-RefreshCircleOutline:before {
+    content: "\f2e7";
+}
+
+.xicon-ionicons5-RefreshCircleSharp:before {
+    content: "\f2da";
+}
+
+.xicon-ionicons5-RefreshOutline:before {
+    content: "\f2cd";
+}
+
+.xicon-ionicons5-RefreshSharp:before {
+    content: "\f2c0";
+}
+
+.xicon-ionicons5-Reload:before {
+    content: "\f2b3";
+}
+
+.xicon-ionicons5-ReloadCircle:before {
+    content: "\f2a6";
+}
+
+.xicon-ionicons5-ReloadCircleOutline:before {
+    content: "\f299";
+}
+
+.xicon-ionicons5-ReloadCircleSharp:before {
+    content: "\f28c";
+}
+
+.xicon-ionicons5-ReloadOutline:before {
+    content: "\f27f";
+}
+
+.xicon-ionicons5-ReloadSharp:before {
+    content: "\f272";
+}
+
+.xicon-ionicons5-Remove:before {
+    content: "\f265";
+}
+
+.xicon-ionicons5-RemoveCircle:before {
+    content: "\f258";
+}
+
+.xicon-ionicons5-RemoveCircleOutline:before {
+    content: "\f24b";
+}
+
+.xicon-ionicons5-RemoveCircleSharp:before {
+    content: "\f23e";
+}
+
+.xicon-ionicons5-RemoveOutline:before {
+    content: "\f231";
+}
+
+.xicon-ionicons5-RemoveSharp:before {
+    content: "\f224";
+}
+
+.xicon-ionicons5-ReorderFour:before {
+    content: "\f217";
+}
+
+.xicon-ionicons5-ReorderFourOutline:before {
+    content: "\f20a";
+}
+
+.xicon-ionicons5-ReorderFourSharp:before {
+    content: "\f1fd";
+}
+
+.xicon-ionicons5-ReorderThree:before {
+    content: "\f1f0";
+}
+
+.xicon-ionicons5-ReorderThreeOutline:before {
+    content: "\f1e3";
+}
+
+.xicon-ionicons5-ReorderThreeSharp:before {
+    content: "\f1d6";
+}
+
+.xicon-ionicons5-ReorderTwo:before {
+    content: "\f1c9";
+}
+
+.xicon-ionicons5-ReorderTwoOutline:before {
+    content: "\f1bc";
+}
+
+.xicon-ionicons5-ReorderTwoSharp:before {
+    content: "\f1af";
+}
+
+.xicon-ionicons5-Repeat:before {
+    content: "\f1a2";
+}
+
+.xicon-ionicons5-RepeatOutline:before {
+    content: "\f195";
+}
+
+.xicon-ionicons5-RepeatSharp:before {
+    content: "\f188";
+}
+
+.xicon-ionicons5-Resize:before {
+    content: "\f17b";
+}
+
+.xicon-ionicons5-ResizeOutline:before {
+    content: "\f16e";
+}
+
+.xicon-ionicons5-ResizeSharp:before {
+    content: "\f161";
+}
+
+.xicon-ionicons5-Restaurant:before {
+    content: "\f154";
+}
+
+.xicon-ionicons5-RestaurantOutline:before {
+    content: "\f147";
+}
+
+.xicon-ionicons5-RestaurantSharp:before {
+    content: "\f13a";
+}
+
+.xicon-ionicons5-ReturnDownBack:before {
+    content: "\f12d";
+}
+
+.xicon-ionicons5-ReturnDownBackOutline:before {
+    content: "\f120";
+}
+
+.xicon-ionicons5-ReturnDownBackSharp:before {
+    content: "\f113";
+}
+
+.xicon-ionicons5-ReturnDownForward:before {
+    content: "\f106";
+}
+
+.xicon-ionicons5-ReturnDownForwardOutline:before {
+    content: "\f0f9";
+}
+
+.xicon-ionicons5-ReturnDownForwardSharp:before {
+    content: "\f0ec";
+}
+
+.xicon-ionicons5-ReturnUpBack:before {
+    content: "\f0df";
+}
+
+.xicon-ionicons5-ReturnUpBackOutline:before {
+    content: "\f0d2";
+}
+
+.xicon-ionicons5-ReturnUpBackSharp:before {
+    content: "\f0c5";
+}
+
+.xicon-ionicons5-ReturnUpForward:before {
+    content: "\f0b8";
+}
+
+.xicon-ionicons5-ReturnUpForwardOutline:before {
+    content: "\f0ab";
+}
+
+.xicon-ionicons5-ReturnUpForwardSharp:before {
+    content: "\f09e";
+}
+
+.xicon-ionicons5-Ribbon:before {
+    content: "\f091";
+}
+
+.xicon-ionicons5-RibbonOutline:before {
+    content: "\f084";
+}
+
+.xicon-ionicons5-RibbonSharp:before {
+    content: "\f077";
+}
+
+.xicon-ionicons5-Rocket:before {
+    content: "\f06a";
+}
+
+.xicon-ionicons5-RocketOutline:before {
+    content: "\f05d";
+}
+
+.xicon-ionicons5-RocketSharp:before {
+    content: "\f050";
+}
+
+.xicon-ionicons5-Rose:before {
+    content: "\f043";
+}
+
+.xicon-ionicons5-RoseOutline:before {
+    content: "\f036";
+}
+
+.xicon-ionicons5-RoseSharp:before {
+    content: "\f029";
+}
+
+.xicon-ionicons5-Sad:before {
+    content: "\f01c";
+}
+
+.xicon-ionicons5-SadOutline:before {
+    content: "\f00f";
+}
+
+.xicon-ionicons5-SadSharp:before {
+    content: "\f002";
+}
+
+.xicon-ionicons5-Save:before {
+    content: "\f528";
+}
+
+.xicon-ionicons5-SaveOutline:before {
+    content: "\f51a";
+}
+
+.xicon-ionicons5-SaveSharp:before {
+    content: "\f50c";
+}
+
+.xicon-ionicons5-Scale:before {
+    content: "\f4ff";
+}
+
+.xicon-ionicons5-ScaleOutline:before {
+    content: "\f4f1";
+}
+
+.xicon-ionicons5-ScaleSharp:before {
+    content: "\f4e3";
+}
+
+.xicon-ionicons5-Scan:before {
+    content: "\f4d5";
+}
+
+.xicon-ionicons5-ScanCircle:before {
+    content: "\f4c7";
+}
+
+.xicon-ionicons5-ScanCircleOutline:before {
+    content: "\f4b9";
+}
+
+.xicon-ionicons5-ScanCircleSharp:before {
+    content: "\f4ab";
+}
+
+.xicon-ionicons5-ScanOutline:before {
+    content: "\f49d";
+}
+
+.xicon-ionicons5-ScanSharp:before {
+    content: "\f48f";
+}
+
+.xicon-ionicons5-School:before {
+    content: "\f481";
+}
+
+.xicon-ionicons5-SchoolOutline:before {
+    content: "\f473";
+}
+
+.xicon-ionicons5-SchoolSharp:before {
+    content: "\f465";
+}
+
+.xicon-ionicons5-Search:before {
+    content: "\f457";
+}
+
+.xicon-ionicons5-SearchCircle:before {
+    content: "\f449";
+}
+
+.xicon-ionicons5-SearchCircleOutline:before {
+    content: "\f43b";
+}
+
+.xicon-ionicons5-SearchCircleSharp:before {
+    content: "\f42d";
+}
+
+.xicon-ionicons5-SearchOutline:before {
+    content: "\f41f";
+}
+
+.xicon-ionicons5-SearchSharp:before {
+    content: "\f411";
+}
+
+.xicon-ionicons5-Send:before {
+    content: "\f403";
+}
+
+.xicon-ionicons5-SendOutline:before {
+    content: "\f3f5";
+}
+
+.xicon-ionicons5-SendSharp:before {
+    content: "\f3e7";
+}
+
+.xicon-ionicons5-Server:before {
+    content: "\f3d9";
+}
+
+.xicon-ionicons5-ServerOutline:before {
+    content: "\f3cb";
+}
+
+.xicon-ionicons5-ServerSharp:before {
+    content: "\f3bd";
+}
+
+.xicon-ionicons5-Settings:before {
+    content: "\f3af";
+}
+
+.xicon-ionicons5-SettingsOutline:before {
+    content: "\f3a1";
+}
+
+.xicon-ionicons5-SettingsSharp:before {
+    content: "\f393";
+}
+
+.xicon-ionicons5-Shapes:before {
+    content: "\f385";
+}
+
+.xicon-ionicons5-ShapesOutline:before {
+    content: "\f377";
+}
+
+.xicon-ionicons5-ShapesSharp:before {
+    content: "\f369";
+}
+
+.xicon-ionicons5-Share:before {
+    content: "\f35c";
+}
+
+.xicon-ionicons5-ShareOutline:before {
+    content: "\f34e";
+}
+
+.xicon-ionicons5-ShareSharp:before {
+    content: "\f341";
+}
+
+.xicon-ionicons5-ShareSocial:before {
+    content: "\f334";
+}
+
+.xicon-ionicons5-ShareSocialOutline:before {
+    content: "\f327";
+}
+
+.xicon-ionicons5-ShareSocialSharp:before {
+    content: "\f31a";
+}
+
+.xicon-ionicons5-Shield:before {
+    content: "\f30d";
+}
+
+.xicon-ionicons5-ShieldCheckmark:before {
+    content: "\f300";
+}
+
+.xicon-ionicons5-ShieldCheckmarkOutline:before {
+    content: "\f2f3";
+}
+
+.xicon-ionicons5-ShieldCheckmarkSharp:before {
+    content: "\f2e6";
+}
+
+.xicon-ionicons5-ShieldHalf:before {
+    content: "\f2d9";
+}
+
+.xicon-ionicons5-ShieldHalfOutline:before {
+    content: "\f2cc";
+}
+
+.xicon-ionicons5-ShieldHalfSharp:before {
+    content: "\f2bf";
+}
+
+.xicon-ionicons5-ShieldOutline:before {
+    content: "\f2b2";
+}
+
+.xicon-ionicons5-ShieldSharp:before {
+    content: "\f2a5";
+}
+
+.xicon-ionicons5-Shirt:before {
+    content: "\f298";
+}
+
+.xicon-ionicons5-ShirtOutline:before {
+    content: "\f28b";
+}
+
+.xicon-ionicons5-ShirtSharp:before {
+    content: "\f27e";
+}
+
+.xicon-ionicons5-Shuffle:before {
+    content: "\f271";
+}
+
+.xicon-ionicons5-ShuffleOutline:before {
+    content: "\f264";
+}
+
+.xicon-ionicons5-ShuffleSharp:before {
+    content: "\f257";
+}
+
+.xicon-ionicons5-Skull:before {
+    content: "\f24a";
+}
+
+.xicon-ionicons5-SkullOutline:before {
+    content: "\f23d";
+}
+
+.xicon-ionicons5-SkullSharp:before {
+    content: "\f230";
+}
+
+.xicon-ionicons5-Snow:before {
+    content: "\f223";
+}
+
+.xicon-ionicons5-SnowOutline:before {
+    content: "\f216";
+}
+
+.xicon-ionicons5-SnowSharp:before {
+    content: "\f209";
+}
+
+.xicon-ionicons5-Sparkles:before {
+    content: "\f1fc";
+}
+
+.xicon-ionicons5-SparklesOutline:before {
+    content: "\f1ef";
+}
+
+.xicon-ionicons5-SparklesSharp:before {
+    content: "\f1e2";
+}
+
+.xicon-ionicons5-Speedometer:before {
+    content: "\f1d5";
+}
+
+.xicon-ionicons5-SpeedometerOutline:before {
+    content: "\f1c8";
+}
+
+.xicon-ionicons5-SpeedometerSharp:before {
+    content: "\f1bb";
+}
+
+.xicon-ionicons5-Square:before {
+    content: "\f1ae";
+}
+
+.xicon-ionicons5-SquareOutline:before {
+    content: "\f1a1";
+}
+
+.xicon-ionicons5-SquareSharp:before {
+    content: "\f194";
+}
+
+.xicon-ionicons5-Star:before {
+    content: "\f187";
+}
+
+.xicon-ionicons5-StarHalf:before {
+    content: "\f17a";
+}
+
+.xicon-ionicons5-StarHalfOutline:before {
+    content: "\f16d";
+}
+
+.xicon-ionicons5-StarHalfSharp:before {
+    content: "\f160";
+}
+
+.xicon-ionicons5-StarOutline:before {
+    content: "\f153";
+}
+
+.xicon-ionicons5-StarSharp:before {
+    content: "\f146";
+}
+
+.xicon-ionicons5-StatsChart:before {
+    content: "\f139";
+}
+
+.xicon-ionicons5-StatsChartOutline:before {
+    content: "\f12c";
+}
+
+.xicon-ionicons5-StatsChartSharp:before {
+    content: "\f11f";
+}
+
+.xicon-ionicons5-Stop:before {
+    content: "\f112";
+}
+
+.xicon-ionicons5-StopCircle:before {
+    content: "\f105";
+}
+
+.xicon-ionicons5-StopCircleOutline:before {
+    content: "\f0f8";
+}
+
+.xicon-ionicons5-StopCircleSharp:before {
+    content: "\f0eb";
+}
+
+.xicon-ionicons5-StopOutline:before {
+    content: "\f0de";
+}
+
+.xicon-ionicons5-StopSharp:before {
+    content: "\f0d1";
+}
+
+.xicon-ionicons5-Stopwatch:before {
+    content: "\f0c4";
+}
+
+.xicon-ionicons5-StopwatchOutline:before {
+    content: "\f0b7";
+}
+
+.xicon-ionicons5-StopwatchSharp:before {
+    content: "\f0aa";
+}
+
+.xicon-ionicons5-Storefront:before {
+    content: "\f09d";
+}
+
+.xicon-ionicons5-StorefrontOutline:before {
+    content: "\f090";
+}
+
+.xicon-ionicons5-StorefrontSharp:before {
+    content: "\f083";
+}
+
+.xicon-ionicons5-Subway:before {
+    content: "\f076";
+}
+
+.xicon-ionicons5-SubwayOutline:before {
+    content: "\f069";
+}
+
+.xicon-ionicons5-SubwaySharp:before {
+    content: "\f05c";
+}
+
+.xicon-ionicons5-Sunny:before {
+    content: "\f04f";
+}
+
+.xicon-ionicons5-SunnyOutline:before {
+    content: "\f042";
+}
+
+.xicon-ionicons5-SunnySharp:before {
+    content: "\f035";
+}
+
+.xicon-ionicons5-SwapHorizontal:before {
+    content: "\f028";
+}
+
+.xicon-ionicons5-SwapHorizontalOutline:before {
+    content: "\f01b";
+}
+
+.xicon-ionicons5-SwapHorizontalSharp:before {
+    content: "\f00e";
+}
+
+.xicon-ionicons5-SwapVertical:before {
+    content: "\f001";
+}
+
+.xicon-ionicons5-SwapVerticalOutline:before {
+    content: "\f527";
+}
+
+.xicon-ionicons5-SwapVerticalSharp:before {
+    content: "\f519";
+}
+
+.xicon-ionicons5-Sync:before {
+    content: "\f50b";
+}
+
+.xicon-ionicons5-SyncCircle:before {
+    content: "\f4fe";
+}
+
+.xicon-ionicons5-SyncCircleOutline:before {
+    content: "\f4f0";
+}
+
+.xicon-ionicons5-SyncCircleSharp:before {
+    content: "\f4e2";
+}
+
+.xicon-ionicons5-SyncOutline:before {
+    content: "\f4d4";
+}
+
+.xicon-ionicons5-SyncSharp:before {
+    content: "\f4c6";
+}
+
+.xicon-ionicons5-TabletLandscape:before {
+    content: "\f4b8";
+}
+
+.xicon-ionicons5-TabletLandscapeOutline:before {
+    content: "\f4aa";
+}
+
+.xicon-ionicons5-TabletLandscapeSharp:before {
+    content: "\f49c";
+}
+
+.xicon-ionicons5-TabletPortrait:before {
+    content: "\f48e";
+}
+
+.xicon-ionicons5-TabletPortraitOutline:before {
+    content: "\f480";
+}
+
+.xicon-ionicons5-TabletPortraitSharp:before {
+    content: "\f472";
+}
+
+.xicon-ionicons5-Telescope:before {
+    content: "\f464";
+}
+
+.xicon-ionicons5-TelescopeOutline:before {
+    content: "\f456";
+}
+
+.xicon-ionicons5-TelescopeSharp:before {
+    content: "\f448";
+}
+
+.xicon-ionicons5-Tennisball:before {
+    content: "\f43a";
+}
+
+.xicon-ionicons5-TennisballOutline:before {
+    content: "\f42c";
+}
+
+.xicon-ionicons5-TennisballSharp:before {
+    content: "\f41e";
+}
+
+.xicon-ionicons5-Terminal:before {
+    content: "\f410";
+}
+
+.xicon-ionicons5-TerminalOutline:before {
+    content: "\f402";
+}
+
+.xicon-ionicons5-TerminalSharp:before {
+    content: "\f3f4";
+}
+
+.xicon-ionicons5-Text:before {
+    content: "\f3e6";
+}
+
+.xicon-ionicons5-TextOutline:before {
+    content: "\f3d8";
+}
+
+.xicon-ionicons5-TextSharp:before {
+    content: "\f3ca";
+}
+
+.xicon-ionicons5-Thermometer:before {
+    content: "\f3bc";
+}
+
+.xicon-ionicons5-ThermometerOutline:before {
+    content: "\f3ae";
+}
+
+.xicon-ionicons5-ThermometerSharp:before {
+    content: "\f3a0";
+}
+
+.xicon-ionicons5-ThumbsDown:before {
+    content: "\f392";
+}
+
+.xicon-ionicons5-ThumbsDownOutline:before {
+    content: "\f384";
+}
+
+.xicon-ionicons5-ThumbsDownSharp:before {
+    content: "\f376";
+}
+
+.xicon-ionicons5-ThumbsUp:before {
+    content: "\f368";
+}
+
+.xicon-ionicons5-ThumbsUpOutline:before {
+    content: "\f35b";
+}
+
+.xicon-ionicons5-ThumbsUpSharp:before {
+    content: "\f34d";
+}
+
+.xicon-ionicons5-Thunderstorm:before {
+    content: "\f340";
+}
+
+.xicon-ionicons5-ThunderstormOutline:before {
+    content: "\f333";
+}
+
+.xicon-ionicons5-ThunderstormSharp:before {
+    content: "\f326";
+}
+
+.xicon-ionicons5-Ticket:before {
+    content: "\f319";
+}
+
+.xicon-ionicons5-TicketOutline:before {
+    content: "\f30c";
+}
+
+.xicon-ionicons5-TicketSharp:before {
+    content: "\f2ff";
+}
+
+.xicon-ionicons5-Time:before {
+    content: "\f2f2";
+}
+
+.xicon-ionicons5-TimeOutline:before {
+    content: "\f2e5";
+}
+
+.xicon-ionicons5-Timer:before {
+    content: "\f2d8";
+}
+
+.xicon-ionicons5-TimerOutline:before {
+    content: "\f2cb";
+}
+
+.xicon-ionicons5-TimerSharp:before {
+    content: "\f2be";
+}
+
+.xicon-ionicons5-TimeSharp:before {
+    content: "\f2b1";
+}
+
+.xicon-ionicons5-Today:before {
+    content: "\f2a4";
+}
+
+.xicon-ionicons5-TodayOutline:before {
+    content: "\f297";
+}
+
+.xicon-ionicons5-TodaySharp:before {
+    content: "\f28a";
+}
+
+.xicon-ionicons5-Toggle:before {
+    content: "\f27d";
+}
+
+.xicon-ionicons5-ToggleOutline:before {
+    content: "\f270";
+}
+
+.xicon-ionicons5-ToggleSharp:before {
+    content: "\f263";
+}
+
+.xicon-ionicons5-TrailSign:before {
+    content: "\f256";
+}
+
+.xicon-ionicons5-TrailSignOutline:before {
+    content: "\f249";
+}
+
+.xicon-ionicons5-TrailSignSharp:before {
+    content: "\f23c";
+}
+
+.xicon-ionicons5-Train:before {
+    content: "\f22f";
+}
+
+.xicon-ionicons5-TrainOutline:before {
+    content: "\f222";
+}
+
+.xicon-ionicons5-TrainSharp:before {
+    content: "\f215";
+}
+
+.xicon-ionicons5-Transgender:before {
+    content: "\f208";
+}
+
+.xicon-ionicons5-TransgenderOutline:before {
+    content: "\f1fb";
+}
+
+.xicon-ionicons5-TransgenderSharp:before {
+    content: "\f1ee";
+}
+
+.xicon-ionicons5-Trash:before {
+    content: "\f1e1";
+}
+
+.xicon-ionicons5-TrashBin:before {
+    content: "\f1d4";
+}
+
+.xicon-ionicons5-TrashBinOutline:before {
+    content: "\f1c7";
+}
+
+.xicon-ionicons5-TrashBinSharp:before {
+    content: "\f1ba";
+}
+
+.xicon-ionicons5-TrashOutline:before {
+    content: "\f1ad";
+}
+
+.xicon-ionicons5-TrashSharp:before {
+    content: "\f1a0";
+}
+
+.xicon-ionicons5-TrendingDown:before {
+    content: "\f193";
+}
+
+.xicon-ionicons5-TrendingDownOutline:before {
+    content: "\f186";
+}
+
+.xicon-ionicons5-TrendingDownSharp:before {
+    content: "\f179";
+}
+
+.xicon-ionicons5-TrendingUp:before {
+    content: "\f16c";
+}
+
+.xicon-ionicons5-TrendingUpOutline:before {
+    content: "\f15f";
+}
+
+.xicon-ionicons5-TrendingUpSharp:before {
+    content: "\f152";
+}
+
+.xicon-ionicons5-Triangle:before {
+    content: "\f145";
+}
+
+.xicon-ionicons5-TriangleOutline:before {
+    content: "\f138";
+}
+
+.xicon-ionicons5-TriangleSharp:before {
+    content: "\f12b";
+}
+
+.xicon-ionicons5-Trophy:before {
+    content: "\f11e";
+}
+
+.xicon-ionicons5-TrophyOutline:before {
+    content: "\f111";
+}
+
+.xicon-ionicons5-TrophySharp:before {
+    content: "\f104";
+}
+
+.xicon-ionicons5-Tv:before {
+    content: "\f0f7";
+}
+
+.xicon-ionicons5-TvOutline:before {
+    content: "\f0ea";
+}
+
+.xicon-ionicons5-TvSharp:before {
+    content: "\f0dd";
+}
+
+.xicon-ionicons5-Umbrella:before {
+    content: "\f0d0";
+}
+
+.xicon-ionicons5-UmbrellaOutline:before {
+    content: "\f0c3";
+}
+
+.xicon-ionicons5-UmbrellaSharp:before {
+    content: "\f0b6";
+}
+
+.xicon-ionicons5-Unlink:before {
+    content: "\f0a9";
+}
+
+.xicon-ionicons5-UnlinkOutline:before {
+    content: "\f09c";
+}
+
+.xicon-ionicons5-UnlinkSharp:before {
+    content: "\f08f";
+}
+
+.xicon-ionicons5-Videocam:before {
+    content: "\f082";
+}
+
+.xicon-ionicons5-VideocamOff:before {
+    content: "\f075";
+}
+
+.xicon-ionicons5-VideocamOffOutline:before {
+    content: "\f068";
+}
+
+.xicon-ionicons5-VideocamOffSharp:before {
+    content: "\f05b";
+}
+
+.xicon-ionicons5-VideocamOutline:before {
+    content: "\f04e";
+}
+
+.xicon-ionicons5-VideocamSharp:before {
+    content: "\f041";
+}
+
+.xicon-ionicons5-VolumeHigh:before {
+    content: "\f034";
+}
+
+.xicon-ionicons5-VolumeHighOutline:before {
+    content: "\f027";
+}
+
+.xicon-ionicons5-VolumeHighSharp:before {
+    content: "\f01a";
+}
+
+.xicon-ionicons5-VolumeLow:before {
+    content: "\f00d";
+}
+
+.xicon-ionicons5-VolumeLowOutline:before {
+    content: "\f000";
+}
+
+.xicon-ionicons5-VolumeLowSharp:before {
+    content: "\f526";
+}
+
+.xicon-ionicons5-VolumeMedium:before {
+    content: "\f518";
+}
+
+.xicon-ionicons5-VolumeMediumOutline:before {
+    content: "\f50a";
+}
+
+.xicon-ionicons5-VolumeMediumSharp:before {
+    content: "\f4fd";
+}
+
+.xicon-ionicons5-VolumeMute:before {
+    content: "\f4ef";
+}
+
+.xicon-ionicons5-VolumeMuteOutline:before {
+    content: "\f4e1";
+}
+
+.xicon-ionicons5-VolumeMuteSharp:before {
+    content: "\f4d3";
+}
+
+.xicon-ionicons5-VolumeOff:before {
+    content: "\f4c5";
+}
+
+.xicon-ionicons5-VolumeOffOutline:before {
+    content: "\f4b7";
+}
+
+.xicon-ionicons5-VolumeOffSharp:before {
+    content: "\f4a9";
+}
+
+.xicon-ionicons5-Walk:before {
+    content: "\f49b";
+}
+
+.xicon-ionicons5-WalkOutline:before {
+    content: "\f48d";
+}
+
+.xicon-ionicons5-WalkSharp:before {
+    content: "\f47f";
+}
+
+.xicon-ionicons5-Wallet:before {
+    content: "\f471";
+}
+
+.xicon-ionicons5-WalletOutline:before {
+    content: "\f463";
+}
+
+.xicon-ionicons5-WalletSharp:before {
+    content: "\f455";
+}
+
+.xicon-ionicons5-Warning:before {
+    content: "\f447";
+}
+
+.xicon-ionicons5-WarningOutline:before {
+    content: "\f439";
+}
+
+.xicon-ionicons5-WarningSharp:before {
+    content: "\f42b";
+}
+
+.xicon-ionicons5-Watch:before {
+    content: "\f41d";
+}
+
+.xicon-ionicons5-WatchOutline:before {
+    content: "\f40f";
+}
+
+.xicon-ionicons5-WatchSharp:before {
+    content: "\f401";
+}
+
+.xicon-ionicons5-Water:before {
+    content: "\f3f3";
+}
+
+.xicon-ionicons5-WaterOutline:before {
+    content: "\f3e5";
+}
+
+.xicon-ionicons5-WaterSharp:before {
+    content: "\f3d7";
+}
+
+.xicon-ionicons5-Wifi:before {
+    content: "\f3c9";
+}
+
+.xicon-ionicons5-WifiOutline:before {
+    content: "\f3bb";
+}
+
+.xicon-ionicons5-WifiSharp:before {
+    content: "\f3ad";
+}
+
+.xicon-ionicons5-Wine:before {
+    content: "\f39f";
+}
+
+.xicon-ionicons5-WineOutline:before {
+    content: "\f391";
+}
+
+.xicon-ionicons5-WineSharp:before {
+    content: "\f383";
+}
+
+.xicon-ionicons5-Woman:before {
+    content: "\f375";
+}
+
+.xicon-ionicons5-WomanOutline:before {
+    content: "\f367";
+}
+
+.xicon-ionicons5-WomanSharp:before {
+    content: "\f35a";
+}

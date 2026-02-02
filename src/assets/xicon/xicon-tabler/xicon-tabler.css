@@ -1,0 +1,6098 @@
+@font-face {
+    font-family: "tabler";
+    src: url("fonts/tabler.woff2") format("woff2"),
+        url("fonts/tabler.ttf") format("truetype"),
+        url("fonts/tabler.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.xicon-tabler-,
+[class^="xicon-tabler-"],
+[class*=" xicon-tabler-"] {
+    /* Use !important to prevent extensions from overriding this font. */
+    font-family: "tabler" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.xicon-tabler-AB:before {
+    content: "\f5ed";
+}
+
+.xicon-tabler-Accessible:before {
+    content: "\f5dd";
+}
+
+.xicon-tabler-AccessPoint:before {
+    content: "\f5cd";
+}
+
+.xicon-tabler-AccessPointOff:before {
+    content: "\f5bd";
+}
+
+.xicon-tabler-Activity:before {
+    content: "\f5ad";
+}
+
+.xicon-tabler-Ad:before {
+    content: "\f59d";
+}
+
+.xicon-tabler-Ad2:before {
+    content: "\f58d";
+}
+
+.xicon-tabler-Adjustments:before {
+    content: "\f57d";
+}
+
+.xicon-tabler-AdjustmentsAlt:before {
+    content: "\f56d";
+}
+
+.xicon-tabler-AdjustmentsHorizontal:before {
+    content: "\f55d";
+}
+
+.xicon-tabler-AerialLift:before {
+    content: "\f54d";
+}
+
+.xicon-tabler-Affiliate:before {
+    content: "\f53d";
+}
+
+.xicon-tabler-Alarm:before {
+    content: "\f52d";
+}
+
+.xicon-tabler-AlertCircle:before {
+    content: "\f51d";
+}
+
+.xicon-tabler-AlertOctagon:before {
+    content: "\f50d";
+}
+
+.xicon-tabler-AlertTriangle:before {
+    content: "\f4fd";
+}
+
+.xicon-tabler-Alien:before {
+    content: "\f4ed";
+}
+
+.xicon-tabler-AlignCenter:before {
+    content: "\f4dd";
+}
+
+.xicon-tabler-AlignJustified:before {
+    content: "\f4cd";
+}
+
+.xicon-tabler-AlignLeft:before {
+    content: "\f4bd";
+}
+
+.xicon-tabler-AlignRight:before {
+    content: "\f4ad";
+}
+
+.xicon-tabler-Ambulance:before {
+    content: "\f49e";
+}
+
+.xicon-tabler-Anchor:before {
+    content: "\f48f";
+}
+
+.xicon-tabler-Angle:before {
+    content: "\f480";
+}
+
+.xicon-tabler-AntennaBars1:before {
+    content: "\f471";
+}
+
+.xicon-tabler-AntennaBars2:before {
+    content: "\f462";
+}
+
+.xicon-tabler-AntennaBars3:before {
+    content: "\f453";
+}
+
+.xicon-tabler-AntennaBars4:before {
+    content: "\f444";
+}
+
+.xicon-tabler-AntennaBars5:before {
+    content: "\f435";
+}
+
+.xicon-tabler-Aperture:before {
+    content: "\f426";
+}
+
+.xicon-tabler-Api:before {
+    content: "\f417";
+}
+
+.xicon-tabler-ApiApp:before {
+    content: "\f408";
+}
+
+.xicon-tabler-Apple:before {
+    content: "\f3f9";
+}
+
+.xicon-tabler-Apps:before {
+    content: "\f3ea";
+}
+
+.xicon-tabler-AppWindow:before {
+    content: "\f3db";
+}
+
+.xicon-tabler-Archive:before {
+    content: "\f3cc";
+}
+
+.xicon-tabler-Armchair:before {
+    content: "\f3bd";
+}
+
+.xicon-tabler-Armchair2:before {
+    content: "\f3ae";
+}
+
+.xicon-tabler-ArrowAutofitContent:before {
+    content: "\f39f";
+}
+
+.xicon-tabler-ArrowAutofitDown:before {
+    content: "\f390";
+}
+
+.xicon-tabler-ArrowAutofitHeight:before {
+    content: "\f381";
+}
+
+.xicon-tabler-ArrowAutofitLeft:before {
+    content: "\f372";
+}
+
+.xicon-tabler-ArrowAutofitRight:before {
+    content: "\f363";
+}
+
+.xicon-tabler-ArrowAutofitUp:before {
+    content: "\f354";
+}
+
+.xicon-tabler-ArrowAutofitWidth:before {
+    content: "\f345";
+}
+
+.xicon-tabler-ArrowBack:before {
+    content: "\f336";
+}
+
+.xicon-tabler-ArrowBackUp:before {
+    content: "\f327";
+}
+
+.xicon-tabler-ArrowBarDown:before {
+    content: "\f318";
+}
+
+.xicon-tabler-ArrowBarLeft:before {
+    content: "\f309";
+}
+
+.xicon-tabler-ArrowBarRight:before {
+    content: "\f2fa";
+}
+
+.xicon-tabler-ArrowBarToDown:before {
+    content: "\f2eb";
+}
+
+.xicon-tabler-ArrowBarToLeft:before {
+    content: "\f2dc";
+}
+
+.xicon-tabler-ArrowBarToRight:before {
+    content: "\f2cd";
+}
+
+.xicon-tabler-ArrowBarToUp:before {
+    content: "\f2be";
+}
+
+.xicon-tabler-ArrowBarUp:before {
+    content: "\f2af";
+}
+
+.xicon-tabler-ArrowBigDown:before {
+    content: "\f2a0";
+}
+
+.xicon-tabler-ArrowBigDownLine:before {
+    content: "\f291";
+}
+
+.xicon-tabler-ArrowBigDownLines:before {
+    content: "\f282";
+}
+
+.xicon-tabler-ArrowBigLeft:before {
+    content: "\f273";
+}
+
+.xicon-tabler-ArrowBigLeftLine:before {
+    content: "\f264";
+}
+
+.xicon-tabler-ArrowBigLeftLines:before {
+    content: "\f255";
+}
+
+.xicon-tabler-ArrowBigRight:before {
+    content: "\f246";
+}
+
+.xicon-tabler-ArrowBigRightLine:before {
+    content: "\f237";
+}
+
+.xicon-tabler-ArrowBigRightLines:before {
+    content: "\f228";
+}
+
+.xicon-tabler-ArrowBigTop:before {
+    content: "\f219";
+}
+
+.xicon-tabler-ArrowBigUpLine:before {
+    content: "\f20a";
+}
+
+.xicon-tabler-ArrowBigUpLines:before {
+    content: "\f1fb";
+}
+
+.xicon-tabler-ArrowBottomBar:before {
+    content: "\f1ec";
+}
+
+.xicon-tabler-ArrowBottomCircle:before {
+    content: "\f1dd";
+}
+
+.xicon-tabler-ArrowBottomSquare:before {
+    content: "\f1ce";
+}
+
+.xicon-tabler-ArrowBottomTail:before {
+    content: "\f1bf";
+}
+
+.xicon-tabler-ArrowDown:before {
+    content: "\f1b0";
+}
+
+.xicon-tabler-ArrowDownCircle:before {
+    content: "\f1a2";
+}
+
+.xicon-tabler-ArrowDownLeft:before {
+    content: "\f193";
+}
+
+.xicon-tabler-ArrowDownLeftCircle:before {
+    content: "\f184";
+}
+
+.xicon-tabler-ArrowDownRight:before {
+    content: "\f175";
+}
+
+.xicon-tabler-ArrowDownRightCircle:before {
+    content: "\f166";
+}
+
+.xicon-tabler-ArrowForward:before {
+    content: "\f158";
+}
+
+.xicon-tabler-ArrowForwardUp:before {
+    content: "\f149";
+}
+
+.xicon-tabler-ArrowLeft:before {
+    content: "\f13a";
+}
+
+.xicon-tabler-ArrowLeftBar:before {
+    content: "\f12b";
+}
+
+.xicon-tabler-ArrowLeftCircle:before {
+    content: "\f11c";
+}
+
+.xicon-tabler-ArrowLeftSquare:before {
+    content: "\f10d";
+}
+
+.xicon-tabler-ArrowLeftTail:before {
+    content: "\f0fe";
+}
+
+.xicon-tabler-ArrowLoopLeft:before {
+    content: "\f0ef";
+}
+
+.xicon-tabler-ArrowLoopRight:before {
+    content: "\f0e0";
+}
+
+.xicon-tabler-ArrowNarrowDown:before {
+    content: "\f0d1";
+}
+
+.xicon-tabler-ArrowNarrowLeft:before {
+    content: "\f0c2";
+}
+
+.xicon-tabler-ArrowNarrowRight:before {
+    content: "\f0b3";
+}
+
+.xicon-tabler-ArrowNarrowUp:before {
+    content: "\f0a4";
+}
+
+.xicon-tabler-ArrowRampLeft:before {
+    content: "\f095";
+}
+
+.xicon-tabler-ArrowRampRight:before {
+    content: "\f086";
+}
+
+.xicon-tabler-ArrowRight:before {
+    content: "\f077";
+}
+
+.xicon-tabler-ArrowRightBar:before {
+    content: "\f068";
+}
+
+.xicon-tabler-ArrowRightCircle:before {
+    content: "\f059";
+}
+
+.xicon-tabler-ArrowRightSquare:before {
+    content: "\f04a";
+}
+
+.xicon-tabler-ArrowRightTail:before {
+    content: "\f03b";
+}
+
+.xicon-tabler-ArrowsCross:before {
+    content: "\f02c";
+}
+
+.xicon-tabler-ArrowsDiagonal:before {
+    content: "\f01d";
+}
+
+.xicon-tabler-ArrowsDiagonal2:before {
+    content: "\f00e";
+}
+
+.xicon-tabler-ArrowsDiagonalMinimize:before {
+    content: "\f5ec";
+}
+
+.xicon-tabler-ArrowsDiagonalMinimize2:before {
+    content: "\f5dc";
+}
+
+.xicon-tabler-ArrowsDoubleNeSw:before {
+    content: "\f5cc";
+}
+
+.xicon-tabler-ArrowsDoubleNwSe:before {
+    content: "\f5bc";
+}
+
+.xicon-tabler-ArrowsDoubleSeNw:before {
+    content: "\f5ac";
+}
+
+.xicon-tabler-ArrowsDoubleSwNe:before {
+    content: "\f59c";
+}
+
+.xicon-tabler-ArrowsDown:before {
+    content: "\f58c";
+}
+
+.xicon-tabler-ArrowsDownUp:before {
+    content: "\f57c";
+}
+
+.xicon-tabler-ArrowsHorizontal:before {
+    content: "\f56c";
+}
+
+.xicon-tabler-ArrowsJoin:before {
+    content: "\f55c";
+}
+
+.xicon-tabler-ArrowsJoin2:before {
+    content: "\f54c";
+}
+
+.xicon-tabler-ArrowsLeft:before {
+    content: "\f53c";
+}
+
+.xicon-tabler-ArrowsLeftDown:before {
+    content: "\f52c";
+}
+
+.xicon-tabler-ArrowsLeftRight:before {
+    content: "\f51c";
+}
+
+.xicon-tabler-ArrowsMaximize:before {
+    content: "\f50c";
+}
+
+.xicon-tabler-ArrowsMinimize:before {
+    content: "\f4fc";
+}
+
+.xicon-tabler-ArrowsRight:before {
+    content: "\f4ec";
+}
+
+.xicon-tabler-ArrowsRightDown:before {
+    content: "\f4dc";
+}
+
+.xicon-tabler-ArrowsRightLeft:before {
+    content: "\f4cc";
+}
+
+.xicon-tabler-ArrowsShuffle:before {
+    content: "\f4bc";
+}
+
+.xicon-tabler-ArrowsShuffle2:before {
+    content: "\f4ac";
+}
+
+.xicon-tabler-ArrowsSort:before {
+    content: "\f49d";
+}
+
+.xicon-tabler-ArrowsSplit:before {
+    content: "\f48e";
+}
+
+.xicon-tabler-ArrowsSplit2:before {
+    content: "\f47f";
+}
+
+.xicon-tabler-ArrowsUp:before {
+    content: "\f470";
+}
+
+.xicon-tabler-ArrowsUpDown:before {
+    content: "\f461";
+}
+
+.xicon-tabler-ArrowsUpLeft:before {
+    content: "\f452";
+}
+
+.xicon-tabler-ArrowsUpRight:before {
+    content: "\f443";
+}
+
+.xicon-tabler-ArrowsVertical:before {
+    content: "\f434";
+}
+
+.xicon-tabler-ArrowTopBar:before {
+    content: "\f425";
+}
+
+.xicon-tabler-ArrowTopCircle:before {
+    content: "\f416";
+}
+
+.xicon-tabler-ArrowTopSquare:before {
+    content: "\f407";
+}
+
+.xicon-tabler-ArrowTopTail:before {
+    content: "\f3f8";
+}
+
+.xicon-tabler-ArrowUp:before {
+    content: "\f3e9";
+}
+
+.xicon-tabler-ArrowUpCircle:before {
+    content: "\f3da";
+}
+
+.xicon-tabler-ArrowUpLeft:before {
+    content: "\f3cb";
+}
+
+.xicon-tabler-ArrowUpLeftCircle:before {
+    content: "\f3bc";
+}
+
+.xicon-tabler-ArrowUpRight:before {
+    content: "\f3ad";
+}
+
+.xicon-tabler-ArrowUpRightCircle:before {
+    content: "\f39e";
+}
+
+.xicon-tabler-ArrowWaveLeftDown:before {
+    content: "\f38f";
+}
+
+.xicon-tabler-ArrowWaveLeftUp:before {
+    content: "\f380";
+}
+
+.xicon-tabler-ArrowWaveRightDown:before {
+    content: "\f371";
+}
+
+.xicon-tabler-ArrowWaveRightUp:before {
+    content: "\f362";
+}
+
+.xicon-tabler-Artboard:before {
+    content: "\f353";
+}
+
+.xicon-tabler-AspectRatio:before {
+    content: "\f344";
+}
+
+.xicon-tabler-Asterisk:before {
+    content: "\f335";
+}
+
+.xicon-tabler-AsteriskSimple:before {
+    content: "\f326";
+}
+
+.xicon-tabler-At:before {
+    content: "\f317";
+}
+
+.xicon-tabler-Atom:before {
+    content: "\f308";
+}
+
+.xicon-tabler-Atom2:before {
+    content: "\f2f9";
+}
+
+.xicon-tabler-Award:before {
+    content: "\f2ea";
+}
+
+.xicon-tabler-Axe:before {
+    content: "\f2db";
+}
+
+.xicon-tabler-AxisX:before {
+    content: "\f2cc";
+}
+
+.xicon-tabler-AxisY:before {
+    content: "\f2bd";
+}
+
+.xicon-tabler-Backhoe:before {
+    content: "\f2ae";
+}
+
+.xicon-tabler-Backpack:before {
+    content: "\f29f";
+}
+
+.xicon-tabler-Backspace:before {
+    content: "\f290";
+}
+
+.xicon-tabler-Badge:before {
+    content: "\f281";
+}
+
+.xicon-tabler-Badges:before {
+    content: "\f272";
+}
+
+.xicon-tabler-BallAmericanFootball:before {
+    content: "\f263";
+}
+
+.xicon-tabler-BallBaseball:before {
+    content: "\f254";
+}
+
+.xicon-tabler-BallBasketball:before {
+    content: "\f245";
+}
+
+.xicon-tabler-BallBowling:before {
+    content: "\f236";
+}
+
+.xicon-tabler-BallFootball:before {
+    content: "\f227";
+}
+
+.xicon-tabler-BallFootballOff:before {
+    content: "\f218";
+}
+
+.xicon-tabler-Ballon:before {
+    content: "\f209";
+}
+
+.xicon-tabler-BallTennis:before {
+    content: "\f1fa";
+}
+
+.xicon-tabler-BallVolleyball:before {
+    content: "\f1eb";
+}
+
+.xicon-tabler-Ban:before {
+    content: "\f1dc";
+}
+
+.xicon-tabler-Bandage:before {
+    content: "\f1cd";
+}
+
+.xicon-tabler-Barbell:before {
+    content: "\f1be";
+}
+
+.xicon-tabler-Barcode:before {
+    content: "\f1af";
+}
+
+.xicon-tabler-Basket:before {
+    content: "\f1a1";
+}
+
+.xicon-tabler-Bath:before {
+    content: "\f192";
+}
+
+.xicon-tabler-Battery:before {
+    content: "\f183";
+}
+
+.xicon-tabler-Battery1:before {
+    content: "\f174";
+}
+
+.xicon-tabler-Battery2:before {
+    content: "\f165";
+}
+
+.xicon-tabler-Battery3:before {
+    content: "\f157";
+}
+
+.xicon-tabler-Battery4:before {
+    content: "\f148";
+}
+
+.xicon-tabler-BatteryAutomotive:before {
+    content: "\f139";
+}
+
+.xicon-tabler-BatteryCharging:before {
+    content: "\f12a";
+}
+
+.xicon-tabler-BatteryCharging2:before {
+    content: "\f11b";
+}
+
+.xicon-tabler-BatteryEco:before {
+    content: "\f10c";
+}
+
+.xicon-tabler-BatteryOff:before {
+    content: "\f0fd";
+}
+
+.xicon-tabler-Beach:before {
+    content: "\f0ee";
+}
+
+.xicon-tabler-Bed:before {
+    content: "\f0df";
+}
+
+.xicon-tabler-Beer:before {
+    content: "\f0d0";
+}
+
+.xicon-tabler-Bell:before {
+    content: "\f0c1";
+}
+
+.xicon-tabler-BellMinus:before {
+    content: "\f0b2";
+}
+
+.xicon-tabler-BellOff:before {
+    content: "\f0a3";
+}
+
+.xicon-tabler-BellPlus:before {
+    content: "\f094";
+}
+
+.xicon-tabler-BellRinging:before {
+    content: "\f085";
+}
+
+.xicon-tabler-BellRinging2:before {
+    content: "\f076";
+}
+
+.xicon-tabler-BellX:before {
+    content: "\f067";
+}
+
+.xicon-tabler-BellZ:before {
+    content: "\f058";
+}
+
+.xicon-tabler-Bible:before {
+    content: "\f049";
+}
+
+.xicon-tabler-Bike:before {
+    content: "\f03a";
+}
+
+.xicon-tabler-Binary:before {
+    content: "\f02b";
+}
+
+.xicon-tabler-Biohazard:before {
+    content: "\f01c";
+}
+
+.xicon-tabler-Blockquote:before {
+    content: "\f00d";
+}
+
+.xicon-tabler-Bluetooth:before {
+    content: "\f5eb";
+}
+
+.xicon-tabler-BluetoothConnected:before {
+    content: "\f5db";
+}
+
+.xicon-tabler-BluetoothOff:before {
+    content: "\f5cb";
+}
+
+.xicon-tabler-Blur:before {
+    content: "\f5bb";
+}
+
+.xicon-tabler-Bold:before {
+    content: "\f5ab";
+}
+
+.xicon-tabler-Bolt:before {
+    content: "\f59b";
+}
+
+.xicon-tabler-BoltOff:before {
+    content: "\f58b";
+}
+
+.xicon-tabler-Bone:before {
+    content: "\f57b";
+}
+
+.xicon-tabler-Book:before {
+    content: "\f56b";
+}
+
+.xicon-tabler-Book2:before {
+    content: "\f55b";
+}
+
+.xicon-tabler-Bookmark:before {
+    content: "\f54b";
+}
+
+.xicon-tabler-BookmarkOff:before {
+    content: "\f53b";
+}
+
+.xicon-tabler-Bookmarks:before {
+    content: "\f52b";
+}
+
+.xicon-tabler-Books:before {
+    content: "\f51b";
+}
+
+.xicon-tabler-BorderAll:before {
+    content: "\f50b";
+}
+
+.xicon-tabler-BorderBottom:before {
+    content: "\f4fb";
+}
+
+.xicon-tabler-BorderHorizontal:before {
+    content: "\f4eb";
+}
+
+.xicon-tabler-BorderInner:before {
+    content: "\f4db";
+}
+
+.xicon-tabler-BorderLeft:before {
+    content: "\f4cb";
+}
+
+.xicon-tabler-BorderNone:before {
+    content: "\f4bb";
+}
+
+.xicon-tabler-BorderOuter:before {
+    content: "\f4ab";
+}
+
+.xicon-tabler-BorderRadius:before {
+    content: "\f49c";
+}
+
+.xicon-tabler-BorderRight:before {
+    content: "\f48d";
+}
+
+.xicon-tabler-BorderStyle:before {
+    content: "\f47e";
+}
+
+.xicon-tabler-BorderStyle2:before {
+    content: "\f46f";
+}
+
+.xicon-tabler-BorderTop:before {
+    content: "\f460";
+}
+
+.xicon-tabler-BorderVertical:before {
+    content: "\f451";
+}
+
+.xicon-tabler-Bottle:before {
+    content: "\f442";
+}
+
+.xicon-tabler-Box:before {
+    content: "\f433";
+}
+
+.xicon-tabler-BoxMargin:before {
+    content: "\f424";
+}
+
+.xicon-tabler-BoxModel:before {
+    content: "\f415";
+}
+
+.xicon-tabler-BoxModel2:before {
+    content: "\f406";
+}
+
+.xicon-tabler-BoxMultiple:before {
+    content: "\f3f7";
+}
+
+.xicon-tabler-BoxMultiple0:before {
+    content: "\f3e8";
+}
+
+.xicon-tabler-BoxMultiple1:before {
+    content: "\f3d9";
+}
+
+.xicon-tabler-BoxMultiple2:before {
+    content: "\f3ca";
+}
+
+.xicon-tabler-BoxMultiple3:before {
+    content: "\f3bb";
+}
+
+.xicon-tabler-BoxMultiple4:before {
+    content: "\f3ac";
+}
+
+.xicon-tabler-BoxMultiple5:before {
+    content: "\f39d";
+}
+
+.xicon-tabler-BoxMultiple6:before {
+    content: "\f38e";
+}
+
+.xicon-tabler-BoxMultiple7:before {
+    content: "\f37f";
+}
+
+.xicon-tabler-BoxMultiple8:before {
+    content: "\f370";
+}
+
+.xicon-tabler-BoxMultiple9:before {
+    content: "\f361";
+}
+
+.xicon-tabler-BoxPadding:before {
+    content: "\f352";
+}
+
+.xicon-tabler-Braces:before {
+    content: "\f343";
+}
+
+.xicon-tabler-Brackets:before {
+    content: "\f334";
+}
+
+.xicon-tabler-BrandAirbnb:before {
+    content: "\f325";
+}
+
+.xicon-tabler-BrandAirtable:before {
+    content: "\f316";
+}
+
+.xicon-tabler-BrandAndroid:before {
+    content: "\f307";
+}
+
+.xicon-tabler-BrandAngular:before {
+    content: "\f2f8";
+}
+
+.xicon-tabler-BrandApple:before {
+    content: "\f2e9";
+}
+
+.xicon-tabler-BrandAppleArcade:before {
+    content: "\f2da";
+}
+
+.xicon-tabler-BrandAppstore:before {
+    content: "\f2cb";
+}
+
+.xicon-tabler-BrandAsana:before {
+    content: "\f2bc";
+}
+
+.xicon-tabler-BrandBehance:before {
+    content: "\f2ad";
+}
+
+.xicon-tabler-BrandBing:before {
+    content: "\f29e";
+}
+
+.xicon-tabler-BrandBitbucket:before {
+    content: "\f28f";
+}
+
+.xicon-tabler-BrandBooking:before {
+    content: "\f280";
+}
+
+.xicon-tabler-BrandBootstrap:before {
+    content: "\f271";
+}
+
+.xicon-tabler-BrandChrome:before {
+    content: "\f262";
+}
+
+.xicon-tabler-BrandCodepen:before {
+    content: "\f253";
+}
+
+.xicon-tabler-BrandCodesandbox:before {
+    content: "\f244";
+}
+
+.xicon-tabler-BrandCss3:before {
+    content: "\f235";
+}
+
+.xicon-tabler-BrandCucumber:before {
+    content: "\f226";
+}
+
+.xicon-tabler-BrandDebian:before {
+    content: "\f217";
+}
+
+.xicon-tabler-BrandDeviantart:before {
+    content: "\f208";
+}
+
+.xicon-tabler-BrandDiscord:before {
+    content: "\f1f9";
+}
+
+.xicon-tabler-BrandDisqus:before {
+    content: "\f1ea";
+}
+
+.xicon-tabler-BrandDocker:before {
+    content: "\f1db";
+}
+
+.xicon-tabler-BrandDoctrine:before {
+    content: "\f1cc";
+}
+
+.xicon-tabler-BrandDribbble:before {
+    content: "\f1bd";
+}
+
+.xicon-tabler-BrandEdge:before {
+    content: "\f1ae";
+}
+
+.xicon-tabler-BrandFacebook:before {
+    content: "\f1a0";
+}
+
+.xicon-tabler-BrandFigma:before {
+    content: "\f191";
+}
+
+.xicon-tabler-BrandFirebase:before {
+    content: "\f182";
+}
+
+.xicon-tabler-BrandFirefox:before {
+    content: "\f173";
+}
+
+.xicon-tabler-BrandFlickr:before {
+    content: "\f164";
+}
+
+.xicon-tabler-BrandFoursquare:before {
+    content: "\f156";
+}
+
+.xicon-tabler-BrandFramer:before {
+    content: "\f147";
+}
+
+.xicon-tabler-BrandGit:before {
+    content: "\f138";
+}
+
+.xicon-tabler-BrandGithub:before {
+    content: "\f129";
+}
+
+.xicon-tabler-BrandGitlab:before {
+    content: "\f11a";
+}
+
+.xicon-tabler-BrandGmail:before {
+    content: "\f10b";
+}
+
+.xicon-tabler-BrandGoogle:before {
+    content: "\f0fc";
+}
+
+.xicon-tabler-BrandGoogleAnalytics:before {
+    content: "\f0ed";
+}
+
+.xicon-tabler-BrandGoogleDrive:before {
+    content: "\f0de";
+}
+
+.xicon-tabler-BrandGooglePlay:before {
+    content: "\f0cf";
+}
+
+.xicon-tabler-BrandGravatar:before {
+    content: "\f0c0";
+}
+
+.xicon-tabler-BrandHipchat:before {
+    content: "\f0b1";
+}
+
+.xicon-tabler-BrandHtml5:before {
+    content: "\f0a2";
+}
+
+.xicon-tabler-BrandInstagram:before {
+    content: "\f093";
+}
+
+.xicon-tabler-BrandJavascript:before {
+    content: "\f084";
+}
+
+.xicon-tabler-BrandKickstarter:before {
+    content: "\f075";
+}
+
+.xicon-tabler-BrandKotlin:before {
+    content: "\f066";
+}
+
+.xicon-tabler-BrandLastfm:before {
+    content: "\f057";
+}
+
+.xicon-tabler-BrandLinkedin:before {
+    content: "\f048";
+}
+
+.xicon-tabler-BrandLoom:before {
+    content: "\f039";
+}
+
+.xicon-tabler-BrandMastercard:before {
+    content: "\f02a";
+}
+
+.xicon-tabler-BrandMedium:before {
+    content: "\f01b";
+}
+
+.xicon-tabler-BrandMessenger:before {
+    content: "\f00c";
+}
+
+.xicon-tabler-BrandMeta:before {
+    content: "\f5ea";
+}
+
+.xicon-tabler-BrandNetbeans:before {
+    content: "\f5da";
+}
+
+.xicon-tabler-BrandNetflix:before {
+    content: "\f5ca";
+}
+
+.xicon-tabler-BrandNotion:before {
+    content: "\f5ba";
+}
+
+.xicon-tabler-BrandNytimes:before {
+    content: "\f5aa";
+}
+
+.xicon-tabler-BrandOpenSource:before {
+    content: "\f59a";
+}
+
+.xicon-tabler-BrandOpera:before {
+    content: "\f58a";
+}
+
+.xicon-tabler-BrandPagekit:before {
+    content: "\f57a";
+}
+
+.xicon-tabler-BrandPatreon:before {
+    content: "\f56a";
+}
+
+.xicon-tabler-BrandPaypal:before {
+    content: "\f55a";
+}
+
+.xicon-tabler-BrandPhp:before {
+    content: "\f54a";
+}
+
+.xicon-tabler-BrandPinterest:before {
+    content: "\f53a";
+}
+
+.xicon-tabler-BrandPocket:before {
+    content: "\f52a";
+}
+
+.xicon-tabler-BrandProducthunt:before {
+    content: "\f51a";
+}
+
+.xicon-tabler-BrandPython:before {
+    content: "\f50a";
+}
+
+.xicon-tabler-BrandReactNative:before {
+    content: "\f4fa";
+}
+
+.xicon-tabler-BrandReddit:before {
+    content: "\f4ea";
+}
+
+.xicon-tabler-BrandSafari:before {
+    content: "\f4da";
+}
+
+.xicon-tabler-BrandSass:before {
+    content: "\f4ca";
+}
+
+.xicon-tabler-BrandSentry:before {
+    content: "\f4ba";
+}
+
+.xicon-tabler-BrandShazam:before {
+    content: "\f4aa";
+}
+
+.xicon-tabler-BrandSketch:before {
+    content: "\f49b";
+}
+
+.xicon-tabler-BrandSkype:before {
+    content: "\f48c";
+}
+
+.xicon-tabler-BrandSlack:before {
+    content: "\f47d";
+}
+
+.xicon-tabler-BrandSnapchat:before {
+    content: "\f46e";
+}
+
+.xicon-tabler-BrandSoundcloud:before {
+    content: "\f45f";
+}
+
+.xicon-tabler-BrandSpotify:before {
+    content: "\f450";
+}
+
+.xicon-tabler-BrandStackoverflow:before {
+    content: "\f441";
+}
+
+.xicon-tabler-BrandSteam:before {
+    content: "\f432";
+}
+
+.xicon-tabler-BrandStripe:before {
+    content: "\f423";
+}
+
+.xicon-tabler-BrandSublimeText:before {
+    content: "\f414";
+}
+
+.xicon-tabler-BrandTabler:before {
+    content: "\f405";
+}
+
+.xicon-tabler-BrandTailwind:before {
+    content: "\f3f6";
+}
+
+.xicon-tabler-BrandTelegram:before {
+    content: "\f3e7";
+}
+
+.xicon-tabler-BrandTidal:before {
+    content: "\f3d8";
+}
+
+.xicon-tabler-BrandTiktok:before {
+    content: "\f3c9";
+}
+
+.xicon-tabler-BrandTinder:before {
+    content: "\f3ba";
+}
+
+.xicon-tabler-BrandTripadvisor:before {
+    content: "\f3ab";
+}
+
+.xicon-tabler-BrandTumblr:before {
+    content: "\f39c";
+}
+
+.xicon-tabler-BrandTwitch:before {
+    content: "\f38d";
+}
+
+.xicon-tabler-BrandTwitter:before {
+    content: "\f37e";
+}
+
+.xicon-tabler-BrandUber:before {
+    content: "\f36f";
+}
+
+.xicon-tabler-BrandUbuntu:before {
+    content: "\f360";
+}
+
+.xicon-tabler-BrandUnsplash:before {
+    content: "\f351";
+}
+
+.xicon-tabler-BrandVercel:before {
+    content: "\f342";
+}
+
+.xicon-tabler-BrandVimeo:before {
+    content: "\f333";
+}
+
+.xicon-tabler-BrandVisualStudio:before {
+    content: "\f324";
+}
+
+.xicon-tabler-BrandVk:before {
+    content: "\f315";
+}
+
+.xicon-tabler-BrandWhatsapp:before {
+    content: "\f306";
+}
+
+.xicon-tabler-BrandWindows:before {
+    content: "\f2f7";
+}
+
+.xicon-tabler-BrandYahoo:before {
+    content: "\f2e8";
+}
+
+.xicon-tabler-BrandYcombinator:before {
+    content: "\f2d9";
+}
+
+.xicon-tabler-BrandYoutube:before {
+    content: "\f2ca";
+}
+
+.xicon-tabler-Bread:before {
+    content: "\f2bb";
+}
+
+.xicon-tabler-Briefcase:before {
+    content: "\f2ac";
+}
+
+.xicon-tabler-Brightness:before {
+    content: "\f29d";
+}
+
+.xicon-tabler-Brightness2:before {
+    content: "\f28e";
+}
+
+.xicon-tabler-BrightnessDown:before {
+    content: "\f27f";
+}
+
+.xicon-tabler-BrightnessHalf:before {
+    content: "\f270";
+}
+
+.xicon-tabler-BrightnessUp:before {
+    content: "\f261";
+}
+
+.xicon-tabler-Browser:before {
+    content: "\f252";
+}
+
+.xicon-tabler-BrowserCheck:before {
+    content: "\f243";
+}
+
+.xicon-tabler-BrowserPlus:before {
+    content: "\f234";
+}
+
+.xicon-tabler-BrowserX:before {
+    content: "\f225";
+}
+
+.xicon-tabler-Brush:before {
+    content: "\f216";
+}
+
+.xicon-tabler-Bucket:before {
+    content: "\f207";
+}
+
+.xicon-tabler-Bug:before {
+    content: "\f1f8";
+}
+
+.xicon-tabler-Building:before {
+    content: "\f1e9";
+}
+
+.xicon-tabler-BuildingArch:before {
+    content: "\f1da";
+}
+
+.xicon-tabler-BuildingBank:before {
+    content: "\f1cb";
+}
+
+.xicon-tabler-BuildingBridge:before {
+    content: "\f1bc";
+}
+
+.xicon-tabler-BuildingBridge2:before {
+    content: "\f1ad";
+}
+
+.xicon-tabler-BuildingCarousel:before {
+    content: "\f19f";
+}
+
+.xicon-tabler-BuildingCastle:before {
+    content: "\f190";
+}
+
+.xicon-tabler-BuildingChurch:before {
+    content: "\f181";
+}
+
+.xicon-tabler-BuildingCommunity:before {
+    content: "\f172";
+}
+
+.xicon-tabler-BuildingCottage:before {
+    content: "\f163";
+}
+
+.xicon-tabler-BuildingFactory:before {
+    content: "\f155";
+}
+
+.xicon-tabler-BuildingFortress:before {
+    content: "\f146";
+}
+
+.xicon-tabler-BuildingHospital:before {
+    content: "\f137";
+}
+
+.xicon-tabler-BuildingLighthouse:before {
+    content: "\f128";
+}
+
+.xicon-tabler-BuildingMonument:before {
+    content: "\f119";
+}
+
+.xicon-tabler-BuildingPavilon:before {
+    content: "\f10a";
+}
+
+.xicon-tabler-BuildingSkyscraper:before {
+    content: "\f0fb";
+}
+
+.xicon-tabler-BuildingStore:before {
+    content: "\f0ec";
+}
+
+.xicon-tabler-BuildingWarehouse:before {
+    content: "\f0dd";
+}
+
+.xicon-tabler-Bulb:before {
+    content: "\f0ce";
+}
+
+.xicon-tabler-BulbOff:before {
+    content: "\f0bf";
+}
+
+.xicon-tabler-Bulldozer:before {
+    content: "\f0b0";
+}
+
+.xicon-tabler-Bus:before {
+    content: "\f0a1";
+}
+
+.xicon-tabler-Businessplan:before {
+    content: "\f092";
+}
+
+.xicon-tabler-Butterfly:before {
+    content: "\f083";
+}
+
+.xicon-tabler-Calculator:before {
+    content: "\f074";
+}
+
+.xicon-tabler-Calendar:before {
+    content: "\f065";
+}
+
+.xicon-tabler-CalendarEvent:before {
+    content: "\f056";
+}
+
+.xicon-tabler-CalendarMinus:before {
+    content: "\f047";
+}
+
+.xicon-tabler-CalendarOff:before {
+    content: "\f038";
+}
+
+.xicon-tabler-CalendarPlus:before {
+    content: "\f029";
+}
+
+.xicon-tabler-CalendarStats:before {
+    content: "\f01a";
+}
+
+.xicon-tabler-CalendarTime:before {
+    content: "\f00b";
+}
+
+.xicon-tabler-Camera:before {
+    content: "\f5e9";
+}
+
+.xicon-tabler-CameraMinus:before {
+    content: "\f5d9";
+}
+
+.xicon-tabler-CameraOff:before {
+    content: "\f5c9";
+}
+
+.xicon-tabler-CameraPlus:before {
+    content: "\f5b9";
+}
+
+.xicon-tabler-CameraRotate:before {
+    content: "\f5a9";
+}
+
+.xicon-tabler-CameraSelfie:before {
+    content: "\f599";
+}
+
+.xicon-tabler-Candle:before {
+    content: "\f589";
+}
+
+.xicon-tabler-Candy:before {
+    content: "\f579";
+}
+
+.xicon-tabler-Capture:before {
+    content: "\f569";
+}
+
+.xicon-tabler-Car:before {
+    content: "\f559";
+}
+
+.xicon-tabler-Caravan:before {
+    content: "\f549";
+}
+
+.xicon-tabler-CarCrane:before {
+    content: "\f539";
+}
+
+.xicon-tabler-CarCrash:before {
+    content: "\f529";
+}
+
+.xicon-tabler-Cardboards:before {
+    content: "\f519";
+}
+
+.xicon-tabler-CaretDown:before {
+    content: "\f509";
+}
+
+.xicon-tabler-CaretLeft:before {
+    content: "\f4f9";
+}
+
+.xicon-tabler-CaretRight:before {
+    content: "\f4e9";
+}
+
+.xicon-tabler-CaretUp:before {
+    content: "\f4d9";
+}
+
+.xicon-tabler-Cash:before {
+    content: "\f4c9";
+}
+
+.xicon-tabler-CashBanknote:before {
+    content: "\f4b9";
+}
+
+.xicon-tabler-CashBanknoteOff:before {
+    content: "\f4a9";
+}
+
+.xicon-tabler-Cast:before {
+    content: "\f49a";
+}
+
+.xicon-tabler-Ce:before {
+    content: "\f48b";
+}
+
+.xicon-tabler-Certificate:before {
+    content: "\f47c";
+}
+
+.xicon-tabler-ChargingPile:before {
+    content: "\f46d";
+}
+
+.xicon-tabler-ChartArcs:before {
+    content: "\f45e";
+}
+
+.xicon-tabler-ChartArcs3:before {
+    content: "\f44f";
+}
+
+.xicon-tabler-ChartArea:before {
+    content: "\f440";
+}
+
+.xicon-tabler-ChartAreaLine:before {
+    content: "\f431";
+}
+
+.xicon-tabler-ChartArrows:before {
+    content: "\f422";
+}
+
+.xicon-tabler-ChartArrowsVertical:before {
+    content: "\f413";
+}
+
+.xicon-tabler-ChartBar:before {
+    content: "\f404";
+}
+
+.xicon-tabler-ChartBubble:before {
+    content: "\f3f5";
+}
+
+.xicon-tabler-ChartCandle:before {
+    content: "\f3e6";
+}
+
+.xicon-tabler-ChartCircles:before {
+    content: "\f3d7";
+}
+
+.xicon-tabler-ChartDonut:before {
+    content: "\f3c8";
+}
+
+.xicon-tabler-ChartDonut2:before {
+    content: "\f3b9";
+}
+
+.xicon-tabler-ChartDonut3:before {
+    content: "\f3aa";
+}
+
+.xicon-tabler-ChartDonut4:before {
+    content: "\f39b";
+}
+
+.xicon-tabler-ChartDots:before {
+    content: "\f38c";
+}
+
+.xicon-tabler-ChartInfographic:before {
+    content: "\f37d";
+}
+
+.xicon-tabler-ChartLine:before {
+    content: "\f36e";
+}
+
+.xicon-tabler-ChartPie:before {
+    content: "\f35f";
+}
+
+.xicon-tabler-ChartPie2:before {
+    content: "\f350";
+}
+
+.xicon-tabler-ChartPie3:before {
+    content: "\f341";
+}
+
+.xicon-tabler-ChartPie4:before {
+    content: "\f332";
+}
+
+.xicon-tabler-ChartRadar:before {
+    content: "\f323";
+}
+
+.xicon-tabler-Check:before {
+    content: "\f314";
+}
+
+.xicon-tabler-Checkbox:before {
+    content: "\f305";
+}
+
+.xicon-tabler-Checks:before {
+    content: "\f2f6";
+}
+
+.xicon-tabler-CheckupList:before {
+    content: "\f2e7";
+}
+
+.xicon-tabler-Cheese:before {
+    content: "\f2d8";
+}
+
+.xicon-tabler-ChevronDown:before {
+    content: "\f2c9";
+}
+
+.xicon-tabler-ChevronDownLeft:before {
+    content: "\f2ba";
+}
+
+.xicon-tabler-ChevronDownRight:before {
+    content: "\f2ab";
+}
+
+.xicon-tabler-ChevronLeft:before {
+    content: "\f29c";
+}
+
+.xicon-tabler-ChevronRight:before {
+    content: "\f28d";
+}
+
+.xicon-tabler-ChevronsDown:before {
+    content: "\f27e";
+}
+
+.xicon-tabler-ChevronsDownLeft:before {
+    content: "\f26f";
+}
+
+.xicon-tabler-ChevronsDownRight:before {
+    content: "\f260";
+}
+
+.xicon-tabler-ChevronsLeft:before {
+    content: "\f251";
+}
+
+.xicon-tabler-ChevronsRight:before {
+    content: "\f242";
+}
+
+.xicon-tabler-ChevronsUp:before {
+    content: "\f233";
+}
+
+.xicon-tabler-ChevronsUpLeft:before {
+    content: "\f224";
+}
+
+.xicon-tabler-ChevronsUpRight:before {
+    content: "\f215";
+}
+
+.xicon-tabler-ChevronUp:before {
+    content: "\f206";
+}
+
+.xicon-tabler-ChevronUpLeft:before {
+    content: "\f1f7";
+}
+
+.xicon-tabler-ChevronUpRight:before {
+    content: "\f1e8";
+}
+
+.xicon-tabler-ChristmasTree:before {
+    content: "\f1d9";
+}
+
+.xicon-tabler-Circle:before {
+    content: "\f1ca";
+}
+
+.xicon-tabler-Circle0:before {
+    content: "\f1bb";
+}
+
+.xicon-tabler-Circle1:before {
+    content: "\f1ac";
+}
+
+.xicon-tabler-Circle2:before {
+    content: "\f19e";
+}
+
+.xicon-tabler-Circle3:before {
+    content: "\f18f";
+}
+
+.xicon-tabler-Circle4:before {
+    content: "\f180";
+}
+
+.xicon-tabler-Circle5:before {
+    content: "\f171";
+}
+
+.xicon-tabler-Circle6:before {
+    content: "\f162";
+}
+
+.xicon-tabler-Circle7:before {
+    content: "\f154";
+}
+
+.xicon-tabler-Circle8:before {
+    content: "\f145";
+}
+
+.xicon-tabler-Circle9:before {
+    content: "\f136";
+}
+
+.xicon-tabler-CircleCheck:before {
+    content: "\f127";
+}
+
+.xicon-tabler-CircleDashed:before {
+    content: "\f118";
+}
+
+.xicon-tabler-CircleDot:before {
+    content: "\f109";
+}
+
+.xicon-tabler-CircleDotted:before {
+    content: "\f0fa";
+}
+
+.xicon-tabler-CircleHalf:before {
+    content: "\f0eb";
+}
+
+.xicon-tabler-CircleHalf2:before {
+    content: "\f0dc";
+}
+
+.xicon-tabler-CircleHalfVertical:before {
+    content: "\f0cd";
+}
+
+.xicon-tabler-CircleMinus:before {
+    content: "\f0be";
+}
+
+.xicon-tabler-CircleOff:before {
+    content: "\f0af";
+}
+
+.xicon-tabler-CirclePlus:before {
+    content: "\f0a0";
+}
+
+.xicon-tabler-Circles:before {
+    content: "\f091";
+}
+
+.xicon-tabler-CircleSquare:before {
+    content: "\f082";
+}
+
+.xicon-tabler-CircleX:before {
+    content: "\f073";
+}
+
+.xicon-tabler-ClearAll:before {
+    content: "\f064";
+}
+
+.xicon-tabler-ClearFormatting:before {
+    content: "\f055";
+}
+
+.xicon-tabler-Click:before {
+    content: "\f046";
+}
+
+.xicon-tabler-Clipboard:before {
+    content: "\f037";
+}
+
+.xicon-tabler-ClipboardCheck:before {
+    content: "\f028";
+}
+
+.xicon-tabler-ClipboardList:before {
+    content: "\f019";
+}
+
+.xicon-tabler-ClipboardPlus:before {
+    content: "\f00a";
+}
+
+.xicon-tabler-ClipboardX:before {
+    content: "\f5e8";
+}
+
+.xicon-tabler-Clock:before {
+    content: "\f5d8";
+}
+
+.xicon-tabler-Cloud:before {
+    content: "\f5c8";
+}
+
+.xicon-tabler-CloudDownload:before {
+    content: "\f5b8";
+}
+
+.xicon-tabler-CloudFog:before {
+    content: "\f5a8";
+}
+
+.xicon-tabler-CloudLock:before {
+    content: "\f598";
+}
+
+.xicon-tabler-CloudLockOpen:before {
+    content: "\f588";
+}
+
+.xicon-tabler-CloudOff:before {
+    content: "\f578";
+}
+
+.xicon-tabler-CloudRain:before {
+    content: "\f568";
+}
+
+.xicon-tabler-CloudSnow:before {
+    content: "\f558";
+}
+
+.xicon-tabler-CloudStorm:before {
+    content: "\f548";
+}
+
+.xicon-tabler-CloudUpload:before {
+    content: "\f538";
+}
+
+.xicon-tabler-Clubs:before {
+    content: "\f528";
+}
+
+.xicon-tabler-Code:before {
+    content: "\f518";
+}
+
+.xicon-tabler-CodeMinus:before {
+    content: "\f508";
+}
+
+.xicon-tabler-CodePlus:before {
+    content: "\f4f8";
+}
+
+.xicon-tabler-Coffee:before {
+    content: "\f4e8";
+}
+
+.xicon-tabler-Coin:before {
+    content: "\f4d8";
+}
+
+.xicon-tabler-ColorPicker:before {
+    content: "\f4c8";
+}
+
+.xicon-tabler-ColorSwatch:before {
+    content: "\f4b8";
+}
+
+.xicon-tabler-ColumnInsertLeft:before {
+    content: "\f4a8";
+}
+
+.xicon-tabler-ColumnInsertRight:before {
+    content: "\f499";
+}
+
+.xicon-tabler-Columns:before {
+    content: "\f48a";
+}
+
+.xicon-tabler-Comet:before {
+    content: "\f47b";
+}
+
+.xicon-tabler-Command:before {
+    content: "\f46c";
+}
+
+.xicon-tabler-Compass:before {
+    content: "\f45d";
+}
+
+.xicon-tabler-Components:before {
+    content: "\f44e";
+}
+
+.xicon-tabler-Cone:before {
+    content: "\f43f";
+}
+
+.xicon-tabler-Cone2:before {
+    content: "\f430";
+}
+
+.xicon-tabler-Confetti:before {
+    content: "\f421";
+}
+
+.xicon-tabler-Container:before {
+    content: "\f412";
+}
+
+.xicon-tabler-Contrast:before {
+    content: "\f403";
+}
+
+.xicon-tabler-Contrast2:before {
+    content: "\f3f4";
+}
+
+.xicon-tabler-Cookie:before {
+    content: "\f3e5";
+}
+
+.xicon-tabler-Copy:before {
+    content: "\f3d6";
+}
+
+.xicon-tabler-Copyleft:before {
+    content: "\f3c7";
+}
+
+.xicon-tabler-Copyright:before {
+    content: "\f3b8";
+}
+
+.xicon-tabler-CornerDownLeft:before {
+    content: "\f3a9";
+}
+
+.xicon-tabler-CornerDownLeftDouble:before {
+    content: "\f39a";
+}
+
+.xicon-tabler-CornerDownRight:before {
+    content: "\f38b";
+}
+
+.xicon-tabler-CornerDownRightDouble:before {
+    content: "\f37c";
+}
+
+.xicon-tabler-CornerLeftDown:before {
+    content: "\f36d";
+}
+
+.xicon-tabler-CornerLeftDownDouble:before {
+    content: "\f35e";
+}
+
+.xicon-tabler-CornerLeftUp:before {
+    content: "\f34f";
+}
+
+.xicon-tabler-CornerLeftUpDouble:before {
+    content: "\f340";
+}
+
+.xicon-tabler-CornerRightDown:before {
+    content: "\f331";
+}
+
+.xicon-tabler-CornerRightDownDouble:before {
+    content: "\f322";
+}
+
+.xicon-tabler-CornerRightUp:before {
+    content: "\f313";
+}
+
+.xicon-tabler-CornerRightUpDouble:before {
+    content: "\f304";
+}
+
+.xicon-tabler-CornerUpLeft:before {
+    content: "\f2f5";
+}
+
+.xicon-tabler-CornerUpLeftDouble:before {
+    content: "\f2e6";
+}
+
+.xicon-tabler-CornerUpRight:before {
+    content: "\f2d7";
+}
+
+.xicon-tabler-CornerUpRightDouble:before {
+    content: "\f2c8";
+}
+
+.xicon-tabler-Cpu:before {
+    content: "\f2b9";
+}
+
+.xicon-tabler-Crane:before {
+    content: "\f2aa";
+}
+
+.xicon-tabler-CreativeCommons:before {
+    content: "\f29b";
+}
+
+.xicon-tabler-CreditCard:before {
+    content: "\f28c";
+}
+
+.xicon-tabler-CreditCardOff:before {
+    content: "\f27d";
+}
+
+.xicon-tabler-Crop:before {
+    content: "\f26e";
+}
+
+.xicon-tabler-Cross:before {
+    content: "\f25f";
+}
+
+.xicon-tabler-Crosshair:before {
+    content: "\f250";
+}
+
+.xicon-tabler-Crown:before {
+    content: "\f241";
+}
+
+.xicon-tabler-CrownOff:before {
+    content: "\f232";
+}
+
+.xicon-tabler-Crutches:before {
+    content: "\f223";
+}
+
+.xicon-tabler-CSharp:before {
+    content: "\f214";
+}
+
+.xicon-tabler-Cup:before {
+    content: "\f205";
+}
+
+.xicon-tabler-Curling:before {
+    content: "\f1f6";
+}
+
+.xicon-tabler-CurlyLoop:before {
+    content: "\f1e7";
+}
+
+.xicon-tabler-Currency:before {
+    content: "\f1d8";
+}
+
+.xicon-tabler-CurrencyBahraini:before {
+    content: "\f1c9";
+}
+
+.xicon-tabler-CurrencyBath:before {
+    content: "\f1ba";
+}
+
+.xicon-tabler-CurrencyBitcoin:before {
+    content: "\f1ab";
+}
+
+.xicon-tabler-CurrencyCent:before {
+    content: "\f19d";
+}
+
+.xicon-tabler-CurrencyDinar:before {
+    content: "\f18e";
+}
+
+.xicon-tabler-CurrencyDirham:before {
+    content: "\f17f";
+}
+
+.xicon-tabler-CurrencyDogecoin:before {
+    content: "\f170";
+}
+
+.xicon-tabler-CurrencyDollar:before {
+    content: "\f161";
+}
+
+.xicon-tabler-CurrencyDollarAustralian:before {
+    content: "\f153";
+}
+
+.xicon-tabler-CurrencyDollarCanadian:before {
+    content: "\f144";
+}
+
+.xicon-tabler-CurrencyDollarSingapore:before {
+    content: "\f135";
+}
+
+.xicon-tabler-CurrencyEthereum:before {
+    content: "\f126";
+}
+
+.xicon-tabler-CurrencyEuro:before {
+    content: "\f117";
+}
+
+.xicon-tabler-CurrencyForint:before {
+    content: "\f108";
+}
+
+.xicon-tabler-CurrencyFrank:before {
+    content: "\f0f9";
+}
+
+.xicon-tabler-CurrencyKroneCzech:before {
+    content: "\f0ea";
+}
+
+.xicon-tabler-CurrencyKroneDanish:before {
+    content: "\f0db";
+}
+
+.xicon-tabler-CurrencyKroneSwedish:before {
+    content: "\f0cc";
+}
+
+.xicon-tabler-CurrencyLeu:before {
+    content: "\f0bd";
+}
+
+.xicon-tabler-CurrencyLira:before {
+    content: "\f0ae";
+}
+
+.xicon-tabler-CurrencyLitecoin:before {
+    content: "\f09f";
+}
+
+.xicon-tabler-CurrencyNaira:before {
+    content: "\f090";
+}
+
+.xicon-tabler-CurrencyPound:before {
+    content: "\f081";
+}
+
+.xicon-tabler-CurrencyReal:before {
+    content: "\f072";
+}
+
+.xicon-tabler-CurrencyRenminbi:before {
+    content: "\f063";
+}
+
+.xicon-tabler-CurrencyRipple:before {
+    content: "\f054";
+}
+
+.xicon-tabler-CurrencyRiyal:before {
+    content: "\f045";
+}
+
+.xicon-tabler-CurrencyRubel:before {
+    content: "\f036";
+}
+
+.xicon-tabler-CurrencyRupee:before {
+    content: "\f027";
+}
+
+.xicon-tabler-CurrencyShekel:before {
+    content: "\f018";
+}
+
+.xicon-tabler-CurrencyTaka:before {
+    content: "\f009";
+}
+
+.xicon-tabler-CurrencyTugrik:before {
+    content: "\f5e7";
+}
+
+.xicon-tabler-CurrencyWon:before {
+    content: "\f5d7";
+}
+
+.xicon-tabler-CurrencyYen:before {
+    content: "\f5c7";
+}
+
+.xicon-tabler-CurrencyZloty:before {
+    content: "\f5b7";
+}
+
+.xicon-tabler-CurrentLocation:before {
+    content: "\f5a7";
+}
+
+.xicon-tabler-CursorText:before {
+    content: "\f597";
+}
+
+.xicon-tabler-Cut:before {
+    content: "\f587";
+}
+
+.xicon-tabler-Dashboard:before {
+    content: "\f577";
+}
+
+.xicon-tabler-Database:before {
+    content: "\f567";
+}
+
+.xicon-tabler-DatabaseExport:before {
+    content: "\f557";
+}
+
+.xicon-tabler-DatabaseImport:before {
+    content: "\f547";
+}
+
+.xicon-tabler-DatabaseOff:before {
+    content: "\f537";
+}
+
+.xicon-tabler-Details:before {
+    content: "\f527";
+}
+
+.xicon-tabler-DeviceAnalytics:before {
+    content: "\f517";
+}
+
+.xicon-tabler-DeviceAudioTape:before {
+    content: "\f507";
+}
+
+.xicon-tabler-DeviceCctv:before {
+    content: "\f4f7";
+}
+
+.xicon-tabler-DeviceComputerCamera:before {
+    content: "\f4e7";
+}
+
+.xicon-tabler-DeviceComputerCameraOff:before {
+    content: "\f4d7";
+}
+
+.xicon-tabler-DeviceDesktop:before {
+    content: "\f4c7";
+}
+
+.xicon-tabler-DeviceDesktopAnalytics:before {
+    content: "\f4b7";
+}
+
+.xicon-tabler-DeviceDesktopOff:before {
+    content: "\f4a7";
+}
+
+.xicon-tabler-DeviceFloppy:before {
+    content: "\f498";
+}
+
+.xicon-tabler-DeviceGamepad:before {
+    content: "\f489";
+}
+
+.xicon-tabler-DeviceLaptop:before {
+    content: "\f47a";
+}
+
+.xicon-tabler-DeviceMobile:before {
+    content: "\f46b";
+}
+
+.xicon-tabler-DeviceMobileMessage:before {
+    content: "\f45c";
+}
+
+.xicon-tabler-DeviceMobileRotated:before {
+    content: "\f44d";
+}
+
+.xicon-tabler-DeviceMobileVibration:before {
+    content: "\f43e";
+}
+
+.xicon-tabler-Devices:before {
+    content: "\f42f";
+}
+
+.xicon-tabler-Devices2:before {
+    content: "\f420";
+}
+
+.xicon-tabler-DevicesPc:before {
+    content: "\f411";
+}
+
+.xicon-tabler-DeviceSpeaker:before {
+    content: "\f402";
+}
+
+.xicon-tabler-DeviceTablet:before {
+    content: "\f3f3";
+}
+
+.xicon-tabler-DeviceTv:before {
+    content: "\f3e4";
+}
+
+.xicon-tabler-DeviceWatch:before {
+    content: "\f3d5";
+}
+
+.xicon-tabler-DeviceWatchStats:before {
+    content: "\f3c6";
+}
+
+.xicon-tabler-DeviceWatchStats2:before {
+    content: "\f3b7";
+}
+
+.xicon-tabler-Diamond:before {
+    content: "\f3a8";
+}
+
+.xicon-tabler-Diamonds:before {
+    content: "\f399";
+}
+
+.xicon-tabler-Dice:before {
+    content: "\f38a";
+}
+
+.xicon-tabler-Dimensions:before {
+    content: "\f37b";
+}
+
+.xicon-tabler-Direction:before {
+    content: "\f36c";
+}
+
+.xicon-tabler-DirectionHorizontal:before {
+    content: "\f35d";
+}
+
+.xicon-tabler-Directions:before {
+    content: "\f34e";
+}
+
+.xicon-tabler-Disabled:before {
+    content: "\f33f";
+}
+
+.xicon-tabler-Disabled2:before {
+    content: "\f330";
+}
+
+.xicon-tabler-Disc:before {
+    content: "\f321";
+}
+
+.xicon-tabler-Discount:before {
+    content: "\f312";
+}
+
+.xicon-tabler-Discount2:before {
+    content: "\f303";
+}
+
+.xicon-tabler-Divide:before {
+    content: "\f2f4";
+}
+
+.xicon-tabler-Dna:before {
+    content: "\f2e5";
+}
+
+.xicon-tabler-Dna2:before {
+    content: "\f2d6";
+}
+
+.xicon-tabler-DogBowl:before {
+    content: "\f2c7";
+}
+
+.xicon-tabler-Door:before {
+    content: "\f2b8";
+}
+
+.xicon-tabler-DoorEnter:before {
+    content: "\f2a9";
+}
+
+.xicon-tabler-DoorExit:before {
+    content: "\f29a";
+}
+
+.xicon-tabler-Dots:before {
+    content: "\f28b";
+}
+
+.xicon-tabler-DotsCircleHorizontal:before {
+    content: "\f27c";
+}
+
+.xicon-tabler-DotsDiagonal:before {
+    content: "\f26d";
+}
+
+.xicon-tabler-DotsDiagonal2:before {
+    content: "\f25e";
+}
+
+.xicon-tabler-DotsVertical:before {
+    content: "\f24f";
+}
+
+.xicon-tabler-Download:before {
+    content: "\f240";
+}
+
+.xicon-tabler-DragDrop:before {
+    content: "\f231";
+}
+
+.xicon-tabler-DragDrop2:before {
+    content: "\f222";
+}
+
+.xicon-tabler-Drone:before {
+    content: "\f213";
+}
+
+.xicon-tabler-DroneOff:before {
+    content: "\f204";
+}
+
+.xicon-tabler-DropCircle:before {
+    content: "\f1f5";
+}
+
+.xicon-tabler-Droplet:before {
+    content: "\f1e6";
+}
+
+.xicon-tabler-DropletFilled:before {
+    content: "\f1d7";
+}
+
+.xicon-tabler-DropletFilled2:before {
+    content: "\f1c8";
+}
+
+.xicon-tabler-DropletHalf:before {
+    content: "\f1b9";
+}
+
+.xicon-tabler-DropletHalf2:before {
+    content: "\f1aa";
+}
+
+.xicon-tabler-DropletOff:before {
+    content: "\f19c";
+}
+
+.xicon-tabler-Ear:before {
+    content: "\f18d";
+}
+
+.xicon-tabler-EarOff:before {
+    content: "\f17e";
+}
+
+.xicon-tabler-Edit:before {
+    content: "\f16f";
+}
+
+.xicon-tabler-EditCircle:before {
+    content: "\f160";
+}
+
+.xicon-tabler-Egg:before {
+    content: "\f152";
+}
+
+.xicon-tabler-Elevator:before {
+    content: "\f143";
+}
+
+.xicon-tabler-EmergencyBed:before {
+    content: "\f134";
+}
+
+.xicon-tabler-Emphasis:before {
+    content: "\f125";
+}
+
+.xicon-tabler-Engine:before {
+    content: "\f116";
+}
+
+.xicon-tabler-Equal:before {
+    content: "\f107";
+}
+
+.xicon-tabler-EqualNot:before {
+    content: "\f0f8";
+}
+
+.xicon-tabler-Eraser:before {
+    content: "\f0e9";
+}
+
+.xicon-tabler-Exchange:before {
+    content: "\f0da";
+}
+
+.xicon-tabler-ExclamationMark:before {
+    content: "\f0cb";
+}
+
+.xicon-tabler-Exposure:before {
+    content: "\f0bc";
+}
+
+.xicon-tabler-ExternalLink:before {
+    content: "\f0ad";
+}
+
+.xicon-tabler-Eye:before {
+    content: "\f09e";
+}
+
+.xicon-tabler-EyeCheck:before {
+    content: "\f08f";
+}
+
+.xicon-tabler-Eyeglass:before {
+    content: "\f080";
+}
+
+.xicon-tabler-Eyeglass2:before {
+    content: "\f071";
+}
+
+.xicon-tabler-EyeOff:before {
+    content: "\f062";
+}
+
+.xicon-tabler-EyeTable:before {
+    content: "\f053";
+}
+
+.xicon-tabler-FaceId:before {
+    content: "\f044";
+}
+
+.xicon-tabler-FaceIdError:before {
+    content: "\f035";
+}
+
+.xicon-tabler-FaceMask:before {
+    content: "\f026";
+}
+
+.xicon-tabler-Fall:before {
+    content: "\f017";
+}
+
+.xicon-tabler-Feather:before {
+    content: "\f008";
+}
+
+.xicon-tabler-Fence:before {
+    content: "\f5e6";
+}
+
+.xicon-tabler-File:before {
+    content: "\f5d6";
+}
+
+.xicon-tabler-FileAlert:before {
+    content: "\f5c6";
+}
+
+.xicon-tabler-FileAnalytics:before {
+    content: "\f5b6";
+}
+
+.xicon-tabler-FileCertificate:before {
+    content: "\f5a6";
+}
+
+.xicon-tabler-FileCheck:before {
+    content: "\f596";
+}
+
+.xicon-tabler-FileCode:before {
+    content: "\f586";
+}
+
+.xicon-tabler-FileCode2:before {
+    content: "\f576";
+}
+
+.xicon-tabler-FileDiff:before {
+    content: "\f566";
+}
+
+.xicon-tabler-FileDigit:before {
+    content: "\f556";
+}
+
+.xicon-tabler-FileDislike:before {
+    content: "\f546";
+}
+
+.xicon-tabler-FileDollar:before {
+    content: "\f536";
+}
+
+.xicon-tabler-FileDownload:before {
+    content: "\f526";
+}
+
+.xicon-tabler-FileEuro:before {
+    content: "\f516";
+}
+
+.xicon-tabler-FileExport:before {
+    content: "\f506";
+}
+
+.xicon-tabler-FileHorizontal:before {
+    content: "\f4f6";
+}
+
+.xicon-tabler-FileImport:before {
+    content: "\f4e6";
+}
+
+.xicon-tabler-FileInfo:before {
+    content: "\f4d6";
+}
+
+.xicon-tabler-FileInvoice:before {
+    content: "\f4c6";
+}
+
+.xicon-tabler-FileLike:before {
+    content: "\f4b6";
+}
+
+.xicon-tabler-FileMinus:before {
+    content: "\f4a6";
+}
+
+.xicon-tabler-FileMusic:before {
+    content: "\f497";
+}
+
+.xicon-tabler-FileOff:before {
+    content: "\f488";
+}
+
+.xicon-tabler-FilePhone:before {
+    content: "\f479";
+}
+
+.xicon-tabler-FilePlus:before {
+    content: "\f46a";
+}
+
+.xicon-tabler-FileReport:before {
+    content: "\f45b";
+}
+
+.xicon-tabler-Files:before {
+    content: "\f44c";
+}
+
+.xicon-tabler-FileSearch:before {
+    content: "\f43d";
+}
+
+.xicon-tabler-FileShredder:before {
+    content: "\f42e";
+}
+
+.xicon-tabler-FilesOff:before {
+    content: "\f41f";
+}
+
+.xicon-tabler-FileSymlink:before {
+    content: "\f410";
+}
+
+.xicon-tabler-FileText:before {
+    content: "\f401";
+}
+
+.xicon-tabler-FileUpload:before {
+    content: "\f3f2";
+}
+
+.xicon-tabler-FileX:before {
+    content: "\f3e3";
+}
+
+.xicon-tabler-FileZip:before {
+    content: "\f3d4";
+}
+
+.xicon-tabler-Filter:before {
+    content: "\f3c5";
+}
+
+.xicon-tabler-FilterOff:before {
+    content: "\f3b6";
+}
+
+.xicon-tabler-Fingerprint:before {
+    content: "\f3a7";
+}
+
+.xicon-tabler-Firetruck:before {
+    content: "\f398";
+}
+
+.xicon-tabler-FirstAidKit:before {
+    content: "\f389";
+}
+
+.xicon-tabler-Fish:before {
+    content: "\f37a";
+}
+
+.xicon-tabler-Flag:before {
+    content: "\f36b";
+}
+
+.xicon-tabler-Flag2:before {
+    content: "\f35c";
+}
+
+.xicon-tabler-Flag3:before {
+    content: "\f34d";
+}
+
+.xicon-tabler-Flame:before {
+    content: "\f33e";
+}
+
+.xicon-tabler-Flare:before {
+    content: "\f32f";
+}
+
+.xicon-tabler-Flask:before {
+    content: "\f320";
+}
+
+.xicon-tabler-Flask2:before {
+    content: "\f311";
+}
+
+.xicon-tabler-FlipHorizontal:before {
+    content: "\f302";
+}
+
+.xicon-tabler-FlipVertical:before {
+    content: "\f2f3";
+}
+
+.xicon-tabler-FloatCenter:before {
+    content: "\f2e4";
+}
+
+.xicon-tabler-FloatLeft:before {
+    content: "\f2d5";
+}
+
+.xicon-tabler-FloatNone:before {
+    content: "\f2c6";
+}
+
+.xicon-tabler-FloatRight:before {
+    content: "\f2b7";
+}
+
+.xicon-tabler-Flower:before {
+    content: "\f2a8";
+}
+
+.xicon-tabler-Focus:before {
+    content: "\f299";
+}
+
+.xicon-tabler-Focus2:before {
+    content: "\f28a";
+}
+
+.xicon-tabler-Fold:before {
+    content: "\f27b";
+}
+
+.xicon-tabler-FoldDown:before {
+    content: "\f26c";
+}
+
+.xicon-tabler-Folder:before {
+    content: "\f25d";
+}
+
+.xicon-tabler-FolderMinus:before {
+    content: "\f24e";
+}
+
+.xicon-tabler-FolderOff:before {
+    content: "\f23f";
+}
+
+.xicon-tabler-FolderPlus:before {
+    content: "\f230";
+}
+
+.xicon-tabler-Folders:before {
+    content: "\f221";
+}
+
+.xicon-tabler-FolderX:before {
+    content: "\f212";
+}
+
+.xicon-tabler-FoldUp:before {
+    content: "\f203";
+}
+
+.xicon-tabler-Forbid:before {
+    content: "\f1f4";
+}
+
+.xicon-tabler-Forbid2:before {
+    content: "\f1e5";
+}
+
+.xicon-tabler-Forklift:before {
+    content: "\f1d6";
+}
+
+.xicon-tabler-Forms:before {
+    content: "\f1c7";
+}
+
+.xicon-tabler-Frame:before {
+    content: "\f1b8";
+}
+
+.xicon-tabler-FreeRights:before {
+    content: "\f1a9";
+}
+
+.xicon-tabler-Friends:before {
+    content: "\f19b";
+}
+
+.xicon-tabler-GasStation:before {
+    content: "\f18c";
+}
+
+.xicon-tabler-Gauge:before {
+    content: "\f17d";
+}
+
+.xicon-tabler-Gavel:before {
+    content: "\f16e";
+}
+
+.xicon-tabler-Geometry:before {
+    content: "\f15f";
+}
+
+.xicon-tabler-Ghost:before {
+    content: "\f151";
+}
+
+.xicon-tabler-Gift:before {
+    content: "\f142";
+}
+
+.xicon-tabler-GitBranch:before {
+    content: "\f133";
+}
+
+.xicon-tabler-GitCommit:before {
+    content: "\f124";
+}
+
+.xicon-tabler-GitCompare:before {
+    content: "\f115";
+}
+
+.xicon-tabler-GitFork:before {
+    content: "\f106";
+}
+
+.xicon-tabler-GitMerge:before {
+    content: "\f0f7";
+}
+
+.xicon-tabler-GitPullRequest:before {
+    content: "\f0e8";
+}
+
+.xicon-tabler-GitPullRequestClosed:before {
+    content: "\f0d9";
+}
+
+.xicon-tabler-GitPullRequestDraft:before {
+    content: "\f0ca";
+}
+
+.xicon-tabler-Glass:before {
+    content: "\f0bb";
+}
+
+.xicon-tabler-GlassFull:before {
+    content: "\f0ac";
+}
+
+.xicon-tabler-GlassOff:before {
+    content: "\f09d";
+}
+
+.xicon-tabler-Globe:before {
+    content: "\f08e";
+}
+
+.xicon-tabler-Golf:before {
+    content: "\f07f";
+}
+
+.xicon-tabler-Gps:before {
+    content: "\f070";
+}
+
+.xicon-tabler-Grain:before {
+    content: "\f061";
+}
+
+.xicon-tabler-GridDots:before {
+    content: "\f052";
+}
+
+.xicon-tabler-GridPattern:before {
+    content: "\f043";
+}
+
+.xicon-tabler-Grill:before {
+    content: "\f034";
+}
+
+.xicon-tabler-GripHorizontal:before {
+    content: "\f025";
+}
+
+.xicon-tabler-GripVertical:before {
+    content: "\f016";
+}
+
+.xicon-tabler-Growth:before {
+    content: "\f007";
+}
+
+.xicon-tabler-H1:before {
+    content: "\f5e5";
+}
+
+.xicon-tabler-H2:before {
+    content: "\f5d5";
+}
+
+.xicon-tabler-H3:before {
+    content: "\f5c5";
+}
+
+.xicon-tabler-H4:before {
+    content: "\f5b5";
+}
+
+.xicon-tabler-H5:before {
+    content: "\f5a5";
+}
+
+.xicon-tabler-H6:before {
+    content: "\f595";
+}
+
+.xicon-tabler-Hammer:before {
+    content: "\f585";
+}
+
+.xicon-tabler-HandClick:before {
+    content: "\f575";
+}
+
+.xicon-tabler-HandFinger:before {
+    content: "\f565";
+}
+
+.xicon-tabler-HandLittleFinger:before {
+    content: "\f555";
+}
+
+.xicon-tabler-HandMiddleFinger:before {
+    content: "\f545";
+}
+
+.xicon-tabler-HandMove:before {
+    content: "\f535";
+}
+
+.xicon-tabler-HandOff:before {
+    content: "\f525";
+}
+
+.xicon-tabler-HandRingFinger:before {
+    content: "\f515";
+}
+
+.xicon-tabler-HandRock:before {
+    content: "\f505";
+}
+
+.xicon-tabler-HandStop:before {
+    content: "\f4f5";
+}
+
+.xicon-tabler-HandThreeFingers:before {
+    content: "\f4e5";
+}
+
+.xicon-tabler-HandTwoFingers:before {
+    content: "\f4d5";
+}
+
+.xicon-tabler-Hanger:before {
+    content: "\f4c5";
+}
+
+.xicon-tabler-Hash:before {
+    content: "\f4b5";
+}
+
+.xicon-tabler-Haze:before {
+    content: "\f4a5";
+}
+
+.xicon-tabler-Heading:before {
+    content: "\f496";
+}
+
+.xicon-tabler-Headphones:before {
+    content: "\f487";
+}
+
+.xicon-tabler-HeadphonesOff:before {
+    content: "\f478";
+}
+
+.xicon-tabler-Headset:before {
+    content: "\f469";
+}
+
+.xicon-tabler-Heart:before {
+    content: "\f45a";
+}
+
+.xicon-tabler-Heartbeat:before {
+    content: "\f44b";
+}
+
+.xicon-tabler-HeartBroken:before {
+    content: "\f43c";
+}
+
+.xicon-tabler-HeartRateMonitor:before {
+    content: "\f42d";
+}
+
+.xicon-tabler-Helicopter:before {
+    content: "\f41e";
+}
+
+.xicon-tabler-HelicopterLanding:before {
+    content: "\f40f";
+}
+
+.xicon-tabler-Helmet:before {
+    content: "\f400";
+}
+
+.xicon-tabler-Help:before {
+    content: "\f3f1";
+}
+
+.xicon-tabler-Hexagon:before {
+    content: "\f3e2";
+}
+
+.xicon-tabler-HexagonOff:before {
+    content: "\f3d3";
+}
+
+.xicon-tabler-Hierarchy:before {
+    content: "\f3c4";
+}
+
+.xicon-tabler-Hierarchy2:before {
+    content: "\f3b5";
+}
+
+.xicon-tabler-Highlight:before {
+    content: "\f3a6";
+}
+
+.xicon-tabler-History:before {
+    content: "\f397";
+}
+
+.xicon-tabler-Home:before {
+    content: "\f388";
+}
+
+.xicon-tabler-Home2:before {
+    content: "\f379";
+}
+
+.xicon-tabler-HotelService:before {
+    content: "\f36a";
+}
+
+.xicon-tabler-Hourglass:before {
+    content: "\f35b";
+}
+
+.xicon-tabler-IceCream:before {
+    content: "\f34c";
+}
+
+.xicon-tabler-IceCream2:before {
+    content: "\f33d";
+}
+
+.xicon-tabler-IceSkating:before {
+    content: "\f32e";
+}
+
+.xicon-tabler-Id:before {
+    content: "\f31f";
+}
+
+.xicon-tabler-IdBadge:before {
+    content: "\f310";
+}
+
+.xicon-tabler-Inbox:before {
+    content: "\f301";
+}
+
+.xicon-tabler-IndentDecrease:before {
+    content: "\f2f2";
+}
+
+.xicon-tabler-IndentIncrease:before {
+    content: "\f2e3";
+}
+
+.xicon-tabler-Infinity:before {
+    content: "\f2d4";
+}
+
+.xicon-tabler-InfoCircle:before {
+    content: "\f2c5";
+}
+
+.xicon-tabler-InfoSquare:before {
+    content: "\f2b6";
+}
+
+.xicon-tabler-Italic:before {
+    content: "\f2a7";
+}
+
+.xicon-tabler-JumpRope:before {
+    content: "\f298";
+}
+
+.xicon-tabler-Karate:before {
+    content: "\f289";
+}
+
+.xicon-tabler-Kering:before {
+    content: "\f27a";
+}
+
+.xicon-tabler-Key:before {
+    content: "\f26b";
+}
+
+.xicon-tabler-Keyboard:before {
+    content: "\f25c";
+}
+
+.xicon-tabler-KeyboardHide:before {
+    content: "\f24d";
+}
+
+.xicon-tabler-KeyboardOff:before {
+    content: "\f23e";
+}
+
+.xicon-tabler-KeyboardShow:before {
+    content: "\f22f";
+}
+
+.xicon-tabler-Ladder:before {
+    content: "\f220";
+}
+
+.xicon-tabler-Lamp:before {
+    content: "\f211";
+}
+
+.xicon-tabler-Language:before {
+    content: "\f202";
+}
+
+.xicon-tabler-LanguageHiragana:before {
+    content: "\f1f3";
+}
+
+.xicon-tabler-LanguageKatakana:before {
+    content: "\f1e4";
+}
+
+.xicon-tabler-Lasso:before {
+    content: "\f1d5";
+}
+
+.xicon-tabler-LayersDifference:before {
+    content: "\f1c6";
+}
+
+.xicon-tabler-LayersIntersect:before {
+    content: "\f1b7";
+}
+
+.xicon-tabler-LayersIntersect2:before {
+    content: "\f1a8";
+}
+
+.xicon-tabler-LayersLinked:before {
+    content: "\f19a";
+}
+
+.xicon-tabler-LayersSubtract:before {
+    content: "\f18b";
+}
+
+.xicon-tabler-LayersUnion:before {
+    content: "\f17c";
+}
+
+.xicon-tabler-Layout:before {
+    content: "\f16d";
+}
+
+.xicon-tabler-Layout2:before {
+    content: "\f15e";
+}
+
+.xicon-tabler-LayoutAlignBottom:before {
+    content: "\f150";
+}
+
+.xicon-tabler-LayoutAlignCenter:before {
+    content: "\f141";
+}
+
+.xicon-tabler-LayoutAlignLeft:before {
+    content: "\f132";
+}
+
+.xicon-tabler-LayoutAlignMiddle:before {
+    content: "\f123";
+}
+
+.xicon-tabler-LayoutAlignRight:before {
+    content: "\f114";
+}
+
+.xicon-tabler-LayoutAlignTop:before {
+    content: "\f105";
+}
+
+.xicon-tabler-LayoutBoard:before {
+    content: "\f0f6";
+}
+
+.xicon-tabler-LayoutBoardSplit:before {
+    content: "\f0e7";
+}
+
+.xicon-tabler-LayoutBottombar:before {
+    content: "\f0d8";
+}
+
+.xicon-tabler-LayoutCards:before {
+    content: "\f0c9";
+}
+
+.xicon-tabler-LayoutColumns:before {
+    content: "\f0ba";
+}
+
+.xicon-tabler-LayoutDistributeHorizontal:before {
+    content: "\f0ab";
+}
+
+.xicon-tabler-LayoutDistributeVertical:before {
+    content: "\f09c";
+}
+
+.xicon-tabler-LayoutGrid:before {
+    content: "\f08d";
+}
+
+.xicon-tabler-LayoutGridAdd:before {
+    content: "\f07e";
+}
+
+.xicon-tabler-LayoutKanban:before {
+    content: "\f06f";
+}
+
+.xicon-tabler-LayoutList:before {
+    content: "\f060";
+}
+
+.xicon-tabler-LayoutNavbar:before {
+    content: "\f051";
+}
+
+.xicon-tabler-LayoutRows:before {
+    content: "\f042";
+}
+
+.xicon-tabler-LayoutSidebar:before {
+    content: "\f033";
+}
+
+.xicon-tabler-LayoutSidebarLeftCollapse:before {
+    content: "\f024";
+}
+
+.xicon-tabler-LayoutSidebarLeftExpand:before {
+    content: "\f015";
+}
+
+.xicon-tabler-LayoutSidebarRight:before {
+    content: "\f006";
+}
+
+.xicon-tabler-LayoutSidebarRightCollapse:before {
+    content: "\f5e4";
+}
+
+.xicon-tabler-LayoutSidebarRightExpand:before {
+    content: "\f5d4";
+}
+
+.xicon-tabler-Leaf:before {
+    content: "\f5c4";
+}
+
+.xicon-tabler-Lego:before {
+    content: "\f5b4";
+}
+
+.xicon-tabler-Lemon:before {
+    content: "\f5a4";
+}
+
+.xicon-tabler-Lemon2:before {
+    content: "\f594";
+}
+
+.xicon-tabler-LetterA:before {
+    content: "\f584";
+}
+
+.xicon-tabler-LetterB:before {
+    content: "\f574";
+}
+
+.xicon-tabler-LetterC:before {
+    content: "\f564";
+}
+
+.xicon-tabler-LetterCase:before {
+    content: "\f554";
+}
+
+.xicon-tabler-LetterCaseLower:before {
+    content: "\f544";
+}
+
+.xicon-tabler-LetterCaseToggle:before {
+    content: "\f534";
+}
+
+.xicon-tabler-LetterCaseUpper:before {
+    content: "\f524";
+}
+
+.xicon-tabler-LetterD:before {
+    content: "\f514";
+}
+
+.xicon-tabler-LetterE:before {
+    content: "\f504";
+}
+
+.xicon-tabler-LetterF:before {
+    content: "\f4f4";
+}
+
+.xicon-tabler-LetterG:before {
+    content: "\f4e4";
+}
+
+.xicon-tabler-LetterH:before {
+    content: "\f4d4";
+}
+
+.xicon-tabler-LetterI:before {
+    content: "\f4c4";
+}
+
+.xicon-tabler-LetterJ:before {
+    content: "\f4b4";
+}
+
+.xicon-tabler-LetterK:before {
+    content: "\f4a4";
+}
+
+.xicon-tabler-LetterL:before {
+    content: "\f495";
+}
+
+.xicon-tabler-LetterM:before {
+    content: "\f486";
+}
+
+.xicon-tabler-LetterN:before {
+    content: "\f477";
+}
+
+.xicon-tabler-LetterO:before {
+    content: "\f468";
+}
+
+.xicon-tabler-LetterP:before {
+    content: "\f459";
+}
+
+.xicon-tabler-LetterQ:before {
+    content: "\f44a";
+}
+
+.xicon-tabler-LetterR:before {
+    content: "\f43b";
+}
+
+.xicon-tabler-LetterS:before {
+    content: "\f42c";
+}
+
+.xicon-tabler-LettersCase:before {
+    content: "\f41d";
+}
+
+.xicon-tabler-LetterSpacing:before {
+    content: "\f40e";
+}
+
+.xicon-tabler-LetterT:before {
+    content: "\f3ff";
+}
+
+.xicon-tabler-LetterU:before {
+    content: "\f3f0";
+}
+
+.xicon-tabler-LetterV:before {
+    content: "\f3e1";
+}
+
+.xicon-tabler-LetterW:before {
+    content: "\f3d2";
+}
+
+.xicon-tabler-LetterX:before {
+    content: "\f3c3";
+}
+
+.xicon-tabler-LetterY:before {
+    content: "\f3b4";
+}
+
+.xicon-tabler-LetterZ:before {
+    content: "\f3a5";
+}
+
+.xicon-tabler-License:before {
+    content: "\f396";
+}
+
+.xicon-tabler-Lifebuoy:before {
+    content: "\f387";
+}
+
+.xicon-tabler-Line:before {
+    content: "\f378";
+}
+
+.xicon-tabler-LineDashed:before {
+    content: "\f369";
+}
+
+.xicon-tabler-LineDotted:before {
+    content: "\f35a";
+}
+
+.xicon-tabler-LineHeight:before {
+    content: "\f34b";
+}
+
+.xicon-tabler-Link:before {
+    content: "\f33c";
+}
+
+.xicon-tabler-List:before {
+    content: "\f32d";
+}
+
+.xicon-tabler-ListCheck:before {
+    content: "\f31e";
+}
+
+.xicon-tabler-ListDetails:before {
+    content: "\f30f";
+}
+
+.xicon-tabler-ListNumbers:before {
+    content: "\f300";
+}
+
+.xicon-tabler-ListSearch:before {
+    content: "\f2f1";
+}
+
+.xicon-tabler-LivePhoto:before {
+    content: "\f2e2";
+}
+
+.xicon-tabler-LiveView:before {
+    content: "\f2d3";
+}
+
+.xicon-tabler-Loader:before {
+    content: "\f2c4";
+}
+
+.xicon-tabler-LoaderQuarter:before {
+    content: "\f2b5";
+}
+
+.xicon-tabler-Location:before {
+    content: "\f2a6";
+}
+
+.xicon-tabler-Lock:before {
+    content: "\f297";
+}
+
+.xicon-tabler-LockAccess:before {
+    content: "\f288";
+}
+
+.xicon-tabler-LockOff:before {
+    content: "\f279";
+}
+
+.xicon-tabler-LockOpen:before {
+    content: "\f26a";
+}
+
+.xicon-tabler-LockSquare:before {
+    content: "\f25b";
+}
+
+.xicon-tabler-Login:before {
+    content: "\f24c";
+}
+
+.xicon-tabler-Logout:before {
+    content: "\f23d";
+}
+
+.xicon-tabler-Lollipop:before {
+    content: "\f22e";
+}
+
+.xicon-tabler-Luggage:before {
+    content: "\f21f";
+}
+
+.xicon-tabler-Lungs:before {
+    content: "\f210";
+}
+
+.xicon-tabler-Macro:before {
+    content: "\f201";
+}
+
+.xicon-tabler-Magnet:before {
+    content: "\f1f2";
+}
+
+.xicon-tabler-Mail:before {
+    content: "\f1e3";
+}
+
+.xicon-tabler-Mailbox:before {
+    content: "\f1d4";
+}
+
+.xicon-tabler-MailForward:before {
+    content: "\f1c5";
+}
+
+.xicon-tabler-MailOpened:before {
+    content: "\f1b6";
+}
+
+.xicon-tabler-Man:before {
+    content: "\f1a7";
+}
+
+.xicon-tabler-ManualGearbox:before {
+    content: "\f199";
+}
+
+.xicon-tabler-Map:before {
+    content: "\f18a";
+}
+
+.xicon-tabler-Map2:before {
+    content: "\f17b";
+}
+
+.xicon-tabler-MapPin:before {
+    content: "\f16c";
+}
+
+.xicon-tabler-MapPinOff:before {
+    content: "\f15d";
+}
+
+.xicon-tabler-MapPins:before {
+    content: "\f14f";
+}
+
+.xicon-tabler-MapSearch:before {
+    content: "\f140";
+}
+
+.xicon-tabler-Markdown:before {
+    content: "\f131";
+}
+
+.xicon-tabler-Marquee:before {
+    content: "\f122";
+}
+
+.xicon-tabler-Marquee2:before {
+    content: "\f113";
+}
+
+.xicon-tabler-Mars:before {
+    content: "\f104";
+}
+
+.xicon-tabler-Mask:before {
+    content: "\f0f5";
+}
+
+.xicon-tabler-MaskOff:before {
+    content: "\f0e6";
+}
+
+.xicon-tabler-Massage:before {
+    content: "\f0d7";
+}
+
+.xicon-tabler-Math:before {
+    content: "\f0c8";
+}
+
+.xicon-tabler-MathFunction:before {
+    content: "\f0b9";
+}
+
+.xicon-tabler-MathSymbols:before {
+    content: "\f0aa";
+}
+
+.xicon-tabler-Maximize:before {
+    content: "\f09b";
+}
+
+.xicon-tabler-Meat:before {
+    content: "\f08c";
+}
+
+.xicon-tabler-Medal:before {
+    content: "\f07d";
+}
+
+.xicon-tabler-Medal2:before {
+    content: "\f06e";
+}
+
+.xicon-tabler-MedicalCross:before {
+    content: "\f05f";
+}
+
+.xicon-tabler-MedicineSyrup:before {
+    content: "\f050";
+}
+
+.xicon-tabler-Menu:before {
+    content: "\f041";
+}
+
+.xicon-tabler-Menu2:before {
+    content: "\f032";
+}
+
+.xicon-tabler-Message:before {
+    content: "\f023";
+}
+
+.xicon-tabler-Message2:before {
+    content: "\f014";
+}
+
+.xicon-tabler-MessageCircle:before {
+    content: "\f005";
+}
+
+.xicon-tabler-MessageCircle2:before {
+    content: "\f5e3";
+}
+
+.xicon-tabler-MessageCircleOff:before {
+    content: "\f5d3";
+}
+
+.xicon-tabler-MessageDots:before {
+    content: "\f5c3";
+}
+
+.xicon-tabler-MessageLanguage:before {
+    content: "\f5b3";
+}
+
+.xicon-tabler-MessageOff:before {
+    content: "\f5a3";
+}
+
+.xicon-tabler-MessagePlus:before {
+    content: "\f593";
+}
+
+.xicon-tabler-MessageReport:before {
+    content: "\f583";
+}
+
+.xicon-tabler-Messages:before {
+    content: "\f573";
+}
+
+.xicon-tabler-MessagesOff:before {
+    content: "\f563";
+}
+
+.xicon-tabler-Microphone:before {
+    content: "\f553";
+}
+
+.xicon-tabler-Microphone2:before {
+    content: "\f543";
+}
+
+.xicon-tabler-MicrophoneOff:before {
+    content: "\f533";
+}
+
+.xicon-tabler-Microscope:before {
+    content: "\f523";
+}
+
+.xicon-tabler-MiliratyAward:before {
+    content: "\f513";
+}
+
+.xicon-tabler-MilitaryRank:before {
+    content: "\f503";
+}
+
+.xicon-tabler-Milk:before {
+    content: "\f4f3";
+}
+
+.xicon-tabler-Minimize:before {
+    content: "\f4e3";
+}
+
+.xicon-tabler-Minus:before {
+    content: "\f4d3";
+}
+
+.xicon-tabler-MinusVertical:before {
+    content: "\f4c3";
+}
+
+.xicon-tabler-Mist:before {
+    content: "\f4b3";
+}
+
+.xicon-tabler-MoodBoy:before {
+    content: "\f4a3";
+}
+
+.xicon-tabler-MoodConfuzed:before {
+    content: "\f494";
+}
+
+.xicon-tabler-MoodCrazyHappy:before {
+    content: "\f485";
+}
+
+.xicon-tabler-MoodCry:before {
+    content: "\f476";
+}
+
+.xicon-tabler-MoodEmpty:before {
+    content: "\f467";
+}
+
+.xicon-tabler-MoodHappy:before {
+    content: "\f458";
+}
+
+.xicon-tabler-MoodKid:before {
+    content: "\f449";
+}
+
+.xicon-tabler-MoodNervous:before {
+    content: "\f43a";
+}
+
+.xicon-tabler-MoodNeutral:before {
+    content: "\f42b";
+}
+
+.xicon-tabler-MoodSad:before {
+    content: "\f41c";
+}
+
+.xicon-tabler-MoodSmile:before {
+    content: "\f40d";
+}
+
+.xicon-tabler-MoodSuprised:before {
+    content: "\f3fe";
+}
+
+.xicon-tabler-MoodTongue:before {
+    content: "\f3ef";
+}
+
+.xicon-tabler-Moon:before {
+    content: "\f3e0";
+}
+
+.xicon-tabler-Moon2:before {
+    content: "\f3d1";
+}
+
+.xicon-tabler-MoonStars:before {
+    content: "\f3c2";
+}
+
+.xicon-tabler-Moped:before {
+    content: "\f3b3";
+}
+
+.xicon-tabler-Motorbike:before {
+    content: "\f3a4";
+}
+
+.xicon-tabler-Mountain:before {
+    content: "\f395";
+}
+
+.xicon-tabler-Mouse:before {
+    content: "\f386";
+}
+
+.xicon-tabler-Movie:before {
+    content: "\f377";
+}
+
+.xicon-tabler-Mug:before {
+    content: "\f368";
+}
+
+.xicon-tabler-Multiplier1X:before {
+    content: "\f359";
+}
+
+.xicon-tabler-Multiplier2X:before {
+    content: "\f34a";
+}
+
+.xicon-tabler-Multiplier05X:before {
+    content: "\f33b";
+}
+
+.xicon-tabler-Multiplier15X:before {
+    content: "\f32c";
+}
+
+.xicon-tabler-Mushroom:before {
+    content: "\f31d";
+}
+
+.xicon-tabler-Music:before {
+    content: "\f30e";
+}
+
+.xicon-tabler-News:before {
+    content: "\f2ff";
+}
+
+.xicon-tabler-NewSection:before {
+    content: "\f2f0";
+}
+
+.xicon-tabler-Nfc:before {
+    content: "\f2e1";
+}
+
+.xicon-tabler-NoCopyright:before {
+    content: "\f2d2";
+}
+
+.xicon-tabler-NoCreativeCommons:before {
+    content: "\f2c3";
+}
+
+.xicon-tabler-NoDerivatives:before {
+    content: "\f2b4";
+}
+
+.xicon-tabler-Note:before {
+    content: "\f2a5";
+}
+
+.xicon-tabler-Notebook:before {
+    content: "\f296";
+}
+
+.xicon-tabler-Notes:before {
+    content: "\f287";
+}
+
+.xicon-tabler-Notification:before {
+    content: "\f278";
+}
+
+.xicon-tabler-Number0:before {
+    content: "\f269";
+}
+
+.xicon-tabler-Number1:before {
+    content: "\f25a";
+}
+
+.xicon-tabler-Number2:before {
+    content: "\f24b";
+}
+
+.xicon-tabler-Number3:before {
+    content: "\f23c";
+}
+
+.xicon-tabler-Number4:before {
+    content: "\f22d";
+}
+
+.xicon-tabler-Number5:before {
+    content: "\f21e";
+}
+
+.xicon-tabler-Number6:before {
+    content: "\f20f";
+}
+
+.xicon-tabler-Number7:before {
+    content: "\f200";
+}
+
+.xicon-tabler-Number8:before {
+    content: "\f1f1";
+}
+
+.xicon-tabler-Number9:before {
+    content: "\f1e2";
+}
+
+.xicon-tabler-Nurse:before {
+    content: "\f1d3";
+}
+
+.xicon-tabler-Octagon:before {
+    content: "\f1c4";
+}
+
+.xicon-tabler-OctagonOff:before {
+    content: "\f1b5";
+}
+
+.xicon-tabler-Old:before {
+    content: "\f1a6";
+}
+
+.xicon-tabler-Olympics:before {
+    content: "\f198";
+}
+
+.xicon-tabler-Omega:before {
+    content: "\f189";
+}
+
+.xicon-tabler-Outlet:before {
+    content: "\f17a";
+}
+
+.xicon-tabler-Overline:before {
+    content: "\f16b";
+}
+
+.xicon-tabler-Package:before {
+    content: "\f14e";
+}
+
+.xicon-tabler-Pacman:before {
+    content: "\f13f";
+}
+
+.xicon-tabler-PageBreak:before {
+    content: "\f130";
+}
+
+.xicon-tabler-Paint:before {
+    content: "\f121";
+}
+
+.xicon-tabler-Palette:before {
+    content: "\f112";
+}
+
+.xicon-tabler-PanoramaHorizontal:before {
+    content: "\f103";
+}
+
+.xicon-tabler-PanoramaVertical:before {
+    content: "\f0f4";
+}
+
+.xicon-tabler-Paperclip:before {
+    content: "\f0e5";
+}
+
+.xicon-tabler-Parachute:before {
+    content: "\f0d6";
+}
+
+.xicon-tabler-Parentheses:before {
+    content: "\f0c7";
+}
+
+.xicon-tabler-Parking:before {
+    content: "\f0b8";
+}
+
+.xicon-tabler-Paw:before {
+    content: "\f0a9";
+}
+
+.xicon-tabler-Peace:before {
+    content: "\f09a";
+}
+
+.xicon-tabler-Pencil:before {
+    content: "\f08b";
+}
+
+.xicon-tabler-Pennant:before {
+    content: "\f07c";
+}
+
+.xicon-tabler-Pentagon:before {
+    content: "\f06d";
+}
+
+.xicon-tabler-Pepper:before {
+    content: "\f05e";
+}
+
+.xicon-tabler-Percentage:before {
+    content: "\f04f";
+}
+
+.xicon-tabler-Perspective:before {
+    content: "\f040";
+}
+
+.xicon-tabler-Phone:before {
+    content: "\f031";
+}
+
+.xicon-tabler-PhoneCall:before {
+    content: "\f022";
+}
+
+.xicon-tabler-PhoneCalling:before {
+    content: "\f013";
+}
+
+.xicon-tabler-PhoneCheck:before {
+    content: "\f004";
+}
+
+.xicon-tabler-PhoneIncoming:before {
+    content: "\f5e2";
+}
+
+.xicon-tabler-PhoneOff:before {
+    content: "\f5d2";
+}
+
+.xicon-tabler-PhoneOutgoing:before {
+    content: "\f5c2";
+}
+
+.xicon-tabler-PhonePause:before {
+    content: "\f5b2";
+}
+
+.xicon-tabler-PhonePlus:before {
+    content: "\f5a2";
+}
+
+.xicon-tabler-PhoneX:before {
+    content: "\f592";
+}
+
+.xicon-tabler-Photo:before {
+    content: "\f582";
+}
+
+.xicon-tabler-PhotoOff:before {
+    content: "\f572";
+}
+
+.xicon-tabler-Physotherapist:before {
+    content: "\f562";
+}
+
+.xicon-tabler-PictureInPicture:before {
+    content: "\f552";
+}
+
+.xicon-tabler-PictureInPictureOff:before {
+    content: "\f542";
+}
+
+.xicon-tabler-PictureInPictureOn:before {
+    content: "\f532";
+}
+
+.xicon-tabler-PictureInPictureTop:before {
+    content: "\f522";
+}
+
+.xicon-tabler-Pig:before {
+    content: "\f512";
+}
+
+.xicon-tabler-Pill:before {
+    content: "\f502";
+}
+
+.xicon-tabler-Pills:before {
+    content: "\f4f2";
+}
+
+.xicon-tabler-Pin:before {
+    content: "\f4e2";
+}
+
+.xicon-tabler-Pinned:before {
+    content: "\f4d2";
+}
+
+.xicon-tabler-PinnedOff:before {
+    content: "\f4c2";
+}
+
+.xicon-tabler-Pizza:before {
+    content: "\f4b2";
+}
+
+.xicon-tabler-Plane:before {
+    content: "\f4a2";
+}
+
+.xicon-tabler-PlaneArrival:before {
+    content: "\f493";
+}
+
+.xicon-tabler-PlaneDeparture:before {
+    content: "\f484";
+}
+
+.xicon-tabler-PlaneInflight:before {
+    content: "\f475";
+}
+
+.xicon-tabler-Planet:before {
+    content: "\f466";
+}
+
+.xicon-tabler-Plant:before {
+    content: "\f457";
+}
+
+.xicon-tabler-Plant2:before {
+    content: "\f448";
+}
+
+.xicon-tabler-PlayCard:before {
+    content: "\f439";
+}
+
+.xicon-tabler-PlayerEject:before {
+    content: "\f42a";
+}
+
+.xicon-tabler-PlayerPause:before {
+    content: "\f41b";
+}
+
+.xicon-tabler-PlayerPlay:before {
+    content: "\f40c";
+}
+
+.xicon-tabler-PlayerRecord:before {
+    content: "\f3fd";
+}
+
+.xicon-tabler-PlayerSkipBack:before {
+    content: "\f3ee";
+}
+
+.xicon-tabler-PlayerSkipForward:before {
+    content: "\f3df";
+}
+
+.xicon-tabler-PlayerStop:before {
+    content: "\f3d0";
+}
+
+.xicon-tabler-PlayerTrackNext:before {
+    content: "\f3c1";
+}
+
+.xicon-tabler-PlayerTrackPrev:before {
+    content: "\f3b2";
+}
+
+.xicon-tabler-Playlist:before {
+    content: "\f3a3";
+}
+
+.xicon-tabler-PlaylistAdd:before {
+    content: "\f394";
+}
+
+.xicon-tabler-PlaylistX:before {
+    content: "\f385";
+}
+
+.xicon-tabler-Plug:before {
+    content: "\f376";
+}
+
+.xicon-tabler-PlugConnected:before {
+    content: "\f367";
+}
+
+.xicon-tabler-Plus:before {
+    content: "\f358";
+}
+
+.xicon-tabler-Point:before {
+    content: "\f349";
+}
+
+.xicon-tabler-Pokeball:before {
+    content: "\f33a";
+}
+
+.xicon-tabler-Polaroid:before {
+    content: "\f32b";
+}
+
+.xicon-tabler-Polygon:before {
+    content: "\f31c";
+}
+
+.xicon-tabler-Pool:before {
+    content: "\f30d";
+}
+
+.xicon-tabler-Power:before {
+    content: "\f2fe";
+}
+
+.xicon-tabler-Pray:before {
+    content: "\f2ef";
+}
+
+.xicon-tabler-PremiumRights:before {
+    content: "\f2e0";
+}
+
+.xicon-tabler-Prescription:before {
+    content: "\f2d1";
+}
+
+.xicon-tabler-Presentation:before {
+    content: "\f2c2";
+}
+
+.xicon-tabler-PresentationAnalytics:before {
+    content: "\f2b3";
+}
+
+.xicon-tabler-Printer:before {
+    content: "\f2a4";
+}
+
+.xicon-tabler-Prison:before {
+    content: "\f295";
+}
+
+.xicon-tabler-Prompt:before {
+    content: "\f286";
+}
+
+.xicon-tabler-Propeller:before {
+    content: "\f277";
+}
+
+.xicon-tabler-Puzzle:before {
+    content: "\f268";
+}
+
+.xicon-tabler-Puzzle2:before {
+    content: "\f259";
+}
+
+.xicon-tabler-Pyramid:before {
+    content: "\f24a";
+}
+
+.xicon-tabler-Qrcode:before {
+    content: "\f23b";
+}
+
+.xicon-tabler-QuestionMark:before {
+    content: "\f22c";
+}
+
+.xicon-tabler-Quote:before {
+    content: "\f21d";
+}
+
+.xicon-tabler-Radio:before {
+    content: "\f20e";
+}
+
+.xicon-tabler-Radioactive:before {
+    content: "\f1ff";
+}
+
+.xicon-tabler-RadiusBottomLeft:before {
+    content: "\f1f0";
+}
+
+.xicon-tabler-RadiusBottomRight:before {
+    content: "\f1e1";
+}
+
+.xicon-tabler-RadiusTopLeft:before {
+    content: "\f1d2";
+}
+
+.xicon-tabler-RadiusTopRight:before {
+    content: "\f1c3";
+}
+
+.xicon-tabler-Rainbow:before {
+    content: "\f1b4";
+}
+
+.xicon-tabler-Receipt:before {
+    content: "\f197";
+}
+
+.xicon-tabler-Receipt2:before {
+    content: "\f188";
+}
+
+.xicon-tabler-ReceiptOff:before {
+    content: "\f179";
+}
+
+.xicon-tabler-ReceiptRefund:before {
+    content: "\f16a";
+}
+
+.xicon-tabler-ReceiptTax:before {
+    content: "\f15c";
+}
+
+.xicon-tabler-Recharging:before {
+    content: "\f14d";
+}
+
+.xicon-tabler-RecordMail:before {
+    content: "\f13e";
+}
+
+.xicon-tabler-Rectangle:before {
+    content: "\f12f";
+}
+
+.xicon-tabler-RectangleVertical:before {
+    content: "\f120";
+}
+
+.xicon-tabler-Recycle:before {
+    content: "\f111";
+}
+
+.xicon-tabler-Refresh:before {
+    content: "\f102";
+}
+
+.xicon-tabler-RefreshAlert:before {
+    content: "\f0f3";
+}
+
+.xicon-tabler-RefreshDot:before {
+    content: "\f0e4";
+}
+
+.xicon-tabler-Registered:before {
+    content: "\f0d5";
+}
+
+.xicon-tabler-RelationManyToMany:before {
+    content: "\f0c6";
+}
+
+.xicon-tabler-RelationOneToMany:before {
+    content: "\f0b7";
+}
+
+.xicon-tabler-RelationOneToOne:before {
+    content: "\f0a8";
+}
+
+.xicon-tabler-Repeat:before {
+    content: "\f099";
+}
+
+.xicon-tabler-RepeatOnce:before {
+    content: "\f08a";
+}
+
+.xicon-tabler-Replace:before {
+    content: "\f07b";
+}
+
+.xicon-tabler-Report:before {
+    content: "\f06c";
+}
+
+.xicon-tabler-ReportAnalytics:before {
+    content: "\f05d";
+}
+
+.xicon-tabler-ReportMedical:before {
+    content: "\f04e";
+}
+
+.xicon-tabler-ReportMoney:before {
+    content: "\f03f";
+}
+
+.xicon-tabler-ReportSearch:before {
+    content: "\f030";
+}
+
+.xicon-tabler-Resize:before {
+    content: "\f021";
+}
+
+.xicon-tabler-Ripple:before {
+    content: "\f012";
+}
+
+.xicon-tabler-RoadSign:before {
+    content: "\f003";
+}
+
+.xicon-tabler-Robot:before {
+    content: "\f5e1";
+}
+
+.xicon-tabler-Rocket:before {
+    content: "\f5d1";
+}
+
+.xicon-tabler-RollerSkating:before {
+    content: "\f5c1";
+}
+
+.xicon-tabler-Rotate:before {
+    content: "\f5b1";
+}
+
+.xicon-tabler-Rotate2:before {
+    content: "\f5a1";
+}
+
+.xicon-tabler-Rotate360:before {
+    content: "\f591";
+}
+
+.xicon-tabler-RotateClockwise:before {
+    content: "\f581";
+}
+
+.xicon-tabler-RotateClockwise2:before {
+    content: "\f571";
+}
+
+.xicon-tabler-RotateDot:before {
+    content: "\f561";
+}
+
+.xicon-tabler-RotateRectangle:before {
+    content: "\f551";
+}
+
+.xicon-tabler-Route:before {
+    content: "\f541";
+}
+
+.xicon-tabler-Router:before {
+    content: "\f531";
+}
+
+.xicon-tabler-RowInsertBottom:before {
+    content: "\f521";
+}
+
+.xicon-tabler-RowInsertTop:before {
+    content: "\f511";
+}
+
+.xicon-tabler-Rss:before {
+    content: "\f501";
+}
+
+.xicon-tabler-Ruler:before {
+    content: "\f4f1";
+}
+
+.xicon-tabler-Ruler2:before {
+    content: "\f4e1";
+}
+
+.xicon-tabler-Run:before {
+    content: "\f4d1";
+}
+
+.xicon-tabler-Sailboat:before {
+    content: "\f4c1";
+}
+
+.xicon-tabler-Salt:before {
+    content: "\f4b1";
+}
+
+.xicon-tabler-Satellite:before {
+    content: "\f4a1";
+}
+
+.xicon-tabler-Sausage:before {
+    content: "\f492";
+}
+
+.xicon-tabler-Scale:before {
+    content: "\f483";
+}
+
+.xicon-tabler-ScaleOutline:before {
+    content: "\f474";
+}
+
+.xicon-tabler-Scan:before {
+    content: "\f465";
+}
+
+.xicon-tabler-School:before {
+    content: "\f456";
+}
+
+.xicon-tabler-Scissors:before {
+    content: "\f447";
+}
+
+.xicon-tabler-Scooter:before {
+    content: "\f438";
+}
+
+.xicon-tabler-ScooterElectric:before {
+    content: "\f429";
+}
+
+.xicon-tabler-ScreenShare:before {
+    content: "\f41a";
+}
+
+.xicon-tabler-ScreenShareOff:before {
+    content: "\f40b";
+}
+
+.xicon-tabler-ScubaMask:before {
+    content: "\f3fc";
+}
+
+.xicon-tabler-Search:before {
+    content: "\f3ed";
+}
+
+.xicon-tabler-Section:before {
+    content: "\f3de";
+}
+
+.xicon-tabler-Seeding:before {
+    content: "\f3cf";
+}
+
+.xicon-tabler-Select:before {
+    content: "\f3c0";
+}
+
+.xicon-tabler-Selector:before {
+    content: "\f3b1";
+}
+
+.xicon-tabler-Send:before {
+    content: "\f3a2";
+}
+
+.xicon-tabler-Separator:before {
+    content: "\f393";
+}
+
+.xicon-tabler-SeparatorHorizontal:before {
+    content: "\f384";
+}
+
+.xicon-tabler-SeparatorVertical:before {
+    content: "\f375";
+}
+
+.xicon-tabler-Server:before {
+    content: "\f366";
+}
+
+.xicon-tabler-Servicemark:before {
+    content: "\f357";
+}
+
+.xicon-tabler-Settings:before {
+    content: "\f348";
+}
+
+.xicon-tabler-SettingsAutomation:before {
+    content: "\f339";
+}
+
+.xicon-tabler-Shadow:before {
+    content: "\f32a";
+}
+
+.xicon-tabler-ShadowOff:before {
+    content: "\f31b";
+}
+
+.xicon-tabler-Shape:before {
+    content: "\f30c";
+}
+
+.xicon-tabler-Shape2:before {
+    content: "\f2fd";
+}
+
+.xicon-tabler-Shape3:before {
+    content: "\f2ee";
+}
+
+.xicon-tabler-Share:before {
+    content: "\f2df";
+}
+
+.xicon-tabler-Shield:before {
+    content: "\f2d0";
+}
+
+.xicon-tabler-ShieldCheck:before {
+    content: "\f2c1";
+}
+
+.xicon-tabler-ShieldCheckered:before {
+    content: "\f2b2";
+}
+
+.xicon-tabler-ShieldChevron:before {
+    content: "\f2a3";
+}
+
+.xicon-tabler-ShieldLock:before {
+    content: "\f294";
+}
+
+.xicon-tabler-ShieldOff:before {
+    content: "\f285";
+}
+
+.xicon-tabler-ShieldX:before {
+    content: "\f276";
+}
+
+.xicon-tabler-Ship:before {
+    content: "\f267";
+}
+
+.xicon-tabler-Shirt:before {
+    content: "\f258";
+}
+
+.xicon-tabler-Shoe:before {
+    content: "\f249";
+}
+
+.xicon-tabler-ShoppingCart:before {
+    content: "\f23a";
+}
+
+.xicon-tabler-ShoppingCartDiscount:before {
+    content: "\f22b";
+}
+
+.xicon-tabler-ShoppingCartOff:before {
+    content: "\f21c";
+}
+
+.xicon-tabler-ShoppingCartPlus:before {
+    content: "\f20d";
+}
+
+.xicon-tabler-ShoppingCartX:before {
+    content: "\f1fe";
+}
+
+.xicon-tabler-Shredder:before {
+    content: "\f1ef";
+}
+
+.xicon-tabler-Signature:before {
+    content: "\f1e0";
+}
+
+.xicon-tabler-Sitemap:before {
+    content: "\f1d1";
+}
+
+.xicon-tabler-Skateboard:before {
+    content: "\f1c2";
+}
+
+.xicon-tabler-Sleigh:before {
+    content: "\f1b3";
+}
+
+.xicon-tabler-Slice:before {
+    content: "\f1a5";
+}
+
+.xicon-tabler-Slideshow:before {
+    content: "\f196";
+}
+
+.xicon-tabler-SmartHome:before {
+    content: "\f187";
+}
+
+.xicon-tabler-Smoking:before {
+    content: "\f178";
+}
+
+.xicon-tabler-SmokingNo:before {
+    content: "\f169";
+}
+
+.xicon-tabler-Snowflake:before {
+    content: "\f15b";
+}
+
+.xicon-tabler-SoccerField:before {
+    content: "\f14c";
+}
+
+.xicon-tabler-Social:before {
+    content: "\f13d";
+}
+
+.xicon-tabler-Sock:before {
+    content: "\f12e";
+}
+
+.xicon-tabler-Sofa:before {
+    content: "\f11f";
+}
+
+.xicon-tabler-SortAscending:before {
+    content: "\f110";
+}
+
+.xicon-tabler-SortAscending2:before {
+    content: "\f101";
+}
+
+.xicon-tabler-SortAscendingLetters:before {
+    content: "\f0f2";
+}
+
+.xicon-tabler-SortAscendingNumbers:before {
+    content: "\f0e3";
+}
+
+.xicon-tabler-SortDescending:before {
+    content: "\f0d4";
+}
+
+.xicon-tabler-SortDescending2:before {
+    content: "\f0c5";
+}
+
+.xicon-tabler-SortDescendingLetters:before {
+    content: "\f0b6";
+}
+
+.xicon-tabler-SortDescendingNumbers:before {
+    content: "\f0a7";
+}
+
+.xicon-tabler-Soup:before {
+    content: "\f098";
+}
+
+.xicon-tabler-Space:before {
+    content: "\f089";
+}
+
+.xicon-tabler-SpacingHorizontal:before {
+    content: "\f07a";
+}
+
+.xicon-tabler-SpacingVertical:before {
+    content: "\f06b";
+}
+
+.xicon-tabler-Spade:before {
+    content: "\f05c";
+}
+
+.xicon-tabler-Speakerphone:before {
+    content: "\f04d";
+}
+
+.xicon-tabler-Speedboat:before {
+    content: "\f03e";
+}
+
+.xicon-tabler-SportBillard:before {
+    content: "\f02f";
+}
+
+.xicon-tabler-Square:before {
+    content: "\f020";
+}
+
+.xicon-tabler-Square0:before {
+    content: "\f011";
+}
+
+.xicon-tabler-Square1:before {
+    content: "\f002";
+}
+
+.xicon-tabler-Square2:before {
+    content: "\f5e0";
+}
+
+.xicon-tabler-Square3:before {
+    content: "\f5d0";
+}
+
+.xicon-tabler-Square4:before {
+    content: "\f5c0";
+}
+
+.xicon-tabler-Square5:before {
+    content: "\f5b0";
+}
+
+.xicon-tabler-Square6:before {
+    content: "\f5a0";
+}
+
+.xicon-tabler-Square7:before {
+    content: "\f590";
+}
+
+.xicon-tabler-Square8:before {
+    content: "\f580";
+}
+
+.xicon-tabler-Square9:before {
+    content: "\f570";
+}
+
+.xicon-tabler-SquareCheck:before {
+    content: "\f560";
+}
+
+.xicon-tabler-SquareDot:before {
+    content: "\f550";
+}
+
+.xicon-tabler-SquareForbid:before {
+    content: "\f540";
+}
+
+.xicon-tabler-SquareForbid2:before {
+    content: "\f530";
+}
+
+.xicon-tabler-SquareHalf:before {
+    content: "\f520";
+}
+
+.xicon-tabler-SquareMinus:before {
+    content: "\f510";
+}
+
+.xicon-tabler-SquareOff:before {
+    content: "\f500";
+}
+
+.xicon-tabler-SquarePlus:before {
+    content: "\f4f0";
+}
+
+.xicon-tabler-SquareRoot:before {
+    content: "\f4e0";
+}
+
+.xicon-tabler-SquareRoot2:before {
+    content: "\f4d0";
+}
+
+.xicon-tabler-SquareRotated:before {
+    content: "\f4c0";
+}
+
+.xicon-tabler-SquareRotatedOff:before {
+    content: "\f4b0";
+}
+
+.xicon-tabler-SquaresDiagonal:before {
+    content: "\f4a0";
+}
+
+.xicon-tabler-SquaresFilled:before {
+    content: "\f491";
+}
+
+.xicon-tabler-SquareToggle:before {
+    content: "\f482";
+}
+
+.xicon-tabler-SquareToggleHorizontal:before {
+    content: "\f473";
+}
+
+.xicon-tabler-SquareX:before {
+    content: "\f464";
+}
+
+.xicon-tabler-Stack:before {
+    content: "\f455";
+}
+
+.xicon-tabler-Stack2:before {
+    content: "\f446";
+}
+
+.xicon-tabler-Stack3:before {
+    content: "\f437";
+}
+
+.xicon-tabler-Stairs:before {
+    content: "\f428";
+}
+
+.xicon-tabler-StairsDown:before {
+    content: "\f419";
+}
+
+.xicon-tabler-StairsUp:before {
+    content: "\f40a";
+}
+
+.xicon-tabler-Star:before {
+    content: "\f3fb";
+}
+
+.xicon-tabler-StarHalf:before {
+    content: "\f3ec";
+}
+
+.xicon-tabler-StarOff:before {
+    content: "\f3dd";
+}
+
+.xicon-tabler-Stars:before {
+    content: "\f3ce";
+}
+
+.xicon-tabler-SteeringWheel:before {
+    content: "\f3bf";
+}
+
+.xicon-tabler-StepInto:before {
+    content: "\f3b0";
+}
+
+.xicon-tabler-StepOut:before {
+    content: "\f3a1";
+}
+
+.xicon-tabler-Stethoscope:before {
+    content: "\f392";
+}
+
+.xicon-tabler-Sticker:before {
+    content: "\f383";
+}
+
+.xicon-tabler-Strikethrough:before {
+    content: "\f374";
+}
+
+.xicon-tabler-Submarine:before {
+    content: "\f365";
+}
+
+.xicon-tabler-Subscript:before {
+    content: "\f356";
+}
+
+.xicon-tabler-Subtask:before {
+    content: "\f347";
+}
+
+.xicon-tabler-Sum:before {
+    content: "\f338";
+}
+
+.xicon-tabler-Sun:before {
+    content: "\f329";
+}
+
+.xicon-tabler-SunOff:before {
+    content: "\f31a";
+}
+
+.xicon-tabler-Sunrise:before {
+    content: "\f30b";
+}
+
+.xicon-tabler-Sunset:before {
+    content: "\f2fc";
+}
+
+.xicon-tabler-Superscript:before {
+    content: "\f2ed";
+}
+
+.xicon-tabler-Swimming:before {
+    content: "\f2de";
+}
+
+.xicon-tabler-Switch:before {
+    content: "\f2cf";
+}
+
+.xicon-tabler-Switch2:before {
+    content: "\f2c0";
+}
+
+.xicon-tabler-Switch3:before {
+    content: "\f2b1";
+}
+
+.xicon-tabler-SwitchHorizontal:before {
+    content: "\f2a2";
+}
+
+.xicon-tabler-SwitchVertical:before {
+    content: "\f293";
+}
+
+.xicon-tabler-Table:before {
+    content: "\f284";
+}
+
+.xicon-tabler-TableExport:before {
+    content: "\f275";
+}
+
+.xicon-tabler-TableImport:before {
+    content: "\f266";
+}
+
+.xicon-tabler-TableOff:before {
+    content: "\f257";
+}
+
+.xicon-tabler-Tabler2Fa:before {
+    content: "\f248";
+}
+
+.xicon-tabler-Tabler3DCubeSphere:before {
+    content: "\f239";
+}
+
+.xicon-tabler-Tag:before {
+    content: "\f22a";
+}
+
+.xicon-tabler-TagOff:before {
+    content: "\f21b";
+}
+
+.xicon-tabler-Tags:before {
+    content: "\f20c";
+}
+
+.xicon-tabler-TagsOff:before {
+    content: "\f1fd";
+}
+
+.xicon-tabler-Tallymark1:before {
+    content: "\f1ee";
+}
+
+.xicon-tabler-Tallymark2:before {
+    content: "\f1df";
+}
+
+.xicon-tabler-Tallymark3:before {
+    content: "\f1d0";
+}
+
+.xicon-tabler-Tallymark4:before {
+    content: "\f1c1";
+}
+
+.xicon-tabler-Tallymarks:before {
+    content: "\f1b2";
+}
+
+.xicon-tabler-Tank:before {
+    content: "\f1a4";
+}
+
+.xicon-tabler-Target:before {
+    content: "\f195";
+}
+
+.xicon-tabler-Temperature:before {
+    content: "\f186";
+}
+
+.xicon-tabler-TemperatureCelsius:before {
+    content: "\f177";
+}
+
+.xicon-tabler-TemperatureFahrenheit:before {
+    content: "\f168";
+}
+
+.xicon-tabler-TemperatureMinus:before {
+    content: "\f15a";
+}
+
+.xicon-tabler-TemperaturePlus:before {
+    content: "\f14b";
+}
+
+.xicon-tabler-Template:before {
+    content: "\f13c";
+}
+
+.xicon-tabler-Tent:before {
+    content: "\f12d";
+}
+
+.xicon-tabler-Terminal:before {
+    content: "\f11e";
+}
+
+.xicon-tabler-Terminal2:before {
+    content: "\f10f";
+}
+
+.xicon-tabler-TestPipe:before {
+    content: "\f100";
+}
+
+.xicon-tabler-TextDirectionLtr:before {
+    content: "\f0f1";
+}
+
+.xicon-tabler-TextDirectionRtl:before {
+    content: "\f0e2";
+}
+
+.xicon-tabler-TextResize:before {
+    content: "\f0d3";
+}
+
+.xicon-tabler-TextWrap:before {
+    content: "\f0c4";
+}
+
+.xicon-tabler-TextWrapDisabled:before {
+    content: "\f0b5";
+}
+
+.xicon-tabler-Thermometer:before {
+    content: "\f0a6";
+}
+
+.xicon-tabler-ThumbDown:before {
+    content: "\f097";
+}
+
+.xicon-tabler-ThumbUp:before {
+    content: "\f088";
+}
+
+.xicon-tabler-Ticket:before {
+    content: "\f079";
+}
+
+.xicon-tabler-TiltShift:before {
+    content: "\f06a";
+}
+
+.xicon-tabler-Tir:before {
+    content: "\f05b";
+}
+
+.xicon-tabler-ToggleLeft:before {
+    content: "\f04c";
+}
+
+.xicon-tabler-ToggleRight:before {
+    content: "\f03d";
+}
+
+.xicon-tabler-ToiletPaper:before {
+    content: "\f02e";
+}
+
+.xicon-tabler-Tool:before {
+    content: "\f01f";
+}
+
+.xicon-tabler-Tools:before {
+    content: "\f010";
+}
+
+.xicon-tabler-ToolsKitchen:before {
+    content: "\f001";
+}
+
+.xicon-tabler-ToolsKitchen2:before {
+    content: "\f5df";
+}
+
+.xicon-tabler-Tornado:before {
+    content: "\f5cf";
+}
+
+.xicon-tabler-Tournament:before {
+    content: "\f5bf";
+}
+
+.xicon-tabler-Track:before {
+    content: "\f5af";
+}
+
+.xicon-tabler-Tractor:before {
+    content: "\f59f";
+}
+
+.xicon-tabler-Trademark:before {
+    content: "\f58f";
+}
+
+.xicon-tabler-TrafficCone:before {
+    content: "\f57f";
+}
+
+.xicon-tabler-TrafficLights:before {
+    content: "\f56f";
+}
+
+.xicon-tabler-Train:before {
+    content: "\f55f";
+}
+
+.xicon-tabler-TransferIn:before {
+    content: "\f54f";
+}
+
+.xicon-tabler-TransferOut:before {
+    content: "\f53f";
+}
+
+.xicon-tabler-Trash:before {
+    content: "\f52f";
+}
+
+.xicon-tabler-TrashOff:before {
+    content: "\f51f";
+}
+
+.xicon-tabler-TrashX:before {
+    content: "\f50f";
+}
+
+.xicon-tabler-Tree:before {
+    content: "\f4ff";
+}
+
+.xicon-tabler-Trees:before {
+    content: "\f4ef";
+}
+
+.xicon-tabler-TrendingDown:before {
+    content: "\f4df";
+}
+
+.xicon-tabler-TrendingDown2:before {
+    content: "\f4cf";
+}
+
+.xicon-tabler-TrendingDown3:before {
+    content: "\f4bf";
+}
+
+.xicon-tabler-TrendingUp:before {
+    content: "\f4af";
+}
+
+.xicon-tabler-TrendingUp2:before {
+    content: "\f49f";
+}
+
+.xicon-tabler-TrendingUp3:before {
+    content: "\f490";
+}
+
+.xicon-tabler-Triangle:before {
+    content: "\f481";
+}
+
+.xicon-tabler-TriangleOff:before {
+    content: "\f472";
+}
+
+.xicon-tabler-TriangleSquareCircle:before {
+    content: "\f463";
+}
+
+.xicon-tabler-Trident:before {
+    content: "\f454";
+}
+
+.xicon-tabler-Trophy:before {
+    content: "\f445";
+}
+
+.xicon-tabler-Truck:before {
+    content: "\f436";
+}
+
+.xicon-tabler-TruckDelivery:before {
+    content: "\f427";
+}
+
+.xicon-tabler-TruckOff:before {
+    content: "\f418";
+}
+
+.xicon-tabler-TruckReturn:before {
+    content: "\f409";
+}
+
+.xicon-tabler-Typography:before {
+    content: "\f3fa";
+}
+
+.xicon-tabler-Umbrella:before {
+    content: "\f3eb";
+}
+
+.xicon-tabler-Underline:before {
+    content: "\f3dc";
+}
+
+.xicon-tabler-Unlink:before {
+    content: "\f3cd";
+}
+
+.xicon-tabler-Upload:before {
+    content: "\f3be";
+}
+
+.xicon-tabler-Urgent:before {
+    content: "\f3af";
+}
+
+.xicon-tabler-Usb:before {
+    content: "\f3a0";
+}
+
+.xicon-tabler-User:before {
+    content: "\f391";
+}
+
+.xicon-tabler-UserCheck:before {
+    content: "\f382";
+}
+
+.xicon-tabler-UserCircle:before {
+    content: "\f373";
+}
+
+.xicon-tabler-UserExclamation:before {
+    content: "\f364";
+}
+
+.xicon-tabler-UserMinus:before {
+    content: "\f355";
+}
+
+.xicon-tabler-UserOff:before {
+    content: "\f346";
+}
+
+.xicon-tabler-UserPlus:before {
+    content: "\f337";
+}
+
+.xicon-tabler-Users:before {
+    content: "\f328";
+}
+
+.xicon-tabler-UserSearch:before {
+    content: "\f319";
+}
+
+.xicon-tabler-UserX:before {
+    content: "\f30a";
+}
+
+.xicon-tabler-Vaccine:before {
+    content: "\f2fb";
+}
+
+.xicon-tabler-VaccineBottle:before {
+    content: "\f2ec";
+}
+
+.xicon-tabler-Variable:before {
+    content: "\f2dd";
+}
+
+.xicon-tabler-Vector:before {
+    content: "\f2ce";
+}
+
+.xicon-tabler-VectorBeizer2:before {
+    content: "\f2bf";
+}
+
+.xicon-tabler-VectorBezier:before {
+    content: "\f2b0";
+}
+
+.xicon-tabler-VectorTriangle:before {
+    content: "\f2a1";
+}
+
+.xicon-tabler-Venus:before {
+    content: "\f292";
+}
+
+.xicon-tabler-Versions:before {
+    content: "\f283";
+}
+
+.xicon-tabler-Video:before {
+    content: "\f274";
+}
+
+.xicon-tabler-VideoMinus:before {
+    content: "\f265";
+}
+
+.xicon-tabler-VideoOff:before {
+    content: "\f256";
+}
+
+.xicon-tabler-VideoPlus:before {
+    content: "\f247";
+}
+
+.xicon-tabler-View360:before {
+    content: "\f238";
+}
+
+.xicon-tabler-Viewfinder:before {
+    content: "\f229";
+}
+
+.xicon-tabler-ViewportNarrow:before {
+    content: "\f21a";
+}
+
+.xicon-tabler-ViewportWide:before {
+    content: "\f20b";
+}
+
+.xicon-tabler-Vinyl:before {
+    content: "\f1fc";
+}
+
+.xicon-tabler-Virus:before {
+    content: "\f1ed";
+}
+
+.xicon-tabler-VirusOff:before {
+    content: "\f1de";
+}
+
+.xicon-tabler-VirusSearch:before {
+    content: "\f1cf";
+}
+
+.xicon-tabler-Vocabulary:before {
+    content: "\f1c0";
+}
+
+.xicon-tabler-Volume:before {
+    content: "\f1b1";
+}
+
+.xicon-tabler-Volume2:before {
+    content: "\f1a3";
+}
+
+.xicon-tabler-Volume3:before {
+    content: "\f194";
+}
+
+.xicon-tabler-Walk:before {
+    content: "\f185";
+}
+
+.xicon-tabler-Wall:before {
+    content: "\f176";
+}
+
+.xicon-tabler-Wallet:before {
+    content: "\f167";
+}
+
+.xicon-tabler-Wallpaper:before {
+    content: "\f159";
+}
+
+.xicon-tabler-Wand:before {
+    content: "\f14a";
+}
+
+.xicon-tabler-WaveSawTool:before {
+    content: "\f13b";
+}
+
+.xicon-tabler-WaveSine:before {
+    content: "\f12c";
+}
+
+.xicon-tabler-WaveSquare:before {
+    content: "\f11d";
+}
+
+.xicon-tabler-Wifi:before {
+    content: "\f10e";
+}
+
+.xicon-tabler-Wifi0:before {
+    content: "\f0ff";
+}
+
+.xicon-tabler-Wifi1:before {
+    content: "\f0f0";
+}
+
+.xicon-tabler-Wifi2:before {
+    content: "\f0e1";
+}
+
+.xicon-tabler-WifiOff:before {
+    content: "\f0d2";
+}
+
+.xicon-tabler-Wind:before {
+    content: "\f0c3";
+}
+
+.xicon-tabler-Windmill:before {
+    content: "\f0b4";
+}
+
+.xicon-tabler-Window:before {
+    content: "\f0a5";
+}
+
+.xicon-tabler-Wiper:before {
+    content: "\f096";
+}
+
+.xicon-tabler-WiperWash:before {
+    content: "\f087";
+}
+
+.xicon-tabler-Woman:before {
+    content: "\f078";
+}
+
+.xicon-tabler-World:before {
+    content: "\f069";
+}
+
+.xicon-tabler-WorldDownload:before {
+    content: "\f05a";
+}
+
+.xicon-tabler-WorldLatitude:before {
+    content: "\f04b";
+}
+
+.xicon-tabler-WorldLongitude:before {
+    content: "\f03c";
+}
+
+.xicon-tabler-WorldUpload:before {
+    content: "\f02d";
+}
+
+.xicon-tabler-WreckingBall:before {
+    content: "\f01e";
+}
+
+.xicon-tabler-Writing:before {
+    content: "\f00f";
+}
+
+.xicon-tabler-WritingSign:before {
+    content: "\f000";
+}
+
+.xicon-tabler-X:before {
+    content: "\f5de";
+}
+
+.xicon-tabler-YinYang:before {
+    content: "\f5ce";
+}
+
+.xicon-tabler-ZodiacAquarius:before {
+    content: "\f5be";
+}
+
+.xicon-tabler-ZodiacAries:before {
+    content: "\f5ae";
+}
+
+.xicon-tabler-ZodiacCancer:before {
+    content: "\f59e";
+}
+
+.xicon-tabler-ZodiacCapricorn:before {
+    content: "\f58e";
+}
+
+.xicon-tabler-ZodiacGemini:before {
+    content: "\f57e";
+}
+
+.xicon-tabler-ZodiacLeo:before {
+    content: "\f56e";
+}
+
+.xicon-tabler-ZodiacLibra:before {
+    content: "\f55e";
+}
+
+.xicon-tabler-ZodiacPisces:before {
+    content: "\f54e";
+}
+
+.xicon-tabler-ZodiacSagittarius:before {
+    content: "\f53e";
+}
+
+.xicon-tabler-ZodiacScorpio:before {
+    content: "\f52e";
+}
+
+.xicon-tabler-ZodiacTaurus:before {
+    content: "\f51e";
+}
+
+.xicon-tabler-ZodiacVirgo:before {
+    content: "\f50e";
+}
+
+.xicon-tabler-ZoomCancel:before {
+    content: "\f4fe";
+}
+
+.xicon-tabler-ZoomCheck:before {
+    content: "\f4ee";
+}
+
+.xicon-tabler-ZoomIn:before {
+    content: "\f4de";
+}
+
+.xicon-tabler-ZoomMoney:before {
+    content: "\f4ce";
+}
+
+.xicon-tabler-ZoomOut:before {
+    content: "\f4be";
+}
+
+.xicon-tabler-ZoomQuestion:before {
+    content: "\f4ae";
+}

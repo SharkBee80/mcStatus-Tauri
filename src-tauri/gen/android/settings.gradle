@@ -1,0 +1,11 @@
+include ':app'
+
+apply from: 'tauri.settings.gradle'
+
+// 以 settings.gradle 为例 (Gradle 7.0+)
+dependencyResolutionManagement {
+  repositories {
+    google()
+    mavenCentral()
+  }
+}

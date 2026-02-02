@@ -1,0 +1,11 @@
+{
+	"identifier": "com.sharkbee.mcstatus",
+	"app": {
+		"windows": [
+			{
+				"title": "mcstatus",
+				"visible": true
+			}
+		]
+	}
+}
