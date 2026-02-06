@@ -27,6 +27,19 @@ export interface Config {
 		 */
 		imgIncrease: boolean;
 	},
-
+	Info: {
+		/**
+		 * 默认是否显示头像
+		 */
+		avatar: boolean;
+		/**
+		 * 默认是否显示圆形头像
+		 */
+		rounded: boolean;
+		/**
+		 * 默认是否显示UUID
+		 */
+		showUUID: boolean;
+	}
 	// [x: string]: any;
 };

@@ -1,4 +1,4 @@
-package com.sharkbee.mcstatus
+package com.sharkbee.mcstatus.tauri
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

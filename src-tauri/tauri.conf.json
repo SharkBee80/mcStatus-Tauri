@@ -1,21 +1,22 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "mcstatus",
-  "version": "0.1.0",
-  "identifier": "com.sharkbee.mcstatus",
+  "version": "../package.json",
+  "identifier": "com.sharkbee.mcstatus.tauri",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
+    "beforeBuildCommand": "echo npm run build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
+        "label": "main",
         "title": "mcstatus",
         "width": 800,
         "height": 600,
-        "minWidth":360,
+        "minWidth": 360,
         "minHeight": 240,
         "visible": false
       }

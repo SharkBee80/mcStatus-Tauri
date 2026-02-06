@@ -68,7 +68,6 @@ export class Mcdata {
 	static async queryOne(uuid: string) {
 		if (refreshing[uuid] === undefined) return;
 		refreshing[uuid] = true;
-		console.log('queryOne', uuid)
 		const server = serversInfo.find(server => server.uuid === uuid);
 		if (server === undefined) return;
 		const data = await this.queue.add(server.uuid, async () => await query(server.address, server.edition))

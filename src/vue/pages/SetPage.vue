@@ -40,14 +40,32 @@
 				</template>
 			</Card>
 			<!--  -->
+			<Card :pt="{ root: { class: 'rounded-xl' } }">
+				<template #title>Info</template>
+				<template #content>
+					<div class="col gap-2">
+						<my-optionSet label="显示头像" description="https://minotar.net/">
+							<ToggleSwitch v-model="Info.avatar" />
+						</my-optionSet>
+						<my-optionSet label="头像 方/圆">
+							<ToggleSwitch v-model="Info.rounded" />
+						</my-optionSet>
+						<my-optionSet label="显示UUID">
+							<ToggleSwitch v-model="Info.showUUID" />
+						</my-optionSet>
+					</div>
+				</template>
+			</Card>
+			<!--  -->
 			<Line label="设备信息" @click="Draw.deciveInfo = true">
 				<Drawer v-model:visible="Draw.deciveInfo" header="设备信息">
 					<deciveInfo />
 				</Drawer>
 			</Line>
 			<!--  -->
-			<div class="flex justify-center">
-				<Button @click="resetConfirm()" class="w-30" label="重置" severity="danger" />
+			<div class="flex justify-center gap-4">
+				<Button @click="clearCache()" class="min-w-30 w-full max-w-50" label="清除DNS_cache" severity="danger" />
+				<Button @click="resetConfirm()" class="min-w-30 w-full max-w-50" label="重置" severity="danger" />
 			</div>
 			<!--  -->
 			<div class="h-4"></div>
@@ -66,7 +84,8 @@
 	import { useToast } from "primevue/usetoast";
 	import myOptionSet from '@/vue/commonComponents/option.set.vue'
 	import Line from '@/vue/commonComponents/set.line.vue';
-	import { config, resetConfig } from '@/provider'
+	import { config, resetConfig } from '@/provider';
+	import { clearCache } from '@/core/mc-status/'
 
 	defineOptions({
 		name: 'setPage'
@@ -79,11 +98,15 @@
 		{ value: 'Light', name: '浅色', icon: 'xicon-fluent xicon-fluent-WeatherSunny24Filled' },
 		{ value: 'Dark', name: '深色', icon: 'xicon-fluent xicon-fluent-WeatherMoon24Filled' }
 	]
-	const Home = computed(() => config.Home)
+
 	const UI = computed(() => config.UI)
+	const Home = computed(() => config.Home)
+	const Info = computed(() => config.Info)
+
 	const Draw = reactive({
 		deciveInfo: false
 	})
+	// 
 	const reset = useConfirm();
 	const toast = useToast();
 	const resetConfirm = () => {

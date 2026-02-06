@@ -4,3 +4,4 @@ export * from './replaceReactive';
 export * from './formValidator';
 export * from './TaskQueue';
 export * from './IncreaseImage';
+export * from './debounce';

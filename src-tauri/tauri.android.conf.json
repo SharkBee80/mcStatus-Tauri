@@ -1,5 +1,5 @@
 {
-	"identifier": "com.sharkbee.mcstatus",
+	"identifier": "com.sharkbee.mcstatus.tauri",
 	"app": {
 		"windows": [
 			{

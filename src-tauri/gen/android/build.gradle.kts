@@ -11,7 +11,6 @@ buildscript {
 
 allprojects {
   repositories {
-    // maven { "https://maven.aliyun.com/repository/public/" }
     mavenLocal()
     google()
     mavenCentral()

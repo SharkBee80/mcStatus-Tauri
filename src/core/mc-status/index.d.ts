@@ -61,3 +61,5 @@ export interface BedrockData {
 
 
 export declare function query(address: string, edition: Edition): Promise<McStatus>;
+
+export declare function clearCache(): Promise<void>;

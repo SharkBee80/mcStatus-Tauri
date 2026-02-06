@@ -70,14 +70,12 @@
 						<i class="xicon-material xicon-material-PeopleAltRound" />
 						<h1>玩家状态</h1>
 					</div>
-					<div @click="collapsed.listmode = !collapsed.listmode"
-						class="cursor-pointer hover:bg-(--p-button-text-secondary-hover-background) rounded-full size-(--p-button-icon-only-width) flex items-center justify-center">
-						<i :class="collapsed.listmode ? 'xicon-material-ViewListRound' : 'xicon-material-SupervisedUserCircleRound'"
-							class="xicon-material color-(--p-button-text-secondary-color)"></i>
-					</div>
+					<primevueIcon @click="collapsed.listmode = !collapsed.listmode"
+						:pt="{ class: `text-2xl! xicon-material ${collapsed.listmode ? 'xicon-material-ViewListRound' : 'xicon-material-SupervisedUserCircleRound'}` }">
+					</primevueIcon>
 				</div>
 			</template>
-			<div class="row gap-2 justify-evenly max-w-200 mt-1">
+			<div class="row gap-2 justify-evenly max-w-200 mt-1 mx-auto">
 				<div :class="status.players ? 'ring-green-400 bg-green-200' : 'ring-red-400 bg-red-200'"
 					class="w-1/3 max-w-50 ring-2 aspect-4/3 rounded-2xl flex justify-center items-center text-5xl/tight">
 					<a class="drop-shadow-sm dark:drop-shadow-black drop-shadow-white">{{ status.players ?? 0 }}</a>
@@ -94,15 +92,23 @@
 					<h1>在线玩家</h1>
 				</div>
 				<div v-if="!collapsed.listmode" class="chip card flex flex-wrap gap-1.5 justify-between">
-					<Chip v-for="i in onlines" :key="i.id" :label="i.name" class="px-2.5 py-1" />
+					<Chip v-for="i in onlines" :key="i.id" :label="i.name" class="px-2.5 py-1"
+						:pt="{ avatar: { rounded: config.Info.rounded } }" :image="config.Info.avatar ? headSrc(i.id) : undefined"
+						:backupImage="headSrc(i.name)" :imgerror="DEFAULT_HEAD_URL" />
 				</div>
 				<!--  -->
 				<div v-if="collapsed.listmode" class="list col gap-1">
 					<div v-for="i in status.onlines" :key="i.id"
-						class="col gap-1 rounded-lg px-1 bg-(--p-chip-background) text-(--p-chip-color)">
-						<div>{{ i.name }}</div>
-						<Divider class="m-0" />
-						<div class="break-all">{{ i.id }}</div>
+						class="col gap-1 rounded-lg px-1 dark:bg-[#27272a] bg-[#f1f5f9] text-surface-800 dark:text-surface-0">
+						<div class="flex items-center gap-1">
+							<avatar :image="config.Info.avatar ? headSrc(i.id) : undefined" :size="6" :backupImage="headSrc(i.name)"
+								:imgerror="DEFAULT_HEAD_URL" :rounded="config.Info.rounded">
+							</avatar>
+							<span>{{ i.name }}</span>
+						</div>
+						<div v-if="config.Info.showUUID" class="break-all">
+							<Divider class="m-0" />{{ i.id }}
+						</div>
 					</div>
 				</div>
 			</div>
@@ -132,15 +138,17 @@
 	import motd from '@/vue/components/motd.vue';
 	import ellipsisText from "@/vue/layouts/ellipsisText.vue";
 	import Popper from "@/vue/commonComponents/tooltip.vue";
+	import primevueIcon from '@/vue/components/primevueIcon.vue';
+	import avatar from './avatar.vue';
 	import { computed, onMounted, reactive, ref, toRef, watch } from 'vue';
 	import Panel from 'primevue/panel';
 	import Divider from 'primevue/divider';
-	import Chip from 'primevue/chip';
-	import { serversStatus, refreshing } from '@/provider';
+	import Chip from '@/vue/components/chip.vue';
+	import { serversStatus, refreshing, config } from '@/provider';
 	import { Status } from '@/modules';
 	import { IncreaseImage, getByteLength } from '@/utils';
 	import { WebStorage } from '@/core/storage';
-	import { Mcdata, setIcon, getSignalUrl } from '@/core/handle';
+	import { Mcdata, setIcon, getSignalUrl, DEFAULT_HEAD_URL, headSrc } from '@/core/handle';
 
 	const status = reactive<Status>(toRef(serversStatus.find(i => i.uuid === props.uuid)).value!)
 	const online = computed(() => status.status === 'online')

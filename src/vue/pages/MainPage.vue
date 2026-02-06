@@ -30,6 +30,7 @@
 	onUpdated(() => {
 		if (controller.value?.control) {
 			const control = controller.value?.control as typeSwiper;
+			if (props.index[0] > 2) return;
 			if (control.activeIndex !== props.index[1] - 1) {
 				control.slideTo(props.index[0] - 1, 0)
 			} else if (control.activeIndex !== props.index[0] - 1) {

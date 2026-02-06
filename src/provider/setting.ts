@@ -13,14 +13,19 @@ export const DEFAULT_SETTINGS: Config = {
 	Home: {
 		eachLine: 0,
 		thread: 4,
-		imgIncrease: true
+		imgIncrease: false
+	},
+	Info: {
+		avatar: true,
+		rounded: false,
+		showUUID: true
 	}
 }
 
 // tauri
 const CONFIG_PATH = 'setting.json';
 const storage = new TauriStorage(CONFIG_PATH);
-const data = await storage.load() || '{}'
+const data = await storage.load() || '{}';
 let _config: Config = JSON.parse(data) as Config
 // web
 // const storage = new WebStorage()

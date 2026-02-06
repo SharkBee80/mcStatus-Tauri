@@ -1,8 +1,8 @@
 [package]
 name = "mcstatus"
-version = "0.1.0"
+# version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["SharkBee80"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -25,8 +25,9 @@ serde_json = "1"
 tauri-plugin-os = "2"
 tauri-plugin-fs = "2"
 tauri-plugin-http = "2"
-tauri-plugin-mc-status = { path = "C://codes//Rust//tauri-plugin-mc-status" }
+tauri-plugin-mc-status = { path = "C://codes//Rust//tauri-plugin-mc-status", version = "0.1.2" }
 
 # --- 仅在桌面端（非 Android/iOS）加载以下插件 ---
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri-plugin-single-instance = "2"
 tauri-plugin-window-state = "2"

@@ -4,7 +4,7 @@
 	<main class="overflow-hidden h-full w-full relative flex-1">
 		<transition>
 			<KeepAlive>
-				<MainPage v-if="appStatus.currentPage < 3" :index="[appStatus.currentPage, appStatus.exPage]" />
+				<MainPage v-show="appStatus.currentPage < 3" :index="[appStatus.currentPage, appStatus.exPage]" />
 			</KeepAlive>
 		</transition>
 		<transition>
