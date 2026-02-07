@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="col gap-4 mx-4">
+		<div class="col gap-4 mx-4 pt-4">
 			<!--  -->
 			<Card :pt="{ root: { class: 'rounded-xl' } }">
 				<template #title>UI</template>
@@ -18,6 +18,15 @@
 							<ToggleButton v-model="UI.showtext" class="w-24" onLabel="显示"
 								onIcon="xicon-fluent xicon-fluent-TextColor16Filled" offLabel="隐藏"
 								off-icon="xicon-fluent xicon-fluent-TextColor16Regular" />
+						</my-optionSet>
+						<my-optionSet label="垂直docker" description="">
+							<ToggleSwitch v-model="UI.vertical" />
+						</my-optionSet>
+						<my-optionSet v-if="pf === 'Desktop'" label="垂直docker铺满">
+							<ToggleSwitch v-model="UI.verticalDockerFull" />
+						</my-optionSet>
+						<my-optionSet v-if="pf === 'Desktop'" label="强制垂直docker">
+							<ToggleSwitch v-model="UI.forceVerticalOnDesktop" />
 						</my-optionSet>
 					</div>
 				</template>
@@ -44,6 +53,9 @@
 				<template #title>Info</template>
 				<template #content>
 					<div class="col gap-2">
+						<my-optionSet label="加载时刷新" description="刷新时自动刷新服务器信息">
+							<ToggleSwitch v-model="Info.refreshOnload" />
+						</my-optionSet>
 						<my-optionSet label="显示头像" description="https://minotar.net/">
 							<ToggleSwitch v-model="Info.avatar" />
 						</my-optionSet>
@@ -84,7 +96,7 @@
 	import { useToast } from "primevue/usetoast";
 	import myOptionSet from '@/vue/commonComponents/option.set.vue'
 	import Line from '@/vue/commonComponents/set.line.vue';
-	import { config, resetConfig } from '@/provider';
+	import { config, resetConfig, pf } from '@/provider';
 	import { clearCache } from '@/core/mc-status/'
 
 	defineOptions({

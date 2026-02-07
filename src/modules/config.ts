@@ -12,6 +12,18 @@ export interface Config {
 		 * 默认是否显示文本
 		 */
 		showtext: boolean;
+		/**
+		 * 默认是否垂直显示
+		 */
+		vertical: boolean;
+		/**
+		 * 强制垂直显示
+		 */
+		forceVerticalOnDesktop: boolean;
+		/**
+		 * 垂直docker铺满
+		 */
+		verticalDockerFull: boolean;
 	},
 	Home: {
 		/**
@@ -28,6 +40,10 @@ export interface Config {
 		imgIncrease: boolean;
 	},
 	Info: {
+		/**
+		 * 加载时刷新 
+		 */
+		refreshOnload: boolean;
 		/**
 		 * 默认是否显示头像
 		 */

@@ -8,7 +8,10 @@ export const DEFAULT_SETTINGS: Config = {
 	UI: {
 		theme: 'Auto',
 		language: 'zh-CN',
-		showtext: true
+		showtext: true,
+		vertical: true,
+		forceVerticalOnDesktop: false,
+		verticalDockerFull: false
 	},
 	Home: {
 		eachLine: 0,
@@ -16,6 +19,7 @@ export const DEFAULT_SETTINGS: Config = {
 		imgIncrease: false
 	},
 	Info: {
+		refreshOnload: true,
 		avatar: true,
 		rounded: false,
 		showUUID: true

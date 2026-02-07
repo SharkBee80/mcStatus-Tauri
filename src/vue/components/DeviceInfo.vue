@@ -3,7 +3,7 @@
 		<h1 class="font-extrabold text-xl">操作系统</h1><br>
 		<a class="a">家族</a><a>{{ deviceInfo.family }}</a>
 		<a class="a">平台</a><a>{{ deviceInfo.platform }}</a>
-		<a class="a">终端</a><a>{{ pf() }}</a>
+		<a class="a">终端</a><a>{{ pf }}</a>
 		<a class="a">版本</a><a>{{ deviceInfo.version }}</a>
 		<a class="a">类型</a><a>{{ deviceInfo.type }}</a>
 		<a class="a">架构</a><a>{{ deviceInfo.arch }}</a>
@@ -16,7 +16,7 @@
 	</div>
 </template>
 <script setup lang="ts">
-	import { deviceInfo, isMobile, isDesktop } from '@/provider';
+	import { deviceInfo, pf } from '@/provider';
 	import { computed } from 'vue';
 	import { useWindowSize, useNow } from '@vueuse/core';
 
@@ -24,12 +24,6 @@
 	interface BrowserInfo {
 		name: string;
 		value: any;
-	}
-
-	const pf = () => {
-		if (isMobile && !isDesktop) return 'Mobile';
-		if (isDesktop && !isMobile) return 'Desktop';
-		return 'Unknown';
 	}
 
 	const browserData = computed<BrowserInfo[]>(() => {

@@ -28,6 +28,8 @@
 	<div v-if="appStatus.activeUUID">
 		<info-pannel :uuid="appStatus.activeUUID" :key="'Info' + appStatus.activeUUID"></info-pannel>
 	</div>
+	<!-- space -->
+	<div class="h-4"></div>
 	<scroll-top target="parent" :threshold="100"></scroll-top>
 	<edit-form v-if="appStatus.isEditing" v-model="appStatus.isEditing"></edit-form>
 </template>

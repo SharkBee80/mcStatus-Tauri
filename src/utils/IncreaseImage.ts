@@ -1,8 +1,7 @@
 import { TaskQueue } from "@/utils";
 import Upscaler from 'upscaler';
-import { reactive, Ref, toRef } from "vue";
+import { reactive, Ref } from "vue";
 import { config } from '@/provider'
-const boolean = toRef(config.Home.imgIncrease)
 // 放大倍数
 const MULTIPLIER = 4;
 //
@@ -43,7 +42,7 @@ export class IncreaseImage {
 		this.iconImg.value = img
 		this.imgs[0] = true
 		this.imgs[64] = img
-		if (!boolean.value) return;
+		if (!config.Home.imgIncrease) return;
 		// 增强图
 		const srcUrl = typeof img === 'string' ? img : URL.createObjectURL(img);
 		try {
