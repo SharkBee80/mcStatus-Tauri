@@ -36,6 +36,9 @@
 				<template #title>Home</template>
 				<template #content>
 					<div class="col gap-2">
+						<my-optionSet label="最小宽度" :value="Home.minWidth">
+							<Slider v-model="Home.minWidth" :step="1" :min="300" :max="600" class="cursor-grab min-w-20" />
+						</my-optionSet>
 						<my-optionSet label="每行x列数" :value="Home.eachLine">
 							<Slider v-model="Home.eachLine" :step="1" :min="0" :max="4" class="cursor-grab min-w-20" />
 						</my-optionSet>

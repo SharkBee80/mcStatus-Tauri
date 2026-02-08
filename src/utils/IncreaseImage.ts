@@ -63,7 +63,9 @@ export class IncreaseImage {
 			canvas.width = width * MULTIPLIER;
 			canvas.height = height * MULTIPLIER;
 			const ctx = canvas.getContext('2d')!;
-
+			// 强制开启平滑算法
+			ctx.imageSmoothingEnabled = true;
+			ctx.imageSmoothingQuality = 'high';
 			// 绘制放大后的图像（带黑底）
 			ctx.drawImage(upscaledImg, 0, 0);
 			// 4. 关键：应用原始透明度遮罩

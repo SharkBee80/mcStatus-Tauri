@@ -14,6 +14,7 @@ export const DEFAULT_SETTINGS: Config = {
 		verticalDockerFull: false
 	},
 	Home: {
+		minWidth: 300,
 		eachLine: 0,
 		thread: 4,
 		imgIncrease: false

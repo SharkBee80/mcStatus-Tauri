@@ -1,5 +1,5 @@
 <template>
-	<img style="image-rendering: crisp-edges;" :src="img" />
+	<img style="image-rendering: auto;" :src="img" />
 </template>
 <script setup lang="ts">
 	import { Edition } from '@/modules';
@@ -17,7 +17,7 @@
 	const increaseImg = new IncreaseImage(img, props.uuid)
 
 	watch(() => props.Imgsrc, () => {
-		if (config.Home.imgIncrease) increaseImg.run(img.value)
+		if (config.Home.imgIncrease) increaseImg.run(props.Imgsrc)
 	}, { immediate: true })
 
 	watch(() => img.value, () => {

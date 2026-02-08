@@ -1,6 +1,5 @@
 <template>
-	<div ref="thisEl" class="gridLayout grid gap-4 p-4"
-		:style="{ '--eachLine': eachLine, '--minWidth': minwidth, '--maxWidth': maxwidth }">
+	<div ref="thisEl" class="gridLayout grid gap-4 p-4" :style="{ '--eachLine': eachLine, '--minWidth': minwidth }">
 		<Card v-for="i in serversStatus" :uuid="i.uuid" :key="'Card' + i.uuid" />
 	</div>
 </template>
@@ -12,8 +11,7 @@
 	import Card from '@/vue/components/Card.vue'
 	const props = defineProps<{
 		eachLine: string | number
-		minwidth: string,
-		maxwidth?: string
+		minwidth: string
 	}>()
 
 	// const data = props.sortableData;
@@ -84,12 +82,12 @@
 					e.clone.remove();
 					return reNode(e);
 				};
-				const { oldIndex, newIndex } = e
-				if (oldIndex === undefined || newIndex === undefined) return
+				const { oldIndex, newIndex } = e;
+				if (oldIndex === undefined || newIndex === undefined) return;
 
 				if (oldIndex !== newIndex) {
-					Mcdata.splice(oldIndex, newIndex)
-				}
+					Mcdata.splice(oldIndex, newIndex);
+				};
 			}
 		};
 		new Sortable(el, ops);
@@ -115,8 +113,7 @@
 <style scoped>
 	.gridLayout {
 		--minWidth: 240px;
-		--maxWidth: 1fr;
 		/* grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); */
-		grid-template-columns: repeat(var(--eachLine), minmax(var(--minWidth), var(--maxWidth)));
+		grid-template-columns: repeat(var(--eachLine), minmax(min(var(--minWidth), 100%), 1fr));
 	}
 </style>

@@ -7,7 +7,6 @@
   ],
   "permissions": [
     "core:default",
-    "opener:default",
     "os:default",
     "fs:default",
     "fs:allow-appdata-read",
@@ -20,17 +19,6 @@
         },
         {
           "path": "$DOWNLOAD/**"
-        }
-      ]
-    },
-    {
-      "identifier": "http:default",
-      "allow": [
-        {
-          "url": "https://*"
-        },
-        {
-          "url": "http://*"
         }
       ]
     },

@@ -1,5 +1,5 @@
 <template>
-	<SortableGrid ref="thisEl" :eachLine="eachline" minwidth="300px" />
+	<SortableGrid ref="thisEl" :eachLine="eachline" :minwidth="config.Home.minWidth + 'px'" />
 	<div class="space"></div>
 	<AddForm v-if="appStatus.isAdding" v-model="appStatus.isAdding"></AddForm>
 	<dynamicBtn />

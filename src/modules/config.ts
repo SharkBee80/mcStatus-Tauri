@@ -27,6 +27,10 @@ export interface Config {
 	},
 	Home: {
 		/**
+		 * 最小宽度
+		 */
+		minWidth: number;
+		/**
 		 * 默认每页显示的行数
 		 */
 		eachLine: number;
