@@ -1,4 +1,5 @@
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
+#[cfg(desktop)]
 use tauri::Manager;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -27,10 +28,11 @@ pub fn run() {
 
     // 加载通用 Tauri 插件
     builder = builder
-        .plugin(tauri_plugin_http::init())
+        // .plugin(tauri_plugin_http::init())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_os::init())
-        .plugin(tauri_plugin_opener::init())
+        // .plugin(tauri_plugin_opener::init())
+        .plugin(tauri_plugin_prevent_default::debug())
         .plugin(tauri_plugin_mc_status::init());
 
     // 加载 Tauri 应用程序

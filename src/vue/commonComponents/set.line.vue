@@ -1,6 +1,6 @@
 <template>
 	<div class="rounded-xl p-6 hover:dark:brightness-140 hover:brightness-80"
-		style="background-color: var(--p-card-background); color: var(--p-card-color);">
+		style="background-color: var(--p-panel-background); color: var(--p-panel-color);">
 		<slot></slot>
 		<my-optionSet :label :description :divider>
 			<i class="xicon-material xicon-material-ChevronRightRound"></i>

@@ -1,7 +1,7 @@
 <template>
 	<div :class="`${bg ?? ''} ${size ? 'size-' + size : ''}`">
 		<img v-if="!icon && image" :src="img" :class="rounded ? 'rounded-full' : 'rounded'" class="size-full"
-			@error="imgerror" loading="lazy" />
+			@error="imgerror" />
 		<Icon v-if="!image && icon" :class="icon, rounded ? 'rounded-full' : 'rounded'"></Icon>
 		<slot></slot>
 	</div>

@@ -3,6 +3,7 @@ type Edition = "Java" | "Bedrock";
 interface McStatus {
 	data: McData | null;
 	error: string | null;
+	tasktime: number;
 }
 
 interface McData {

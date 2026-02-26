@@ -21,6 +21,7 @@ const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
 
 export const isMobile = platform() === 'android' || platform() === 'ios';
 export const isDesktop = platform() === 'linux' || platform() === 'windows' || platform() === 'macos';
+export const pf: 'Mobile' | 'Desktop' | 'Unknown' = (isMobile && !isDesktop) ? 'Mobile' : (isDesktop && !isMobile) ? 'Desktop' : 'Unknown';
 // export const deviceInfo = {
 // 	family: osFamily,
 // 	platform: osPlatform,

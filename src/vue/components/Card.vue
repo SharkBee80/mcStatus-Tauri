@@ -3,21 +3,22 @@
 		class='item rounded-xl bg-transparent shadow-lg shadow-black dark:shadow-black/50 p-0'>
 		<div :class="appStatus.isDragging ? 'nohover' : ''" class="server-item flex gap-1 p-2 rounded-xl">
 			<div class="icon relative aspect-square flex justify-center items-center">
-				<img class="min-w-16 w-full rounded-lg" style="image-rendering:crisp-edges;"
-					:src="setIcon(iconImg, status.edition)" alt="Icon"></img>
+				<serverIcon class="min-w-16 w-full rounded-lg" :Imgsrc="status.icon" alt="Icon" :edition="status.edition"
+					:uuid="status.uuid"></serverIcon>
 			</div>
 			<div name="info" class="col flex-1 p-1">
 				<div name="head" class="row justify-between">
 					<div class="message col pointer-events-none">
-						<div class="name font-bold text-base flex items-center text-left text-nowrap whitespace-nowrap" id="name">{{ status.name }}
+						<div class="name font-bold text-base flex items-center text-left text-nowrap whitespace-nowrap" id="name">{{
+							status.name }}
 						</div>
 						<div name="address" class="text-[chartreuse] text-xs flex items-center text-left" id="address">
 							{{ status.host }}</div>
 					</div>
 					<div name="status" class="row flex-wrap justify-end ml-auto gap-x-1 max-h-10">
 						<popper v-show="online" :tooltip="playslist()">
-							<a class="text-white text-sm/tight whitespace-nowrap place-self-end font-bold font-mono">{{ status.players
-								?? 0 }} / {{ status.maxplayers ?? 20 }}</a>
+							<a class="text-white text-sm/tight whitespace-nowrap place-self-end font-bold">{{ status.players
+								?? 0 }}/{{ status.maxplayers ?? 20 }}</a>
 						</popper>
 						<popper :tooltip="online ? status.ping + 'ms' : ''">
 							<img class="h-fit min-w-5" alt="" :src="getSignalUrl(refreshing[uuid], status.signal)">
@@ -35,28 +36,22 @@
 	</div>
 </template>
 <script setup lang="ts">
-	import { computed, onMounted, reactive, ref, toRef, watch } from 'vue';
+	import { computed, onMounted, reactive, toRef } from 'vue';
 	import Popper from "@/vue/commonComponents/tooltip.vue";
+	import serverIcon from '@/vue/components/serverIcon.vue';
 	import motd from '@/vue/components/motd.vue'
 	import ellipsisText from "@/vue/layouts/ellipsisText.vue";
 	import { Status } from '@/modules';
 	import { appStatus, serversStatus, refreshing } from '@/provider';
-	import { map2str, Mcdata, setIcon, getSignalUrl } from '@/core/handle';
-	import { IncreaseImage } from '@/utils';
+	import { map2str, Mcdata, getSignalUrl } from '@/core/handle';
 
 	const props = defineProps<{ uuid: string }>()
 
 	const status = reactive<Status>(toRef(serversStatus.find(i => i.uuid === props.uuid)).value!)
 	const online = computed(() => status.status === 'online')
-	let iconImg = ref(status?.icon);
-	const increaseImg = new IncreaseImage(iconImg, props.uuid)
 	onMounted(() => {
 		Mcdata.queryOne(props.uuid)
 	})
-
-	watch(() => status, () => {
-		increaseImg.run(status.icon)
-	}, { deep: true })
 
 	function playslist() {
 		if (!status.onlines) return ''
@@ -67,7 +62,7 @@
 		if (appStatus.isDragging) return;
 		appStatus.activeUUID = uuid
 		appStatus.exPage = 1;
-		appStatus.currentPage = 2
+		appStatus.currentPage = 1
 	}
 </script>
 

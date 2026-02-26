@@ -1,10 +1,10 @@
 <template>
-	<div class="col gap-y-2 p-3">
+	<div class="col p-4 gap-y-2">
 		<!-- 卡片 -->
 		<div class="server-item flex gap-1 p-4 rounded-xl">
 			<div class="icon relative aspect-square flex justify-center items-center">
-				<img class="min-w-16 w-full rounded-lg" style="image-rendering:crisp-edges;"
-					:src="setIcon(iconImg, status.edition)" alt="Icon"></img>
+				<serverIcon class="min-w-16 w-full rounded-lg" :Imgsrc="status.icon" alt="Icon" :edition="status.edition"
+					:uuid />
 			</div>
 			<div name="info" class="col flex-1 p-1">
 				<div name="head" class="row justify-between">
@@ -16,8 +16,8 @@
 							{{ status.host }}</div>
 					</div>
 					<div name="status" class="row flex-wrap justify-end ml-auto gap-x-1 max-h-10">
-						<a v-show="online" class="text-white text-sm/tight whitespace-nowrap place-self-end font-bold font-mono">{{
-							status.players ?? 0 }} / {{ status.maxplayers ?? 20 }}</a>
+						<a v-show="online" class="text-white text-sm/tight whitespace-nowrap place-self-end font-bold">{{
+							status.players ?? 0 }}/{{ status.maxplayers ?? 20 }}</a>
 						<popper :tooltip="online ? status.ping + 'ms' : ''">
 							<img class="h-fit min-w-5" alt="" :src="getSignalUrl(refreshing[uuid], status.signal)">
 						</popper>
@@ -34,7 +34,7 @@
 		<Panel toggleable v-model:collapsed="collapsed.server"
 			:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
 			<template #header>
-				<div class="flex items-center gap-1">
+				<div class="flex items-center gap-1" @click="collapsed.server = !collapsed.server">
 					<i class="xicon-material xicon-material-InfoRound" />
 					<h1>服务器信息</h1>
 				</div>
@@ -66,7 +66,7 @@
 			:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
 			<template #header>
 				<div class="flex justify-between w-full items-center">
-					<div class="flex items-center gap-1">
+					<div class="flex items-center gap-1" @click="collapsed.player = !collapsed.player">
 						<i class="xicon-material xicon-material-PeopleAltRound" />
 						<h1>玩家状态</h1>
 					</div>
@@ -76,12 +76,12 @@
 				</div>
 			</template>
 			<div class="row gap-2 justify-evenly max-w-200 mt-1 mx-auto">
-				<div :class="status.players ? 'ring-green-400 bg-green-200' : 'ring-red-400 bg-red-200'"
+				<div :class="status.players ? 'ring-green-400 bg-green-200/80' : 'ring-red-400 bg-red-200/80'"
 					class="w-1/3 max-w-50 ring-2 aspect-4/3 rounded-2xl flex justify-center items-center text-5xl/tight">
 					<a class="drop-shadow-sm dark:drop-shadow-black drop-shadow-white">{{ status.players ?? 0 }}</a>
 				</div>
 				<div
-					class="w-1/3 max-w-50 bg-blue-200 ring-blue-400 ring-2 aspect-4/3 rounded-2xl flex justify-center items-center text-5xl/tight">
+					class="w-1/3 max-w-50 bg-blue-200/80 ring-blue-400 ring-2 aspect-4/3 rounded-2xl flex justify-center items-center text-5xl/tight">
 					<a class="drop-shadow-sm dark:drop-shadow-black drop-shadow-white">{{ status.maxplayers ?? 20 }}</a>
 				</div>
 			</div>
@@ -117,7 +117,7 @@
 		<Panel toggleable v-model:collapsed="collapsed.connect"
 			:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
 			<template #header>
-				<div class="flex items-center gap-1">
+				<div class="flex items-center gap-1" @click="collapsed.connect = !collapsed.connect">
 					<i :class="status.status === 'online' ? 'xicon-material xicon-material-CheckCircleRound text-green-600'
 						: 'xicon-fluent xicon-fluent-DismissCircle24Filled text-red-600'" class="i"></i>
 					<h1>连接状态</h1>
@@ -126,11 +126,10 @@
 			<div class="col">
 				<div class="grid gridColsT gap-x-2">
 					<a class="a">更新时间</a><a>{{ status.updatetime }}</a>
+					<a class="a">查询耗时</a><a>{{ (status.tasktime ?? '-1') + ' ms' }}</a>
 				</div>
 			</div>
 		</Panel>
-		<!-- space -->
-		<div class="h-4"></div>
 	</div>
 </template>
 <script lang="ts" setup>
@@ -144,17 +143,16 @@
 	import Panel from 'primevue/panel';
 	import Divider from 'primevue/divider';
 	import Chip from '@/vue/components/chip.vue';
+	import serverIcon from '@/vue/components/serverIcon.vue';
 	import { serversStatus, refreshing, config } from '@/provider';
 	import { Status } from '@/modules';
-	import { IncreaseImage, getByteLength } from '@/utils';
+	import { getByteLength } from '@/utils';
 	import { WebStorage } from '@/core/storage';
-	import { Mcdata, setIcon, getSignalUrl, DEFAULT_HEAD_URL, headSrc } from '@/core/handle';
+	import { Mcdata, getSignalUrl, DEFAULT_HEAD_URL, headSrc } from '@/core/handle';
 
 	const status = reactive<Status>(toRef(serversStatus.find(i => i.uuid === props.uuid)).value!)
 	const online = computed(() => status.status === 'online')
 	const onlines = computed(() => [...status.onlines ?? []].sort((a, b) => a.name.length - b.name.length))
-	let iconImg = ref(status.icon);
-	const increaseImg = new IncreaseImage(iconImg, props.uuid, 'infoPannel')
 	const storage = new WebStorage();
 	const STORE_KEY = 'collapsed';
 	const collapsed = reactive<{ server: boolean, player: boolean, connect: boolean, listmode: boolean }>({ server: false, player: false, connect: false, listmode: false });
@@ -170,11 +168,9 @@
 		maxWidth = maxWidth > window.innerWidth / 2 ? 80 : maxWidth;
 		maxAWidth.value = `${maxWidth}px`;
 
-		Mcdata.queryOne(props.uuid);
+		if (config.Info.refreshOnload) Mcdata.queryOne(props.uuid);
 	})
-	watch(() => status, () => {
-		increaseImg.run(status.icon)
-	}, { deep: true })
+
 	watch(() => collapsed, () => {
 		storage.set(STORE_KEY, collapsed)
 	}, { deep: true })

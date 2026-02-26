@@ -20,12 +20,12 @@ tauri-build = { version = "2", features = [] }
 [dependencies]
 tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+# serde = { version = "1", features = ["derive"] }
+# serde_json = "1"
 tauri-plugin-os = "2"
 tauri-plugin-fs = "2"
-tauri-plugin-http = "2"
-tauri-plugin-mc-status = { path = "C://codes//Rust//tauri-plugin-mc-status", version = "0.1.2" }
+tauri-plugin-prevent-default = "4"
+tauri-plugin-mc-status = { path = "C://codes//Rust//tauri-plugin-mc-status", version = "0.1.4" }
 
 # --- 仅在桌面端（非 Android/iOS）加载以下插件 ---
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]

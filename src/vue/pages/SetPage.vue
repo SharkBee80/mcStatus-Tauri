@@ -1,61 +1,75 @@
 <template>
 	<div>
-		<div class="col gap-4 mx-4">
+		<div class="col gap-4 mx-4 pt-4">
 			<!--  -->
-			<Card :pt="{ root: { class: 'rounded-xl' } }">
-				<template #title>UI</template>
-				<template #content>
-					<div class="col gap-2">
-						<my-optionSet label="模式" description="选择主题模式">
-							<SelectButton v-model="UI.theme" optionLabel="name" optionValue="value" :allowEmpty="false"
-								:options="options">
-								<template #option="slotProps">
-									<i :class="slotProps.option.icon"></i>
-								</template>
-							</SelectButton>
-						</my-optionSet>
-						<my-optionSet label="<span>按钮文本</span><span>显示</span>">
-							<ToggleButton v-model="UI.showtext" class="w-24" onLabel="显示"
-								onIcon="xicon-fluent xicon-fluent-TextColor16Filled" offLabel="隐藏"
-								off-icon="xicon-fluent xicon-fluent-TextColor16Regular" />
-						</my-optionSet>
-					</div>
-				</template>
-			</Card>
+			<Panel toggleable header="UI"
+				:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
+				<div class="col gap-2">
+					<my-optionSet label="模式" description="选择主题模式">
+						<SelectButton v-model="UI.theme" optionLabel="name" optionValue="value" :allowEmpty="false"
+							:options="options">
+							<template #option="slotProps">
+								<i :class="slotProps.option.icon"></i>
+							</template>
+						</SelectButton>
+					</my-optionSet>
+					<my-optionSet label="<span>按钮文本</span><span>显示</span>">
+						<ToggleButton v-model="UI.showtext" class="w-24" onLabel="显示"
+							onIcon="xicon-fluent xicon-fluent-TextColor16Filled" offLabel="隐藏"
+							off-icon="xicon-fluent xicon-fluent-TextColor16Regular" />
+					</my-optionSet>
+					<my-optionSet label="垂直docker" description="">
+						<ToggleSwitch v-model="UI.vertical" />
+					</my-optionSet>
+					<my-optionSet v-if="pf === 'Desktop'" label="垂直docker铺满">
+						<ToggleSwitch v-model="UI.verticalDockerFull" />
+					</my-optionSet>
+					<my-optionSet v-if="pf === 'Desktop'" label="强制垂直docker">
+						<ToggleSwitch v-model="UI.forceVerticalOnDesktop" />
+					</my-optionSet>
+				</div>
+			</Panel>
 			<!--  -->
-			<Card :pt="{ root: { class: 'rounded-xl' } }">
-				<template #title>Home</template>
-				<template #content>
-					<div class="col gap-2">
-						<my-optionSet label="每行x列数" :value="Home.eachLine">
-							<Slider v-model="Home.eachLine" :step="1" :min="0" :max="4" class="cursor-grab min-w-20" />
-						</my-optionSet>
-						<my-optionSet label="查询线程" :value="Home.thread">
-							<Slider v-model="Home.thread" :step="1" :min="0" :max="16" class="cursor-grab min-w-20" />
-						</my-optionSet>
-						<my-optionSet label="图片增强" description="esrgan-slim/4x">
-							<ToggleSwitch v-model="Home.imgIncrease" />
-						</my-optionSet>
-					</div>
-				</template>
-			</Card>
+			<Panel toggleable header="Home"
+				:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
+
+				<div class="col gap-2">
+					<my-optionSet label="最小宽度" :value="Home.minWidth">
+						<Slider v-model="Home.minWidth" :step="1" :min="300" :max="600" class="cursor-grab min-w-20" />
+					</my-optionSet>
+					<my-optionSet label="每行x列数" :value="Home.eachLine">
+						<Slider v-model="Home.eachLine" :step="1" :min="0" :max="4" class="cursor-grab min-w-20" />
+					</my-optionSet>
+					<my-optionSet label="查询线程" :value="Home.thread">
+						<Slider v-model="Home.thread" :step="1" :min="0" :max="16" class="cursor-grab min-w-20" />
+					</my-optionSet>
+					<my-optionSet label="图片增强" description="esrgan-slim/4x">
+						<ToggleSwitch v-model="Home.imgIncrease" />
+					</my-optionSet>
+					<my-optionSet label="双页模式" description="左右显示">
+						<ToggleSwitch v-model="Home.doublePage" />
+					</my-optionSet>
+				</div>
+			</Panel>
 			<!--  -->
-			<Card :pt="{ root: { class: 'rounded-xl' } }">
-				<template #title>Info</template>
-				<template #content>
-					<div class="col gap-2">
-						<my-optionSet label="显示头像" description="https://minotar.net/">
-							<ToggleSwitch v-model="Info.avatar" />
-						</my-optionSet>
-						<my-optionSet label="头像 方/圆">
-							<ToggleSwitch v-model="Info.rounded" />
-						</my-optionSet>
-						<my-optionSet label="显示UUID">
-							<ToggleSwitch v-model="Info.showUUID" />
-						</my-optionSet>
-					</div>
-				</template>
-			</Card>
+			<Panel toggleable header="Info"
+				:pt="{ root: { class: 'rounded-xl' }, header: { class: 'bg-transparent border-0' }, content: { class: 'bg-transparent pt-0' } }">
+
+				<div class="col gap-2">
+					<my-optionSet label="加载时刷新" description="自动刷新服务器信息">
+						<ToggleSwitch v-model="Info.refreshOnload" />
+					</my-optionSet>
+					<my-optionSet label="显示头像" description="https://minotar.net/">
+						<ToggleSwitch v-model="Info.avatar" />
+					</my-optionSet>
+					<my-optionSet label="头像 方/圆">
+						<ToggleSwitch v-model="Info.rounded" />
+					</my-optionSet>
+					<my-optionSet label="显示UUID">
+						<ToggleSwitch v-model="Info.showUUID" />
+					</my-optionSet>
+				</div>
+			</Panel>
 			<!--  -->
 			<Line label="设备信息" @click="Draw.deciveInfo = true">
 				<Drawer v-model:visible="Draw.deciveInfo" header="设备信息">
@@ -73,8 +87,8 @@
 	</div>
 </template>
 <script setup lang="ts">
-	import { reactive, defineAsyncComponent, computed } from 'vue'
-	import Card from 'primevue/card';
+	import { reactive, defineAsyncComponent, computed } from 'vue';
+	import Panel from 'primevue/panel';
 	import SelectButton from 'primevue/selectbutton';
 	import ToggleButton from 'primevue/togglebutton';
 	import Button from 'primevue/button';
@@ -84,7 +98,7 @@
 	import { useToast } from "primevue/usetoast";
 	import myOptionSet from '@/vue/commonComponents/option.set.vue'
 	import Line from '@/vue/commonComponents/set.line.vue';
-	import { config, resetConfig } from '@/provider';
+	import { config, resetConfig, pf } from '@/provider';
 	import { clearCache } from '@/core/mc-status/'
 
 	defineOptions({

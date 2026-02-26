@@ -1,12 +1,13 @@
 <template>
 	<div id="editform" class="fixed w-full h-full top-0 z-2000 pointer-events-none">
 		<Toast position="top-center" />
-		<Dialog v-model:visible="visible" modal :closable="false" :draggable="false" appendTo="#editform" :pt="{
-			mask: { style: 'position: absolute;', class: 'reactive' },
-			root: { class: 'w-1/2 min-w-75 max-w-100' },
-			header: { class: 'p-4 pb-0' },
-			content: { class: 'p-4' }
-		}">
+		<Dialog v-model:visible="visible" modal :closable="false" :draggable="false"
+			:appendTo="(config.Home.doublePage && doubleSwitch) ? '#MainPage' : '#editform'" :pt="{
+				mask: { style: 'position: absolute;', class: 'reactive' },
+				root: { class: 'w-1/2 min-w-75 max-w-100' },
+				header: { class: 'p-4 pb-0' },
+				content: { class: 'p-4' }
+			}">
 			<template #header>
 				<span class="p-dialog-title">Edit</span>
 				<span>{{ initialValues.edittime }}</span>
@@ -72,7 +73,7 @@
 	//
 	import { validateAddress, getByteLength } from '@/utils';
 	import { Mcdata } from '@/core/handle';
-	import { appStatus } from '@/provider';
+	import { appStatus, config, doubleSwitch } from '@/provider';
 	const toast = useToast();
 	const initialValues = ref({
 		name: '',

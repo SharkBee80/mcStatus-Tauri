@@ -1,5 +1,3 @@
-import { ComputedRef, watch } from "vue";
-
 type TaskExecutor<T = any> = () => Promise<T>;
 type OnTaskComplete<T> = (id: string | number, result: T) => void;
 
@@ -21,17 +19,13 @@ export class TaskQueue {
 	/**
 	 * @param concurrency 最大并发数，默认为 1（串行）
 	 */
-	constructor(concurrency: number | ComputedRef<number> = 1, name?: string) {
-		const a = (num: number) => num < 1 ? 32 : num;;
-		if (typeof concurrency === 'number') {
-			this.concurrency = a(concurrency);
-		} else {
-			this.concurrency = concurrency.value;
-			watch(concurrency, (newValue) => {
-				this.concurrency = a(newValue);
-			});
-		}
+	constructor(concurrency: number = 1, name?: string) {
+		this.concurrency = a(concurrency);
 		this.name = name;
+	}
+
+	construct(concurrency?: number) {
+		if (concurrency !== undefined) this.concurrency = a(concurrency);
 	}
 
 	/**
@@ -88,6 +82,8 @@ export class TaskQueue {
 		return this.runningCount;
 	}
 }
+
+const a = (num: number) => num < 1 ? 32 : num;;
 
 
 // // 实例化一个并发数为 2 的队列

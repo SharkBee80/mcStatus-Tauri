@@ -15,7 +15,7 @@ export type Store = {
 	addtime: string, // 添加时间
 	edittime: string, // 修改时间
 	//
-	icon?: string | null, // 服务器图标
+	icon?: string, // 服务器图标
 	version?: string | null, // 服务器版本
 	motd?: string, // 服务器描述
 }
@@ -28,13 +28,14 @@ export type Extra = {
 	players: number | null, // 在线玩家数
 	maxplayers?: number | null, // 最大玩家数
 	onlines: Array<{ name: string, id: string }> | null, // 在线玩家
-	ping: number | null, // 延迟 // string
+	ping: string | null, // 延迟 // string
+	tasktime: string | null,
 	serverName: string, // 服务器地址
 	signal: number, // 信号
 	updatetime: string, // 更新时间
 }
 
-export const extra = (): Extra => {
+export const extra = (tasktime?: string): Extra => {
 	return {
 		status: 'offline',
 		port: null,
@@ -42,6 +43,7 @@ export const extra = (): Extra => {
 		maxplayers: null,
 		onlines: null,
 		ping: null,
+		tasktime: tasktime ?? null,
 		serverName: 'Unknown',
 		signal: 0,
 		updatetime: new Date().toLocaleString(),

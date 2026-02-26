@@ -1,9 +1,9 @@
 <template>
 	<div class="bar sticky z-50 top-0 p-3 h-14 flex justify-between items-center text-center">
-		<h1 class="font-black">Welcome to Tauri + Vue</h1>
+		<h1 class="font-black">Welcome</h1>
 		<!--  -->
 		<div class="ml-3 px-1 flex row gap-2">
-			<template v-if="page === 1">
+			<template v-if="page === 0">
 				<div @click="refreshFalse()" class="btn rounded-full">
 					<i class="xicon-material xicon-material-ChangeCircleRound"></i>
 				</div>
@@ -12,7 +12,7 @@
 				</div>
 			</template>
 			<!--  -->
-			<template v-if="page === 2">
+			<template v-if="page === 1">
 				<div @click="deleteThis()" class="btn rounded-full">
 					<i class="xicon-material xicon-material-DeleteRound"></i>
 				</div>
@@ -24,11 +24,11 @@
 				</div>
 			</template>
 			<!--  -->
-			<template v-if="page === 3">
+			<template v-if="page === 2">
 				<div></div>
 			</template>
 			<!--  -->
-			<template v-if="page === 4">
+			<template v-if="page === 3">
 				<div></div>
 			</template>
 		</div>

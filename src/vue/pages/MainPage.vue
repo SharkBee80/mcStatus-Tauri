@@ -19,22 +19,30 @@
 	import HomePage from '@/vue/pages/HomePage.vue';
 	import InfoPage from '@/vue/pages/InfoPage.vue';
 	//////////////////////////////////////////////////////////////
-	import { appStatus, swiperController } from '@/provider';
+	import { appStatus, swiperController, doubleSwitch } from '@/provider';
 	import type { typeSwiper } from '@/modules';
-	import { onUpdated, toRefs } from 'vue';
-	const props = defineProps<{
-		index: number[]
-	}>();
+	import { nextTick, onMounted, onUpdated, toRefs, watch } from 'vue';
+
 	const { controller, currentIndex } = toRefs(swiperController)
+
+	onMounted(() => {
+		if (controller.value?.control) {
+			const control = controller.value?.control as typeSwiper;
+			control.on('breakpoint', function () {
+				appStatus.exPage = appStatus.currentPage = control.activeIndex;
+				appStatus.isAdding = appStatus.isEditing = false;
+			});
+		}
+	})
 
 	onUpdated(() => {
 		if (controller.value?.control) {
 			const control = controller.value?.control as typeSwiper;
-			if (props.index[0] > 2) return;
-			if (control.activeIndex !== props.index[1] - 1) {
-				control.slideTo(props.index[0] - 1, 0)
-			} else if (control.activeIndex !== props.index[0] - 1) {
-				control.slideTo(props.index[0] - 1, 500)
+			if (appStatus.currentPage > 1) return;
+			if (control.activeIndex !== appStatus.exPage) {
+				control.slideTo(appStatus.currentPage, 0)
+			} else if (control.activeIndex !== appStatus.currentPage) {
+				control.slideTo(appStatus.currentPage, 500)
 			}
 		}
 	});
@@ -46,9 +54,29 @@
 	const onSlideChange = (swiper: typeSwiper) => {
 		if (swiper.activeIndex !== currentIndex.value) {
 			currentIndex.value = swiper.activeIndex
-			appStatus.currentPage = swiper.activeIndex + 1
+			appStatus.currentPage = swiper.activeIndex
 		}
 	}
+
+	watch(() => doubleSwitch.value, async (val) => {
+		await nextTick()
+		const control = controller.value?.control as typeSwiper;
+		if (val) {
+			control.params.breakpoints = {
+				700: {
+					slidesPerView: 2,
+					spaceBetween: 0,
+				},
+			}
+		} else {
+			control.params.breakpoints = {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				},
+			}
+		};
+	}, { immediate: true })
 </script>
 <style scoped>
 	.swiper {

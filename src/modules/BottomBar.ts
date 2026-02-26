@@ -8,7 +8,7 @@ type XOR<T, U> = T | U extends object
 	: T | U;
 
 type Tabbar = {
-	id: number,
+	id?: number,
 	icon: string,
 	text?: string,
 	//

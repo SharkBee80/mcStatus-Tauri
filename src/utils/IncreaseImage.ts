@@ -1,8 +1,7 @@
 import { TaskQueue } from "@/utils";
 import Upscaler from 'upscaler';
-import { reactive, Ref, toRef } from "vue";
+import { reactive, Ref } from "vue";
 import { config } from '@/provider'
-const boolean = toRef(config.Home.imgIncrease)
 // 放大倍数
 const MULTIPLIER = 4;
 //
@@ -43,7 +42,7 @@ export class IncreaseImage {
 		this.iconImg.value = img
 		this.imgs[0] = true
 		this.imgs[64] = img
-		if (!boolean.value) return;
+		if (!config.Home.imgIncrease) return;
 		// 增强图
 		const srcUrl = typeof img === 'string' ? img : URL.createObjectURL(img);
 		try {
@@ -64,7 +63,9 @@ export class IncreaseImage {
 			canvas.width = width * MULTIPLIER;
 			canvas.height = height * MULTIPLIER;
 			const ctx = canvas.getContext('2d')!;
-
+			// 强制开启平滑算法
+			ctx.imageSmoothingEnabled = true;
+			ctx.imageSmoothingQuality = 'high';
 			// 绘制放大后的图像（带黑底）
 			ctx.drawImage(upscaledImg, 0, 0);
 			// 4. 关键：应用原始透明度遮罩

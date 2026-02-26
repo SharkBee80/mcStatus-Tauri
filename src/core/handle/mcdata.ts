@@ -4,14 +4,16 @@ import { query } from "@/core/mc-status";
 import { TaskQueue } from "@/utils";
 import { match } from '@/core/handle';
 import { config } from '@/provider'
-import { computed } from "vue";
+import { watch } from "vue";
 
 let queue: TaskQueue;
-const concurrency = computed(() => config.Home.thread);
 
 function get_set_queue() {
 	if (!queue) {
-		queue = new TaskQueue(concurrency, 'mcdata_query');
+		queue = new TaskQueue(config.Home.thread, 'mcdata_query');
+		watch(() => config.Home.thread, () => {
+			queue.construct(config.Home.thread);
+		})
 	}
 	return queue;
 }
@@ -42,6 +44,7 @@ export class Mcdata {
 	static edit(uuid: string, form: McFrom) {
 		const data = {
 			name: form.name ? form.name : "MineCraft Server",
+			host: hostname(form.address).toUpperCase(),
 			address: full_address(form.address, form.edition),
 			edition: form.edition,
 			edittime: new Date().toLocaleString(),

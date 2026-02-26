@@ -1,4 +1,4 @@
-import { Store, Status, extra } from '@/modules';
+import { Store, Status, extra, Extra } from '@/modules';
 import { BedrockData, JavaData, McData, McStatus } from '@/core/mc-status';
 
 function signalStrength(ping: number | null | undefined): 0 | 1 | 2 | 3 | 4 | 5 {
@@ -16,21 +16,23 @@ function haveJava(res: McStatus, storedata: Store, status: Status) {
 		version: Jdata.version.name,
 		motd: Jdata.description
 	})
-	Object.assign(status, storedata, {
+	const extra: Extra = {
 		status: "online",
 		port: data.port,
 		players: Jdata.players.online,
 		maxplayers: Jdata.players.max,
 		onlines: Jdata.players.sample ?? [],
-		ping: data.latency.toFixed(2).toString(),
+		ping: data.latency.toFixed(2),
+		tasktime: res.tasktime.toFixed(2),
 		serverName: data.hostname,
 		signal: signalStrength(data.latency),
 		updatetime: new Date().toLocaleString(),
-	})
+	}
+	Object.assign(status, storedata, extra)
 }
 
-function noJava(_res: never | null | undefined, storedata: Store, status: Status) {
-	Object.assign(status, storedata, extra())
+function noJava(res: McStatus, storedata: Store, status: Status) {
+	Object.assign(status, storedata, extra(res.tasktime.toFixed(2)))
 }
 
 function haveBedrock(res: McStatus, storedata: Store, status: Status) {
@@ -43,21 +45,23 @@ function haveBedrock(res: McStatus, storedata: Store, status: Status) {
 		version: Bdata.edition,
 		motd: Bdata.motd + "\n" + Bdata.motd2,
 	})
-	Object.assign(status, storedata, {
+	const extra: Extra = {
 		status: "online",
 		port: data.port,
 		players: Number(Bdata.online_players),
 		maxplayers: Number(Bdata.max_players),
 		onlines: null,
-		ping: data.latency.toFixed(2).toString(),
+		ping: data.latency.toFixed(2),
+		tasktime: res.tasktime.toFixed(2),
 		serverName: data.hostname,
 		signal: signalStrength(data.latency),
 		updatetime: new Date().toLocaleString(),
-	})
+	}
+	Object.assign(status, storedata, extra)
 }
 
-function noBedrock(_res: never | null | undefined, storedata: Store, status: Status) {
-	Object.assign(status, storedata, extra())
+function noBedrock(res: McStatus, storedata: Store, status: Status) {
+	Object.assign(status, storedata, extra(res.tasktime.toFixed(2)))
 }
 
 export function have(res: McStatus, storedata: Store, status: Status) {
@@ -70,7 +74,7 @@ export function have(res: McStatus, storedata: Store, status: Status) {
 
 export function nohave(res: McStatus, storedata: Store, status: Status) {
 	if (storedata.edition === 'Java') {
-		noJava(null, storedata, status)
+		noJava(res, storedata, status)
 	} else {
 		noBedrock(res as never, storedata, status)
 	}

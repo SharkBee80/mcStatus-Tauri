@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { fetch } from '@tauri-apps/plugin-http';
 
 export interface WebDAVConfig {

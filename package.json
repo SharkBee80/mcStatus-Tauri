@@ -11,18 +11,17 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@primeuix/themes": "^2.0.2",
+    "@primeuix/themes": "^2.0.3",
     "@primevue/forms": "^4.5.4",
     "@tailwindcss/vite": "^4.1.18",
     "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-fs": "^2.4.4",
-    "@tauri-apps/plugin-http": "^2.5.4",
-    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-fs": "^2.4.5",
     "@tauri-apps/plugin-os": "^2.3.2",
     "@tauri-apps/plugin-window-state": "^2.4.1",
+    "@tensorflow/tfjs": "^4.11.0",
     "@types/node": "^25.0.3",
     "@upscalerjs/esrgan-slim": "^1.0.0-beta.12",
-    "@vueuse/core": "^14.1.0",
+    "@vueuse/core": "^14.2.0",
     "deepmerge": "^4.3.1",
     "primevue": "^4.5.4",
     "sortablejs": "^1.15.6",
@@ -34,7 +33,7 @@
     "vue": "^3.5.27"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2",
+    "@tauri-apps/cli": "^2.10.0",
     "@types/sortablejs": "^1.15.9",
     "@types/validator": "^13.15.10",
     "@vitejs/plugin-vue": "^5.2.1",

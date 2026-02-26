@@ -1,12 +1,12 @@
 <template>
-	<SortableGrid ref="thisEl" :eachLine="eachline" minwidth="300px" />
-	<div class="space"></div>
+	<SortableGrid ref="thisEl" :eachLine="eachline" :minwidth="config.Home.minWidth + 'px'" />
+	<div v-if="!(config.Home.doublePage && doubleSwitch)" class="space"></div>
 	<AddForm v-if="appStatus.isAdding" v-model="appStatus.isAdding"></AddForm>
 	<dynamicBtn />
 </template>
 <script lang="ts" setup>
 	import { nextTick, onActivated, onMounted, useTemplateRef, ref, toRefs, defineAsyncComponent } from 'vue';
-	import { config, appStatus } from "@/provider";
+	import { config, appStatus, doubleSwitch } from "@/provider";
 	import dynamicBtn from '@/vue/components/dynamicBtn.vue';
 	import SortableGrid from '@/vue/components/SortableGrid.vue';
 	const AddForm = defineAsyncComponent(() => import('@/vue/components/AddForm.vue'))
