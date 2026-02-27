@@ -18,7 +18,7 @@
 				</div>
 			</div>
 			<div class="flex justify-center">
-				<a>!选择以查看详情!</a>
+				<a>{{ $t('info-none')}}</a>
 			</div>
 			<Skeleton width="100%" height="150px"></Skeleton>
 			<Skeleton width="100%" height="150px"></Skeleton>

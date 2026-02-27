@@ -23,6 +23,9 @@
 				<a href="https://swiperjs.com/" target="_blank">
 					<img src="@/assets/swiper.svg" class="logo" alt="logo" />
 				</a>
+				<a href="https://i18next.github.io/i18next-vue/" target="_blank">
+					<img src="@/assets/i18next.png" class="logo" alt="logo" />
+				</a>
 				<a href="https://vueuse.org/" target="_blank">
 					<img src="@/assets/vueuse.svg" class="logo" alt="logo" />
 				</a>

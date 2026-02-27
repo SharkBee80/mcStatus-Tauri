@@ -1,8 +1,9 @@
-import { watch } from 'vue'
+import { computed, watch } from 'vue'
 import { config } from '@/provider';
 // import { WebStorage } from '@/core/storage';
 import { TauriStorage } from '@/core/storage';
 import { debounce } from '@/utils';
+import i18next from 'i18next';
 
 // tauri
 const CONFIG_PATH = 'setting.json';
@@ -21,3 +22,13 @@ watch(config, (newConfig) => {
 // window.addEventListener('unload', () => {
 // 	localStorage.setItem('serversInfo', JSON.stringify(config))
 // })
+
+// 监听语言变化
+const language = computed(() => config.UI.language)
+watch(language, (newLanguage) => {
+	let i18n: string = newLanguage;
+	if (newLanguage === 'auto') {
+		i18n = navigator.language
+	}
+	i18next.changeLanguage(i18n)
+}, { immediate: true })

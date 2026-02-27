@@ -1,6 +1,6 @@
 <template>
 	<div class="bar sticky z-50 top-0 p-3 h-14 flex justify-between items-center text-center">
-		<h1 class="font-black">Welcome</h1>
+		<h1 class="font-black">{{ $t('welcome') }}</h1>
 		<!--  -->
 		<div class="ml-3 px-1 flex row gap-2">
 			<template v-if="page === 0">

@@ -9,7 +9,7 @@ import { pf } from '@/provider';
 export const DEFAULT_SETTINGS: Config = {
 	UI: {
 		theme: 'Auto',
-		language: 'zh-CN',
+		language: 'auto',
 		showtext: true,
 		vertical: true,
 		forceVerticalOnDesktop: false,

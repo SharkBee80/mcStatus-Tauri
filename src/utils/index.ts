@@ -5,3 +5,4 @@ export * from './formValidator';
 export * from './TaskQueue';
 export * from './IncreaseImage';
 export * from './debounce';
+export * from './i18n';

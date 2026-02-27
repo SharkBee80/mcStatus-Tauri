@@ -11,7 +11,7 @@
 							:class="item.icon, appStatus.currentPage === index ? 'text-yellow-300' : ''"></i>
 					</div>
 					<a v-show="config?.UI.showtext" class="text-xs leading-none text-center whitespace-nowrap">
-						{{ item.text ? item.text : '&nbsp;' }}
+						{{ item.text ? $t(item.text as any) : '&nbsp;' }}
 					</a>
 				</div>
 			</template>
@@ -23,14 +23,13 @@
 	import { reactive } from 'vue'
 	import { config, appStatus } from '@/provider'
 	import { Tabbar } from '@/modules'
-
 	defineProps<{ vertical: boolean }>()
 
 	const items = reactive<Tabbar[]>([
-		{ icon: 'xicon-fluent xicon-fluent-Home24Filled', text: '首页', route: '/', routeable: false },
-		{ icon: 'xicon-fluent xicon-fluent-AppsListDetail24Regular', text: '详情', route: '/info', routeable: false },
-		{ icon: 'xicon-fluent xicon-fluent-EmojiSmileSlight24Regular', text: '－O－', route: '/other', routeable: true },
-		{ icon: 'xicon-fluent xicon-fluent-Settings24Filled', text: '设置', route: '/set', routeable: true },
+		{ icon: 'xicon-fluent xicon-fluent-Home24Filled', text: 'home', route: '/', routeable: false },
+		{ icon: 'xicon-fluent xicon-fluent-AppsListDetail24Regular', text: 'info', route: '/info', routeable: false },
+		{ icon: 'xicon-fluent xicon-fluent-EmojiSmileSlight24Regular', text: 'other', route: '/other', routeable: true },
+		{ icon: 'xicon-fluent xicon-fluent-Settings24Filled', text: 'set', route: '/set', routeable: true },
 	])
 
 	function switchView(index: number) {

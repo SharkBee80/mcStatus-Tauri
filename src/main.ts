@@ -11,9 +11,11 @@ import Lara from '@primeuix/themes/lara';
 // Self
 import "@/assets/main.css";
 import '@/watcher';
+import { i18n } from "@/utils";
 
 /// App
-const app = createApp(App)
+const app = createApp(App);
+i18n(app);
 app.use(PrimeVue, {
 	theme: {
 		preset: Lara,
@@ -25,7 +27,7 @@ app.use(PrimeVue, {
 			}
 		},
 	},
-})
-app.use(ToastService)
-app.use(ConfirmationService)
+});
+app.use(ToastService);
+app.use(ConfirmationService);
 app.mount("#app");

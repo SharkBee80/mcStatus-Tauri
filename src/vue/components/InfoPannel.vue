@@ -36,26 +36,26 @@
 			<template #header>
 				<div class="flex items-center gap-1" @click="collapsed.server = !collapsed.server">
 					<i class="xicon-material xicon-material-InfoRound" />
-					<h1>服务器信息</h1>
+					<h1>{{ $t('info-server-info') }}</h1>
 				</div>
 			</template>
 			<div class="col">
 				<div class="grid gridColsT gap-x-2 break-all">
-					<a class="a">名称</a><a>{{ status.name }}</a>
-					<a class="a">地址</a><a>{{ status.address }}</a>
-					<a class="a">添加时间</a><a>{{ status.addtime }}</a>
+					<a class="a">{{ $t('info-server-name') }}</a><a>{{ status.name }}</a>
+					<a class="a">{{ $t('info-server-address') }}</a><a>{{ status.address }}</a>
+					<a class="a">{{ $t('info-server-addtime') }}</a><a>{{ status.addtime }}</a>
 				</div>
 				<div v-show="online">
 					<Divider />
 					<div class="flex items-center gap-1">
 						<i class="xicon-material xicon-material-SpeedRound" />
-						<h1>服务器状态</h1>
+						<h1>{{ $t('info-server-status') }}</h1>
 					</div>
 					<div class="grid gridColsT gap-x-2 break-all">
-						<a class="a">版本</a><a>{{ status.version }}</a>
-						<a class="a">延迟</a><a>{{ (status.ping ?? '-1') + ' ms' }}</a>
-						<a v-if="status.port" class="a">端口</a><a>{{ status.port }}</a>
-						<a class="a">描述</a>
+						<a class="a">{{ $t('info-server-edition') }}</a><a>{{ status.version }}</a>
+						<a class="a">{{ $t('info-server-latency') }}</a><a>{{ (status.ping ?? '-1') + ' ms' }}</a>
+						<a v-if="status.port" class="a">{{ $t('info-server-port') }}</a><a>{{ status.port }}</a>
+						<a class="a">{{ $t('info-server-motd') }}</a>
 						<motd :data="status.motd" />
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 				<div class="flex justify-between w-full items-center">
 					<div class="flex items-center gap-1" @click="collapsed.player = !collapsed.player">
 						<i class="xicon-material xicon-material-PeopleAltRound" />
-						<h1>玩家状态</h1>
+						<h1>{{ $t('info-players-status') }}</h1>
 					</div>
 					<primevueIcon @click="collapsed.listmode = !collapsed.listmode"
 						:pt="{ class: `text-2xl! xicon-material ${collapsed.listmode ? 'xicon-material-ViewListRound' : 'xicon-material-SupervisedUserCircleRound'}` }">
@@ -89,7 +89,7 @@
 				<Divider />
 				<div class="flex items-center gap-1">
 					<i class="xicon-material xicon-material-EmojiPeopleRound" />
-					<h1>在线玩家</h1>
+					<h1>{{ $t('info-players-online') }}</h1>
 				</div>
 				<div v-if="!collapsed.listmode" class="chip card flex flex-wrap gap-1.5 justify-between">
 					<Chip v-for="i in onlines" :key="i.id" :label="i.name" class="px-2.5 py-1"
@@ -120,13 +120,13 @@
 				<div class="flex items-center gap-1" @click="collapsed.connect = !collapsed.connect">
 					<i :class="status.status === 'online' ? 'xicon-material xicon-material-CheckCircleRound text-green-600'
 						: 'xicon-fluent xicon-fluent-DismissCircle24Filled text-red-600'" class="i"></i>
-					<h1>连接状态</h1>
+					<h1>{{ $t('info-connect-status') }}</h1>
 				</div>
 			</template>
 			<div class="col">
 				<div class="grid gridColsT gap-x-2">
-					<a class="a">更新时间</a><a>{{ status.updatetime }}</a>
-					<a class="a">查询耗时</a><a>{{ (status.tasktime ?? '-1') + ' ms' }}</a>
+					<a class="a">{{ $t('info-update-time') }}</a><a>{{ status.updatetime }}</a>
+					<a class="a">{{ $t('info-query-time') }}</a><a>{{ (status.tasktime ?? '-1') + ' ms' }}</a>
 				</div>
 			</div>
 		</Panel>

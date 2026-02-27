@@ -1,5 +1,5 @@
 <template>
-	<Toast position="top-center" />
+	<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5' } }" />
 	<float>
 		<ConfirmDialog :pt="{
 			root: { class: 'w-1/2 min-w-75 max-w-100' },
@@ -33,6 +33,8 @@
 	import { useToast } from "primevue/usetoast";
 	import { useConfirm } from "primevue/useconfirm";
 	import { Mcdata } from '@/core/handle';
+	import { useTranslation } from 'i18next-vue';
+	const { t } = useTranslation();
 	const toast = useToast();
 	const confirm = useConfirm();
 
@@ -74,8 +76,8 @@
 	/////////////////////////////////////////////////////////////////////
 	const confirmDelete = (uuid: string | null, index: number) => {
 		confirm.require({
-			message: '移除服务器?',
-			header: '移除服务器',
+			message: t('home-remove-msg'),
+			header: t('home-remove-title'),
 			icon: 'xicon-fluent xicon-fluent-DeleteDismiss24Regular',
 			rejectProps: {
 				label: 'Cancel',
