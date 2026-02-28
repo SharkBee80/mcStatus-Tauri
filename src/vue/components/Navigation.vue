@@ -26,10 +26,10 @@
 	defineProps<{ vertical: boolean }>()
 
 	const items = reactive<Tabbar[]>([
-		{ icon: 'xicon-fluent xicon-fluent-Home24Filled', text: 'home', route: '/', routeable: false },
-		{ icon: 'xicon-fluent xicon-fluent-AppsListDetail24Regular', text: 'info', route: '/info', routeable: false },
-		{ icon: 'xicon-fluent xicon-fluent-EmojiSmileSlight24Regular', text: 'other', route: '/other', routeable: true },
-		{ icon: 'xicon-fluent xicon-fluent-Settings24Filled', text: 'set', route: '/set', routeable: true },
+		{ icon: 'xicon-fluent xicon-fluent-Home24Filled', text: 'ui-home', route: '/', routeable: false },
+		{ icon: 'xicon-fluent xicon-fluent-AppsListDetail24Regular', text: 'ui-info', route: '/info', routeable: false },
+		{ icon: 'xicon-fluent xicon-fluent-EmojiSmileSlight24Regular', text: 'ui-other', route: '/other', routeable: true },
+		{ icon: 'xicon-fluent xicon-fluent-Settings24Filled', text: 'ui-set', route: '/set', routeable: true },
 	])
 
 	function switchView(index: number) {

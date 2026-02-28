@@ -1,0 +1,199 @@
+{
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "ui-welcome": {
+      "type": "string"
+    },
+    "ui-home": {
+      "type": "string"
+    },
+    "ui-info": {
+      "type": "string"
+    },
+    "ui-other": {
+      "type": "string"
+    },
+    "ui-set": {
+      "type": "string"
+    },
+    "home-remove-title": {
+      "type": "string"
+    },
+    "home-remove-msg": {
+      "type": "string"
+    },
+    "info-none": {
+      "type": "string"
+    },
+    "info-server-info": {
+      "type": "string"
+    },
+    "info-server-name": {
+      "type": "string"
+    },
+    "info-server-address": {
+      "type": "string"
+    },
+    "info-server-addtime": {
+      "type": "string"
+    },
+    "info-server-status": {
+      "type": "string"
+    },
+    "info-server-edition": {
+      "type": "string"
+    },
+    "info-server-latency": {
+      "type": "string"
+    },
+    "info-server-port": {
+      "type": "string"
+    },
+    "info-server-motd": {
+      "type": "string"
+    },
+    "info-players-status": {
+      "type": "string"
+    },
+    "info-players-online": {
+      "type": "string"
+    },
+    "info-connect-status": {
+      "type": "string"
+    },
+    "info-update-time": {
+      "type": "string"
+    },
+    "info-query-time": {
+      "type": "string"
+    },
+    "set-UI-theme": {
+      "type": "string"
+    },
+    "set-UI-theme-system": {
+      "type": "string"
+    },
+    "set-UI-theme-light": {
+      "type": "string"
+    },
+    "set-UI-theme-dark": {
+      "type": "string"
+    },
+    "set-UI-language": {
+      "type": "string"
+    },
+    "set-UI-btn-text-display": {
+      "type": "string"
+    },
+    "set-UI-btn-text-show": {
+      "type": "string"
+    },
+    "set-UI-btn-text-hide": {
+      "type": "string"
+    },
+    "set-UI-vertical-docker": {
+      "type": "string"
+    },
+    "set-UI-vertical-docker-full": {
+      "type": "string"
+    },
+    "set-UI-vertical-docker-force": {
+      "type": "string"
+    },
+    "set-Home-minWidth": {
+      "type": "string"
+    },
+    "set-Home-x": {
+      "type": "string"
+    },
+    "set-Home-query-thread": {
+      "type": "string"
+    },
+    "set-Home-icon-enhance": {
+      "type": "string"
+    },
+    "set-Home-double-page": {
+      "type": "string"
+    },
+    "set-Home-double-page-desc": {
+      "type": "string"
+    },
+    "set-Info-refresh": {
+      "type": "string"
+    },
+    "set-Info-refresh-desc": {
+      "type": "string"
+    },
+    "set-Info-avatar": {
+      "type": "string"
+    },
+    "set-Info-avatar-type": {
+      "type": "string"
+    },
+    "set-Info-show-uuid": {
+      "type": "string"
+    },
+    "set-device-info": {
+      "type": "string"
+    },
+    "set-clear-DNS": {
+      "type": "string"
+    },
+    "set-reset": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ui-welcome",
+    "ui-home",
+    "ui-info",
+    "ui-other",
+    "ui-set",
+    "home-remove-title",
+    "home-remove-msg",
+    "info-none",
+    "info-server-info",
+    "info-server-name",
+    "info-server-address",
+    "info-server-addtime",
+    "info-server-status",
+    "info-server-edition",
+    "info-server-latency",
+    "info-server-port",
+    "info-server-motd",
+    "info-players-status",
+    "info-players-online",
+    "info-connect-status",
+    "info-update-time",
+    "info-query-time",
+    "set-UI-theme",
+    "set-UI-theme-system",
+    "set-UI-theme-light",
+    "set-UI-theme-dark",
+    "set-UI-language",
+    "set-UI-btn-text-display",
+    "set-UI-btn-text-show",
+    "set-UI-btn-text-hide",
+    "set-UI-vertical-docker",
+    "set-UI-vertical-docker-full",
+    "set-UI-vertical-docker-force",
+    "set-Home-minWidth",
+    "set-Home-x",
+    "set-Home-query-thread",
+    "set-Home-icon-enhance",
+    "set-Home-double-page",
+    "set-Home-double-page-desc",
+    "set-Info-refresh",
+    "set-Info-refresh-desc",
+    "set-Info-avatar",
+    "set-Info-avatar-type",
+    "set-Info-show-uuid",
+    "set-device-info",
+    "set-clear-DNS",
+    "set-reset"
+  ],
+  "additionalProperties": false
+}

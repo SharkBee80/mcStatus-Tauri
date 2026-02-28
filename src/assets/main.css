@@ -9,12 +9,21 @@
 @import "tailwindcss-primeui";
 @custom-variant dark (&:where(.dark, .dark *));
 
+.safe-area {
+	margin-top: env(safe-area-inset-top);
+	margin-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-area-full {
+	margin-top: env(safe-area-inset-top);
+	margin-bottom: env(safe-area-inset-bottom);
+	height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
 #app {
-	padding-top: env(safe-area-inset-top);
-	padding-bottom: env(safe-area-inset-bottom);
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 100%;
 }
 
 :root {

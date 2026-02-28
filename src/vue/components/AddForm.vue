@@ -1,6 +1,6 @@
 <template>
 	<div id="addform" class="fixed w-full h-full top-0 z-2000 pointer-events-none">
-		<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5' } }" />
+		<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5 safe-area' } }" />
 		<Dialog v-model:visible="visible" modal header="Add" :closable="false" :draggable="false" appendTo="#addform" :pt="{
 			root: { class: 'w-1/2 min-w-75 max-w-100' },
 			header: { class: 'p-4 pb-0' },

@@ -1,6 +1,6 @@
 <template>
 	<div id="editform" class="fixed w-full h-full top-0 z-2000 pointer-events-none">
-		<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5' } }" />
+		<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5 safe-area' } }" />
 		<Dialog v-model:visible="visible" modal :closable="false" :draggable="false"
 			:appendTo="(config.Home.doublePage && doubleSwitch) ? '#MainPage' : '#editform'" :pt="{
 				mask: { style: 'position: absolute;', class: 'reactive' },

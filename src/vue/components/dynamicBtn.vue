@@ -1,5 +1,5 @@
 <template>
-	<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5' } }" />
+	<Toast position="top-center" :pt="{ root: { class: 'max-w-4/5 safe-area' } }" />
 	<float>
 		<ConfirmDialog :pt="{
 			root: { class: 'w-1/2 min-w-75 max-w-100' },

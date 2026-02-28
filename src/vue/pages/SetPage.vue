@@ -76,7 +76,7 @@
 			</Panel>
 			<!--  -->
 			<Line :label="$t('set-device-info')" @click="Draw.deciveInfo = true">
-				<Drawer v-model:visible="Draw.deciveInfo" :header="$t('set-device-info')">
+				<Drawer v-model:visible="Draw.deciveInfo" :header="$t('set-device-info')" class="safe-area-full border-0">
 					<deciveInfo />
 				</Drawer>
 			</Line>
