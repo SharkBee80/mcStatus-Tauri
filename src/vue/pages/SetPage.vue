@@ -14,7 +14,7 @@
 						</SelectButton>
 					</my-optionSet>
 					<my-optionSet :label="$t('set-UI-language')">
-						<Select v-model="UI.language" class="min-w-30" :options="languages" :option-label="((data) => data.label)"
+						<Select v-model="UI.language" class="min-w-30 max-w-50" :options="languages" :option-label="((data) => data.label)"
 							:option-value="((data) => data.value)"></Select>
 					</my-optionSet>
 					<my-optionSet :label="$t('set-UI-btn-text-display')">

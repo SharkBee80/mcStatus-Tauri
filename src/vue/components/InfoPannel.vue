@@ -101,8 +101,8 @@
 					<div v-for="i in status.onlines" :key="i.id"
 						class="col gap-1 rounded-lg px-1 dark:bg-[#27272a] bg-[#f1f5f9] text-surface-800 dark:text-surface-0">
 						<div class="flex items-center gap-1">
-							<avatar :image="config.Info.avatar ? headSrc(i.id) : undefined" :size="6" :backupImage="headSrc(i.name)"
-								:imgerror="DEFAULT_HEAD_URL" :rounded="config.Info.rounded">
+							<avatar v-if="config.Info.avatar" :image="config.Info.avatar ? headSrc(i.id) : undefined" :size="6"
+								:backupImage="headSrc(i.name)" :imgerror="DEFAULT_HEAD_URL" :rounded="config.Info.rounded">
 							</avatar>
 							<span>{{ i.name }}</span>
 						</div>
